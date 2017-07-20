@@ -27,25 +27,25 @@ You will also be expected to feed your own experiences into each class - and you
 * Task:
 * Reading: 
 
-## Week 2: Getting data: scraping and APIs
+## Week 2: Finding stories with spreadsheets: Let me count the ways...
 
 * Workshop: 
 * Task:
 * Reading: 
 
-## Week 3: Cleaning data using Excel, Open Refine and other tools
+## Week 3: Mobile first: responsive and mobile UX
 
 * Workshop: 
 * Task:
 * Reading: 
 
-## Week 4: Finding stories in data: beyond pivot tables
+## Week 4: Coding for finding and telling stories
 
 * Workshop: 
 * Task:
 * Reading: 
 
-## Week 5: Data visualisation review
+## Week 5: Bad data: data problems and solutions. Introduction to R
 
 * Workshop: 
 * Task:
@@ -53,31 +53,31 @@ You will also be expected to feed your own experiences into each class - and you
 
 ## Week 6: Employability Week. No class. 
 
-## Week 7: Mapping
+## Week 7: Visualisation
 
 * Workshop: 
 * Task:
 * Reading: 
 
-## Week 8: Infographics and interactivity
+## Week 8: Mapping and SQL
 
 * Workshop: 
 * Task:
 * Reading: 
 
-## Week 9: Audio 
+## Week 9: APIs
 
 * Workshop: 
 * Task:
 * Reading: 
 
-## Week 10: 2 day video masterclass
+## Week 10: Big data
 
 * Workshop: 
 * Task:
 * Reading: 
 
-## Week 11:  Project surgery
+## Week 11:  Bots, AI and machine learning
 
 * Workshop: 
 * Task:
