@@ -1,4 +1,4 @@
-# MED7373 Data Journalism on the [MA in Data Journalism at Birmingham City University]
+# MED7373 Data Journalism on the MA in Data Journalism at Birmingham City University
 
 *This repo contains materials for the module on the [MA in Data Journalism at Birmingham City University](http://bcu.ac.uk/media/courses/data-journalism)*
 
