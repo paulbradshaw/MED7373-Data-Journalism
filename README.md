@@ -21,15 +21,17 @@ This module begins with formal classes and becomes more student-driven as it pro
 
 You will also be expected to feed your own experiences into each class - and your own problems and questions - rather than coming to the sessions with nothing to contribute or build on. As independent learners the emphasis is on you to drive your learning forward through conversation rather than accept it passively.
 
-## Week 1: How to think like a data journalist: data literacy and algorithmic thinking
+## Week 1: Data journalism's 3 chords
 
-* Workshop: Fork this repo! Data journalism basics: sorting, filtering, pivot tables, calculations (percentages)
+By the end of this week you should be able to use core spreadsheet techniques to find stories, including sorting and filtering, pivot tables, and be able to calculate change and proportions. You will also be able to use GitHub to clone or fork a repo.
+
+* Workshop: Fork this repo! Data journalism basics: sorting, filtering, pivot tables, calculations 
 * Task: Fork and edit an FOI request using GitHub. Data journalism critique.
 * Reading: [Anderson, CW (2012) Towards a sociology of computational and algorithmic journalism](https://www.scribd.com/document/120198213/Towards-a-sociology-of-computational-and-algorithmic-journalism) OR What is algorithmic thinking? [Coursera: Algorithmic Thinking 1](https://www.coursera.org/learn/algorithmic-thinking-1)
 
 You will [find instructions on how to get started with GitHub in another repository here](https://github.com/paulbradshaw/introtogithub)
 
-## Week 2: Finding stories with spreadsheets: Let me count the ways...
+## Week 2: How to think like a data journalist: data literacy and computational thinking
 
 * Workshop: 
 * Task:
