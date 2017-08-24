@@ -6,6 +6,8 @@ This task is an example of using computational thinking techniques such as patte
 
 Let's say we have a dataset with multiple rows. Each row contains details for some sort of incident (a crime, a fire, an accident), including the address and postcode.
 
+*[You can find just such a dataset in this story](https://github.com/BBC-Data-Unit/penalty-points)*
+
 One story we might want to tell is which part of the city has the most incidents - but doing that based on full addresses or postcodes won't be too meaningful, because the areas - and numbers - are too small. Instead we want to paint a bigger picture based on larger areas. 
 
 How do we do that? By aggregating our incidents based on just part of the postcode - the first part, which represents the postcode *district*.
@@ -49,3 +51,8 @@ Now that we have that information, we can start a process of **abstraction** to 
 
 ## Abstraction
 
+How would you abstract this problem into a series of steps?
+
+## Algorithms
+
+Once identified, how would you then codify those steps using spreadsheet functions?
