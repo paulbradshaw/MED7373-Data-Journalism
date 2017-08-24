@@ -33,7 +33,7 @@ You will [find instructions on how to get started with GitHub in another reposit
 
 ## Week 2: How to think like a data journalist: data literacy and computational thinking
 
-* Workshop: 
+* Workshop: [The postcode challenge](https://github.com/paulbradshaw/MED7373-Data-Journalism/tree/master/week2)
 * Task:
 * Reading: 
 
