@@ -27,23 +27,31 @@ By the end of this week you should be able to use core spreadsheet techniques to
 
 * Workshop: Fork this repo! Data journalism basics: sorting, filtering, pivot tables, calculations 
 * Task: Fork and edit an FOI request using GitHub. Data journalism critique.
-* Reading: [Anderson, CW (2012) Towards a sociology of computational and algorithmic journalism](https://www.scribd.com/document/120198213/Towards-a-sociology-of-computational-and-algorithmic-journalism) OR What is algorithmic thinking? [Coursera: Algorithmic Thinking 1](https://www.coursera.org/learn/algorithmic-thinking-1)
+* Reading: 
+  * [Data Journalism Heist](https://leanpub.com/DataJournalismHeist) *(BCU students please ask for your voucher for a free copy)*
+  * [Anderson, CW (2012) Towards a sociology of computational and algorithmic journalism](https://www.scribd.com/document/120198213/Towards-a-sociology-of-computational-and-algorithmic-journalism) 
+  * What is algorithmic thinking? [Coursera: Algorithmic Thinking 1](https://www.coursera.org/learn/algorithmic-thinking-1)
 
 You will [find instructions on how to get started with GitHub in another repository here](https://github.com/paulbradshaw/introtogithub)
 
-## Week 2: How to think like a data journalist: data literacy and computational thinking
+## Week 2: How to think like a data journalist: data literacy and algorithmic and computational thinking
 
-* Workshop: [The postcode challenge](https://github.com/paulbradshaw/MED7373-Data-Journalism/tree/master/week2)
-* Task:
+By the end of this week you should be able to use a range of spreadsheet functions - but more importantly, use computational thinking to break down editorial challenges into problems that can be tackled systematically, quickly and effectively, with the potential for automation or semi-automation as algorithms.
+
+* Workshop: 
+* Task: [The postcode challenge](https://github.com/paulbradshaw/MED7373-Data-Journalism/tree/master/week2)
 * Reading: 
+  * [Finding Stories in Spreadsheets](https://leanpub.com/spreadsheetstories) *(BCU students please ask for your voucher for a free copy)*
 
-## Week 3: Mobile first: responsive and mobile UX
+## Week 3: Coding for finding stories: command line and regex
 
 * Workshop: 
 * Task:
-* Reading: 
+* Reading: [The Command Line Crash Course](http://www.computervillage.org/articles/CommandLine.pdf)
 
-## Week 4: Coding for finding and telling stories
+You can [find more tips on using command line in another repo here](https://github.com/paulbradshaw/commandline)
+
+## Week 4: Visualisation
 
 * Workshop: 
 * Task:
@@ -54,10 +62,11 @@ You will [find instructions on how to get started with GitHub in another reposit
 * Workshop: 
 * Task:
 * Reading: 
+  * [Stray: The Curious Journalist's Guide to Data](https://towcenter.gitbooks.io/curious-journalist-s-guide-to-data/)
 
-## Week 6: Employability Week. No class. 
+## Week 6: Reading Week. No class. 
 
-## Week 7: Visualisation
+## Week 7: Mobile first: responsive and mobile UX
 
 * Workshop: 
 * Task:
