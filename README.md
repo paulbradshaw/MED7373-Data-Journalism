@@ -10,6 +10,9 @@
 
 Data Journalism aims to facilitate a flexible and adaptable skillset, including the use of ‘computational thinking’ and communities of practice, that provides a basis for students to critically adapt to both new and existing data journalism techniques. 
 
+You will also be learning about other aspects of data journalism in sister modules, for example the **Narrative** module will give you a range of skills for telling data-driven stories using video, audio, visual journalism, visualisation, and interactivity. In **Research in Practice** you will explore research around newsrooms. In **Specialist Reporting, Investigations and Coding** you will expand your coding and investigative skills, and in **Law, ethics, regulation and security** you will build your infosec skills.
+
+
 ## Outcomes
 
 1. Identify, gather and communicate stories based on structured information using data journalism techniques and technologies for an identified audience
