@@ -28,7 +28,7 @@ You will also be expected to feed your own experiences into each class - and you
 
 By the end of this week you should be able to use core spreadsheet techniques to find stories, including sorting and filtering, pivot tables, and be able to calculate change and proportions. You will also be able to use GitHub to clone or fork a repo.
 
-* Workshop: Fork this repo! Data journalism basics: sorting, filtering, pivot tables, calculations
+* Workshop: [Fork this repo!](https://github.com/paulbradshaw/MED7373-Data-Journalism/tree/master/week1) Data journalism basics: sorting, filtering, pivot tables, calculations
 * Task: Data journalism critique; practise spreadsheet skills
 * Reading:
   * [Data Journalism Heist](https://leanpub.com/DataJournalismHeist) *(BCU students please ask for your voucher for a free copy)*
@@ -41,18 +41,18 @@ You will [find instructions on how to get started with GitHub in another reposit
 
 By the end of this week you should be able to use a range of spreadsheet functions - but more importantly, use computational thinking to break down editorial challenges into problems that can be tackled systematically, quickly and effectively, with the potential for automation or semi-automation as algorithms.
 
-* Workshop:
-* Task: [The postcode challenge](https://github.com/paulbradshaw/MED7373-Data-Journalism/tree/master/week2)
+* Workshop: [The postcode challenge](https://github.com/paulbradshaw/MED7373-Data-Journalism/tree/master/week2)
+* Task: Identify story ideas/leads and break down the tasks needed to achieve those
 * Reading:
   * [Finding Stories in Spreadsheets](https://leanpub.com/spreadsheetstories) *(BCU students please ask for your voucher for a free copy)*
 
-## Week 3: Coding for finding stories: command line and regex
+## Week 3: Mobile first: responsive and mobile UX
 
-* Workshop:
-* Task:
-* Reading: [The Command Line Crash Course](http://www.computervillage.org/articles/CommandLine.pdf)
+*Before the class*: read Learning HTML and CSS by making tweetable quotes on [Leanpub](https://leanpub.com/learninghtmlandcss) or [OJB](https://onlinejournalismblog.com/2015/02/09/how-to-learn-html-and-css-by-making-tweetable-quotes/)
 
-You can [find more tips on using command line in another repo here](https://github.com/paulbradshaw/commandline)
+* Workshop: HTML, CSS and responsive frameworks
+* Task: Create a responsive webpage on [GitHub Pages](https://github.com/paulbradshaw/introtogithub/blob/master/githubwebsites.md)
+* Reading: Jeremy Keith: [Resilient Web Design](https://resilientwebdesign.com/)
 
 ## Week 4: Visualisation
 
@@ -69,11 +69,13 @@ You can [find more tips on using command line in another repo here](https://gith
 
 ## Week 6: Reading Week. No class.
 
-## Week 7: Mobile first: responsive and mobile UX
+## Week 7: Coding for finding stories: command line and regex
 
 * Workshop:
 * Task:
-* Reading:
+* Reading: [The Command Line Crash Course](http://www.computervillage.org/articles/CommandLine.pdf)
+
+You can [find more tips on using command line in another repo here](https://github.com/paulbradshaw/commandline)
 
 ## Week 8: Mapping and SQL
 
