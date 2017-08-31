@@ -48,6 +48,8 @@ By the end of this week you should be able to use a range of spreadsheet functio
 
 ## Week 3: Mobile first: responsive and mobile UX
 
+By the end of this week you should be able to create a basic HTML page with CSS styles, and explain the basics of design for mobile devices.
+
 *Before the class*: read Learning HTML and CSS by making tweetable quotes on [Leanpub](https://leanpub.com/learninghtmlandcss) or [OJB](https://onlinejournalismblog.com/2015/02/09/how-to-learn-html-and-css-by-making-tweetable-quotes/)
 
 * Workshop: HTML, CSS and responsive frameworks
@@ -62,32 +64,38 @@ By the end of this week you should be able to use a range of spreadsheet functio
 
 ## Week 5: Bad data: data problems and solutions. Introduction to R
 
-* Workshop:
-* Task:
+By the end of this week you should be able to identify common data problems, and use techniques to solve those. You should also be able to use basic data processing and analysis techniques in R.
+
+* Workshop: Importing, analysing, and exporting in R ([Fork this repo!](https://github.com/paulbradshaw/rintro))
+* Task: Use R to clean and check your data
 * Reading:
   * [Stray: The Curious Journalist's Guide to Data](https://towcenter.gitbooks.io/curious-journalist-s-guide-to-data/)
+  * [Free ebook: R For Beginners](https://cran.r-project.org/doc/contrib/Paradis-rdebuts_en.pdf)
+  * [Playlist: R programming tutorials](https://www.youtube.com/watch?v=WJDrYUqNrHg&index=1&list=PLvhG5FRoq78otMp0WbWuJsFOarEAchMek)
 
 ## Week 6: Reading Week. No class.
 
-## Week 7: Coding for finding stories: command line and regex
+During this week you should be consolidating your learning so far, developing your skills on one or more editorial project, reviewing examples of data journalism, and continuing to read widely around the subject.
+
+## Week 7: Mapping and SQL
+
+* Workshop:
+* Task:
+* Reading:
+
+## Week 8: APIs
+
+* Workshop:
+* Task:
+* Reading:
+
+## Week 9: Coding for finding stories: command line and regex
 
 * Workshop:
 * Task:
 * Reading: [The Command Line Crash Course](http://www.computervillage.org/articles/CommandLine.pdf)
 
 You can [find more tips on using command line in another repo here](https://github.com/paulbradshaw/commandline)
-
-## Week 8: Mapping and SQL
-
-* Workshop:
-* Task:
-* Reading:
-
-## Week 9: APIs
-
-* Workshop:
-* Task:
-* Reading:
 
 ## Week 10: Big data
 
