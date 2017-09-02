@@ -1,0 +1,19 @@
+---
+title: "Med7373-r-workshop1"
+author: "Paul Bradshaw"
+date: "02/09/2017"
+output: html_document
+---
+
+# A first project in R
+
+Firstly, let's break the project down into different steps:
+
+1. Fetch data on school finances from an XLSX file online
+2. Clean the data to get rid of unneccessary initial rows
+3. Simplify by removing all but the key columns
+4. Merge with a second dataset on deprivation
+5. Perform some summary statistical analysis
+6. Test for correlation between deprivation and finances
+
+## Fetch the data 
