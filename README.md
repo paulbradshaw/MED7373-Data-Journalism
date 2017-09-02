@@ -81,19 +81,25 @@ By the end of this week you should be able to identify common data problems, and
 
 During this week you should be consolidating your learning so far, developing your skills on one or more editorial project, reviewing examples of data journalism, and continuing to read widely around the subject.
 
-## Week 7: Mapping and SQL
+## Week 7: APIs
+
+By the end of this week you should be able to use a range of techniques for fetching data from APIs in both R and JavaScript, and explore possibilities for dynamically analysing and/or presenting that data.
 
 * Workshop:
 * Task:
-* Reading:
+* Reading: Bogost et al (2010) Newsgames: Journalism at Play
 
-## Week 8: APIs
+## Week 8: Mapping and SQL
+
+By the end of this week you should be able to create a range of map types (point, shape, heat) and talk about the ethical issues surrounding mapping. You should also be able to use SQL to query data.
 
 * Workshop:
 * Task:
-* Reading:
+* Reading: [Thinking about maps](http://personalpages.manchester.ac.uk/staff/m.dodge/rethinking_maps_introduction_pageproof.pdf)
 
 ## Week 9: Coding for finding stories: command line and regex
+
+By the end of this week you should be able to use basic commands in the command line to fetch, find, combine and move data. You should also be able to explain how regular expressions (regex) work, and use them to locate and extract information from files.
 
 * Workshop:
 * Task:
@@ -103,14 +109,20 @@ You can [find more tips on using command line in another repo here](https://gith
 
 ## Week 10: Big data
 
+By the end of this week you should be able to identify techniques for working with large datasets, and the ethical and statistical problems that big data presents.
+
 * Workshop:
 * Task:
 * Reading:
 
 ## Week 11:  Bots, AI and machine learning
 
+By the end of this week you should be able to identify ways that AI, machine learning and bots can play a role within journalism, both internal- and public-facing, and articulate the critical and ethical issues raised by AI technologies. You should also be able to create a basic bot, and identify relevant libraries for using machine learning within programming.
+
 * Workshop:
 * Task:
 * Reading:
+  * Algorithmic Transparency in the News Media
+  * [How to think about bots](https://motherboard.vice.com/en_us/article/qkzpdm/how-to-think-about-bots)
 
 ## Final Assessment
