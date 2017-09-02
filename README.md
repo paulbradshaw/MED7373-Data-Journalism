@@ -58,7 +58,7 @@ By the end of this week you should be able to create a basic HTML page with CSS 
 
 ## Week 4: Visualisation and interactivity
 
-*Note: the Narrative class on principles of visualisation and visual design, and the class on ergodic storytelling are particularly relevant to your work in this area*
+By the end of this week you should be able to explain basic concepts in JavaScript and use it to create basic interactivity and/or visualisations. *Note: the [Narrative module](https://github.com/paulbradshaw/MED7334-Narrative) class on principles of visualisation and visual design, and the class on ergodic storytelling are particularly relevant to your work in this area*
 
 * Workshop: JavaScript interactivity and vis: counters, quizzes, charts
 * Task: Continued work on JavaScript
