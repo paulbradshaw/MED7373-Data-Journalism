@@ -86,7 +86,7 @@ During this week you should be consolidating your learning so far, developing yo
 By the end of this week you should be able to use a range of techniques for fetching data from APIs in both R and JavaScript, and explore possibilities for dynamically analysing and/or presenting that data.
 
 * Workshop:
-* Task:
+* Task: Development of data journalism project
 * Reading: Bogost et al (2010) Newsgames: Journalism at Play
 
 ## Week 8: Mapping and SQL
@@ -94,15 +94,15 @@ By the end of this week you should be able to use a range of techniques for fetc
 By the end of this week you should be able to create a range of map types (point, shape, heat) and talk about the ethical issues surrounding mapping. You should also be able to use SQL to query data.
 
 * Workshop:
-* Task:
+* Task: Development of data journalism project
 * Reading: [Thinking about maps](http://personalpages.manchester.ac.uk/staff/m.dodge/rethinking_maps_introduction_pageproof.pdf)
 
 ## Week 9: Coding for finding stories: command line and regex
 
 By the end of this week you should be able to use basic commands in the command line to fetch, find, combine and move data. You should also be able to explain how regular expressions (regex) work, and use them to locate and extract information from files.
 
-* Workshop:
-* Task:
+* Workshop: [Merging multiple CSV files using command line](https://github.com/paulbradshaw/commandline/blob/master/joining.md)
+* Task: Development of data journalism project
 * Reading: [The Command Line Crash Course](http://www.computervillage.org/articles/CommandLine.pdf)
 
 You can [find more tips on using command line in another repo here](https://github.com/paulbradshaw/commandline)
@@ -112,7 +112,7 @@ You can [find more tips on using command line in another repo here](https://gith
 By the end of this week you should be able to identify techniques for working with large datasets, and the ethical and statistical problems that big data presents.
 
 * Workshop:
-* Task:
+* Task: Development of data journalism project
 * Reading:
 
 ## Week 11:  Bots, AI and machine learning
@@ -120,7 +120,7 @@ By the end of this week you should be able to identify techniques for working wi
 By the end of this week you should be able to identify ways that AI, machine learning and bots can play a role within journalism, both internal- and public-facing, and articulate the critical and ethical issues raised by AI technologies. You should also be able to create a basic bot, and identify relevant libraries for using machine learning within programming.
 
 * Workshop: ***Fork this!*** [Creating bots with Rundexter](https://github.com/paulbradshaw/bots/blob/master/dexter.md)
-* Task:
+* Task: Development of data journalism project
 * Reading:
   * Algorithmic Transparency in the News Media
   * [How to think about bots](https://motherboard.vice.com/en_us/article/qkzpdm/how-to-think-about-bots)
