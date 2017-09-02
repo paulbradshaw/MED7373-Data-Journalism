@@ -52,7 +52,7 @@ By the end of this week you should be able to create a basic HTML page with CSS 
 
 *Before the class*: read Learning HTML and CSS by making tweetable quotes on [Leanpub](https://leanpub.com/learninghtmlandcss) or [OJB](https://onlinejournalismblog.com/2015/02/09/how-to-learn-html-and-css-by-making-tweetable-quotes/)
 
-* Workshop: HTML, CSS and responsive frameworks
+* Workshop: HTML, CSS and responsive frameworks. [Fork this! Intro to responsive web design with Bootstrap](https://github.com/paulbradshaw/jsintro/blob/master/responsive/bootstrapintro.md)
 * Task: Create a responsive webpage on [GitHub Pages](https://github.com/paulbradshaw/introtogithub/blob/master/githubwebsites.md)
 * Reading: Jeremy Keith: [Resilient Web Design](https://resilientwebdesign.com/)
 
@@ -119,7 +119,7 @@ By the end of this week you should be able to identify techniques for working wi
 
 By the end of this week you should be able to identify ways that AI, machine learning and bots can play a role within journalism, both internal- and public-facing, and articulate the critical and ethical issues raised by AI technologies. You should also be able to create a basic bot, and identify relevant libraries for using machine learning within programming.
 
-* Workshop:
+* Workshop: ***Fork this!*** [Creating bots with Rundexter](https://github.com/paulbradshaw/bots/blob/master/dexter.md)
 * Task:
 * Reading:
   * Algorithmic Transparency in the News Media
