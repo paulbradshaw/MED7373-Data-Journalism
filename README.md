@@ -56,11 +56,15 @@ By the end of this week you should be able to create a basic HTML page with CSS 
 * Task: Create a responsive webpage on [GitHub Pages](https://github.com/paulbradshaw/introtogithub/blob/master/githubwebsites.md)
 * Reading: Jeremy Keith: [Resilient Web Design](https://resilientwebdesign.com/)
 
-## Week 4: Visualisation
+## Week 4: Visualisation and interactivity
 
-* Workshop:
-* Task:
-* Reading:
+*Note: the Narrative class on principles of visualisation and visual design, and the class on ergodic storytelling are particularly relevant to your work in this area*
+
+* Workshop: JavaScript interactivity and vis: counters, quizzes, charts
+* Task: Continued work on JavaScript
+* Reading: Wong, D (2010) The Wall Street Journal Guide to Information Graphics
+
+***Fork this!*** [I have a collection of resources on JavaScript here](https://github.com/paulbradshaw/jsintro)
 
 ## Week 5: Bad data: data problems and solutions. Introduction to R
 
