@@ -60,11 +60,9 @@ By the end of this week you should be able to create a basic HTML page with CSS 
 
 By the end of this week you should be able to explain basic concepts in JavaScript and use it to create basic interactivity and/or visualisations. *Note: the [Narrative module](https://github.com/paulbradshaw/MED7334-Narrative) class on principles of visualisation and visual design, and the class on ergodic storytelling are particularly relevant to your work in this area*
 
-* Workshop: JavaScript interactivity and vis: counters, quizzes, charts
+* Workshop: JavaScript interactivity and vis: counters, quizzes, charts ([folder of exercises here](https://github.com/paulbradshaw/MED7373-Data-Journalism/tree/master/js))
 * Task: Continued work on JavaScript
 * Reading: Wong, D (2010) The Wall Street Journal Guide to Information Graphics
-
-***Fork this!*** [I have a collection of resources on JavaScript here](https://github.com/paulbradshaw/jsintro)
 
 ## Week 5: Bad data: data problems and solutions. Introduction to R
 
