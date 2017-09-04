@@ -1,26 +1,18 @@
-# Chapter ?: Making a counter in JavaScript
+# Making a counter in JavaScript
 
 ![](images/applecounter.png)
 
 Counters are hugely useful in storytelling. Firstly, they can be used to introduce a sense of *tension* - after all, what can be more dramatic than a countdown clock? But secondly, they can also be used to *illustrate* something. Saying that a sportsperson earns a certain amount per hour is one thing, but *showing* those earnings piling up by the second is much more effective. There's a reason why dramatists and writers say "Show, don't tell".
 
-The data journalism outfit Ampp3d pioneered the use of counters in journalism.
-
-# ***ADD EXAMPLES***
+The data journalism outfit Ampp3d pioneered the use of counters in journalism, employing it in stories such as ‘Live counter: Watch how much NHS money is going into private hands’ (Cocco 2014), ‘Watch Wayne Rooney's earnings add up in real-time’ and ‘Watch how many foreigners enter the UK. Every. Single. Second.’ (now no longer online). The last example used multiple counters to illustrate how headline figures about the number of foreign visitors failed to mention that most of those visitors were tourists. While the counter for tourists moved quickly, the counter of migrants did not, because the numbers were much smaller. It was a clever way of putting figures into context.
 
 Creating a counter also helps you to understand some of the mathematical functions in JavaScript, data types, and how to create your own function.
 
-In this chapter we will make two types of counter: firstly, the *illustrative* type which shows an amount changing in real time; and then, the *countdown* type which shows time. This second type brings some additional challenges that will be useful to explore separately.
-
-A> ## Ingredients
-A>
-A> For this chapter you will need:
-A>
-A> *
+In this tutorial we will make two types of counter: firstly, the *illustrative* type which shows an amount changing in real time; and then, the *countdown* type which shows time. This second type brings some additional challenges that will be useful to explore separately.
 
 ## Interlude: code playgrounds
 
-In this chapter we're going to begin using a code 'playground'. These are online services where you can try out code and see the results in front of you. Two of the best known code playgrounds are [Codepen](https://codepen.io/), and [JSFiddle](https://jsfiddle.net/) - both are very similar, but it's the former that we're going to use here.
+In this tutorial we're going to use a code 'playground'. These are online services where you can try out code and see the results in front of you. Two of the best known code playgrounds are [Codepen](https://codepen.io/), and [JSFiddle](https://jsfiddle.net/) - both are very similar, but it's the former that we're going to use here.
 
 ### Getting started with Codepen
 
