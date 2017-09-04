@@ -87,7 +87,7 @@ By the end of this week you should be able to use a range of techniques for fetc
 * Task: Development of data journalism project
 * Reading: Bogost et al (2010) Newsgames: Journalism at Play
 
-## Week 8: Mapping and SQL
+## Week 8: Mapping
 
 By the end of this week you should be able to create a range of map types (point, shape, heat) and talk about the ethical issues surrounding mapping. You should also be able to use SQL to query data.
 
@@ -105,11 +105,11 @@ By the end of this week you should be able to use basic commands in the command 
 
 You can [find more tips on using command line in another repo here](https://github.com/paulbradshaw/commandline)
 
-## Week 10: Big data
+## Week 10: Big data and SQL
 
 By the end of this week you should be able to identify techniques for working with large datasets, and the ethical and statistical problems that big data presents.
 
-* Workshop:
+* Workshop: Querying large datasets using SQL
 * Task: Development of data journalism project
 * Reading:
 
