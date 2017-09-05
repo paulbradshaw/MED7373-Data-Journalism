@@ -91,7 +91,7 @@ By the end of this week you should be able to use a range of techniques for fetc
 
 By the end of this week you should be able to create a range of map types (point, shape, heat) and talk about the ethical issues surrounding mapping. You should also be able to use SQL to query data.
 
-* Workshop:
+* Workshop: Creating shape maps using Carto or Fusion Tables; creating hex maps [using R](https://github.com/paulbradshaw/Rintro/blob/master/mapping/mapping_hex_tiles_basics.Rmd) [or JavaScript](https://github.com/paulbradshaw/jsintro/tree/master/mappinghex)
 * Task: Development of data journalism project
 * Reading: [Thinking about maps](http://personalpages.manchester.ac.uk/staff/m.dodge/rethinking_maps_introduction_pageproof.pdf)
 
@@ -111,11 +111,11 @@ By the end of this week you should be able to identify techniques for working wi
 
 * Workshop: Querying large datasets using SQL
 * Task: Development of data journalism project - reflection on data-driven vs hypothesis-driven methods
-* Reading: 
-  * Vallance-Jones & McKie (2017) ch5: Working with databases URL 
+* Reading:
+  * Vallance-Jones & McKie (2017) ch5: Working with databases URL
   * Hammond (2015): From computer-assisted to data-driven: Journalism and Big Data
 
-## Week 11:  Bots, AI and machine learning
+## Week 11: Here come the robots: AI, machine learning and bots
 
 By the end of this week you should be able to identify ways that AI, machine learning and bots can play a role within journalism, both internal- and public-facing, and articulate the critical and ethical issues raised by AI technologies. You should also be able to create a basic bot, and identify relevant libraries for using machine learning within programming.
 
