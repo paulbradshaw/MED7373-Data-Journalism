@@ -105,13 +105,15 @@ By the end of this week you should be able to use basic commands in the command 
 
 You can [find more tips on using command line in another repo here](https://github.com/paulbradshaw/commandline)
 
-## Week 10: Big data and SQL
+## Week 10: Big data, sensor journalism, and SQL
 
-By the end of this week you should be able to identify techniques for working with large datasets, and the ethical and statistical problems that big data presents.
+By the end of this week you should be able to identify techniques for working with large datasets, and issues surrounding big data, linked data, open data, and sensor journalism.
 
 * Workshop: Querying large datasets using SQL
-* Task: Development of data journalism project
-* Reading:
+* Task: Development of data journalism project - reflection on data-driven vs hypothesis-driven methods
+* Reading: 
+  * Vallance-Jones & McKie (2017) ch5: Working with databases URL 
+  * Hammond (2015): From computer-assisted to data-driven: Journalism and Big Data
 
 ## Week 11:  Bots, AI and machine learning
 
