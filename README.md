@@ -83,7 +83,7 @@ During this week you should be consolidating your learning so far, developing yo
 
 By the end of this week you should be able to use a range of techniques for fetching data from APIs in both R and JavaScript, and explore possibilities for dynamically analysing and/or presenting that data.
 
-* Workshop:
+* Workshop: Using APIs in JavaScript and R
 * Task: Development of data journalism project
 * Reading: Bogost et al (2010) Newsgames: Journalism at Play
 
@@ -95,13 +95,15 @@ By the end of this week you should be able to create a range of map types (point
 * Task: Development of data journalism project
 * Reading: [Thinking about maps](http://personalpages.manchester.ac.uk/staff/m.dodge/rethinking_maps_introduction_pageproof.pdf)
 
-## Week 9: Coding for finding stories: command line and regex
+## Week 9: Fetching the haystack, finding the needle: command line and regex
 
 By the end of this week you should be able to use basic commands in the command line to fetch, find, combine and move data. You should also be able to explain how regular expressions (regex) work, and use them to locate and extract information from files.
 
 * Workshop: [Merging multiple CSV files using command line](https://github.com/paulbradshaw/commandline/blob/master/joining.md)
 * Task: Development of data journalism project
-* Reading: [The Command Line Crash Course](http://www.computervillage.org/articles/CommandLine.pdf)
+* Reading:
+  * [The Command Line Crash Course](http://www.computervillage.org/articles/CommandLine.pdf)
+  * [Meyer (2002): The New Precision Journalism](https://www.unc.edu/~pmeyer/book/Chapter1.htm)
 
 You can [find more tips on using command line in another repo here](https://github.com/paulbradshaw/commandline)
 
@@ -113,7 +115,7 @@ By the end of this week you should be able to identify techniques for working wi
 * Task: Development of data journalism project - reflection on data-driven vs hypothesis-driven methods
 * Reading:
   * Vallance-Jones & McKie (2017) ch5: Working with databases URL
-  * Hammond (2015): From computer-assisted to data-driven: Journalism and Big Data
+  * [Hammond (2015): From computer-assisted to data-driven: Journalism and Big Data](https://www.researchgate.net/publication/287391319_From_computer-assisted_to_data-driven_Journalism_and_Big_Data)
 
 ## Week 11: Here come the robots: AI, machine learning and bots
 
