@@ -87,7 +87,7 @@ By the end of this week you should be able to use a range of techniques for fetc
 * Task: Development of data journalism project
 * Reading: Bogost et al (2010) Newsgames: Journalism at Play
 
-## Week 8: Mapping: when, why - and how
+## Week 8: Critical cartography: mapping 
 
 By the end of this week you should be able to create a range of map types (point, shape, heat) and talk about the ethical issues surrounding mapping. You should also be able to use SQL to query data.
 
