@@ -79,7 +79,7 @@ By the end of this week you should be able to identify common data problems, and
 
 During this week you should be consolidating your learning so far, developing your skills on one or more editorial project, reviewing examples of data journalism, and continuing to read widely around the subject.
 
-## Week 7: APIs
+## Week 7: Live and connected storytelling: APIs
 
 By the end of this week you should be able to use a range of techniques for fetching data from APIs in both R and JavaScript, and explore possibilities for dynamically analysing and/or presenting that data.
 
@@ -87,7 +87,7 @@ By the end of this week you should be able to use a range of techniques for fetc
 * Task: Development of data journalism project
 * Reading: Bogost et al (2010) Newsgames: Journalism at Play
 
-## Week 8: Mapping
+## Week 8: Mapping: when, why - and how
 
 By the end of this week you should be able to create a range of map types (point, shape, heat) and talk about the ethical issues surrounding mapping. You should also be able to use SQL to query data.
 
