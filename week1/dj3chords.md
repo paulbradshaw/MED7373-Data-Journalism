@@ -1,8 +1,8 @@
 # Data journalism's 3 chords
 
-Here's a quick activity to get to grips with data journalism's '3 chords': sorting, filtering, and calculating percentages (change and proportions).
+Here's a quick activity to get to grips with data journalism's '3 chords': sorting, filtering, and calculating percentages (change and proportions). 
 
-With just those 3 tools you can find and tell the most basic data journalism stories: who's top and bottom; what's changed; and what's of interest.
+With just those 3 tools you can find and tell the most basic data journalism stories: who's top and bottom; what's changed; and what's of interest. And the good news is that two of them require no maths at all.
 
 ## Some data to play with
 
@@ -42,9 +42,13 @@ Commonly when presented with data we want to know who or what comes top and bott
 3. Now, click one of the *small* buttons with the A-Z icon - don't click the big A-Z button or you'll start the advanced sorting wizard, and you don't need that. Both those small buttons will sort your data by the column you are in - the top one will sort from smallest to largest (or A to Z, or oldest to newest), and the other one will sort from largest to smallest (or Z to A, or newest to oldest). 
 4. Try both so you can see the smallest entries and the largest ones - and try it in other columns too.
 
-That's it! The toolbar and the small buttons are the quickest way to sort - but you can also do a more powerful sort by clicking the large A-Z button or selecting the *Data* menu and then *Sort...* in Excel. This will bring up a wizard where you must specify which column to sort by, and which order to sort it in. In Google Sheets, there is no button: instead click the *Data* menu and then the relevant sort option.
+That's it! The toolbar and the small buttons are the quickest way to sort - but you can also do a more powerful sort by clicking the large A-Z button or selecting the *Data* menu and then *Sort...* in Excel. This will bring up a wizard where you must specify which column to sort by, and which order to sort it in. In Google Sheets, there is no button: instead click the *Data* menu and then the relevant sort option, and click *OK* to apply your sort.
+
+Simply sorting data in this way can give you a lead which you can follow up through a phonecall.
 
 ## Filtering
+
+Filtering 
 
 ## Calculating percentages
 
