@@ -94,9 +94,8 @@ If you want to convert your decimal to *look* like a percentage there's a very e
 
 One thing to watch for when calculating percentages and proportions: check the column heading for any indication that the numbers shown actually represent thousands or millions. If the heading has something like `(000)` then you'll need to multiply all numbers in that column by 1000 to get the real number(s) that you should be using.
 
-Example:
-=SUM(C2:C32)/SUM(C:C)
-(Where the data has been sorted and cells C2 to C32 contains all the figures for one expense/company/crime, and column C as a whole contains the figures for all expenses/companies/crimes. Adapt the formula accordingly - also watch for dirty data where the same company/expense/crime may have slightly different names, e.g. BBC and British Broadcasting Corporation)
+*Tip: if you need to add up all the values in a column select them all and click the Autosum button, which is a Greek E, or Sigma, icon. A total should appear at the bottom of that column.*
+
 
 ### Calculating change
 
