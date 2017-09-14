@@ -15,9 +15,25 @@ First, you'll need some data to try out these techniques. Here are 3 useful data
 
 Each has its own qualities that are useful to talk through as you work with the data and consider stories.
 
+## Upload and familiarise yourself with the data
+
+Open one of the datasets in Excel, or in Google Sheets (make sure it's converted to a Google Sheet by uploading to Google Drive and then right-clicking and selecting *Open with > Google Sheets*).
+
+First, take a look at the column headings. Think about what stories each of those pieces of information might provide. 
+
+There might also be information that you don't quite understand - for example, what does 'Cost Centre' mean (in the local authority spending data)? And what do the codes in that column refer to? You may need to do some extra research (including phonecalls) to understand jargon, and you might need extra data to make sense of it (for example what codes refer to).
+
+It's also useful to think about the type of data in each column. I want to highlight a few things in particular:
+
+* **Numbers** will normally be right-aligned in Excel and Google Sheets
+* **Text** will normally be left-aligned
+* **Dates** *should* be stored as numbers - in other words, they should be right-aligned. The date that you see (for example "07/08/2017") is actually just the way the number is *formatted*. You can format a date in all sorts of ways, but the important thing to remember is that they can be sorted, and used in calculations (for example the number of days between dates). If what appears to be a date is actually left-aligned, and doesn't sort properly, then that means you have **DIRTY DATA!** and you'll need to come up with tricks if you want to work with that data in some way.
+
+The type of data dictates what you can do with it. For example, you can perform calculations with numbers (including dates), but not with text. However, you can *measure* text (its length), *test* it (whether it contains certain words), *filter and sort* it, and *extract* information from it, among other things.
+
+Now you've got to grips with the data, let's dig into it.
+
 ## Sorting
-
-
 
 ## Filtering
 
