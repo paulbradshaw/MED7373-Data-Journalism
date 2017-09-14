@@ -60,13 +60,66 @@ Note, by the way, that you can also use this filter box to *sort* the table by t
 
 Different types of data can be filtered in different ways. Look, for example, at how the filter drop-down menu differs when you click on 3 different types of column:
 
-* Text column filters will show you a list of all the values in the column, and a search box - but you can also use the *Choose one* drop-down menu above that to search for entries that 'begin with' or 'end with' particular strings of characters, 'contain' or 'does not contain' text and so on.
-* Numerical column filters will also show a list of all the values - but this time the *Choose one* drop-down menu presents options like 'greater than', 'less than', 'does not equal', 'between' (certain numbers) and even 'Top 10', 'Bottom 10', and above or below average.
-* Date column filters show a list of values which is *nested*: so for example years are at one level, the months within each year are slightly indented, and the dates within each month are then further indented still. This means that you can select or deselect a whole year without having to untick each month. The *Choose one* drop-down menu includes some of the numerical filter options like 'greater than', etc., but it also includes date-specific ones like 'Next week', 'Last week', 'This quarter' and so on.
+* **Text column** filters will show you a list of all the values in the column, and a search box - but you can also use the *Choose one* drop-down menu above that to search for entries that 'begin with' or 'end with' particular strings of characters, 'contain' or 'does not contain' text and so on.
+* **Numerical column** filters will also show a list of all the values - but this time the *Choose one* drop-down menu presents options like 'greater than', 'less than', 'does not equal', 'between' (certain numbers) and even 'Top 10', 'Bottom 10', and above or below average.
+* **Date column** filters show a list of values which is *nested*: so for example years are at one level, the months within each year are slightly indented, and the dates within each month are then further indented still. This means that you can select or deselect a whole year without having to untick each month. The *Choose one* drop-down menu includes some of the numerical filter options like 'greater than', etc., but it also includes date-specific ones like 'Next week', 'Last week', 'This quarter' and so on.
 
 Try using the filter to look for any companies with 'taxi' in the name, or 'consult' (note this will catch both consulting and consultants). 
 
 ## Calculating percentages
+
+One of the most useful calculations you'll need to make is a percentage - and it's important to get it right. A percentage is always a part of a whole, and that's the best way to think of it:
+
+`percentage=parts/whole`
+
+In Excel you always begin a calculation with an equals sign, and either type the numbers directly like so...
+
+`=1/10`
+
+...Or use cell references, like so (the letter refers to the column, and the number to the row, so `A1` means the cell in the first column, first row, and `B1` means the cell in the second column, first row):
+
+`=A1/B1`
+
+...Or a combination of both:
+
+`=A1/35`
+
+Anything beginning with an equals sign like this is called a **formula**
+
+When you press enter you will get a result in the same cell as you typed the formula. This will normally be a decimal, like `0.5` or `0.364`. 
+
+That decimal is Excel's basic way of expressing a percentage. `0.5`, for example, means 50%, and `0.364` means 36.4%. This makes sense: after all, `1` is 'whole' - it is 100%. But split 1 in half (50%) and you get `0.5`.
+
+If you want to convert your decimal to *look* like a percentage there's a very easy way to do so in Excel: the *percentage* button. This is in Excel's *Home* menu and is the button with a percentage symbol on it. Just select the cell or cells containing the numbers you want to format as percentages, and click that button. (Another way to get the same effect is to go to *Format > Cells* and select the *Percentage* option from the window that appears)
+
+One thing to watch for when calculating percentages and proportions: check the column heading for any indication that the numbers shown actually represent thousands or millions. If the heading has something like `(000)` then you'll need to multiply all numbers in that column by 1000 to get the real number(s) that you should be using.
+
+Example:
+=SUM(C2:C32)/SUM(C:C)
+(Where the data has been sorted and cells C2 to C32 contains all the figures for one expense/company/crime, and column C as a whole contains the figures for all expenses/companies/crimes. Adapt the formula accordingly - also watch for dirty data where the same company/expense/crime may have slightly different names, e.g. BBC and British Broadcasting Corporation)
+
+### Calculating change
+
+Change is a particular type of percentage which needs further explanation. Remember that when reporting percentage change you are talking about change *from its starting position* - so that's the figure you should be dividing by. Here's a concrete example:
+
+Let's say the number of crimes in 2016 was 200, and in 2017 it was 250. First we need to calculate the increase: new figure minus old figure. That's an increase of 50 crimes - but what is that as a *percentage* increase?
+
+If we divide 50 by the 2016 figure of 200 we would get `0.25`, or a 25% increase. But if we divided 50 by the 2017 figure of 250, the result is `0.2`, or a 20% increase.
+
+Of course the increase is *from* 2016, so we should be dividing by the earlier figure. In 2016 there were 200 crimes; it increased by a quarter of those crimes: 50, making 250 crimes in total.
+
+As a formula it might look something like this:
+
+`=(new minus old)/old`
+
+But we need to replace those words with actual numbers or cell references like so:
+
+`=(250-200)/200`
+
+Or so:
+
+`=(B2-A2)/A2`
+
 
 
 ## Data context: sense-checking
