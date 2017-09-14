@@ -27,7 +27,7 @@ It's also useful to think about the type of data in each column. I want to highl
 
 * **Numbers** will normally be right-aligned in Excel and Google Sheets
 * **Text** will normally be left-aligned
-* **Dates** *should* be stored as numbers - in other words, they should be right-aligned. The date that you see (for example "07/08/2017") is actually just the way the number is *formatted*. You can format a date in all sorts of ways, but the important thing to remember is that they can be sorted, and used in calculations (for example the number of days between dates). If what appears to be a date is actually left-aligned, and doesn't sort properly, then that means you have **DIRTY DATA!** and you'll need to come up with tricks if you want to work with that data in some way.
+* **Dates** *should* be stored as numbers - in other words, they should be right-aligned. The date that you see (for example "07/08/2017") is actually just the way the number is *formatted*. You can format a date in all sorts of ways, but the important thing to remember is that they can be sorted, and used in calculations (for example the number of days between dates). If what appears to be a date is actually left-aligned, and doesn't sort properly, then that means you have **DIRTY DATA!** and you'll need to come up with tricks if you want to work with that data in some way (the European Investment Bank data suffers from this problem).
 
 The type of data dictates what you can do with it. For example, you can perform calculations with numbers (including dates), but not with text. However, you can *measure* text (its length), *test* it (whether it contains certain words), *filter and sort* it, and *extract* information from it, among other things.
 
@@ -48,7 +48,13 @@ Simply sorting data in this way can give you a lead which you can follow up thro
 
 ## Filtering
 
-Filtering 
+Filtering can be done like this: 
+
+1. First, select any of the cells in your data
+2. Next, go to the *Data* toolbar in Excel 
+3. Now, click the *large* Filter button with a funnel icon (don't click the small one or you'll start the advanced filter wizard). 
+
+
 
 ## Calculating percentages
 
