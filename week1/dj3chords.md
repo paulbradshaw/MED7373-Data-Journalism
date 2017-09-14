@@ -52,9 +52,19 @@ Filtering can be done like this:
 
 1. First, select any of the cells in your data
 2. Next, go to the *Data* toolbar in Excel 
-3. Now, click the *large* Filter button with a funnel icon (don't click the small one or you'll start the advanced filter wizard). 
+3. Now, click the *large* Filter button with a funnel icon (don't click the small one or you'll start the advanced filter wizard). Alternatively (and in Google Sheets), you can click the *Data* menu and select *Filter* from there.
 
+At the top of each column you should now be able to see a drop-down menu. If you click on any one of these the menu will allow you to filter the whole dataset to just show the rows with the value that you select. You can also use the search box to look for particular words, and the filter will only show entries where the column contains that word.
 
+Note, by the way, that you can also use this filter box to *sort* the table by this column.
+
+Different types of data can be filtered in different ways. Look, for example, at how the filter drop-down menu differs when you click on 3 different types of column:
+
+* Text column filters will show you a list of all the values in the column, and a search box - but you can also use the *Choose one* drop-down menu above that to search for entries that 'begin with' or 'end with' particular strings of characters, 'contain' or 'does not contain' text and so on.
+* Numerical column filters will also show a list of all the values - but this time the *Choose one* drop-down menu presents options like 'greater than', 'less than', 'does not equal', 'between' (certain numbers) and even 'Top 10', 'Bottom 10', and above or below average.
+* Date column filters show a list of values which is *nested*: so for example years are at one level, the months within each year are slightly indented, and the dates within each month are then further indented still. This means that you can select or deselect a whole year without having to untick each month. The *Choose one* drop-down menu includes some of the numerical filter options like 'greater than', etc., but it also includes date-specific ones like 'Next week', 'Last week', 'This quarter' and so on.
+
+Try using the filter to look for any companies with 'taxi' in the name, or 'consult' (note this will catch both consulting and consultants). 
 
 ## Calculating percentages
 
