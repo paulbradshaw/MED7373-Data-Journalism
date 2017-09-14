@@ -35,6 +35,15 @@ Now you've got to grips with the data, let's dig into it.
 
 ## Sorting
 
+Commonly when presented with data we want to know who or what comes top and bottom. We can do this quickly using the sorting buttons. 
+
+1. First, select one of the cells in the column you want to sort. Don't worry about selecting the whole column - you only need to select one cell.
+2. Next, go to the *Data* toolbar in Excel 
+3. Now, click one of the *small* buttons with the A-Z icon - don't click the big A-Z button or you'll start the advanced sorting wizard, and you don't need that. Both those small buttons will sort your data by the column you are in - the top one will sort from smallest to largest (or A to Z, or oldest to newest), and the other one will sort from largest to smallest (or Z to A, or newest to oldest). 
+4. Try both so you can see the smallest entries and the largest ones - and try it in other columns too.
+
+That's it! The toolbar and the small buttons are the quickest way to sort - but you can also do a more powerful sort by clicking the large A-Z button or selecting the *Data* menu and then *Sort...* in Excel. This will bring up a wizard where you must specify which column to sort by, and which order to sort it in. In Google Sheets, there is no button: instead click the *Data* menu and then the relevant sort option.
+
 ## Filtering
 
 ## Calculating percentages
