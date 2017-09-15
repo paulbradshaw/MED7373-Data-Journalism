@@ -35,7 +35,7 @@ Now you've got to grips with the data, let's dig into it.
 
 ## Sorting
 
-![](http://www.contextures.com/images/Sort/excelsort03.png)
+![](http://pad3.whstatic.com/images/thumb/a/a7/Use-AutoFilter-in-MS-Excel-Step-4Bullet1.jpg/670px-Use-AutoFilter-in-MS-Excel-Step-4Bullet1.jpg)
 
 Commonly when presented with data we want to know who or what comes top and bottom. We can do this quickly using the sorting buttons. 
 
