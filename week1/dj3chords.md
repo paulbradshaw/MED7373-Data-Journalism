@@ -35,10 +35,12 @@ Now you've got to grips with the data, let's dig into it.
 
 ## Sorting
 
+![](http://www.contextures.com/images/Sort/excelsort03.png)
+
 Commonly when presented with data we want to know who or what comes top and bottom. We can do this quickly using the sorting buttons. 
 
 1. First, select one of the cells in the column you want to sort. Don't worry about selecting the whole column - you only need to select one cell.
-2. Next, go to the *Data* toolbar in Excel 
+2. Next, go to the *Data* toolbar in Excel (see image above)
 3. Now, click one of the *small* buttons with the A-Z icon - don't click the big A-Z button or you'll start the advanced sorting wizard, and you don't need that. Both those small buttons will sort your data by the column you are in - the top one will sort from smallest to largest (or A to Z, or oldest to newest), and the other one will sort from largest to smallest (or Z to A, or newest to oldest). 
 4. Try both so you can see the smallest entries and the largest ones - and try it in other columns too.
 
@@ -47,6 +49,8 @@ That's it! The toolbar and the small buttons are the quickest way to sort - but 
 Simply sorting data in this way can give you a lead which you can follow up through a phonecall.
 
 ## Filtering
+
+![](http://blog.contextures.com/wp-content/uploads/2012/05/autofilterribbon01.png)
 
 Filtering can be done like this: 
 
