@@ -46,7 +46,7 @@ By the end of this week you should be able to use a range of spreadsheet functio
 * Reading:
   * [Finding Stories in Spreadsheets](https://leanpub.com/spreadsheetstories) *(BCU students please ask for your voucher for a free copy)*
 
-## Week 3: Mobile first: responsive and mobile UX
+## Week 3: Mobile first: responsive and other design considerations
 
 By the end of this week you should be able to create a basic HTML page with CSS styles, and explain the basics of design for mobile devices.
 
@@ -56,7 +56,7 @@ By the end of this week you should be able to create a basic HTML page with CSS 
 * Task: Create a responsive webpage on [GitHub Pages](https://github.com/paulbradshaw/introtogithub/blob/master/githubwebsites.md)
 * Reading: Jeremy Keith: [Resilient Web Design](https://resilientwebdesign.com/)
 
-## Week 4: Visualisation and interactivity
+## Week 4: Making it visual, making it interactive
 
 By the end of this week you should be able to explain basic concepts in JavaScript and use it to create basic interactivity and/or visualisations. *Note: the [Narrative module](https://github.com/paulbradshaw/MED7334-Narrative) class on principles of visualisation and visual design, and the class on ergodic storytelling are particularly relevant to your work in this area*
 
@@ -64,7 +64,7 @@ By the end of this week you should be able to explain basic concepts in JavaScri
 * Task: Continued work on JavaScript
 * Reading: Wong, D (2010) The Wall Street Journal Guide to Information Graphics
 
-## Week 5: Bad data: data problems and solutions. Introduction to R
+## Week 5: Solving data problems 
 
 By the end of this week you should be able to identify common data problems, and use techniques to solve those. You should also be able to use basic data processing and analysis techniques in R.
 
@@ -87,7 +87,7 @@ By the end of this week you should be able to use a range of techniques for fetc
 * Task: Development of data journalism project
 * Reading: Bogost et al (2010) Newsgames: Journalism at Play
 
-## Week 8: Critical cartography: mapping 
+## Week 8: Critical cartography: why, how - and when - to map
 
 By the end of this week you should be able to create a range of map types (point, shape, heat) and talk about the ethical issues surrounding mapping. You should also be able to use SQL to query data.
 
@@ -95,7 +95,7 @@ By the end of this week you should be able to create a range of map types (point
 * Task: Development of data journalism project
 * Reading: [Thinking about maps](http://personalpages.manchester.ac.uk/staff/m.dodge/rethinking_maps_introduction_pageproof.pdf)
 
-## Week 9: Fetching the haystack, finding the needle: command line and regex
+## Week 9: Fetching the haystack, finding the needle: coding for finding stories
 
 By the end of this week you should be able to use basic commands in the command line to fetch, find, combine and move data. You should also be able to explain how regular expressions (regex) work, and use them to locate and extract information from files.
 
