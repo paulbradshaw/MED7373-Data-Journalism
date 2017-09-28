@@ -28,7 +28,7 @@ You will also be expected to feed your own experiences into each class - and you
 
 By the end of this week you should be able to use core spreadsheet techniques to find stories, including sorting and filtering, pivot tables, and be able to calculate change and proportions. You will also be able to use GitHub to clone or fork a repo.
 
-* Workshop: [Fork this repo!](https://github.com/paulbradshaw/MED7373-Data-Journalism/tree/master/week1) Data journalism basics: sorting, filtering, pivot tables, calculations
+* Workshop: [Fork this repo!](https://github.com/paulbradshaw/MED7373-Data-Journalism/tree/master/week1); [Data journalism basics: sorting, filtering, pivot tables, calculations](https://github.com/paulbradshaw/MED7373-Data-Journalism/blob/master/week1/dj3chords.md)
 * Task: Data journalism critique; practise spreadsheet skills
 * Reading:
   * [Data Journalism Heist](https://leanpub.com/DataJournalismHeist) *(BCU students please ask for your voucher for a free copy)*
