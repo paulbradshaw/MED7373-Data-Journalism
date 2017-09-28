@@ -25,11 +25,11 @@ Looking at the data this way is an example of **decomposition**: instead of seei
 
 In fact, some extra research will tell you that [postcodes can be broken down into more parts](https://en.wikipedia.org/wiki/Postcodes_in_the_United_Kingdom#Formatting), [phone numbers can be broken down further](https://en.wikipedia.org/wiki/Telephone_numbering_plan), and [licence plates have more detail too](https://www.nationalnumbers.co.uk/number-plate-formats-explained.htm)
 
-## Decomposition of the problem
+## Abstraction of the problem
 
-But that's not the main thing we need to decompose. We need to break down the *problem* too. How do we extract the first part of the postcode - the postcode district?
+We need to refine the *problem* too - by abstracting the **core** thing we need to focus on: in this case the first part of the postcode - the postcode district.
 
-The answer will depend on how the data is formatted, and how **clean** it is - in terms of its consistency.
+We need to extract that by excluding everything else - but how? The answer will depend on how the data is formatted, and how **clean** it is - in terms of its consistency.
 
 For example, postcodes often include a space in the middle, between the two parts. If our postcodes are formatted in this way, and *all* the postcodes are formatted the same way, then we only need to split all our postcodes on the space.
 
@@ -47,12 +47,11 @@ What is it?
 
 The second part of a postcode is always 3 characters. It is the first part - the postcode district - which can range from 2 to 4 characters.
 
-Now that we have that information, we can start a process of **abstraction** to come up with a way to tackle it.
-
-## Abstraction
-
-How would you abstract this problem into a series of steps?
 
 ## Algorithms
+
+Now that we have that information, we can start to look for a series of steps that would leave us with the first part.
+
+How would you express this problem into a series of steps?
 
 Once identified, how would you then codify those steps using spreadsheet functions?
