@@ -17,3 +17,130 @@ Firstly, let's break the project down into different steps:
 6. Test for correlation between deprivation and finances
 
 ## Fetch the data 
+
+We've downloaded the [data from Gov.uk](https://www.gov.uk/government/statistics/income-and-expenditure-in-academies-in-england-2014-to-2015). Now to get it into an R data frame:
+
+```{r}
+install.packages("readxl")
+library(readxl)
+#This specifies the sheet name, and that we need to skip 4 lines before the column headers
+#we could instead use sheet=6
+academies2016 <- read_excel("SFR32_2017_Main_Tables.xlsx", sheet="Raw Data MATs", skip=4)
+```
+
+We're interested in 2 columns: number of pupils and total grant funding. First we need to test the data:
+
+```{r}
+summary(academies2016$`Total Grant Funding
+
+£000`)
+```
+
+Hm. What about the other:
+
+```{r}
+summary(academies2016$`Number of Pupils (FTE)`)
+```
+
+Let's try to fix the total column. Could it be the name? To test, let's try accessing the column by index (position) rather than name:
+
+```{r}
+head(academies2016[,26])
+```
+
+That seems to work (we could also [google the error message](https://stackoverflow.com/questions/39041115/fixing-a-multiple-warning-unknown-column)).
+
+What if we put that column in a separate object and then see if `summary()` generates an error when used on that?
+
+```{r}
+totalfunding <- academies2016[,26]
+summary(totalfunding)
+```
+
+How about we try to add that data back into the original table, with a new name, after deleting the original column and it's problematic name?
+
+```{r}
+#Delete column 26 from the original data
+academies2016 <- academies2016[-26]
+#Add a new column to the original data called 'totalgrantfunding', containing the values that we extracted
+academies2016$totalgrandfunding <- totalfunding
+#Check it doesn't throw an error like before
+summary(academies2016$totalgrandfunding)
+```
+
+Now that's fixed, let's see what the correlation is between those:
+
+```{r}
+cor(academies2016$`Number of Pupils (FTE)`, academies2016$totalgrandfunding)
+```
+
+Ah, another problem. This is probably because of the NA rows. Let's create a subset of the data which doesn't have those:
+
+```{r}
+#cbind binds two columns together, we put the result in a new data frame
+datatocorrelate <- cbind(academies2016$`Number of Pupils (FTE)`,academies2016$totalgrandfunding, academies2016$`School Name`, academies2016$URN )
+#Rename the columns - the second part is a vector of two strings (1 name for each column)
+colnames(datatocorrelate) <- c("ftepupils","totalfunding")
+#Summarise - we still have those NAs
+summary(datatocorrelate$totalfunding)
+#Now use na.omit to remove rows with NA
+#See https://stackoverflow.com/questions/4862178/remove-rows-with-nas-missing-values-in-data-frame
+datatocorrelate <- na.omit(datatocorrelate)
+#Check summary again - the NAs are gone
+summary(datatocorrelate$totalfunding)
+#Now we can correlate
+cor(datatocorrelate$ftepupils, datatocorrelate$totalfunding)
+```
+
+That's a very strong, correlation, not surprisingly.
+
+## Working out the schools with the most income per pupil
+
+We can create a new column which divides each school's income by that school's number of pupils:
+
+```{r}
+datatocorrelate$fundingperpupil <- datatocorrelate$totalfunding/datatocorrelate$ftepupils
+#Show a summary
+summary(datatocorrelate$fundingperpupil)
+```
+
+The median funding per pupil is 5.302 - remember that the figures were in £000s, so that's £5,302 - and in fact we could multiply the figure to make that clearer.
+
+```{r}
+datatocorrelate$fundingperpupil <- (datatocorrelate$totalfunding/datatocorrelate$ftepupils)*1000
+#Show a summary
+summary(datatocorrelate$fundingperpupil)
+```
+
+The 'poorest' school ('min') has only £423 per pupil, but the maximum value here is 'Inf', or infinite. Let's take a look at those rows by using `subset`:
+
+```{r}
+subset(datatocorrelate, datatocorrelate$fundingperpupil == "Inf")
+```
+
+Just two schools, and we can see the reason why: the data says they have no pupils, but still receive some funding. Divide any number by zero and you get 'undefined', expressed here as infinity.
+
+We could choose to investigate those schools further, or choose to remove them in order to get a clearer view on the majority of schools. The former takes us out of R. 
+
+To remove those matching rows we just need to adapt the `subset` expression to say *not* equal to, and assign the results to the same data frame:
+
+```{r}
+datatocorrelate <- subset(datatocorrelate, datatocorrelate$fundingperpupil != "Inf")
+summary(datatocorrelate$fundingperpupil)
+```
+
+Now the max shows one school receiving £407,000 per pupil.
+
+Let's sort the data to bring that to the top:
+
+```{r}
+#This make columns in the dataframe callable without having to name the dataframe as well:
+attach(datatocorrelate)
+#The minus here specifies we want to order in descending, from highest to lowest
+orderedbyfundingperpupil <- datatocorrelate[order(-fundingperpupil),]
+#Now show the first few rows, which should be the largest
+head(orderedbyfundingperpupil)
+#Now detach the data frame
+detach(datatocorrelate)
+```
+
