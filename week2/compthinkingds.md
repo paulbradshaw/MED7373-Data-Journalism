@@ -12,7 +12,7 @@ Start, then, by identifying a dataset that you want to 'interview' for a story -
 
 Chances are that your story challenge is made up of more than one problem. Here are some examples:
 
-In the BBC data unit's [baby names story](https://github.com/BBC-Data-Unit/baby-names-2017), we needed to:
+In the BBC data unit's [baby names story](https://github.com/BBC-Data-Unit/baby-names-2017), Dan Wainwright needed to:
 
 1. Work out which name was the most popular for girls - and then do the same for boys
 2. Work out which name was most popular in each region
@@ -20,10 +20,22 @@ In the BBC data unit's [baby names story](https://github.com/BBC-Data-Unit/baby-
 4. Identify the popularity of recent celebrity names (film and TV characters, royals)
 5. Calculate the number of names per 1,000 babies in each year since 1996
 
+In [Birmingham Eastside's stop and search story](https://github.com/Birmingham-Eastside/stop-and-search), Olivia Lawlor needed to:
 
+1. Work out the percentage of stop and searches made of each ethnic group for June 2016 - and June 2017
+2. Calculate the difference between the two percentages
+3. Calculate the total number of searches in each period
+4. Calculate the difference between the total number of searches in each period
+5. Calculate the percentage of searches which resulted in 'nothing found'
+6. Calculate the percentage of searches which resulted in 'nothing found', by ethnic group
+7. Map the locations where the higher number of stop and searches occur
 
-## Identify what you need to do - find functions that can do it
+## Identify what you need to do - find functions (or buttons/calculations) that can do it
 
-You may not be able to solve 
+You may not be able to solve every problem above, so start with the simple ones and/or your lead story angle. Examples might include:
+
+* Sort by baby name rank
+* Subtract rank in 1996 from rank in 2016 to get a 'change in rank' number
+* Match names in one dataset (baby names) against names in another (celebrities)
 
 ## Write up the process as a tutorial for others
