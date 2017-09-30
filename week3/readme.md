@@ -49,7 +49,7 @@ A final tool to know is the web browser's built-in 'Inspector'. Chrome and Firef
 
 ## Responsive design: get started
 
-There are two
+Try some of the following techniques in a code editor like Codepen. Then export them to your computer, unzip, and add to a GitHub repo (make sure to retain the file structure). Finally, generate a GitHub Pages website that uses those files as their basis (they'll need to be in the main repo, a folder called 'docs', or a branch called 'gh-pages').
 
 ### Setting the viewport
 
@@ -201,3 +201,7 @@ This is used to style the picture as 100% width in the CSS:
   width: 100%;
 }
 ```
+
+## Responsive frameworks
+
+Thankfully, there are a number of responsive frameworks for webpage designs which you can adapt for your own project. [Get started with this tutorial on one of the best known: Bootstrap](https://github.com/paulbradshaw/jsintro/blob/master/responsive/bootstrapintro.md)
