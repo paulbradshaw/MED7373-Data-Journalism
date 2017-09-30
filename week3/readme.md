@@ -47,6 +47,8 @@ When you move from Codepen to GitHub you will need a text editor to edit your HT
 
 A final tool to know is the web browser's built-in 'Inspector'. Chrome and Firefox have particularly good inspectors. While testing your webpage in a browser the inspector allows you to identify elements, try out code, and see any errors your webpage is generating (in the Console).
 
+One of the most basic things the inspector can do is [simulate mobile devices, using device mode](https://developers.google.com/web/tools/chrome-devtools/device-mode/). Try looking at that page in mobile mode, for example, and you'll notice the hamburger menu, the right hand navigation options disappearing, and the cursor changing to a circle (akin to a finger 'tap').
+
 ## Responsive design: get started
 
 Try some of the following techniques in a code editor like Codepen. Then export them to your computer, unzip, and add to a GitHub repo (make sure to retain the file structure). Finally, generate a GitHub Pages website that uses those files as their basis (they'll need to be in the main repo, a folder called 'docs', or a branch called 'gh-pages').
