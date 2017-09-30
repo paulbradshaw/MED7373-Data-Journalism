@@ -161,3 +161,43 @@ body {
   }
 }
 ```
+
+Try these rules in your CSS file and then check the results. You can [see an example of similar rules in my pen here](https://codepen.io/paulbradshaw/pen/mBwZeZ).
+
+Play around with other things you might want to change on different sized screens.
+
+## Responsive images
+
+One of the biggest challenges in responsive design is images: smaller devices on mobile connections might not need large images, or as many images, as desktop users. Here's an example of HTML code which loads one of two images depending on the width of the screen:
+
+```html
+<img src="https://www.restedface.com/wp-content/uploads/2014/03/medium-dog-breeds-pictures-and-names.jpg" srcset="https://i.ytimg.com/vi/VVeLuvzcVuA/maxresdefault.jpg 1280w, https://cmeimg-a.akamaihd.net/640/cme/cuteness_data/s3fs-public/diy_blog/What-Qualifies-as-a-Medium-Sized-Dog.jpg 864w" sizes='(min-width: 1000px) 1000px, 100vw' class="pic" />
+```
+
+Let's pick that apart:
+
+First we have a default image:
+
+`<img src="https://www.restedface.com/wp-content/uploads/2014/03/medium-dog-breeds-pictures-and-names.jpg"`
+
+Then there is a `srcset` attribute which specifies multiple (a set of) image src urls, and after each a specific width (a number followed by `w`):
+
+`srcset="https://i.ytimg.com/vi/VVeLuvzcVuA/maxresdefault.jpg 1280w, https://cmeimg-a.akamaihd.net/640/cme/cuteness_data/s3fs-public/diy_blog/What-Qualifies-as-a-Medium-Sized-Dog.jpg 864w"`
+
+These two `w` numbers - `1280w` and `864w` specify the width of those images. As soon as the width of the screen hits 864 pixels and lower, that image is loaded.
+
+Next, the `sizes` attribute defines a minimum width `(min-width)` at which the image is rendered at a particular specified width (`1000px`), otherwise it takes up `100vw` - 100% of the viewport width.
+
+`sizes='(min-width: 1000px) 1000px, 100vw'`
+
+Finally, a `class` attribute:
+
+`class="pic"`
+
+This is used to style the picture as 100% width in the CSS:
+
+```css
+.pic {
+  width: 100%;
+}
+```
