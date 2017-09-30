@@ -58,6 +58,8 @@ By the end of this week you should be able to create a basic HTML page with CSS 
 * Task: Create a responsive webpage on [GitHub Pages](https://github.com/paulbradshaw/introtogithub/blob/master/githubwebsites.md)
 * Reading: Jeremy Keith: [Resilient Web Design](https://resilientwebdesign.com/)
 
+**Additional resources**: [Lynda.com tutorials on responsive web design](https://www.lynda.com/Responsive-Design-training-tutorials/1357-0.html) (free for BCU students)
+
 ## Week 4: Making it visual, making it interactive
 
 By the end of this week you should be able to explain basic concepts in JavaScript and use it to create basic interactivity and/or visualisations. *Note: the [Narrative module](https://github.com/paulbradshaw/MED7334-Narrative) class on principles of visualisation and visual design, and the class on ergodic storytelling are particularly relevant to your work in this area*
