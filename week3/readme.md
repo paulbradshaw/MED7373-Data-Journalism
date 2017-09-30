@@ -43,9 +43,11 @@ I have written a [guide to creating websites using GitHub Pages here](https://gi
 
 When you move from Codepen to GitHub you will need a text editor to edit your HTML, CSS and JS files. Popular text editors for coding include Atom (owned by GitHub) and Sublime Text. These are better than general text editors such as Textedit because they include automatically completing brackets and quotes, and colour coding to distinguish different elements, and alert you to potential problems. They also look a lot cooler!
 
-### The inspector
+### The inspector (Web Developer Tools)
 
-A final tool to know is the web browser's built-in 'Inspector'. Chrome and Firefox have particularly good inspectors. While testing your webpage in a browser the inspector allows you to identify elements, try out code, and see any errors your webpage is generating (in the Console).
+A final tool to know is the web browser's built-in 'Inspector', opened by right-clicking on a page and selecting 'Inspect' or 'Inspect element', or by clicking on the View menu and selecting Developer > Tools (in Chrome) or Tools > Web Developer > Inspector (in Firefox). 
+
+Chrome and Firefox have particularly good inspectors. While testing your webpage in a browser the inspector allows you to identify elements, try out code, and see any errors your webpage is generating (in the Console).
 
 One of the most basic things the inspector can do is [simulate mobile devices, using device mode](https://developers.google.com/web/tools/chrome-devtools/device-mode/). Try looking at that page in mobile mode, for example, and you'll notice the hamburger menu, the right hand navigation options disappearing, and the cursor changing to a circle (akin to a finger 'tap').
 
