@@ -33,7 +33,7 @@ By the end of this week you should be able to use core spreadsheet techniques to
 * Reading:
   * [Data Journalism Heist](https://leanpub.com/DataJournalismHeist) *(BCU students please ask for your voucher for a free copy)*
   * [Anderson, CW (2012) Towards a sociology of computational and algorithmic journalism](https://www.scribd.com/document/120198213/Towards-a-sociology-of-computational-and-algorithmic-journalism)
-  * What is algorithmic thinking? [Coursera: Algorithmic Thinking 1](https://www.coursera.org/learn/algorithmic-thinking-1)
+
 
 You will [find instructions on how to get started with GitHub in another repository here](https://github.com/paulbradshaw/introtogithub)
 
@@ -45,6 +45,8 @@ By the end of this week you should be able to use a range of spreadsheet functio
 * Task: Identify story ideas/leads and break down the tasks needed to achieve those
 * Reading:
   * [Finding Stories in Spreadsheets](https://leanpub.com/spreadsheetstories) *(BCU students please ask for your voucher for a free copy)*
+
+**Additional resources**: OpenLearn: [Computational thinking and automation](http://www.open.edu/openlearn/science-maths-technology/computing-and-ict/introduction-computational-thinking/content-section-1)
 
 ## Week 3: Mobile first: responsive and other design considerations
 
