@@ -1,0 +1,163 @@
+# Responsive design and mobile UX
+
+In line with industry practice, we are adopting a 'mobile first' approach to data journalism. This means thinking from the start about how our data journalism might be experienced on mobile phones, and building from there.
+
+## Basic web design principles: HTML and CSS
+
+Before continuing, you should ensure that you understand basic principles of HTML explored in the background reading and in class. That includes:
+
+* HTML tags, attributes and values - what they do, and the differences between them
+* When to use a `id` attribute and when to use `class`
+* When to use a `<div>` tag and when to use `<span>` (block elements vs inline elements)
+* How CSS selectors work
+* How CSS rules work
+
+If you don't feel that you can explain those, revisit the readings and other resources online.
+
+## Mobile UX vs responsive design
+
+It is important to distinguish between responsive *design* and mobile *UX*: responsive design is merely the technical processes you need to understand to make web content look different depending on the device (to *respond*, in other words). But you also need to consider more broadly what the user *wants to do* with your content, and *how* they might do that. This is explored in the lecture.
+
+To complicate things a little further, there are a number of options to choose from when creating a mobile user experience. These include:
+
+* A separate mobile site (typically beginning with `m.`, e.g. `m.mywebsite.com`) which is served to visitors from mobile devices
+* A web app: a webpage designed to look and behave like a mobile app
+* A website using responsive design: the layout of the screen is dynamically adjusted based on the screen being used (phone, phablet, tablet, desktop, etc.)
+* Adaptive design: the server loads the version (and assets) of the site for that particular device
+
+## Tools: Codepen, GitHub, Atom and the inspector
+
+Before getting started it's worth mentioning four tools which are likely to come in useful throughout the process of designing web pages.
+
+## Codepen
+
+A good way to test out some web design techniques is to use a service like [Codepen](https://codepen.io/). This allows you to write HTML, CSS and JS (JavaScript) on the same screen, and see the results live. It also allows you to easily load popular libraries and clone/fork code ('pens') by other users. Once you're happy with a webpage you can export it as a zip file containing separate HTML, CSS and JS files. These can then be hosted on a service like GitHub Pages, and edited in a text editor like Atom (see below).
+
+### GitHub Pages
+
+Although you can create individual pages on Codepen, at some point you'll want to move beyond that and create larger projects. An easy way to do that is GitHub's 'Pages' service. This allows you to create a website based on a particular repository. Typically, the GitHub.com repository then acts as a 'behind the scenes' for the live website (which is at a different github.io address).
+
+I have written a [guide to creating websites using GitHub Pages here](https://github.com/paulbradshaw/introtogithub/blob/master/githubwebsites.md).
+
+### Atom or other text editors
+
+When you move from Codepen to GitHub you will need a text editor to edit your HTML, CSS and JS files. Popular text editors for coding include Atom (owned by GitHub) and Sublime Text. These are better than general text editors such as Textedit because they include automatically completing brackets and quotes, and colour coding to distinguish different elements, and alert you to potential problems. They also look a lot cooler!
+
+### The inspector
+
+A final tool to know is the web browser's built-in 'Inspector'. Chrome and Firefox have particularly good inspectors. While testing your webpage in a browser the inspector allows you to identify elements, try out code, and see any errors your webpage is generating (in the Console).
+
+## Responsive design: get started
+
+There are two
+
+### Setting the viewport
+
+The first thing we need to do is add a `meta` tag that tells the device not to scale the webpage. If you forget to add this tag then a mobile device will still try to show the whole page, despite any CSS telling it to do otherwise. Here's the tag:
+
+`<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>`
+
+And here's the HTML 'skeleton' of the page with that line added:
+
+```html
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta content='text/html' charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+    <title>Put your page title here</title>
+  </head>
+  <body>
+
+  </body>
+</html>
+```
+
+### Loading the stylesheet(s)
+
+The next thing is to link to the stylesheet(s) that contain the rules for our page. It might look like this:
+
+`<link rel='stylesheet' href='styles.css'>`
+
+Or, if we've put it in a separate folder called 'css', it will look like this:
+
+`<link rel='stylesheet' href='css/styles.css'>`
+
+Here's the full HTML with that line too:
+
+```html
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta content='text/html' charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+    <link rel='stylesheet' href='css/styles.css'>
+    <title>Put your page title here</title>
+  </head>
+  <body>
+
+  </body>
+</html>
+```
+
+### Adding some text
+
+We just need to add some text which we can then style in different ways for different devices. Ideally you want to plan this out as a structure, with `<section>` tags for each section, perhaps a `<div>` tag for the whole page, and so on. But for this exercise we just need some basic text for now. We'll add a heading and some paragraph text.
+
+```html
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta content='text/html' charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+    <link rel='stylesheet' href='css/styles.css'>
+    <title>Put your page title here</title>
+  </head>
+  <body>
+    <h1>Man bites dog</h1>
+    <p>Police are asking witnesses to come forward after a dog was assaulted in Central Park this morning.</p>
+  </body>
+</html>
+```
+
+### Creating the stylesheet
+
+Now to style that. The stylesheet obviously needs to be in the same place that was linked to from the HTML file.
+
+At the top of the stylesheet should be any extra fonts that you want to load (we're not using any here). Then comes the 'normal' styles, and finally the responsive styles, which begin with `@media`.
+
+Below is an example you can adapt. It has four sections:
+
+* First, a normal CSS rule uses the `body` selector to select everything in the `<body>` tag, and apply a font-family to that.
+* Second, the first `@media` rule specifies that this will apply to screens with a maximum width of 400 pixels - in other words, mobile phones. Within that, another `body` selector now specifies a background-color and text colour
+* Third, another `@media` rule specifies that this will apply to screens between 401 and 960 pixels in width - tablets. Within that, a selector specifies a width and margin to use for the `<body>` tag on those devices
+* Finally, a third `@media` rule specifies that this will apply to screens with a minimum width of 961 pixels - monitors. Within that, a similar selector now specifies a width and margin.
+
+```css
+body {
+  font-family: arial;
+}
+
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+  body {
+    background-color: black;
+    color: white;
+  }
+}
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  body {
+    width: 380px;
+    margin: 0 auto;
+  }
+}
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+  body {
+    width: 570px;
+    margin: 0 auto;
+  }
+}
+```
