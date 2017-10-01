@@ -17,7 +17,7 @@ Below I've outlined each step. You'll also need to make sure your webpage is hos
 
 ## Turn your spreadsheet into a HTML table using Tableizer
 
-[Tableizeer](http://tableizer.journalistopia.com/) is a web-based tool which will turn data from a spreadsheet into a HTML table.
+[Tableizer](http://tableizer.journalistopia.com/) is a web-based tool which will turn data from a spreadsheet into a HTML table.
 
 Specifically, once you have:
 
