@@ -57,10 +57,11 @@ By the end of this week you should be able to create a basic HTML page with CSS 
 * Workshop: HTML, CSS and responsive frameworks. [Fork this! Intro to responsive web design with Bootstrap](https://github.com/paulbradshaw/jsintro/blob/master/responsive/bootstrapintro.md)
 * Task: Create a responsive webpage on [GitHub Pages](https://github.com/paulbradshaw/introtogithub/blob/master/githubwebsites.md)
 * Reading: Jeremy Keith: [Resilient Web Design](https://resilientwebdesign.com/)
+* Reading: Manuel Matuzovic: [Writing HTML with accessibility in mind](https://medium.com/alistapart/writing-html-with-accessibility-in-mind-a62026493412); [Writing CSS with Accessibility in Mind](https://medium.com/@matuzo/writing-css-with-accessibility-in-mind-8514a0007939); [Writing JavaScript with accessibility in mind](https://medium.com/@matuzo/writing-javascript-with-accessibility-in-mind-a1f6a5f467b9)
 
 **Additional resources**: [Lynda.com tutorials on responsive web design](https://www.lynda.com/Responsive-Design-training-tutorials/1357-0.html) (free for BCU students)
 
-## Week 4: Making it visual, making it interactive
+## Week 4: Making it visual, making it interactive - JavaScript
 
 By the end of this week you should be able to explain basic concepts in JavaScript and use it to create basic interactivity and/or visualisations. *Note: the [Narrative module](https://github.com/paulbradshaw/MED7334-Narrative) class on principles of visualisation and visual design, and the class on ergodic storytelling are particularly relevant to your work in this area*
 
@@ -68,7 +69,7 @@ By the end of this week you should be able to explain basic concepts in JavaScri
 * Task: Continued work on JavaScript
 * Reading: Wong, D (2010) The Wall Street Journal Guide to Information Graphics
 
-## Week 5: Solving data problems 
+## Week 5: Solving data problems
 
 By the end of this week you should be able to identify common data problems, and use techniques to solve those. You should also be able to use basic data processing and analysis techniques in R.
 

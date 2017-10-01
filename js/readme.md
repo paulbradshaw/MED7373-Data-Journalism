@@ -39,3 +39,7 @@ Look at my [pens demonstrating the FactMint visualisation library](https://codep
 Add a headline, or a passage of text, which tells a numerical story.
 
 Look at the [tutorial on creating counters in JavaScript](https://github.com/paulbradshaw/MED7373-Data-Journalism/blob/master/js/counter.md) and apply this technique to your number. Again, you can [find examples on Codepen](https://codepen.io/paulbradshaw/pens/tags/?selected_tag=counter). This time there are no libraries involved. But could you find one?
+
+## Add a quiz question
+
+Engage the reader by inviting them to guess whether an amount is higher or lower than another amount. 
