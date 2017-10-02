@@ -45,7 +45,7 @@ When you move from Codepen to GitHub you will need a text editor to edit your HT
 
 ### The inspector (Web Developer Tools)
 
-A final tool to know is the web browser's built-in 'Inspector', opened by right-clicking on a page and selecting 'Inspect' or 'Inspect element', or by clicking on the View menu and selecting Developer > Tools (in Chrome) or Tools > Web Developer > Inspector (in Firefox). 
+A final tool to know is the web browser's built-in 'Inspector', opened by right-clicking on a page and selecting 'Inspect' or 'Inspect element', or by clicking on the View menu and selecting Developer > Tools (in Chrome) or Tools > Web Developer > Inspector (in Firefox).
 
 Chrome and Firefox have particularly good inspectors. While testing your webpage in a browser the inspector allows you to identify elements, try out code, and see any errors your webpage is generating (in the Console).
 
@@ -209,3 +209,17 @@ This is used to style the picture as 100% width in the CSS:
 ## Responsive frameworks
 
 Thankfully, there are a number of responsive frameworks for webpage designs which you can adapt for your own project. [Get started with this tutorial on one of the best known: Bootstrap](https://github.com/paulbradshaw/jsintro/blob/master/responsive/bootstrapintro.md)
+
+## Accessibility
+
+Check your site for accessibility. Do you have:
+
+* `<alt>` tags on images?
+* `<html lang="en">` language declared
+* `<h>` tags used meaningfully (e.g. `<h1>` for main title, `<h2>` for headings, and so on)
+* The use of meaningful tags for sections, e.g. `<main>`, `<section>`, `<aside>`, `<article>`, `<nav>`, `<button>` etc?
+* Enough contrast in your text and background colours - [use this tool](https://leaverou.github.io/contrast-ratio/#blue-on-red) to test them (it should be at least 4.5-to-1)
+* Not using colour alone as the only source of information
+* Readable text
+* `@media` print style
+* If you are hiding content you are [doing so appropriately](https://medium.com/@matuzo/writing-css-with-accessibility-in-mind-8514a0007939)
