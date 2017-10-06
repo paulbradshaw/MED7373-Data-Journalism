@@ -12,7 +12,7 @@ We're going to use that skill to replicate some of the functionality in the firs
 
 There are various ways of doing this. One is `onclick`. This is an **event handler**: it will *handle* the *event* of being clicked, normally by doing something specified by an equals operator, such as running a function.
 
-Event handlers are placed inside HTML, rather than inside the JS script.
+*This particular example is placed inside HTML, rather than inside the JS script. However, it is considered better practice (in terms of accessibility) to do this inside your JS script using techniques such as `.click` in jQuery or D3. See the end of this page for more.*
 
 Here's an example - first the HTML containing that `onclick` event handler:
 
