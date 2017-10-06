@@ -1,6 +1,6 @@
 # Examples of computational thinking in journalism
 
-This week I will be introducing my [MA Data Journalism]() students to **computational thinking** techniques (you can [read my post about why that's important here]()). As part of my preparations I've been collecting some of my favourite examples of computational thinking being used to spot and execute data journalism stories - and I'm sharing them here...
+This week you are being introduced to **computational thinking** techniques. Here are some of my favourite examples of computational thinking being used to spot and execute data journalism stories - see if you can find others and add them!
 
 ## Story 1: Which singer has the biggest vocal range?
 
@@ -66,3 +66,7 @@ By pairing those with unexpected results, the journalists can identify areas for
 [David Robinson's work on Donald Trump's tweets](http://varianceexplained.org/r/trump-tweets/) - which he was [asked to write up for the Washington Post](https://www.washingtonpost.com/posteverything/wp/2016/08/12/two-people-write-trumps-tweets-he-writes-the-angrier-ones/?utm_term=.104d90779aae) is another story of *pattern recognition* - in this case, different tones of voice coming from Donald Trump's tweets, and meta data associated with those (whether updates came from Twitter for iPhone or Twitter for Android).
 
 There's also a level of *abstraction* here in identifying core words which represent a particular tone of voice.
+
+## Add your own
+
+You can fork this GitHub repo and edit this page to add your own - then submit a pull request to add it to my original version...
