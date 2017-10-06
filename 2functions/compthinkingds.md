@@ -39,3 +39,5 @@ You may not be able to solve every problem above, so start with the simple ones 
 * Match names in one dataset (baby names) against names in another (celebrities)
 
 ## Write up the process as a tutorial for others
+
+Use your own blog to write up the process for others to follow. An important skill in data journalism is being able to participate in *communities of practice*, and publishing blog posts like this is one way to do that. Remember there will always be people who know more than you - but also there will always be people who haven't solved the problem you've just solved!
