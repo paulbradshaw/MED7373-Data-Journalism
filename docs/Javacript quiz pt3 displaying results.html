@@ -1,0 +1,316 @@
+<h1 id="javascript-creating-a-quiz-part-3-showing-results-with-jquery">Javascript: creating a quiz part 3 - showing results with jQuery</h1>
+
+<p>The first part of this tutorial covered how to create a HTML form so that users can <em>input</em> information</p>
+
+<p>The second part used jQuery to test the answers submitted. </p>
+
+<p>In this final part we’ll use more jQuery to tell the user whether they are correct or wrong, and calculate a score.</p>
+
+<h2 id="displaying-the-results-to-the-user">Displaying the results to the user</h2>
+
+<p>There are many ways of doing this, but we’re going to just use the following:</p>
+
+<ol>
+<li>Create an extra HTML element to contain the message</li>
+<li>Use <a href="http://api.jquery.com/html/">the <code>html()</code> method</a> to put one message into that element if the answer is correct; and another if it’s wrong.</li>
+</ol>
+
+<p>The extra HTML element looks like this:</p>
+
+<p><code>&lt;div id="result1"&gt;&lt;/div&gt;</code></p>
+
+<p>This goes wherever you want the user to see their result - most likely immediately after the form like so:</p>
+
+<pre><code>&lt;form&gt;
+&lt;h3&gt;Which of the following is spelt correctly?&lt;/h3&gt;
+&lt;input type="radio" name="question1" value="their"&gt;They cocked their hats&lt;br /&gt;
+&lt;input type="radio" name="question1" value="theyre"&gt;They cocked they're hats&lt;br /&gt;
+&lt;input type="radio" name="question1" value="there"&gt;They cocked there hats&lt;br /&gt;
+&lt;input type="submit" value="Submit" id="button"&gt;
+&lt;/form&gt;
+&lt;div id="result1"&gt;&lt;/div&gt;
+</code></pre>
+
+<p>When the page loads this <code>&lt;div&gt;</code> is empty, so the user sees nothing. But its <code>id</code> attribute means we can select and change that with some jQuery.</p>
+
+<p>Here’s the jQuery that does that:</p>
+
+<p><code>$('div#result1').html('&lt;p&gt;CORRECT!&lt;/p&gt;');</code></p>
+
+<p>You should be able to recognise familiar processes here:  <code>'div#result'</code> selects <code>&lt;div id="result1"&gt;</code> and the dollar sign turns that into a jQuery object. The <code>html()</code> method then adds some HTML <em>into</em> that.</p>
+
+<p>The HTML added is <code>'&lt;p&gt;CORRECT!&lt;/p&gt;'</code> - a paragraph tag and the text CORRECT!</p>
+
+<p>This needs to go within our <code>if</code> statement like so (<em>just for good measure, I’ve added a similar line to the <code>else</code> statement too</em>):</p>
+
+<pre><code>&lt;script&gt;
+$(document).ready(
+        function(){
+            var score = 0;
+            $('input#button').click(function() { 
+                var answer = $('input:radio[name=question1]:checked').val();
+                console.log(answer);
+                if (answer == "their") { 
+                    console.log('CORRECT'); 
+                    score++ ; 
+                    console.log(score)
+                    $('div#result1').html('&lt;p&gt;CORRECT!&lt;/p&gt;');
+                    }
+                else { console.log('WRONG'); 
+                    $('div#result1').html('&lt;p&gt;WRONG!&lt;/p&gt;');
+                }
+            console.log(answer);
+            })
+        }
+    )
+&lt;/script&gt;
+</code></pre>
+
+<p>Now when the Submit button is clicked, and the <code>click</code> method tests the value of the selected radio button, if it is correct that <code>&lt;div&gt;</code> gets some extra HTML showing a paragraph saying ‘CORRECT!’.</p>
+
+<p>You can even insert variables into the string by using the <code>+</code> operator like so:</p>
+
+<p><code>$('div#result1').html('&lt;p&gt;CORRECT! Your score is '+score+'&lt;/p&gt;');</code></p>
+
+<p>This is a little more complicated, so it bears taking apart:</p>
+
+<ol>
+<li>First we have a string which includes a HTML tag: <code>'&lt;p&gt;CORRECT! Your score is '</code></li>
+<li>Second we have the <code>+</code> operator which <strong>concatenates</strong> this with whatever comes next:</li>
+<li>Next we have the variable <code>score</code>.</li>
+<li>Then another <code>+</code> operator to <strong>concatenate</strong> with the final part:</li>
+<li>The string <code>'&lt;/p&gt;'</code> - a closing paragraph tag.</li>
+</ol>
+
+<p>The result is <code>&lt;p&gt;CORRECT! Your score is 1&lt;/p&gt;</code> before that mix of HTML tags and text is put into the <code>&lt;div&gt;</code></p>
+
+<h2 id="hiding-the-question-once-its-been-answered">Hiding the question once it’s been answered</h2>
+
+<p>Our code so far has a bug: once the user has clicked the right answer once for a score of 1, he or she can click it again to get a score of 2, 3, 4, and so on.</p>
+
+<p>We also want to be able to display a new question - what’s the point of a score if there’s only one question?</p>
+
+<p>We can deal with both by using the <code>hide()</code> and <code>show()</code> methods I mentioned briefly when introducing jQuery.</p>
+
+<p>To do this we again <strong>need to have an element in our HTML that can be hidden or shown</strong>: we’ll pick the existing <code>&lt;form&gt;</code> tag as it contains the whole question.</p>
+
+<p>To make sure we only hide this form, we’ll add an <code>id</code> attribute to the form like so:</p>
+
+<p><code>&lt;form id="hidemefirst"&gt;</code></p>
+
+<p>The jQuery to hide that form would look like this:</p>
+
+<p><code>$('form#hidemefirst').hide();</code></p>
+
+<p>And below is the same code inserted into the code in the middle of our <code>if</code> statement:</p>
+
+<pre><code>&lt;script&gt;
+$(document).ready(
+        function(){
+            var score = 0;
+            $('input#button').click(function() { 
+                var answer = $('input:radio[name=question1]:checked').val();
+                console.log(answer);
+                if (answer == "their") { 
+                    console.log('CORRECT'); 
+                    score++ ; 
+                    console.log(score)
+                    $('div#result1').html('&lt;p&gt;CORRECT!&lt;/p&gt;');
+                    $('form#hidemefirst').hide();
+                    }
+                else { console.log('WRONG'); 
+                    $('div#result1').html('&lt;p&gt;WRONG!&lt;/p&gt;');
+                }
+            console.log(answer);
+            })
+        }
+    )
+&lt;/script&gt;
+</code></pre>
+
+<p>If you test this you’ll see that a correct answer makes the form vanish so quickly it doesn’t seem quite right. Fortunately, the <code>hide()</code> method does allow you to specify <em>how</em> quickly it vanishes.</p>
+
+<p>In the parentheses you can enter a number to specify that duration. The default is 400, so anything higher will take longer. </p>
+
+<p>Try the duration 1000, like so:</p>
+
+<p><code>$('form#hidemefirst').hide(1000);</code></p>
+
+<p>Now the form hides at a speed which is visible, and less disconcerting for the user.</p>
+
+<h2 id="showing-a-second-question-once-the-first-has-been-answered">Showing a second question once the first has been answered</h2>
+
+<p>The reverse approach can be used to reveal a second question at the same time, using the <code>.show()</code> method.</p>
+
+<p>To <em>show</em> an element, it must first be <em>hidden</em>. So we need to do the following:</p>
+
+<ol>
+<li>Create a second HTML form for the second question</li>
+<li>Use jQuery to hide that form as soon as the document is ready</li>
+<li>Use jQuery to show that form once the first question is answered correctly</li>
+</ol>
+
+<p>The second HTML form might look like this:</p>
+
+<pre><code>&lt;form id="hidemesecond"&gt;
+&lt;h3&gt;Which of the following is spelt correctly?&lt;/h3&gt;
+&lt;input type="radio" name="question2" value="theyre"&gt;Their out of they're minds&lt;br /&gt;
+&lt;input type="radio" name="question2" value="their"&gt;They're out of their minds&lt;br /&gt;
+&lt;input type="radio" name="question2" value="there"&gt;There out of there minds&lt;br /&gt;
+&lt;input type="submit" value="Submit" id="button2"&gt;
+&lt;/form&gt;
+&lt;div id="result2"&gt;&lt;/div&gt;
+</code></pre>
+
+<p>The HTML is copied and pasted from the first form, and then changed as follows:</p>
+
+<ul>
+<li>The <code>id</code> for the <code>&lt;form&gt;</code> tag at the start, and the <code>&lt;div&gt;</code> tag at the end are changed</li>
+<li>The <code>name</code> attribute for the radio buttons are changed to <code>"question2"</code></li>
+<li>The text for the question, and for each possible answer, is changed</li>
+<li>The <code>value</code> attribute for each answer is changed to reflect the answer</li>
+<li>The <code>id</code> for the Submit button is changed</li>
+</ul>
+
+<h3 id="hiding-the-form">Hiding the form</h3>
+
+<p>The first element we need to manipulate is the form as a whole. This is done with the following code:</p>
+
+<p><code>$('form#hidemesecond').hide();</code></p>
+
+<p>This line needs to run as soon as the document is ready, so we put it in the existing script as the first line within the <code>.ready()</code> method’s function, between the first curly bracket and the line setting the <code>score</code> variable:</p>
+
+<pre><code>&lt;script&gt;
+$(document).ready(
+        function(){
+            $('form#hidemesecond').hide();
+            var score = 0 ;
+</code></pre><div class="se-section-delimiter"></div>
+
+<h3 id="showing-the-form">Showing the form</h3>
+
+<p>Now we want to add a line which reveals the same form <em>only</em> when the first question has been answered correctly. This time we’ll use the <code>.show()</code> method and reveal it more slowly:</p>
+
+<p><code>$('form#hidemesecond').show(1000);</code></p>
+
+<p>We should add <em>this</em> line immediately after the line that hides the first question. The full code with that and the one hiding it first looks like so:</p>
+
+<pre><code>&lt;script&gt;
+$(document).ready(
+        function(){
+            $('form#hidemesecond').hide();
+            var score = 0;
+            $('input#button').click(function() { 
+                var answer = $('input:radio[name=question1]:checked').val();
+                console.log(answer);
+                if (answer == "their") { 
+                    console.log('CORRECT'); 
+                    score++ ; 
+                    console.log(score)
+                    $('div#result1').html('&lt;p&gt;CORRECT!&lt;/p&gt;');
+                    $('form#hidemefirst').hide();
+                    $('form#hidemesecond').show(1000);
+                    }
+                else { console.log('WRONG'); 
+                    $('div#result1').html('&lt;p&gt;WRONG!&lt;/p&gt;');
+                }
+            console.log(answer);
+            })
+        }
+    )
+&lt;/script&gt;
+</code></pre>
+
+<p>Now when you test your page and click the right answer, the first question should disappear and the second be revealed. </p>
+
+<h2 id="repeat-to-fade">Repeat to fade</h2>
+
+<p>Now that you’ve got as far as the second question, it’s largely a matter of repeating what you did for the first question. You can copy and adapt the code for that so that it works for the second question too. </p>
+
+<p>But where do you put your next lot of code?</p>
+
+<p>The key is to identify the different chunks of code nested in your JavaScript so far. These are:</p>
+
+<ol>
+<li>Code that runs when the document is ready - this is within the brackets of <code>$(document).ready()</code> and includes:</li>
+<li>Code that runs when the first button is clicked - this is within the brackets of <code>$('input#button').click()</code></li>
+</ol>
+
+<p>Your next chunk of code should <em>still</em> be within <code>$(document).ready()</code> but <em>not</em> within <code>$('input#button').click()</code>.</p>
+
+<p>So you need to find the closing parenthesis for the latter. This is here:</p>
+
+<pre><code>            console.log(answer);
+            })
+</code></pre>
+
+<p>You could identify this by working backwards from the end of the code: the last <code>)</code> closes the <code>ready()</code> method. The last <code>}</code> before that closes the function first opened <em>within</em> that method.  </p>
+
+<p>So, after those lines:</p>
+
+<pre><code>            console.log(answer);
+            })
+</code></pre>
+
+<p>…you can add a new raft of code repeating what that <code>.click()</code> method did for the first Submit button. Here’s what it might look like:</p>
+
+<pre><code>&lt;script&gt;
+$(document).ready(
+        function(){
+            $('form#hidemesecond').hide();
+            var score = 0;
+            $('input#button').click(function() { 
+                var answer = $('input:radio[name=question1]:checked').val();
+                console.log(answer);
+                if (answer == "their") { 
+                    console.log('CORRECT'); 
+                    score++ ; 
+                    console.log(score)
+                    $('div#result1').html('&lt;p&gt;CORRECT!&lt;/p&gt;');
+                    $('form#hidemefirst').hide();
+                    $('form#hidemesecond').show(1000);
+                    }
+                else { console.log('WRONG'); 
+                    $('div#result1').html('&lt;p&gt;WRONG!&lt;/p&gt;');
+                    }
+                console.log(answer);
+                })
+            $('input#button2').click(function() { 
+                var answer = $('input:radio[name=question2]:checked').val();
+                console.log(answer);
+                if (answer == "their") { 
+                    console.log('CORRECT'); 
+                    score++ ;
+                    console.log(score);
+                    $('div#result2').html('&lt;p&gt;CORRECT! Your score is '+score+'&lt;/p&gt;');
+                    $('form#hidemesecond').hide(1000);
+                    }
+                else { console.log('WRONG'); 
+                	$('div#result2').html('&lt;p&gt;WRONG!&lt;/p&gt;');
+                }
+            return false;
+        })
+        }
+    )
+&lt;/script&gt;
+</code></pre>
+
+<p>If you’re copying and pasting the previous code and then adapting it, you’ll need to make sure you change all the selectors accordingly, and the correct answer value (although in this case it’s the same). </p>
+
+<p>There’s also nothing to use <code>.show()</code> on for this second question because you haven’t added a third form.</p>
+
+<p>Once you’ve got this you can repeat it for third, fourth, and further questions. </p>
+
+<p>Of course, there is a lot more you can do here. For starters, it’s not considered good practice in programming to repeat the same code over and over again. You could create a separate function which performs the ‘checking an answer’ process and use that for each question. This would require learning more about creating functions and ‘calling’ them.</p>
+
+<p>You could also make the quiz look nicer, using more jQuery methods to create nicer buttons and effects (the hide and show are a bit clunky for example).</p>
+
+<p>You could add better ways of handling situations where the user doesn’t select anything, for example.</p>
+
+<p>And you could use different types of questions, and ways of testing and responding to them.</p>
+
+<p>Those are all good ways to improve your coding. Just try to think of how those processes might be described, and search for methods and tutorials that give you the skills to tackle them.</p>
+
+<blockquote>
+  <p>Written with <a href="https://stackedit.io/">StackEdit</a>.</p>
+</blockquote>

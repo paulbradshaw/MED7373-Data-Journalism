@@ -1,0 +1,130 @@
+<h1 id="javascript-creating-a-quiz-part-1">Javascript - creating a quiz part 1</h1>
+
+<p>There are many different ways of creating a quiz using JavaScript. As always with programming the first step should be to identify the problems you need to solve. Fundamentally they are as follows:</p>
+
+<ol>
+<li>Create a way for users to input answers to questions</li>
+<li>Create a way to test those answers against the correct ones</li>
+<li>Create a way to store the number of right answers</li>
+<li>Create a way to communicate the results to the user. This itself could take a number of forms: answer-by-answer, or only at the end, or both. It might also involve providing the correct answers, or just providing a score.</li>
+</ol>
+
+<p>We’ll tackle each problem one by one. This is a good way to tackle programming questions, as you can search for sample code that solves each problem.</p>
+
+<p>In this part we’ll look at how to create a way for users to input information (answers to questions).</p>
+
+<h1 id="challenge-1-create-a-way-for-users-to-input-answers-to-questions">Challenge 1. Create a way for users to input answers to questions</h1>
+
+<p>There are two basic ways to take inputs from users: </p>
+
+<ul>
+<li>A prompt window</li>
+<li>A form</li>
+</ul>
+
+<h2 id="option-1-the-prompt-window">Option 1: The prompt window</h2>
+
+<p>A prompt window is a window which pops up on the user’s computer. They are more commonly referred to as ‘pop up windows’. </p>
+
+<p>A prompt window specifically <em>asks</em> for something, however - such as a password, or name. This information is then normally used by the script to do something (take them to another page, or generate a greeting, for example).</p>
+
+<p>If you want to create a prompt window you use something in JavaScript called the <a href="http://www.w3schools.com/jsref/met_win_prompt.asp">prompt method</a>. </p>
+
+<p>This is normally combined with <strong>creating a variable</strong> to store whatever the user enters in the prompt window. </p>
+
+<p>Here, for example, is some typical JavaScript which does just that:</p>
+
+<blockquote>
+  <p><code>var userChoice = prompt('What is your name?');</code></p>
+</blockquote>
+
+<p>The code above has two parts: to the left of the equals operator, the first part - <code>var userChoice =</code> - creates a variable called userChoice. </p>
+
+<p>The second part, to the right of the equals operator, generates a prompt window for the user to enter something. </p>
+
+<p>The equals operator <strong>assigns the value entered in the prompt window to the variable</strong>, so it can be used elsewhere in the script.</p>
+
+<p>To create the prompt window the script uses the prompt method. The prompt method has one parameter: the message that the window contains: <code>'What is your name?'</code></p>
+
+<p>When the script runs on the HTML page, a popup window will appear prompting the user to enter some text or numbers. Whatever they enter will be stored in that variable (<code>userChoice</code>). </p>
+
+<p>You could do all sorts of things with that variable: test it against correct answers or a correct password, use it in calculations, use it to generate greetings (such as ‘Hello Paul!’), and so on.</p>
+
+<p><a href="https://www.inkling.com/read/javascript-jquery-david-sawyer-mcfarland-2nd/chapter-3/tutorial-a-simple-quiz">This tutorial</a>, from the online book <em>JavaScript and jQuery</em>, uses a prompt window. The tutorials on Codecademy tend to use prompt windows as well.</p>
+
+<p>The problem with the prompt window, however, is that it’s not the most pleasant way to conduct a quiz. Popup alerts are normally associated with computer problems and annoying adverts. </p>
+
+<p>For that reason, although I’ve explained what the prompt method is (because you will most likely come across tutorials which use it) <strong>we are not going to use the prompt method</strong>. We need to find a better way.</p>
+
+<h2 id="option-2-the-form">Option 2: The form</h2>
+
+<p>Unlike a prompt window, a form sits within the webpage itself. It is also written in HTML, not JavaScript (the JavaScript then interacts with the form in the same way that it can interact with other HTML elements).</p>
+
+<p><em>Dive Into HTML5</em> <a href="http://diveintohtml5.info/forms.html">has a chapter on forms</a> which provides a useful introduction to coding forms in HTML. Take some time to go through that…</p>
+
+<p>OK, done? Here are some key points to remember:</p>
+
+<ul>
+<li>You create a HTML form by using the <code>&lt;form&gt;</code> tag.</li>
+<li>Within the <code>&lt;form&gt;</code> and <code>&lt;/form&gt;</code> tags you will need a way for the user to <em>input</em> information, and a way for them to <em>submit</em> it.</li>
+<li>Information can be <em>inputted</em> using text fields, radio buttons or checkboxes, drop-down lists, sliders and other options. </li>
+<li>They are normally <em>submitted</em> with a button.</li>
+<li>All the ways of inputting <em>and</em> submitting are created using the <code>&lt;input&gt;</code> tag. </li>
+<li>But what type of input (box, button, etc.) is decided by the associated <code>type=</code> attribute. <code>&lt;input type="text"&gt;</code>, for example, specifies a text field.</li>
+<li>Any inputs which are used to store information (i.e. all of them apart from the ‘submit’ button) need a <code>name=</code> attribute. </li>
+</ul>
+
+<p>There are many more ways for people to input information, including:</p>
+
+<ul>
+<li><code>&lt;input type="checkbox"&gt;</code></li>
+<li><code>&lt;input type="email"&gt;</code></li>
+<li><code>&lt;input type="radio"&gt;</code></li>
+<li><code>&lt;input type="range"&gt;</code></li>
+</ul>
+
+<p>You can <a href="http://www.w3schools.com/tags/att_input_type.asp">find a list in the ‘Attribute values’ table on this page</a></p>
+
+<blockquote>
+  <p><em>The chapter on forms from *Dive Into HTML5</em> explains how these different types work on browsers and mobile phones. For example, the “date” type creates a small calendar; “time” creates buttons for you to increase and decrease times (“number” can do the same). Specifying “email” or “url” determines the keyboard that iPhone brings up to help you type. You can even create a colour picker. Also see <a href="http://www.html5rocks.com/en/tutorials/forms/html5forms/">this overview on HTML5 Rocks</a>*</p>
+</blockquote>
+
+<p>The <code>name</code> attribute is like a variable: it basically assigns whatever is entered in that field to that variable. So <code>&lt;input name="age"&gt;</code> will take whatever is inputted in that field and put it in the variable <code>age</code>.</p>
+
+<h3 id="the-submit-button">The submit button</h3>
+
+<p><em>Buttons</em> to submit the information are created with the same <code>&lt;input&gt;</code> tag but the <code>type="submit"</code> attribute and value. For example, <code>&lt;input type="submit"&gt;</code>. </p>
+
+<p>You can also <strong>label the button with the <code>value=</code> attribute</strong>. For example <code>&lt;input type="submit" value="Submit"&gt;</code> puts ‘Submit’ on the button, while <code>&lt;input type="submit" value="Search"&gt;</code> puts ‘Search’ on the button.</p>
+
+<h3 id="putting-it-all-together">Putting it all together</h3>
+
+<p>The HTML for a simple form which asks a question, provides a box to answer, and a button to submit, would look like this:</p>
+
+<p><code>&lt;form&gt;</code> <br>
+<code>&lt;h3&gt;What is the capital of Wales?&lt;/h3&gt;</code> <br>
+<code>&lt;input type="text" name="question1"&gt;</code> <br>
+<code>&lt;input type="submit" value="Submit"&gt;</code> <br>
+<code>&lt;/form&gt;</code></p>
+
+<p>If your answer was numerical you could change the type as follows:</p>
+
+<p><code>&lt;form&gt;</code> <br>
+<code>&lt;h3&gt;What is 2+2?&lt;/h3&gt;</code> <br>
+<code>&lt;input type="number" name="question1"&gt;</code> <br>
+<code>&lt;input type="submit" value="Submit"&gt;</code> <br>
+<code>&lt;/form&gt;</code></p>
+
+<p>And if you wanted a multiple choice question you could use the “radio” type like so. Note that you also need to label the boxes with some text:</p>
+
+<p><code>&lt;form&gt;</code> <br>
+<code>&lt;h3&gt;Which of the follow is spelt correctly?&lt;/h3&gt;</code> <br>
+<code>&lt;input type="radio" name="question1" value="They cocked their hats"&gt;They cocked their hats&lt;br /&gt;</code> <br>
+<code>&lt;input type="radio" name="question1" value="They cocked they're hats"&gt;They cocked they're hats&lt;br /&gt;</code> <br>
+<code>&lt;input type="radio" name="question1" value="They cocked there hats"&gt;They cocked there hats&lt;br /&gt;</code> <br>
+<code>&lt;input type="submit" value="Submit"&gt;</code> <br>
+<code>&lt;/form&gt;</code></p>
+
+<p>You need to add some text after the HTML for the radio box so people know what they’re ticking. The “value” attribute is invisible to the user and indeed could be abbreviated in the above example to “their” in the first answer, and so on, as the value is only what you’re recording.</p>
+
+<p>In the next part of this tutorial we’ll look at how to test a user’s answers and change the webpage in response to those.</p>

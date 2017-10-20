@@ -1,0 +1,553 @@
+<h1 id="javascript-creating-a-quiz-part-2-testing-answers-with-jquery">Javascript: creating a quiz part 2 - testing answers with jQuery</h1>
+
+<p>In the first part of this tutorial I covered how to create a HTML form so that users can <em>input</em> information (using text fields, radio buttons, and so on) and <em>submit</em> that information (using a submit button).</p>
+
+<p>In this second part we need to learn some JavaScript which we can use to test the answers that the user has submitted. </p>
+
+<p>Specifically we’re going to use a JavaScript <strong>library</strong> called <strong>jQuery</strong>.</p><div class="se-section-delimiter"></div>
+
+<h2 id="a-brief-introduction-to-libraries">A brief introduction to libraries</h2>
+
+<p>In programming <strong>a library is a collection of code that someone else has written and shared</strong>.</p>
+
+<p>This is slightly different from the basic code which you can use within a programming language. </p>
+
+<p>For example, in JavaScript you can use particular commands to test or measure things, perform calculation, make and combine things and so on.</p>
+
+<p>A library <strong>adds more commands</strong> in addition to those basic commands.</p>
+
+<p>Typically, the collection of code brought together in a library <strong>solves a particular problem</strong>. For example, there are libraries for:</p>
+
+<ul>
+<li>Drawing charts</li>
+<li>Drawing maps</li>
+<li>Scraping webpages</li>
+<li>Scraping PDFs</li>
+<li>Finding patterns in text</li>
+</ul>
+
+<p>And so on. My book <a href="https://leanpub.com/scrapingforjournalists">Scraping for Journalists</a> explains how a number of scraping libraries in the Python programming language, for example.</p>
+
+<p>The <strong>jQuery</strong> library is one of the most widely-used libraries in JavaScript. This is because it pulls together code which allows you to add all sorts of functionality and interactivity to webpages. As <a href="http://en.wikipedia.org/wiki/JQuery">the Wikipedia entry for it</a> explains, it makes it:</p>
+
+<blockquote>
+  <p>“easier to navigate a document, select DOM elements, create animations, handle events, and develop … applications.”</p>
+</blockquote>
+
+<p>To translate some of that: DOM elements are basically <em>elements on a webpage</em> - anything from a heading or a paragraph to a form or an entire article. <strong>DOM</strong> stands for <strong>Document Object Model</strong> and refers to the way you can identify elements on a webpage by their position in relation to each other (for example, all paragraphs within an article). This will become clearer as you use jQuery.</p>
+
+<h2 id="a-brief-introduction-to-jquery">A brief introduction to jQuery</h2>
+
+<p>jQuery is quite a large library, which means that it can do a lot of different things, but also that there’s lots to discover.</p>
+
+<p>Broadly, however, most jQuery works in a particular way, and it’s useful to explain that before we go further so that things are easier to understand later.</p>
+
+<p>A typical piece of code using jQuery will:</p>
+
+<ol>
+<li>Turn something into a jQuery ‘object’</li>
+<li>Apply a ‘method’ to that object - that method might take something from that object, or change something about it</li>
+</ol>
+
+<p>Here’s a simple example of what I mean:</p>
+
+<p><code>$('h1').hide()</code></p>
+
+<p>The dollar sign <code>$</code> turns anything in parentheses after it into a jQuery object. This can then be manipulated using a jQuery method, which is attached using a period.</p>
+
+<p>The example above, then, turns all <code>&lt;h1&gt;</code> tags into jQuery objects, and then hides them using the method <code>.hide()</code>.</p>
+
+<p>That code selects all <code>&lt;h1&gt;</code> tags by using <code>'h1'</code> in parentheses after the dollar sign.</p>
+
+<h3 id="how-to-select-elements-in-jquery">How to select elements in jQuery</h3>
+
+<p>You can make selections by identifying any of the following, in any combination:</p>
+
+<ul>
+<li><strong>Tags</strong> - such as <code>'h1'</code>, <code>'p'</code>, <code>'strong'</code>, etc. and tags within tags by putting a space between them like so: <code>'ul li'</code></li>
+<li><strong>Attribute values</strong> - classes are identified by a period, and ids are identified by a hash. So <code>&lt;div class="biog"&gt;</code> would be selected with <code>'div.biog'</code> and <code>&lt;div id="nav"&gt;</code> would be selected with <code>'div#nav'</code></li>
+<li><strong>The position</strong> of an item. This is done using what is called a <strong>pseudo selector</strong>. For example, if you wanted to select the first paragraph tag you would use <code>'p:first'</code>. You can <a href="http://api.jquery.com/category/selectors/">find a list of selectors in the jQuery documentation</a>.</li>
+</ul>
+
+<p>These are called <strong>selectors</strong>.</p>
+
+<blockquote>
+  <h4 id="tip-add-ids-and-classes-to-anything-you-want-to-manipulate">Tip: Add ids and classes to anything you want to manipulate</h4>
+  
+  <p>The <code>id</code> and <code>class</code> attributes are used in HTML to identify different elements on a page. A <code>class</code> is normally used for something which appears more than once, whereas an <code>id</code> is used for something which appears just once.</p>
+  
+  <p>A good example would be a webpage about football team. In that example the navigation and footer might appear only once, but player names, numbers of goals scored, and so on, are likely to appear more than once.</p>
+  
+  <p>In that situation you might use <code>id</code> attributes to identify the navigation and footer like so:</p>
+  
+  <p><code>&lt;div id="nav"&gt;</code> <br>
+  <code>&lt;h6 id="footer"&gt;</code></p>
+  
+  <p>…and the <code>class</code> attribute to identify the other elements like so:</p>
+  
+  <p><code>&lt;h3 class="player"&gt;</code> <code>&lt;span class="goals"&gt;</code> <code>&lt;p class="biography"&gt;</code></p>
+  
+  <p>Those classes and ids can then be used to style those elements using <br>
+  CSS - for example player names are always bold and dark grey; the <br>
+  footer is always yellow text on a black background, with a width of <br>
+  90% and a height of 20 pixels.</p>
+  
+  <p>But <strong>ids and classes can also be used to identify elements with jQuery</strong>.</p>
+  
+  <p>In this case our quiz will end up having more than one question, so we <br>
+  want to be able to identify each question using a class.</p>
+</blockquote>
+
+<h3 id="how-to-manipulate-elements-in-jquery-methods">How to manipulate elements in jQuery: methods</h3>
+
+<p>You can do all sorts of things with any element you select using <strong>methods</strong>. Methods are easy to spot in code because:</p>
+
+<ul>
+<li>They are normally attached by a period to something preceding it, and </li>
+<li>They are normally followed by parentheses. The parentheses can be empty, or they can contain one or more values, or they can contain whole lines of further code.</li>
+</ul>
+
+<p>The <code>.hide()</code> method is just one. It is <a href="http://api.jquery.com/hide/">documented on the jQuery website</a> - this is quite jargon-heavy (a good idea is to search for tutorials that use this in practice) but basically it tells you that you can add values in the parentheses to determine how quickly or slowly the item is hidden, and what happens once it is.</p>
+
+<p>The <code>.show()</code> method is another - it performs the opposite action to <code>.hide()</code>, not surprisingly.</p>
+
+<p>The navigation on the left side of <a href="http://api.jquery.com/">the jQuery API documentation</a> is the best way to find out about what methods are available. There are methods for <strong>effects</strong> (such as fading or moving), for <strong>events</strong> (such as clicking or typing or moving the mouse in a particular area), for <strong>styling</strong> elements, <strong>adding and removing</strong> elements, and more.</p>
+
+<p>But now we’ve explained how jQuery works, we need to know what we’re going to need jQuery to <em>do</em>.</p>
+
+<h2 id="breaking-the-problem-down">Breaking the problem down</h2>
+
+<p>Let’s break down the problem we’re tackling here. So far we’ve got a form where the user can select an option and submit it. What next?</p>
+
+<ol>
+<li>Identify what answer the user has selected</li>
+<li>Test if it is the correct answer or a wrong one</li>
+<li>Provide feedback to the user</li>
+</ol>
+
+<p>To identify what answer the user has selected we’re going to need to identify different parts of the form that they’re using.</p>
+
+<h2 id="1-identify-what-answer-is-selected-preparing-the-form-to-work-with-jquery">1. Identify what answer is selected: preparing the form to work with jQuery</h2>
+
+<p>Back to our form then. Here is the HTML for a form with three radio buttons: </p>
+
+<pre><code>&lt;form&gt;
+&lt;h3&gt;Which of the follow is spelt correctly?&lt;/h3&gt;
+&lt;input type="radio" value="They cocked their hats"&gt;They cocked their hats&lt;br /&gt;
+&lt;input type="radio" value="They cocked they're hats"&gt;They cocked they're hats&lt;br /&gt;
+&lt;input type="radio" value="They cocked there hats"&gt;They cocked there hats&lt;br /&gt;
+&lt;input type="submit" value="Submit"&gt;
+&lt;/form&gt;
+</code></pre>
+
+<p>Because we’re going to use jQuery to manipulate elements on the page it’s a good idea to prepare those elements so they’re as easy as possible to <strong>select</strong>. Two things we need to think about at this stage:</p>
+
+<ul>
+<li>Simplifying the input value attributes</li>
+<li>Adding <strong>name attributes</strong> to input tags</li>
+</ul>
+
+<p><em>(Later we’ll need to add more elements if we want to show the results back to the user. But that’s for the next step.)</em></p>
+
+<h3 id="1a-simplify-the-input-values">1a) Simplify the input values</h3>
+
+<p>Let’s simplify the <em>values</em> of each option so it’s easier to identify them later:</p>
+
+<pre><code>&lt;form&gt;
+&lt;h3&gt;Which of the follow is spelt correctly?&lt;/h3&gt;
+&lt;input type="radio" name="question1" value="their"&gt;They cocked their hats&lt;br /&gt;
+&lt;input type="radio" name="question1" value="theyre"&gt;They cocked they're hats&lt;br /&gt;
+&lt;input type="radio" name="question1" value="there"&gt;They cocked there hats&lt;br /&gt;
+&lt;input type="submit" value="Submit"&gt;
+&lt;/form&gt;
+</code></pre>
+
+<p>Note that one has the value ‘their’, another ‘theyre’ and the last one ‘there’ - but the text the user sees remains unchanged. </p>
+
+<h3 id="1b-add-the-same-name-attribute-to-all-inputs-in-one-question">1b) Add the same name attribute to all inputs in one question</h3>
+
+<p>To identify the answers to the questions we need to give them a <code>name</code> attribute. Below you can see the same HTML as before, but now we have added <code>name="question1"</code> inside each of the three <code>&lt;input&gt;</code> tags (i.e. each of the three radio buttons) for that question:</p>
+
+<pre><code>&lt;form&gt;
+&lt;h3&gt;Which of the follow is spelt correctly?&lt;/h3&gt;
+&lt;input type="radio" name="question1" value="their"&gt;They cocked their hats&lt;br /&gt;
+&lt;input type="radio" name="question1" value="theyre"&gt;They cocked they're hats&lt;br /&gt;
+&lt;input type="radio" name="question1" value="there"&gt;They cocked there hats&lt;br /&gt;
+&lt;input type="submit" value="Submit" id="button"&gt;
+&lt;/form&gt;
+</code></pre>
+
+<p>The name attribute is used to identify what answer has been submitted - so it’s important to use the same name for all input options for one question. </p>
+
+<p>If we only had one input tag - for example a text field instead of radio buttons - we would only give that one a name attribute. </p>
+
+<p>Further questions would need different name attributes, e.g. <code>name="question2"</code> for those used to submit the answer for the second question. And so on.</p>
+
+<h2 id="1c-writing-the-jquery-to-check-the-answer-given">1c) Writing the jQuery to check the answer given</h2>
+
+<p>Now you’ve prepared your form, you can start writing jQuery. </p>
+
+<p>We’re going to do this in the same HTML file as the quiz - but you can also create a separate JavaScript file and link to that. This is generally better, especially if you think you’ll need to use it for more than one page. </p>
+
+<p>Your JavaScript should go after the <code>&lt;head&gt;</code> tag - and before the <code>&lt;/head&gt;</code> tag in the HTML document.</p>
+
+<p>Firstly you need to write a line of code which imports the jQuery library. While you are looking at this on your own computer you should write it like so:</p>
+
+<pre><code>&lt;script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"&gt;&lt;/script&gt;
+</code></pre>
+
+<p>However, once the page is <em>live</em> you should remove the <code>http:</code> so it looks like this:</p>
+
+<pre><code>&lt;script src="//ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"&gt;&lt;/script&gt;
+</code></pre>
+
+<p>Once that line runs you should be able to use jQuery, so do that in the next two lines by opening and closing a <code>script</code> tag:</p>
+
+<pre><code>&lt;script&gt;
+&lt;/script&gt;
+</code></pre>
+
+<p>The first thing you do in jQuery is what’s called ‘<strong>turning the document into a jQuery object</strong>‘. This is a bit of jargon: an ‘object’ in programming is anything that you can manipulate using the language. So it basically means turning the document into something that jQuery can work on. </p>
+
+<p>When put between your two <code>script</code> tags the code to do this looks like so:</p>
+
+<pre><code>&lt;script&gt;
+$(document).ready()
+&lt;/script&gt;
+</code></pre>
+
+<p>Remember that the dollar sign means ‘jQuery’, and anything in parentheses after it is turned into an object that jQuery can work with - in this case, the whole <code>document</code>.</p>
+
+<p>Now that it can be worked on, it does that straight away with the next bit - <code>.ready</code> - which will do something when the document is ready (loaded).</p>
+
+<p>What does it do? Everything in parentheses. At the moment there’s nothing in those parentheses - <code>.ready()</code> - but we’re about to change that by putting something inside them - specifically, a <strong>function</strong>:</p>
+
+<pre><code>&lt;script&gt;
+$(document).ready(function(){})
+&lt;/script&gt;
+</code></pre>
+
+<p>A function <em>does something</em>. <em>What</em> it does is described between curly brackets. Any ingredients it needs is named within curved brackets.</p>
+
+<p>Again, as it stands our function is empty. But all those brackets are getting confusing so you can always format it using indents in a way that makes it easier to understand. These make no difference to how it works:</p>
+
+<pre><code>&lt;script&gt;
+$(document).ready(
+    function(){
+        }
+    )
+&lt;/script&gt;
+</code></pre>
+
+<h3 id="running-a-function-when-the-button-is-clicked">Running a function when the button is clicked</h3>
+
+<p>Now, <em>inside</em> this function we want another one which is <em>only triggered</em> when the submit button is clicked. Here is the code to do that:</p>
+
+<p><code>$('input#button').click(function() {}</code></p>
+
+<p>This code does a number of things:</p>
+
+<p>Firstly, it <strong>turns the input button into a jQuery object</strong>, by again using the dollar sign with that button identified in parentheses after it.</p>
+
+<p>Once that’s done, it uses the <code>.click()</code> method to specify what happens when that object is clicked.</p>
+
+<p><em>Why</em> does <code>'input#button'</code> identify that <em>particular</em> button? Well here’s the HTML code for the button in question:</p>
+
+<blockquote>
+  <p><code>&lt;input type="submit" value="Submit" id="button"&gt;</code></p>
+</blockquote>
+
+<p>The button has an <code>id</code> attribute with the value <code>="button"</code>. The <code>#button</code> part of our jQuery means <code>id="button"</code>. </p>
+
+<p>Because it’s within an <code>&lt;input&gt;</code> tag, we specify that too by putting it before that: <code>'input#button'</code>.</p>
+
+<p>So we’ve identified <em>what</em> is going to be clicked, but not yet what will happen <em>when</em> it is clicked. We do that with the <a href="http://api.jquery.com/click/"><strong>click method</strong>, described in the jQuery documentation here</a>.</p>
+
+<p>This is added to our selected button with a period as shown previously, like so:</p>
+
+<p><code>$('input#button').click(function() {} )</code></p>
+
+<p>When put in our existing script to run when the document is ready, our full code looks like this:</p>
+
+<pre><code>&lt;script&gt;
+$(document).ready(
+        function(){
+            $('input#button').click(function() {} )
+            }
+    )
+&lt;/script&gt;
+</code></pre>
+
+<p>Everything that happens when it is clicked needs to be in those curly brackets, so by the time we’re finished we could have quite a number of lines between the opening curly bracket and the closing curly bracket.</p>
+
+<p>Again, to make that clearer, we’ll split the two curly brackets up and indent the closing one like so (note we also have a closing curved parenthesis too):</p>
+
+<pre><code>&lt;script&gt;
+$(document).ready(
+        function(){
+            $('input#button').click(function() { 
+                })
+            }
+    )
+&lt;/script&gt;
+</code></pre>
+
+<p>Now, to identify what happens when the button is clicked.</p>
+
+<p><em>Again, if you need help identifying any element search for information on the <strong>selectors</strong> for different elements in a HTML page</em>.</p>
+
+<h3 id="grabbing-the-answer-when-the-button-is-clicked">Grabbing the answer when the button is clicked</h3>
+
+<p>Now we need to identify what value the user has selected. To make things easier, we’re going to store that value in a <strong>variable</strong>. </p>
+
+<p>Here’s the code for that:</p>
+
+<p><code>var answer = $('input:radio[name=question1]:checked').val()</code></p>
+
+<p>The part before the equals operator creates that variable, called <code>answer</code>. To the right of the equals operator is the interesting stuff.</p>
+
+<p>The main part there is a <strong>selector</strong> to identify which radio button has been checked:</p>
+
+<p><code>'input:radio[name=question1]:checked'</code></p>
+
+<ol>
+<li>We already know that <code>'input'</code> selects anything in an <code>&lt;input&gt;</code> tag. </li>
+<li>After that <code>:radio</code> drills down further to select those which are <code>type="radio"</code>. </li>
+<li>Then <code>[name=question1]</code> selects those which are <em>also</em> <code>name="question1"</code></li>
+<li>And finally <code>:checked</code> drills down further to select those which are checked or selected.</li>
+</ol>
+
+<p>You can find out more about form selectors in <a href="http://api.jquery.com/category/selectors/form-selectors/">jQuery’s documentation for them</a>.</p>
+
+<p>That checked radio button is turned into a jQuery object by being placed within <code>$()</code></p>
+
+<p>And finally, we grab the <em>value</em> of the checked radio button using the <code>.val()</code> method. You can find out more on this in the <a href="http://api.jquery.com/val/">jQuery documentation for the val method</a>. This is within jQuery’s <a href="http://api.jquery.com/category/forms/">documentation on methods for working with forms generally</a>.</p>
+
+<p>The <strong>value</strong> is defined in the HTML for each radio button. Here, for example, is the HTML for the third radio button, which has a value of “theyre”:</p>
+
+<p><code>&lt;input type="radio" name="question1" value="theyre" class="q"&gt;</code></p>
+
+<p>If that radio button is selected when the button is clicked, our jQuery will grab that value. If a different radio button is selected, our jQuery will grab the value for that button instead. </p>
+
+<p>To make this line of code run when the button is clicked, we need to add it in the curly brackets for our <code>click()</code> function (note the semi colon to indicate the end of that added line):</p>
+
+<pre><code>&lt;script&gt;
+$(document).ready(
+        function(){
+            $('input#button').click(function() { 
+                var answer = $('input:radio[name=question1]:checked').val();
+            })
+        }
+    )
+&lt;/script&gt;
+</code></pre>
+
+<p>What happens if <em>no</em> button is selected? In that case there is no value - instead jQuery will register a value of <code>undefined</code>.</p>
+
+<p>How do we know that? How can we see what the computer sees? That’s where something called the <strong>console</strong> comes in very handy.</p>
+
+<h2 id="using-the-console-in-your-browser-with-consolelog">Using the console in your browser with console.log</h2>
+
+<p>The <code>console.log()</code> method displays anything in parentheses in the browser’s <strong>console</strong>.</p>
+
+<p>This is a special feature of modern versions of Chrome, Firefox or Safari which allows you to check what your code is doing without displaying details on the HTML page itself - normally it appears as a separate window below the webpage.</p>
+
+<p>You can access the console in the following ways:</p>
+
+<ul>
+<li>In Chrome you can open the console by clicking on the <strong>View</strong> menu and then selecting <strong>Developer &gt; Developer Tools</strong>. At the bottom of the page you should see an area showing you something about the code underpinning the page. There are sections for ‘Elements’, ‘Network’, ‘Sources’, and so on. Select the section named ‘Console’ to see that. <a href="https://developer.chrome.com/devtools/index">More in this overview</a>.</li>
+<li>In Firefox it is in <strong>Tools &gt; Web Developer &gt; Error Console</strong></li>
+<li>In Safari <a href="https://developer.apple.com/safari/tools/">you need to enable development tools in the settings</a></li>
+</ul>
+
+<p>Looking again at the example…</p>
+
+<p><code>if (answer == "their") { console.log('CORRECT'); }</code></p>
+
+<p>…this displays the string <code>'CORRECT'</code> in the console if the variable <code>answer</code> is “their”. The user wouldn’t see anything - we’re just using this to show ourselves if the code works before going any further.</p>
+
+<p>You can use the same technique to display things in the console to check how far the code has got.</p>
+
+<p>For example, straight after the <code>&lt;script&gt;</code> tag like so:</p>
+
+<pre><code>&lt;script&gt;
+console.log('READY');
+</code></pre>
+
+<p>You should see <code>'READY'</code> appear in the console as soon as that part of the page loads. Likewise, immediately after the jQuery ready event has run:</p>
+
+<pre><code>&lt;script&gt;
+$(document).ready
+    (function()
+        {console.log('JQUERY RUNNING');}
+    )
+&lt;/script&gt;
+</code></pre>
+
+<p><code>console.log</code> is particularly useful in displaying variables or calculations that would otherwise be invisible to us, allowing us to see what the computer sees and better troubleshoot any errors. </p>
+
+<p>Straight after creating the variable to hold our user’s answer, for example, we could show that in our console like so:</p>
+
+<p><code>var answer = $('input:radio[name=question1]:checked').val();</code> <br>
+<code>console.log(answer);</code></p>
+
+<p>Try adding that to your code. By now the whole script - including the line which imports jQuery - should look like this:</p>
+
+<pre><code>&lt;script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"&gt;&lt;/script&gt;
+&lt;script&gt;
+$(document).ready(
+        function(){
+            $('input#button').click(function() { 
+                var answer = $('input:radio[name=question1]:checked').val();
+            console.log(answer);
+            })
+        }
+    )
+&lt;/script&gt;
+</code></pre>
+
+<p>Save the page and open it in your browser with the console window open. </p>
+
+<p>Tick one of the answers and watch the console window when you click ‘Submit’…</p>
+
+<p>For a split second the answer will appear - and then disappear. This is because the submitting of the button changes the page. We need to add an extra line to stop this:</p>
+
+<p><code>return false;</code></p>
+
+<p>Here’s that when integrated into the function that is run by the <code>click</code> method:</p>
+
+<pre><code>        $('input#button').click(function() { 
+                var answer = $('input:radio[name=question1]:checked').val();
+            console.log(answer);
+            return false;
+            })
+        }
+</code></pre>
+
+<p>Again, save your code, and open in your browser or refresh.</p>
+
+<p>Now, when you click on a button the console window should show the answer, and keep it there. And you can see what values each one gives, making the next stage easier.</p>
+
+<p>You might also notice that, to the far right, you’ll see the name of the webpage file and the line of code containing the <code>console.log</code> method, again helping you if you need to find it.</p>
+
+<h2 id="checking-the-answer">Checking the answer</h2>
+
+<p>Now we have that answer stored in the variable <code>answer</code> that variable can be <strong>tested</strong> using an <strong>if</strong> statement in JavaScript.</p>
+
+<p>An if statement has three parts (<a href="http://www.w3schools.com/js/js_if_else.asp">you can read more about this in w3schools’s tutorials</a>):</p>
+
+<ol>
+<li>The <code>if</code> itself;</li>
+<li>A test, in curved parentheses <code>()</code>  after that;</li>
+<li>What to do if the test is met, in curly brackets <code>{}</code> after that.</li>
+</ol>
+
+<p>Here, for example, is the code to check if that variable <code>answer</code> is the string <code>"their"</code>, followed by empty curly brackets where some sort of action will be:</p>
+
+<p><code>if (answer == "their") { }</code></p>
+
+<p>There are various actions we can put there: we can increase a score by a certain amount; we can present the user with feedback (“Correct!” or “Wrong!”); we can hide this question and reveal a new one. </p>
+
+<p>These all involve either creating new variables (e.g. a score) or adding new HTML. </p>
+
+<p>But again we can start by using the <strong>console</strong> to test our JavaScript.</p>
+
+<p>Here’s an example of doing that as an action to be performed if our test is met:</p>
+
+<p><code>if (answer == "their") { console.log('CORRECT'); }</code></p>
+
+<p>This needs be inserted <em>before</em> the <code>return false;</code> - otherwise we get the same problem with things disappearing. Here’s the code in full:</p>
+
+<pre><code>&lt;script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"&gt;&lt;/script&gt;
+&lt;script&gt;
+$(document).ready(
+        function(){
+            $('input#button').click(function() { 
+                var answer = $('input:radio[name=question1]:checked').val();
+            console.log(answer);
+            if (answer == "their") { console.log('CORRECT'); }
+            console.log(answer);
+            })
+        }
+    )
+&lt;/script&gt;
+</code></pre>
+
+<p>We can also test if the answer is <em>not</em> “their” by using the NOT operator <code>!=</code> in an <code>else if</code> test after the initial <code>if</code> test:</p>
+
+<p><code>else if (answer != "their") { console.log('WRONG'); }</code></p>
+
+<p>Or we could use a simpler <code>else</code> statement after the initial <code>if</code> test:</p>
+
+<p><code>else { console.log('WRONG'); }</code></p>
+
+<p>This goes into the full code like so:</p>
+
+<pre><code>&lt;script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"&gt;&lt;/script&gt;
+&lt;script&gt;
+$(document).ready(
+        function(){
+            $('input#button').click(function() { 
+                var answer = $('input:radio[name=question1]:checked').val();
+            console.log(answer);
+            if (answer == "their") { console.log('CORRECT'); }
+            else { console.log('WRONG'); }
+            console.log(answer);
+            })
+        }
+    )
+&lt;/script&gt;
+</code></pre>
+
+<p>At the moment this is <em>only</em> displaying information in the console - but we can now adapt this to do anything we want.</p>
+
+<h2 id="changing-a-score">Changing a score</h2>
+
+<p>To adapt this to change a score we need to do two things:</p>
+
+<ol>
+<li>Create a variable to store the score - set initially at 0</li>
+<li>Add 1 to that variable when a correct answer is submitted</li>
+</ol>
+
+<p>To create the variable we would write a line of JavaScript like this:</p>
+
+<p><code>var score = 0;</code></p>
+
+<p>This needs to be done <em>before</em> the <code>click()</code> method - otherwise the score will be set at 0 every time the Submit button is clicked.</p>
+
+<p>and to increase that by 1 we would write something like this <em>within</em> the <code>if</code> statement testing for the correct answer: </p>
+
+<p><code>score++ ;</code></p>
+
+<p>The <code>++</code> operator will <strong>increment</strong> any number by one. </p>
+
+<p>Here are those two pieces of code - setting the variable and adding to it if the answer is correct - along with a third to show the result in the console, within the context of the full code:</p>
+
+<pre><code>&lt;script&gt;
+$(document).ready(
+        function(){
+            var score = 0;
+            $('input#button').click(function() { 
+                var answer = $('input:radio[name=question1]:checked').val();
+            console.log(answer);
+            if (answer == "their") { 
+                console.log('CORRECT'); 
+                score++ ; 
+                console.log(score)
+                }
+            else { console.log('WRONG'); }
+            console.log(answer);
+            })
+        }
+    )
+&lt;/script&gt;
+</code></pre>
+
+<p>Now, how to tell the user whether they were correct or wrong? That’s the subject of the next and final part.</p>
+
+<p>…</p>
+
+<blockquote>
+  <p>Written with <a href="https://stackedit.io/">StackEdit</a>.</p>
+</blockquote>
