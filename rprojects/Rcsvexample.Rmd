@@ -1,0 +1,80 @@
+---
+title: "R exercises"
+output: html_notebook
+---
+
+This notebook takes you through working with expenses data. First, [download the latest MPs' expenses from IPSA](http://www.theipsa.org.uk/mp-costs/other-published-data/) - *make sure you select Individual Claims* to get the granular data.
+
+## Import data
+
+Now to read that CSV file into an object we can work with in R. Note: the CSV must be in the same folder as your R project.
+
+```{r}
+expenses1718 <- read.csv("Individual_claims_for_17_18.csv")
+```
+
+## Generate a summary
+
+We can summarise the whole dataset like this:
+
+```{r}
+summary(expenses1718)
+```
+
+Note how numerical columns are summarised differently to text columns. We can get a summary of just one column like this:
+
+```{r}
+summary(expenses1718$Category)
+```
+
+Or a numerical one:
+
+```{r}
+summary(expenses1718$Amount.Claimed)
+```
+
+## Join data
+
+[Download another year's data from IPSA](http://www.theipsa.org.uk/mp-costs/other-published-data/) - remember again to select *Individual Claims*.
+
+Bring it into R in the same way:
+
+```{r}
+expenses1617 <- read.csv("Individual_claims_for_16_17.csv")
+```
+
+Because we want to add new *rows* with this join, we use `rbind` like so:
+
+```{r}
+expenses16to18 <- rbind(expenses1617,expenses1718)
+```
+
+## Export the results
+
+That might be all we want to do, then export so we can work with it in Excel.
+
+```{r}
+write.csv(expenses16to18, "expenses2016to2017.csv")
+```
+
+## Create a subset
+
+Now let's filter this to an MP from one constituency:
+
+```{r}
+expensesedgbaston <- subset(expenses16to18, expenses16to18$MP.s.Name == "Stephen Kinnock")
+```
+
+## Ask a question
+
+You can ask all sorts of questions...
+
+```{r}
+totalexpensesclaimed <- sum(expenses16to18$Amount.Claimed)
+totalexpensesclaimed
+biggestexpenseclaimed <- max(expenses16to18$Amount.Claimed)
+biggestexpenseclaimed
+```
+
+
+
