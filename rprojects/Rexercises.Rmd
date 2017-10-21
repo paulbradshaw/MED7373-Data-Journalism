@@ -19,13 +19,15 @@ The name of the variable above is arbitrary - we could choose anything:
 blahblah <- "Paul"
 ```
 
+(The only names you can't use are '*[reserved words](https://www.programiz.com/r-programming/reserved-words)*', that have a special meaning in R, like 'if', 'else', 'function' and so on. If you choose one of these you will get a warning, so just try another word).
+
 Once created, you should be able to see the variable in the **Environment** box in the upper right corner of RStudio. You can also now do things with that variable. You can 'call' (summon) it like this for example, like so:
 
 ```{r}
 myname
 ```
 
-This will 'print' the value stored in that variable, in the *Console* (a box normally in the bottom left corner of RStudio). The `[1]` at the start is just a line number. 
+This will 'print' the value stored in that variable, in the *Console* (a box normally in the bottom left corner of RStudio). The `[1]` at the start is just a line number.
 
 We can also find out things about a variable, like so:
 
@@ -55,7 +57,7 @@ rm(blahblah)
 
 ## Different types of variable
 
-The variable created above is a simple character object. 
+The variable created above is a simple character object.
 
 ```{r}
 typeof(myname)
@@ -84,7 +86,7 @@ typeof(myage)
 
 Ooh! We did something there which needs a bit more explanation: changing variables. I'll come onto that in a minute. First, it is worth briefly mentioning some other object types that are used in R. **Data tables** are objects containing a table, like a spreadsheet. **Vectors** are objects containing a list of items, like a column. Because R is concerned with data, these are probably the two most common objects you will deal with. [More explanation of these, and other object types, can be found here](https://github.com/paulbradshaw/Rintro/blob/master/Robjects.md).
 
-## Changing variables 
+## Changing variables
 
 Variabes are useful not just to be able to call them and test them, but to *change* them. For example we might want to clean them, filter them, multiply them, and so on.
 
@@ -148,7 +150,7 @@ is.vector(myvector)
 class(myvector)
 ```
 
-Now because *just one* item is a string, R sees the *whole vector* as a string. 
+Now because *just one* item is a string, R sees the *whole vector* as a string.
 
 Now let's grab the first item again. Can you spot the difference?
 
@@ -175,7 +177,7 @@ mydataframe <- data.frame(myvector)
 mydataframe
 ```
 
-This is a data frame with one column - it has exactly the same information as the vector. But it is stored in a different way. 
+This is a data frame with one column - it has exactly the same information as the vector. But it is stored in a different way.
 
 Let's create another vector and use it to make a data table with two columns:
 
@@ -239,7 +241,7 @@ Can we convert our other column? [Google it!](https://stat.ethz.ch/R-manual/R-de
 strtoi(mydataframe$myvector)
 ```
 
-Note that this will only work if all the strings can be easily converted. Words like "NA" will cause problems. 
+Note that this will only work if all the strings can be easily converted. Words like "NA" will cause problems.
 
 We can use this to assign the results to the same column:
 
@@ -260,10 +262,10 @@ The exercises above should help you to understand what is happening with data in
 * A vector consists of individual *values*
 * An individual value might be a *character* object (a string), or a *numeric* object like an *integer* or a *double*
 * A vector can only contain one type of object. If you give it a mix of numbers and characters, it will *coerce* them all to character objects
-* You can access individual entries in a vector by using *indexes* in square brackets. 
+* You can access individual entries in a vector by using *indexes* in square brackets.
 * You can access individual columns in a data frame by using the name of the data frame followed by a dollar sign, followed by the column name (RStudio will show a list to help you)
 * You can also access columns by specifying their index too
 * And you can access cells by specifying their row-column coordinates
 * You can access rows by specifying the row number as an index, followed by a comma
 
-So far we have done this with a small vector and small data frame. This hopefully provides the foundations when you import data directly into a data frame and then manipulate it. 
+So far we have done this with a small vector and small data frame. This hopefully provides the foundations when you import data directly into a data frame and then manipulate it.
