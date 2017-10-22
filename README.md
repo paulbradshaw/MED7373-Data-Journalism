@@ -57,7 +57,7 @@ By the end of this week you should be able to create a basic HTML page with CSS 
 * Workshop: HTML, CSS and responsive frameworks. [Fork this! Intro to responsive web design with Bootstrap](https://github.com/paulbradshaw/jsintro/blob/master/responsive/bootstrapintro.md)
 * Task: Create a responsive webpage on [GitHub Pages](https://github.com/paulbradshaw/introtogithub/blob/master/githubwebsites.md)
 * Reading: Jeremy Keith: [Resilient Web Design](https://resilientwebdesign.com/)
-* Reading: Manuel Matuzovic: [Writing HTML with accessibility in mind](https://medium.com/alistapart/writing-html-with-accessibility-in-mind-a62026493412); [Writing CSS with Accessibility in Mind](https://medium.com/@matuzo/writing-css-with-accessibility-in-mind-8514a0007939); [Writing JavaScript with accessibility in mind](https://medium.com/@matuzo/writing-javascript-with-accessibility-in-mind-a1f6a5f467b9)
+* Reading: Manuel Matuzovic: [Writing HTML with accessibility in mind](https://medium.com/alistapart/writing-html-with-accessibility-in-mind-a62026493412); [Writing CSS with Accessibility in Mind](https://medium.com/@matuzo/writing-css-with-accessibility-in-mind-8514a0007939)
 
 **Additional resources**: [Lynda.com tutorials on responsive web design](https://www.lynda.com/Responsive-Design-training-tutorials/1357-0.html) (free for BCU students)
 
@@ -67,9 +67,12 @@ By the end of this week you should be able to explain basic concepts in JavaScri
 
 * Workshop: JavaScript interactivity and vis: counters, quizzes, charts ([folder of exercises here](https://github.com/paulbradshaw/MED7373-Data-Journalism/tree/master/js))
 * Task: Continued work on JavaScript
-* Reading: Wong, D (2010) The Wall Street Journal Guide to Information Graphics
+* Reading:
+  * Dona Wong (2010) The Wall Street Journal Guide to Information Graphics
+  * Manuel Matuzovic: [Writing JavaScript with accessibility in mind](https://medium.com/@matuzo/writing-javascript-with-accessibility-in-mind-a1f6a5f467b9)
+  * Adrian Holovaty (2006) [A fundamental way newspaper sites need to change](http://www.holovaty.com/writing/fundamental-change/)
 
-## Week 5: Solving data problems
+## Week 5: Solving data problems - R
 
 By the end of this week you should be able to identify common data problems, and use techniques to solve those. You should also be able to use basic data processing and analysis techniques in R.
 
