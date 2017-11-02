@@ -55,13 +55,10 @@ $.get("https://data.police.uk/api/crimes-street/all-crime?lat=52.629729&lng=-1.1
     //Use console log to show crime name
     console.log(crime);
     console.log(index);
-    // change to != to see all other crimes
-      $('.crimes').append('<tr class="row"><td><a href="http://data.police.uk/api/outcomes-for-crime/' + crime.persistent_id + '">' + crime.category + '</a></td>'+ '<td>' + crime.location.street.name + '</td></tr>')
-
+    //target table with class="crimes" and append table row with category and street name
+    $('.crimes').append('<tr class="row"><td>'+ crime.category + '</td>'+ '<td>' + crime.location.street.name + '</td></tr>')
   }); //Close function
 }); //Close get
-// }); //Close submit function
-//}); //Close document ready
 ```
 
 After the URL is 'got', then, we get:
