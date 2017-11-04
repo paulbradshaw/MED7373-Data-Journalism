@@ -302,7 +302,7 @@ crime.location.street.name
 
 The main new thing here is that instead of simply naming the `crime` variable, the code adds a period and specifies a *property* of that variable, like so: `crime.persistent_id`
 
-This is because each crime is a JSON *object*. JSON objects can have many properties - in this case each crime has a `category` property and a location with a street property that has a name property.
+This is because each crime is a JSON *object*. JSON objects can have many properties - in this case each crime has a `category` property and a location with a street property that has a name property. [I've explained more about working with JSON objects here](https://github.com/paulbradshaw/MED7373-Data-Journalism/blob/master/api/jsonintro.md), and it's worth exploring that now if you haven't already.
 
 `crime.category`, then, is looking for a property called `category` within the `crime` object. But `crime.location.street.name` is more complex: it is first finding a `location` property, and then *within that* is looking for a `street` property, and *within that* looking for a `name` property. In this case the `location` property has many other branches that you can dig into. If you have [the page open in your browser](https://data.police.uk/api/crimes-street/all-crime?lat=52.629729&lng=-1.131592) with JSONView installed, you can hover over an element and see the path to that in the bottom left corner.
 
