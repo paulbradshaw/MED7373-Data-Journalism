@@ -79,15 +79,43 @@ for (i in postcodes){
 }
 ```
 
-We hit an error with "BA29BD", and [testing that URL](http://api.postcodes.io/postcodes/BA29BD) shows it returns 404. We need to allow for that to happen.
+We hit an error with "BA29BD", and [testing that URL](http://api.postcodes.io/postcodes/BA29BD) shows it returns 404. Let's remove that nasty postcode:
+
+```{r}
+#We can use which() to identify which item in that vector is that postcode
+?which
+which(postcodes == "BA29BD",arr.ind = T)
+#Test
+postcodes[56]
+#Remove it
+postcodes <- postcodes[-56]
+```
+
+Now run the code again:
 
 ```{r}
 #This creates an empty list called 'resultslist'
-
+resultslist = c()
+for (i in postcodes){
+  print(i)
+  url <- paste("http://api.postcodes.io/postcodes/",i, sep="")
+  jsoneg <- fromJSON(url)
+  print(url)
+  print(jsoneg[['result']][['latitude']])
+  #This time we store the results of drilling down into part of the JSON
+  lat <- jsoneg[['result']][['latitude']]
+  lon <- jsoneg[['result']][['longitude']]
+  #We combine the lat and long and put a comma between
+  latlon <- paste(lat,lon,sep=",")
+  #Then we add it to the list
+  resultslist = c(resultslist, latlon)
+}
 ```
 
+Damn. Another error. And it's only a couple more results than the last attempt. Perhaps we need some sort of **error handling**. In other words, a line of code that handles that error so that it isn't stopped.
 
-Now we should have a list of lat-longs.
+
+
 
 
 
