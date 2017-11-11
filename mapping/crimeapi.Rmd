@@ -1,0 +1,83 @@
+---
+title: "Getting data for mapping"
+output: html_notebook
+---
+
+This notebook outlines how to fetch data on the latest crimes from a particular postcode. You can download this notebook and open it in your own R project, then run the code to get up to date data for the same crimes. This data is suitable for mapping using tools like Carto.
+
+# Grabbing crimes for one postcode using the police API
+
+The UK Home Office has an API for police forces in England and Wales. One of the *methods* for that API is '[crimes at a particular location](https://data.police.uk/docs/method/crimes-at-location/)'
+
+There are two example requests at that link. The second fetches data for crimes at a particular latitude and longitude. Those details are included in a URL like this: [https://data.police.uk/api/crimes-at-location?date=2017-02&lat=52.629729&lng=-1.131592](https://data.police.uk/api/crimes-at-location?date=2017-02&lat=52.629729&lng=-1.131592)
+
+The example also includes a `date` parameter, but this is optional. If you omit it, you will get results for the latest month available.
+
+```{r}
+#Install the jsonlite package which we need to read JSON 
+install.packages('jsonlite')
+library('jsonlite')
+#Use the fromJSON function from that package to grab data from a URL
+crimesmp <- fromJSON("https://data.police.uk/api/crimes-at-location?lat=52.4827963678421&lng=-1.88595522141899")
+```
+
+That's great for one location - now we need to get a whole bunch of locations.
+
+Now we could find a big list (for example, all accommodation across the UK) and automate the process. Or we could compile a smaller list (for example, university campuses in one city) manually.
+
+## Finding lat-longs for university campuses
+
+Birmingham City University [has a page listing its campuses](http://www.bcu.ac.uk/about-us/maps-and-campuses). Each campus has its own page, and each of *those* has a link to Google Maps, like this: [https://www.google.co.uk/maps/search/birmingham+city+university+perry+barr/@52.521809,-1.897202,15z?hl=en](https://www.google.co.uk/maps/search/birmingham+city+university+perry+barr/@52.521809,-1.897202,15z?hl=en)
+
+Note that the URL has the lat/long in it: `52.521809,-1.897202`.
+
+We can go to each link and copy the lat long to put in a vector (although not all links have a working Google Maps link):
+
+```{r}
+bculatlongs <- c("52.521809,-1.897202","52.483434,-1.885421","52.46884827297614,-1.924323999999956","52.426886,-1.935689","52.481151,-1.903726","52.485907,-1.910819")
+bcucampuses <- c("Perry Barr","Millennium Point","City South","BCUIC","Margaret Street","School of Jewellery")
+bculocations <- data.frame(bcucampuses,bculatlongs)
+```
+
+Curiously, one of the links takes us to [this Google Map of *all* campuses](https://www.google.com/maps/d/viewer?ll=52.46884827297614%2C-1.924323999999956&spn=0.009804%2C0.016093&cd=2&hl=en&f=q&geocode=0%2C52.467677%2C-1.927504&msa=0&source=embed&ie=UTF8&mid=1Iql6zfbHmgtNjdkKLrnLIZlMC-o&z=15). We could extract data from that, too. But not for now...
+
+
+
+## Forming the URLs for the police API
+
+Again, we could automate this but for now let's just do it manually line by line:
+
+```{r}
+#Use the fromJSON function from that package to grab data from a URL
+crimespb <- fromJSON("https://data.police.uk/api/crimes-at-location?lat=52.521809&lng=-1.897202")
+crimescs <- fromJSON("https://data.police.uk/api/crimes-at-location?lat=52.46884827297614&lng=-1.924323999999956")
+crimesbcuic <- fromJSON("https://data.police.uk/api/crimes-at-location?lat=52.426886&lng=-1.935689")
+crimesms <- fromJSON("https://data.police.uk/api/crimes-at-location?lat=52.481151&lng=-1.903726")
+crimessoj <- fromJSON("https://data.police.uk/api/crimes-at-location?lat=52.485907&lng=-1.910819")
+```
+
+## Combining the results into a single dataset
+
+Now it's time to join the rows:
+
+```{r}
+allcrimes <- rbind(crimesmp,crimesms,crimespb)
+#This throws an error because two fields are lists
+#So we need to remove them - given that we already have lat and long the description of the location isn't needed.
+crimesmp$location <- NULL
+crimesmp$outcome_status <- NULL
+crimesms$location <- NULL
+crimesms$outcome_status <- NULL
+crimespb$location <- NULL
+crimespb$outcome_status <- NULL
+allcrimes <- rbind(crimesmp,crimesms,crimespb)
+```
+
+## Exporting as a spreadsheet we can map online
+
+That's it for now. Let's export it to use in Carto or other mapping software:
+
+```{r}
+write.csv(allcrimes,"campuscrimes.csv")
+```
+

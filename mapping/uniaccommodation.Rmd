@@ -1,0 +1,84 @@
+---
+title: "Finding postcodes for university accommodation"
+output: html_notebook
+---
+
+# Finding postcodes for university accommodation
+
+A search on Google for "filetype:xls england universities" throws up [a useful file called 'Building list (xls) - Universities UK'](http://www.universitiesuk.ac.uk/policy-and-analysis/Documents/accommodation-code-of-practice-building-list.xls). 
+
+This notebook outlines how to take that data into R, remove spaces from the postcodes, and fetch latitude and longitude for each postcode.
+
+*Note: The heading is 'Accommodation Code of Practice building list updated 18th August 2017' so it seems quite up to date, and the source is authoritative. We could explore further to find out more about the provenance, context and accuracy - for example by taking that URL and removing parts of it to [http://www.universitiesuk.ac.uk/policy-and-analysis/](http://www.universitiesuk.ac.uk/policy-and-analysis/).*
+
+Because this is an XLS file, we need another package called `readxl`.
+
+```{r}
+install.packages("readxl")
+library(readxl)
+```
+
+The function we're using from that package is `read_excel()`. This works like `read.csv()` but you can also specify which sheet you want with `sheet=`, and you can skip rows without column headings using `skip=`.
+
+If you open the sheet in Excel you will notice that the headings are in row 3, so we need to skip the first 2 rows. Here's the code to import it and also skip those 2: 
+
+```{r}
+#Because we haven't specified a `sheet=`, it takes the only sheet there is. But we could specify that too.
+accommodation <- read_excel("accommodation-code-of-practice-building-list.xls", skip = 2)
+#Let's write this to a CSV so we have a copy
+write.csv(accommodation, "accommodationunis.csv")
+#Let's do a quick summary
+summary(accommodation)
+```
+
+We can see that the median student accommodation listed here has 23 rooms and 23 tenants, and 3 floors. The biggest accommodation has 1,695 rooms and 42,828 floors...
+
+What?? 42,000 floors? You might want to check that out... it's either a grand total (wich should be removed) or an error (if not, there's a story about the biggest student building in the UK).
+
+Anyway, back to our focus...
+
+Now to make a list (a *vector* object) of postcodes:
+
+```{r}
+postcodes <- accommodation$`Post Code`
+```
+
+The postcodes have spaces, but we need to remove those. One useful way to do that is the `gsub` function (think of it as 'global substitution'). This has 3 arguments: what you want to substitute (a space, or `" "`, in this case), what you want to substitute it with (nothing, or `""`), and the object you want to do this to (the `postcodes` vector object)
+
+```{r}
+postcodes <- gsub(" ","",postcodes)
+```
+
+By the way, we might also want to filter by university. Which ones are there?
+
+```{r}
+table(accommodation$Name)
+```
+
+
+## Turning postcodes into lat/longs using the Postcodes.io API
+
+I've already covered the Postcodes.io API elsewhere. Here we re-use and adapt that code for our new list:
+
+```{r}
+#This creates an empty list called 'resultslist'
+resultslist = c()
+for (i in postcodes){
+  url <- paste("http://api.postcodes.io/postcodes/",i, sep="")
+  jsoneg <- fromJSON(url)
+  print(jsoneg[['result']][['latitude']])
+  #This time we store the results of drilling down into part of the JSON
+  lat <- jsoneg[['result']][['latitude']]
+  lon <- jsoneg[['result']][['longitude']]
+  #We combine the lat and long and put a comma between
+  latlon <- paste(lat,lon,sep=",")
+  #Then we add it to the list
+  resultslist = c(resultslist, latlon)
+}
+```
+
+Now we should have a list of lat-longs.
+
+
+
+
