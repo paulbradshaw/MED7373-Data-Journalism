@@ -58,7 +58,7 @@ crimessoj <- fromJSON("https://data.police.uk/api/crimes-at-location?lat=52.4859
 
 ## Combining the results into a single dataset
 
-Now it's time to join the rows:
+Now it's time to join the results. Note that some of them had 0 results, so won't combine properly. We can use `rbind` to combine the rows of the 3 that did:
 
 ```{r}
 allcrimes <- rbind(crimesmp,crimesms,crimespb)
