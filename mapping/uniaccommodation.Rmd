@@ -64,8 +64,10 @@ I've already covered the Postcodes.io API elsewhere. Here we re-use and adapt th
 #This creates an empty list called 'resultslist'
 resultslist = c()
 for (i in postcodes){
+  print(i)
   url <- paste("http://api.postcodes.io/postcodes/",i, sep="")
   jsoneg <- fromJSON(url)
+  print(url)
   print(jsoneg[['result']][['latitude']])
   #This time we store the results of drilling down into part of the JSON
   lat <- jsoneg[['result']][['latitude']]
@@ -76,6 +78,14 @@ for (i in postcodes){
   resultslist = c(resultslist, latlon)
 }
 ```
+
+We hit an error with "BA29BD", and [testing that URL](http://api.postcodes.io/postcodes/BA29BD) shows it returns 404. We need to allow for that to happen.
+
+```{r}
+#This creates an empty list called 'resultslist'
+
+```
+
 
 Now we should have a list of lat-longs.
 
