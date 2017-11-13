@@ -112,7 +112,28 @@ for (i in postcodes){
 }
 ```
 
-Damn. Another error. And it's only a couple more results than the last attempt. Perhaps we need some sort of **error handling**. In other words, a line of code that handles that error so that it isn't stopped.
+Damn. Another error. And it's only a couple more results than the last attempt. Perhaps we need some sort of **error handling**. In other words, [a line of code that handles that error so that it isn't stopped](https://www.r-bloggers.com/error-handling-in-r/).
+
+```{r}
+#This creates an empty list called 'resultslist'
+resultslist = c()
+for (i in postcodes){
+  print(i)
+  url <- paste("http://api.postcodes.io/postcodes/",i, sep="")
+  try(
+    jsoneg <- fromJSON(url)
+  )
+    print(url)
+    print(jsoneg[['result']][['latitude']])
+    #This time we store the results of drilling down into part of the JSON
+    lat <- jsoneg[['result']][['latitude']]
+    lon <- jsoneg[['result']][['longitude']]
+    #We combine the lat and long and put a comma between
+    latlon <- paste(lat,lon,sep=",")
+    #Then we add it to the list
+    resultslist = c(resultslist, latlon)
+}
+```
 
 
 
