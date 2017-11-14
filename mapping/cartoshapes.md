@@ -30,4 +30,32 @@ Click 'New map'
 
 Click 'Connect dataset'
 
-Click 'browse' and find
+Click 'browse' and find the shapefile you downloaded (either the .kml or the .zip file containing the shapefiles). Upload it.
+
+You should now have a map of the shapes - but they will all be the same colour. You now need to upload *another* dataset with some values for each area.
+
+On the left hand side of your new map you should see a column with settings for this map. It includes a section towards the top saying *LAYERS (1/8)* and *WIDGETS*, then a button for **ADD**.
+
+Click **ADD**, then browse to your second dataset with the values. Note that this dataset *must* have the names or (better still) codes of the areas in it too, so you can merge the two.
+
+Once uploaded, you should now see two boxes on the left (one for each dataset) and the top part updated to say *LAYERS (2/8)*.
+
+Click on the top dataset. You are now taken to a new area with 5 options across the top. It will defaut to the *Style* tab where it says "There's no geometry in your data that could be styled. Please georeference or manually add data to visualize."
+
+Switch to the *Analysis* tab. It will say:
+
+> "You have not added any analysis yet. Add an analysis to discover new things."
+
+Click **ADD ANALYSIS**.
+
+You will now be presented with a page full of different analyses you can add. Select **Join columns from second layer**, on the upper right, then click **ADD ANALYSIS** in the bottom corner.
+
+You are now taken back to the *Analysis* tab with your map showing on the right. Underneath *Analysis* are two sections: *[1] Your workflow (0)* and *[2] Join columns from 2nd layer*
+
+In the bottom section you need to specify what you want to join. The first box - *SOURCE* - is already filled in with the dataset you clicked on.
+
+Now click on the second box - *TARGET* - and select the other dataset (it should be the first option).
+
+A third area now appears: *[3] Key columns*. Click on *SOURCE COLUMN* and select the column from the source dataset which contains the name or code for the area (e.g. "Constituency" or "ONS code").
+
+Click on 
