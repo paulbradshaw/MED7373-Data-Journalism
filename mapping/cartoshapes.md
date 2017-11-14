@@ -8,7 +8,7 @@ Shapefiles can be found in various places. Russian Sphinx [maintains a directory
 
 You can [find shapefiles for UK boundaries on the ONS Open Geography Portal](http://geoportal.statistics.gov.uk/datasets?q=Latest_Boundaries), and this is a good place to start to get some experience of working with them.
 
-First, use the search box to look for the boundaries you're interested in, and then the filters on the left to drill down further.
+First,   use the search box to look for the boundaries you're interested in, and then the filters on the left to drill down further.
 
 For example, try searching for "constituencies" (you get [over 50 results](http://geoportal.statistics.gov.uk/datasets?q=constituencies&sort=name)) and then expanding the tags on the left and [selecting the tag 'Westminster Parliamentary Constituencies (22)'](http://geoportal.statistics.gov.uk/datasets?q=constituencies&sort=name&t=westminster%20parliamentary%20constituencies) and then [sorting the results by 'Most recent'](http://geoportal.statistics.gov.uk/datasets?q=constituencies&sort=-updatedAt&t=westminster%20parliamentary%20constituencies). The top result is [Westminster Parliamentary Constituencies (December 2016) Full Extent Boundaries in Great Britain](http://geoportal.statistics.gov.uk/datasets/westminster-parliamentary-constituencies-december-2016-full-extent-boundaries-in-great-britain). You can click on **Download** to get it as a spreadsheet, KML or Shapefile.
 
@@ -19,6 +19,8 @@ The spreadsheet is useful to give you a list of the entities contained. You'll n
 Another way to navigate the site is to use the *Boundaries* drop-down menu across the top to drill down to *Administrative boundaries* and then *Local authority districts* (for example) and [finally the latest ones (2016 at the time of writing)](http://geoportal.statistics.gov.uk/datasets?q=LAD%20Boundaries%202016&sort=name).
 
 This gives you 5 different versions of what appears to be the same shapes. What's the difference? Mainly size: the KML file for the "Full Clipped" boundaries is over 150MB, but the "Ultra Generalised" version of the same shapes is a mere 1.3MB. If you want your map to load fast - and you don't need a lot of detail (which we typically don't) - then you'll want the smaller "Ultra Generalised" version.
+
+Note that this is the same for the constituencies results: the smallest file is the ["Super Generalised Clipped Boundaries"](http://geoportal.statistics.gov.uk/datasets/westminster-parliamentary-constituencies-december-2014-super-generalised-clipped-boundaries-in-great-britain)
 
 ## Combining your shape file with your data to make a map
 
