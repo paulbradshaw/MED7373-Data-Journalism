@@ -56,6 +56,20 @@ In the bottom section you need to specify what you want to join. The first box -
 
 Now click on the second box - *TARGET* - and select the other dataset (it should be the first option).
 
-A third area now appears: *[3] Key columns*. Click on *SOURCE COLUMN* and select the column from the source dataset which contains the name or code for the area (e.g. "Constituency" or "ONS code").
+A third area now appears: *[3] Key columns*. This is where you identify the two columns that you want to match the two datasets on.
 
-Click on 
+Click on *SOURCE COLUMN* and select the column from the source dataset which contains the name or code for the area (e.g. "Constituency" or "ONS code").
+
+Next, click on the *TARGET COLUMN* box underneath, and select the column from the *other* dataset which contains the *same* data.
+
+Finally, you come to *[4] Output data: SELECT THE DATA YOU WANT TO KEEP*. This allows you to specify whether you want to use all columns from both datasets, or only some.
+
+The first box here is *GEOMETRY FROM*. Make sure this specifies the data that contains the geometry (shapes).
+
+The second box is *SOURCE DATA*. Click on this and you will bring up a list of all the fields from the 'source' dataset. The simplest option here is to click *ALL* in the upper right corner, or you can manually select the columns you want to keep.
+
+The third box is *TARGET DATA*. Repeat the process again for the other dataset.
+
+Once you're done, click *APPLY*
+
+Now when you shift to the *STYLE* tab you should be able to style the colour of each shape based on one of the fields you kept. If you made any mistaks or need to go back, just switch back to the *ANALYSIS* tab.
