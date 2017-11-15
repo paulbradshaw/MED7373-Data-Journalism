@@ -38,9 +38,11 @@ On the left hand side of your new map you should see a column with settings for 
 
 Click **ADD**, then browse to your second dataset with the values. Note that this dataset *must* have the names or (better still) codes of the areas in it too, so you can merge the two.
 
+### Merging the two layers/datasets (shape and values)
+
 Once uploaded, you should now see two boxes on the left (one for each dataset) and the top part updated to say *LAYERS (2/8)*.
 
-Click on the top dataset. You are now taken to a new area with 5 options across the top. It will defaut to the *Style* tab where it says "There's no geometry in your data that could be styled. Please georeference or manually add data to visualize."
+Click on one of the datasets. You are now taken to a new area with 5 options across the top. It will defaut to the *Style* tab where it says "There's no geometry in your data that could be styled. Please georeference or manually add data to visualize."
 
 Switch to the *Analysis* tab. It will say:
 
@@ -72,4 +74,16 @@ The third box is *TARGET DATA*. Repeat the process again for the other dataset.
 
 Once you're done, click *APPLY*
 
-Now when you shift to the *STYLE* tab you should be able to style the colour of each shape based on one of the fields you kept. If you made any mistaks or need to go back, just switch back to the *ANALYSIS* tab.
+Now when you shift to the *STYLE* tab you should be able to style the colour of each shape based on one of the fields you kept. If you made any mistakes or need to go back, just switch back to the *ANALYSIS* tab.
+
+### Troubleshooting
+
+If you are making changes to the style and can't see them on the map, make sure your layer is the top layer. In the list on the left you can hover over a layer and use the handles that appear on the left to click and drag it up. Styles on the top layer will appear *over* any underneath.
+
+If merging the layers results in you losing the shapes, it may be because the datasets do not match. For example you may have England, Wales and Scotland in the shapefiles but only England and Wales in the other dataset.
+
+To solve this problem, it helps to have a list of all the areas in your shapefiles (in the examples above you can download a spreadsheet instead of a shapefile, for example). Then, use VLOOKUP or a similar technique to pull the values from your other dataset into this list. Where there is no match, you will get an `#N/A` error or something similar. Delete these and replace them with empty cells to represent 'no value' (don't type 'no value' or that column will be treated as text rather than numbers).
+
+In addition, you might want to create a 'category' column which classifies your values (e.g. high, medium, low, no value). This can then be used for colour coding later in Carto.
+
+Now, use this dataset instead to merge with your shapefiles. It should now work - but be aware that the 'no value' entries will skew any use of quartiles for colour-coding (hence the need for pre-calculated categories)

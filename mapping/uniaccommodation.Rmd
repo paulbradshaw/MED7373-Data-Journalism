@@ -135,6 +135,11 @@ for (i in postcodes){
 }
 ```
 
+That's better. We can even put them in a data frame:
+
+```{r}
+postcodesandlatlong <- data.frame(postcodes,resultslist)
+```
 
 
 
