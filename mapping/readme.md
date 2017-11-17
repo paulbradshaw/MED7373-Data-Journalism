@@ -1,5 +1,6 @@
 # Mapping
 
+* [Why map?](https://github.com/paulbradshaw/mapping/blob/master/WHYMAP.md) An introductory guide to good practice in mapping.
 * [How to use Carto to map points](https://github.com/paulbradshaw/MED7373-Data-Journalism/blob/master/mapping/cartopoints.md)
 * [How to map shapes in Carto](https://github.com/paulbradshaw/MED7373-Data-Journalism/blob/master/mapping/cartoshapes.md)
 * [How to map shapes in Google Fusion Tables](https://docs.google.com/document/d/e/2PACX-1vQRKsh1xy3TlkJfSOX_A6UoP1acXqe_jYnBH-ZGH5nW2M0dDaku0junt73GSiTLsErNR0IXqxRytL6P/pub)
