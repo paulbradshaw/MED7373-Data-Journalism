@@ -6,6 +6,8 @@ This folder contains links related to the week on command line and regex.
 
 You will [find resources on command line in my dedicated repository here](https://github.com/paulbradshaw/commandline)
 
+The [exercise on using grep for a CSV and for HTML pages is here](https://github.com/paulbradshaw/commandline/blob/master/grep.md)
+
 Key commands include:
 
 * `pwd`
@@ -15,9 +17,9 @@ Key commands include:
 * `rmdir` or `Remove-Item` (PC)
 * `rm` or `Remove-Item` (PC)
 * `man`
-* `head` or `Get-Content` (PC)
+* `head` or `Get-Content -TotalCount 20` (PC - [see documentation](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/get-content?view=powershell-5.1))
 * `find` or `Get-ChildItem` (PC - look for tutorials)
-* `wc` (Mac/Linux) or `Measure-Object` (PC)
+* `wc` (Mac/Linux) or `Measure-Object -Line` (PC - [see documentation](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/measure-object?view=powershell-5.1))
 * `cat` (Mac/Linux) or `type` (PC)
 * `curl`
 * `bash`
