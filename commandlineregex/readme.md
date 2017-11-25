@@ -8,7 +8,7 @@ You will [find resources on command line in my dedicated repository here](https:
 
 The [exercise on using grep for a CSV and for HTML pages is here](https://github.com/paulbradshaw/commandline/blob/master/grep.md)
 
-Key commands include:
+Key commands are listed below. Although Windows PowerShell alternatives are given, you can also [download Git for Windows](https://git-for-windows.github.io/) which will allow you to use the Mac/Linux-based commands (which are generally simpler) on a Windows machine:
 
 * `pwd`
 * `cd`
@@ -21,7 +21,7 @@ Key commands include:
 * `find` or `Get-ChildItem` (PC - look for tutorials)
 * `wc` (Mac/Linux) or `Measure-Object -Line` (PC - [see documentation](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/measure-object?view=powershell-5.1))
 * `cat` (Mac/Linux) or `type` (PC)
-* `curl`
+* `curl` or `Invoke-WebRequest -Uri` on PC (see [this tutorial](https://www.gngrninja.com/script-ninja/2016/7/8/powershell-getting-started-utilizing-the-web))
 * `bash`
 * `sh`
 * `./`

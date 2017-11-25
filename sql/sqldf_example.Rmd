@@ -1,0 +1,194 @@
+---
+title: "SQLdf example"
+output: html_notebook
+---
+
+## Using SQL in R: the `sqldf` package
+
+One way to use SQL queries in R is to install the `sqldf` package (think of it as SQL data frame). Do that first:
+
+```{r}
+install.packages("sqldf")
+library(sqldf)
+```
+
+Next we need some data to run our query on. Here's our familiar expenses data:
+
+```{r}
+exes1718 <- read.csv("exes1718.csv")
+```
+
+## The first query: a filter
+
+Now for a basic query. To use a SQL query in R you just use the `sqldf` function and put your SQL query inside the brackets that follow. Note that the query is enclosed in quotation marks, so if you want to specify a string in your query, you need to make sure that string uses a different type of quotation mark:  
+
+```{r}
+sqldf('select * from exes1718 where Category is "Accommodation"')
+```
+
+That query shows the results, but let's store them instead, in a new object:
+
+```{r}
+accommclaims <- sqldf('select * from exes1718 where Category is "Accommodation"')
+```
+
+Of course the same result can be achieved by using the `subset` function, but you may find this more intuitive. Likewise, removing columns is also more intuitive with SQL...
+
+## Selecting specific columns
+
+The `select *` command in SQL selects all columns, but you can select them each individually instead:
+
+```{r}
+dateandcatonly <- sqldf("select Date, Category from exes1718")
+```
+
+Note that SQL struggles with some column names where R replaces spaces with full stops. You may have to rename these first:
+
+```{r}
+#Show the column names
+colnames(exes1718)
+#The fourth one seems to have full stops in it. Let's check:
+colnames(exes1718)[4]
+```
+
+
+```{r}
+#Now rename that column name
+colnames(exes1718)[4] <- "mpname"
+colnames(exes1718)[5] <- "mpconstituency"
+colnames(exes1718)[7] <- "expensetype"
+colnames(exes1718)[8] <- "description"
+colnames(exes1718)[16] <- "amountclaimed"
+colnames(exes1718)[17] <- "amountpaid"
+#And check it
+colnames(exes1718)
+```
+
+## Calculations using SQL: counts
+
+ SQL allows us to perform calcuations on the data too, such as counting matches and calculating totals, averages, and so on...
+
+Here are 2 SQL queries asking to count how many entries in the data frame are above 100, and how many are below 100. 
+ 
+```{r}
+sqldf('select count(*) from exes1718 where amountpaid >100')
+sqldf('select count(*) from exes1718 where amountpaid <100')
+```
+How would you adapt that query to ask how many are exactly 100? Or above 1000?
+
+### Calculations: sums
+
+To add them, just use `sum` instead of `count` - but this time you need to make sure you are using `sum` with a numerical column:
+
+```{r}
+sqldf('select sum(amountpaid) from exes1718 where amountpaid >100')
+```
+
+Note that the column you are testing, and the column you are adding, do *not* have to be the same. We can write another query that adds up the amount paid where the category is accommodation:
+
+```{r}
+sqldf('select sum(amountpaid) from exes1718 where category is "Accommodation"')
+```
+
+### Calculations: averages
+
+Besides counts and sums, we can also calculate averages using `avg` for the mean:
+
+```{r}
+sqldf('select avg(amountpaid) from exes1718 where category is "Accommodation"')
+```
+
+Or `median` for the middlemost value:
+
+```{r}
+sqldf('select median(amountpaid) from exes1718 where category is "Accommodation"')
+```
+
+...and the `mode` (most commonly occurring number):
+
+```{r}
+sqldf('select mode(amountpaid) from exes1718 where category is "Accommodation"')
+```
+
+### Calculating biggest and smallest amounts
+
+Not surprisingly, `max` and `min` can be used to find those values. Here we switch to a different criteria too:
+
+```{r}
+sqldf('select max(amountpaid) from exes1718 where mpname is "Adrian Bailey"')
+```
+
+And for minimum:
+
+```{r}
+sqldf('select min(amountpaid) from exes1718 where mpname is "Adrian Bailey"')
+```
+
+
+### Statistical queries
+
+We can also ask for things like the standard deviation, an indication of how widely numbers vary:
+
+```{r}
+sqldf('select stdev(amountpaid) from exes1718 where description is "Office Costs"')
+```
+
+## Grouping results - pivot tables using `group by`
+
+Of course we probably don't want to have to do this for every category or MP. So the `group by` command in SQL is useful to perform a calculation for all categories, places or people with a breakdown for each:
+
+
+```{r}
+sqldf('select sum(amountpaid) from exes1718 group by category')
+```
+
+Note that the categories themselves in the above query aren't shown. Why? Because we haven't selected them! Let's rectify that:
+
+```{r}
+sqldf('select category, sum(amountpaid) from exes1718 group by category')
+```
+
+You can even add other calculations to make a bigger table:
+
+```{r}
+sqldf('select category, stdev(amountpaid), max(amountpaid), min(amountpaid), avg(amountpaid),  median(amountpaid) from exes1718 group by category')
+```
+
+It is interesting that staffing seems to have the widest variation even though its maximum and minimum numbers are not unusually large or small.
+
+### Sorting results: `order by`
+
+So it looks like staffing costs vary most. But we can make it easier by adding an `order by` command:
+
+```{r}
+sqldf('select category, stdev(amountpaid) from exes1718 group by category order by stdev(amountpaid) desc')
+```
+
+
+## String queries: `like`
+
+So far we've matched text columns based on an exact match like `category is "Accommodation"`. But what if we want to grab partial matches where a word is somewhere in that column? The `like` command used with the `%` operator as a wildcard allows us to do that:
+
+```{r}
+sqldf('select mpname, mpconstituency from exes1718 where mpconstituency like "%Birmingham%" group by mpname')
+```
+
+We can broaden the query further by adding `or` like so:
+
+```{r}
+sqldf('select mpname, mpconstituency from exes1718 where mpconstituency like "%Birmingham%" or mpconstituency like "%Sutton Coldfield%" group by mpname')
+```
+
+Note that *after* `or` you need to repeat the name of the column and `like` again.
+
+## Saving and exporting results
+
+Of course any results can be stored in an R object and/or exported like so:
+
+```{r}
+# How to create a new object
+exesstdevbycategory <- sqldf('select category, stdev(amountpaid) from exes1718 group by category')
+# How to write results as a CSV
+write.csv(sqldf('select category, stdev(amountpaid) from exes1718 group by category'), "exesbycategorystdev.csv")
+```
+
