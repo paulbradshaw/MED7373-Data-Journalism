@@ -20,7 +20,7 @@ You will also be learning about other aspects of data journalism in sister modul
 
 ## Week by week outline
 
-This module begins with formal classes and becomes more student-driven as it progresses. You will be expected to **listen to class podcasts and screencasts ahead of most sessions**, so that class time is spent more fruitfully in interactive discussion rather than one-way lectures.
+This module begins with formal classes and becomes more student-driven as it progresses. You will be expected to **experiment with techniques ahead of sessions**, so that class time is spent more fruitfully in interactive discussion rather than one-way lectures.
 
 You will also be expected to feed your own experiences into each class - and your own problems and questions - rather than coming to the sessions with nothing to contribute or build on. As independent learners the emphasis is on you to drive your learning forward through conversation rather than accept it passively.
 
@@ -28,7 +28,7 @@ You will also be expected to feed your own experiences into each class - and you
 
 By the end of this week you should be able to use core spreadsheet techniques to find stories, including sorting and filtering, pivot tables, and be able to calculate change and proportions. You will also be able to use GitHub to clone or fork a repo.
 
-* Workshop: [Fork this repo!](https://github.com/paulbradshaw/MED7373-Data-Journalism/tree/master/week1); [Data journalism basics: sorting, filtering, pivot tables, calculations](https://github.com/paulbradshaw/MED7373-Data-Journalism/blob/master/week1/dj3chords.md)
+* Workshop: [Fork this!](https://github.com/paulbradshaw/MED7373-Data-Journalism/tree/master/1basics); [Data journalism basics: sorting, filtering, pivot tables, calculations](https://github.com/paulbradshaw/MED7373-Data-Journalism/blob/master/1basics/dj3chords.md)
 * Task: Data journalism critique; practise spreadsheet skills
 * Reading:
   * [Data Journalism Heist](https://leanpub.com/DataJournalismHeist) *(BCU students please ask for your voucher for a free copy)*
@@ -41,7 +41,7 @@ You will [find instructions on how to get started with GitHub in another reposit
 
 By the end of this week you should be able to use a range of spreadsheet functions - but more importantly, use computational thinking to break down editorial challenges into problems that can be tackled systematically, quickly and effectively, with the potential for automation or semi-automation as algorithms.
 
-* Workshop: [The postcode challenge](https://github.com/paulbradshaw/MED7373-Data-Journalism/tree/master/week2)
+* Workshop: [computational thinking challenge](https://github.com/paulbradshaw/MED7373-Data-Journalism/tree/master/2functions)
 * Task: Identify story ideas/leads and break down the tasks needed to achieve those
 * Reading:
   * [Finding Stories in Spreadsheets](https://leanpub.com/spreadsheetstories) *(BCU students please ask for your voucher for a free copy)*
@@ -91,7 +91,7 @@ During this week you should be consolidating your learning so far, developing yo
 
 By the end of this week you should be able to use a range of techniques for fetching data from APIs in both R and JavaScript, and explore possibilities for dynamically analysing and/or presenting that data.
 
-* Workshop: Using APIs in JavaScript and R
+* Workshop: Using APIs in JavaScript and R. [Fork this!](https://github.com/paulbradshaw/MED7373-Data-Journalism/tree/master/api)
 * Task: Development of data journalism project
 * Reading: Bogost et al (2010) Newsgames: Journalism at Play
 
@@ -99,7 +99,7 @@ By the end of this week you should be able to use a range of techniques for fetc
 
 By the end of this week you should be able to create a range of map types (point, shape, heat) and talk about the ethical issues surrounding mapping. You should also be able to use SQL to query data.
 
-* Workshop: Creating shape maps using Carto or Fusion Tables; creating hex maps [using R](https://github.com/paulbradshaw/Rintro/blob/master/mapping/mapping_hex_tiles_basics.Rmd) [or JavaScript](https://github.com/paulbradshaw/jsintro/tree/master/mappinghex)
+* Workshop: [fork this!](https://github.com/paulbradshaw/MED7373-Data-Journalism/tree/master/mapping) Creating shape maps using Carto or Fusion Tables; creating hex maps [using R](https://github.com/paulbradshaw/Rintro/blob/master/mapping/mapping_hex_tiles_basics.Rmd) [or JavaScript](https://github.com/paulbradshaw/jsintro/tree/master/mappinghex)
 * Task: Development of data journalism project
 * Reading: [Thinking about maps](http://personalpages.manchester.ac.uk/staff/m.dodge/rethinking_maps_introduction_pageproof.pdf)
 
@@ -107,7 +107,7 @@ By the end of this week you should be able to create a range of map types (point
 
 By the end of this week you should be able to use basic commands in the command line to fetch, find, combine and move data. You should also be able to explain how regular expressions (regex) work, and use them to locate and extract information from files.
 
-* Workshop: [Merging multiple CSV files using command line](https://github.com/paulbradshaw/commandline/blob/master/joining.md)
+* Workshop: [Fork this!](https://github.com/paulbradshaw/MED7373-Data-Journalism/tree/master/commandlineregex): [Merging multiple CSV files using command line](https://github.com/paulbradshaw/commandline/blob/master/joining.md)
 * Task: Development of data journalism project
 * Reading:
   * [The Command Line Crash Course](http://www.computervillage.org/articles/CommandLine.pdf)
@@ -119,10 +119,10 @@ You can [find more tips on using command line in another repo here](https://gith
 
 By the end of this week you should be able to identify techniques for working with large datasets, and issues surrounding big data, linked data, open data, and sensor journalism.
 
-* Workshop: Querying large datasets using SQL
+* Workshop: [Fork this!](https://github.com/paulbradshaw/MED7373-Data-Journalism/tree/master/sql): Querying large datasets using SQL
 * Task: Development of data journalism project - reflection on data-driven vs hypothesis-driven methods
 * Reading:
-  * Vallance-Jones & McKie (2017) ch5: Working with databases URL
+  * Vallance-Jones & McKie (2017) ch5: Working with databases
   * [Hammond (2015): From computer-assisted to data-driven: Journalism and Big Data](https://www.researchgate.net/publication/287391319_From_computer-assisted_to_data-driven_Journalism_and_Big_Data)
 
 ## Week 11: Here come the robots: AI, machine learning and bots
