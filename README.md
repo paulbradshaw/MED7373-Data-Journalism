@@ -124,6 +124,7 @@ By the end of this week you should be able to identify techniques for working wi
 * Reading:
   * Vallance-Jones & McKie (2017) ch5: Working with databases
   * [Hammond (2015): From computer-assisted to data-driven: Journalism and Big Data](https://www.researchgate.net/publication/287391319_From_computer-assisted_to_data-driven_Journalism_and_Big_Data)
+  * Data.world's [Gitbook on SQL](https://docs.data.world/tutorials/dwsql/#sql-on-dataworld) is a useful resource and the platform is a good place to practise SQL queries on your own data.
 
 ## Week 11: Here come the robots: AI, machine learning and bots
 
@@ -132,7 +133,7 @@ By the end of this week you should be able to identify ways that AI, machine lea
 * Workshop: ***Fork this!*** [Creating bots with Rundexter](https://github.com/paulbradshaw/bots/blob/master/dexter.md)
 * Task: Development of data journalism project
 * Reading:
-  * Algorithmic Transparency in the News Media
-  * [How to think about bots](https://motherboard.vice.com/en_us/article/qkzpdm/how-to-think-about-bots)
+  * Diakopoulos, Nick (2016): [Algorithmic Transparency in the News Media](http://www.nickdiakopoulos.com/wp-content/uploads/2016/07/Algorithmic-Transparency-in-the-News-Media-Final.pdf)
+  * Woolley et al. (2016): [How to think about bots](https://motherboard.vice.com/en_us/article/qkzpdm/how-to-think-about-bots)
 
 ## Final Assessment
