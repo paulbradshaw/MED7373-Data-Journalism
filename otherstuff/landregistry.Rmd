@@ -1,0 +1,46 @@
+
+
+## THIS IS JUST OFFSHORE LEAKS STUFF
+
+Import the data
+
+```{r}
+offshorecompanies <- read.csv("Entities.csv")
+table(offshorecompanies$jurisdiction_description)
+head(table(offshorecompanies$name))
+```
+
+Create a subset where the jurisdiction is "British Virgin Islands"
+
+```{r}
+bvionly <- subset(offshorecompanies, offshorecompanies$jurisdiction_description == 'British Virgin Islands')
+jerseyonly <- subset(offshorecompanies, offshorecompanies$jurisdiction_description == 'Jersey')
+```
+
+Import the Land Registry data:
+
+```{r}
+lrdata <- read.csv("brum_ccod2.csv")
+head(table(lrdata$Proprietor_Name1))
+```
+
+Combine the two:
+
+
+```{r}
+#Create a new dataframe containing only the names from the Offshore Leaks subset
+companynamesonly <- data.frame(bvionly$name)
+#Repeat for the Land Registry dataset
+companynamesonlylr <- data.frame(lrdata$Proprietor_Name1)
+#Rename the columns so they're the same name
+colnames(companynamesonlylr) <- c("name")
+colnames(companynamesonly) <- c("name")
+#Create a new data frame containing only one column and one cell
+companynamesonlyall <- data.frame(c("IGNORE"))
+#Rename the column so it's the same as the others
+colnames(companynamesonlyall) <- c("name")
+#Merge all three datasets
+companynamesonlyall <- rbind(companynamesonly,companynamesonlyall,companynamesonlylr)
+#Export as CSV to clean in Open Refine
+write.csv(companynamesonlyall, "companynamesonlyall.csv")
+```
