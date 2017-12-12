@@ -35,12 +35,8 @@ companynamesonlylr <- data.frame(lrdata$Proprietor_Name1)
 #Rename the columns so they're the same name
 colnames(companynamesonlylr) <- c("name")
 colnames(companynamesonly) <- c("name")
-#Create a new data frame containing only one column and one cell
-companynamesonlyall <- data.frame(c("IGNORE"))
-#Rename the column so it's the same as the others
-colnames(companynamesonlyall) <- c("name")
-#Merge all three datasets
-companynamesonlyall <- rbind(companynamesonly,companynamesonlyall,companynamesonlylr)
+#Merge both datasets
+companynamesonlyall <- rbind(companynamesonly,companynamesonlylr)
 #Export as CSV to clean in Open Refine
 write.csv(companynamesonlyall, "companynamesonlyall.csv")
 ```
