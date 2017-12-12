@@ -35,8 +35,13 @@ companynamesonlylr <- data.frame(lrdata$Proprietor_Name1)
 #Rename the columns so they're the same name
 colnames(companynamesonlylr) <- c("name")
 colnames(companynamesonly) <- c("name")
+#Let's add another column specifying where the data came from
+companynamesonly$dataset <- "OL"
+companynamesonlylr$dataset <- "LR"
 #Merge both datasets
 companynamesonlyall <- rbind(companynamesonly,companynamesonlylr)
+#Check the two sources
+table(companynamesonlyall$dataset)
 #Export as CSV to clean in Open Refine
 write.csv(companynamesonlyall, "companynamesonlyall.csv")
 ```
