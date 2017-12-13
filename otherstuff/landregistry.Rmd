@@ -1,6 +1,11 @@
+---
+title: "GP surgeries"
+output: html_notebook
+---
 
+# Mapping Land Registry data to Offshore Leaks data
 
-## THIS IS JUST OFFSHORE LEAKS STUFF
+*These are notes from the 'Who Owns Brum' hackday*
 
 Import the data
 
