@@ -130,6 +130,7 @@ By the end of this week you should be able to identify techniques for working wi
 
 By the end of this week you should be able to identify ways that AI, machine learning and bots can play a role within journalism, both internal- and public-facing, and articulate the critical and ethical issues raised by AI technologies. You should also be able to create a basic bot, and identify relevant libraries for using machine learning within programming.
 
+* [Part of the lecture is summarised in this blog post](https://public.tableau.com/profile/chrisluv#!/vizhome/LibraryCuts/Cuts)
 * Workshop: ***Fork this!*** [Creating bots with Rundexter](https://github.com/paulbradshaw/bots/blob/master/dexter.md)
 * Task: Development of data journalism project
 * Reading:
