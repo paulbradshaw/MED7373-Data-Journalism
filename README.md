@@ -136,5 +136,15 @@ By the end of this week you should be able to identify ways that AI, machine lea
 * Reading:
   * Diakopoulos, Nick (2016): [Algorithmic Transparency in the News Media](http://www.nickdiakopoulos.com/wp-content/uploads/2016/07/Algorithmic-Transparency-in-the-News-Media-Final.pdf)
   * Woolley et al. (2016): [How to think about bots](https://motherboard.vice.com/en_us/article/qkzpdm/how-to-think-about-bots)
+  
+## Weeks 12-14: Newsroom and planning
+
+In the final weeks of the semester you will take part in a live newsroom, as a data journalist. You will need to consider whether to form a team that works separately (e.g. on investigations), in a service role (e.g. producing complementary material to stories by others), or some combination of both. You will find a range of readings on Moodle that you should use to inform those decisions, and that you can draw on in your reflection. Those include:
+
+* Borges-Rey (2016) [Unravelling Data Journalism: A study of data journalism practice in British newsrooms](https://www.tandfonline.com/doi/abs/10.1080/17512786.2016.1159921?tab=permissions&scroll=top)
+* Figl (2017) [BIGGER IS NOT ALWAYS BETTER: WHAT WE CAN LEARN ABOUT DATA JOURNALISM FROM SMALL NEWSROOMS](http://reutersinstitute.politics.ox.ac.uk/sites/default/files/2018-01/Research%20Paper%20Figl%20Bettina.pdf)
+* Usher (2016) Inside the Interactive Journalism Newsroom, from *Interactive Journalism: Hackers, Data, and Code*
+* Young and Hermida (2014) [From Mr. and Mrs. Outlier To Central Tendencies](https://www.tandfonline.com/doi/full/10.1080/21670811.2014.976409)
+* Zanchellia and Crucianelli (2011) [Integrating Data Journalism into Newsrooms](https://www.icfj.org/sites/default/files/integrating%20data%20journalism-english_0.pdf)
 
 ## Final Assessment
