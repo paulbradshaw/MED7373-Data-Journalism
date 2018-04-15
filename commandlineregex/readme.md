@@ -32,6 +32,7 @@ Key commands are listed below. Although Windows PowerShell alternatives are give
 
 Some resources:
 
+* [Working with CSVs on the command line](http://bconnelly.net/working-with-csvs-on-the-command-line/)
 * [Codecademy has an interactive course on command line](https://www.codecademy.com/en/courses/learn-the-command-line/lessons/navigation/exercises/your-first-command)
 * [Downloading a list of URLs](http://blog.gypsydave5.com/2016/02/04/xargs-and-curl/)
 
