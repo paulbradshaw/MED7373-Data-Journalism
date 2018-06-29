@@ -179,3 +179,156 @@ FROM TnnCand
 GROUP BY "PARTY1", "ELECTYEAR"
 ORDER BY 2 DESC
 ```
+
+
+What questions can we ask without joining?
+
+* Which candidate got money from the largest number of donors?
+* Types of occupations and donations?
+* Multiple donation donors - top 3
+* Largest donor?
+* Total donations?
+* What's biggest single donation?
+
+Start with the last one:
+
+```
+SELECT "AMOUNT", MAX("AMOUNT")
+FROM TennGive
+```
+
+Or:
+
+```
+SELECT "AMOUNT"
+FROM TennGive
+ORDER BY "AMOUNT" DESC
+```
+
+But note: these figures are *TEXT* - it only comes to because it starts with a 9. The biggest donation is $2,000 but there is no way in DB Browser to change to a number here (even `CAST` doesn't seem to work in this case).
+
+Strangely, `SUM` does seem to work:
+
+```
+SELECT  "LAST", SUM("AMOUNT")
+FROM TennGive
+GROUP BY "LAST"
+ORDER BY 2 DESC
+```
+
+Could you use `SUM` and a unique value to sort the maximum values?
+
+Also try:
+
+```
+SELECT "AMOUNT"
+FROM TennGive
+ORDER BY "AMOUNT"
+```
+
+There are negative numbers: this indicates a donation has been refused.
+
+* Types of occupations and donations?
+
+```
+SELECT "OCCUPATION", count(*)
+FROM TennGive
+GROUP BY "OCCUPATION"
+ORDER BY 2 DESC
+```
+
+Example: [The Real ‘Housewives’ Of HSBC](https://www.icij.org/investigations/swiss-leaks/real-housewives-hsbc/)
+
+* Largest donor?
+
+```
+SELECT "LAST", "REST", "OCCUPATION"
+FROM TennGive
+WHERE "LAST" = "HASLAM"
+GROUP BY "LAST", "REST", "OCCUPATION"
+```
+### Wildcards and `OR`
+
+Let's adapt the query to broaden it to names containing 'HAS':
+
+```
+SELECT "LAST", "REST", "OCCUPATION"
+FROM TennGive
+WHERE "LAST" LIKE "%HAS%" OR "REST" LIKE "%HAS%"
+GROUP BY "LAST", "REST", "OCCUPATION"
+```
+
+### Cleaning data: `TRIM` and data types
+
+To change the data type for a particular field, switch to the *Database Structure* tab and right-click on the table name.
+
+Select **Modify table**.
+
+A window should appear where you can change the type of each field using drop down menus.
+
+You can also clean a little with `TRIM`:
+
+```
+SELECT TRIM("AMOUNT")
+FROM TennGive
+ORDER BY "AMOUNT"
+```
+
+
+## Joining data tables
+
+Example: [How Florida ignited the heroin epidemic](https://www.ire.org/blog/extra-extra/2018/06/29/how-florida-ignited-heroin-epidemic/)
+
+You join in the `FROM` command by adding `JOIN` after the first table, then `ON` to specify the fields you are matching on.
+
+`FROM TnnCand JOIN TennGive ON TnnCand."ID" = TennGive."CAND_ID"`
+
+Questions that need a join:
+
+* Who are the Haslams sponsoring?
+* Which candidate gets most money?
+
+Note that we now need to include the table name in the fields that we request:
+
+```
+SELECT TnnCand."NAME", SUM(TennGive."AMOUNT")
+FROM TnnCand JOIN TennGive
+	ON TnnCand."ID" = TennGive."CAND_ID"
+GROUP BY "NAME"
+ORDER BY 2 desc
+```
+
+We can expand further (note you don't need quotation marks on the field names if they don't have spaces):
+
+```
+SELECT TnnCand."NAME", SUM(TennGive."AMOUNT"), TnnCand.PARTY1, TennGive.LAST
+FROM TnnCand JOIN TennGive
+	ON TnnCand."ID" = TennGive."CAND_ID"
+  WHERE "NAME" LIKE "%Sasser%"
+	GROUP BY "NAME", TnnCand.PARTY1, "LAST"
+ORDER BY 2 desc
+```
+
+### Combining tables that have same fields but different periods or areas: `UNION`
+
+If you have data from two different periods you can use `UNION ALL` to combine them like so:
+
+```
+(
+    SELECT police_force_area, sex, year_of_appearance from crimjustice2016only
+    UNION ALL
+    SELECT police_force_area, sex, year_of_appearance from crimjustice2017only
+)
+```
+
+Any `GROUP BY` commands need to be used *either side* of the `UNION`
+
+```
+(
+    SELECT count(sex), sex, year_of_appearance from crimjustice2016only
+    GROUP BY sex, year_of_appearance
+    UNION ALL
+    SELECT count(sex), sex, year_of_appearance from crimjustice2017only
+    GROUP BY sex, year_of_appearance
+)
+```
