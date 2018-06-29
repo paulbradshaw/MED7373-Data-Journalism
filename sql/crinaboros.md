@@ -36,6 +36,8 @@ Click **OK**.
 
 Switch to the *Execute SQL* tab across the top.
 
+## Basic command to select all data
+
 Type a basic command to show all records:
 
 ```
@@ -48,4 +50,41 @@ Commands (e.g. `SELECT`) are not case sensitive, but table names are. Columns (f
 
 Notes can be put inside `/*  */`, like HTML
 
-The hazard field refers to the population near the dam, not dam safety - *never assume you know anything about the data: make sure you understand it*. 
+The hazard field refers to the population near the dam, not dam safety - *never assume you know anything about the data: make sure you understand it*.
+
+## Pivot table
+
+Use `GROUP BY` to pivot. Curiously, DB Browser returns different results when using *single* quotes rather than *double* quotes - so if you only get a single result, try a different type of quotation mark:
+
+```
+/* show names */
+SELECT "DAM_NAME"
+FROM Dams
+GROUP BY "DAM_NAME"
+```
+
+Or:
+
+```
+/* show types of owner */
+SELECT "OWN_TYPE"
+FROM Dams
+GROUP BY "OWN_TYPE"
+```
+
+Add counts:
+
+```
+SELECT count(*), "OWN_TYPE"
+FROM Dams
+GROUP BY "OWN_TYPE"
+```
+
+Sort:
+
+```
+SELECT count(*), "OWN_TYPE"
+FROM Dams
+GROUP BY "OWN_TYPE"
+ORDER BY count(*) DESC
+``` 
