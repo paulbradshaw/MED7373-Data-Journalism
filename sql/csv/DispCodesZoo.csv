@@ -1,0 +1,19 @@
+﻿DCODE,MEANING
+BA,Death
+BC,Sale
+BE,Loan Out
+BD,Donation
+BB,Traded
+BF,Loan Rtrn to Owner
+BJ,Loan Transfer
+BS,Term Free Disp.
+BI,Release
+BH,Escape
+BG,Theft
+BO,Disappeared
+B4,R/R Release
+B2,R/R Death
+B3,Quar. Loan Rtn
+BT,Death in Transit
+B1,Quar. Death
+BQ,Main to Quarantine
