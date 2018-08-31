@@ -120,3 +120,4 @@ The stories are a good example of how the same data can be approached in differe
 
 * Make a listicle:, for example [Gender pay gap: Six things we've learnt](https://www.bbc.co.uk/news/business-43668187)
 
+It's worth looking at the sections dedicated to the broader topic, e.g. https://www.telegraph.co.uk/gender-pay-gap/ and https://www.theguardian.com/world/gender-pay-gap, to see how it has been reported more broadly, e.g. follow-ups, interviews, reactions and campaigns can all give new life to the subject.
