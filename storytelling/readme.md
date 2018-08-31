@@ -100,7 +100,7 @@ You could make this idea into a book, in fact, if done really well.
 
 ![](https://www.economist.com/sites/default/files/imagecache/640-width/20180407_WOC999.png)
 
-News organisations have published a range of stories on gender pay gap data. You can [see an ongoing list of bookmarked examples here](https://pinboard.in/u:paulbradshaw/t:gender+dj+pay).
+News organisations have published a range of stories on gender pay gap data, which can be [downloaded or searched here](https://gender-pay-gap.service.gov.uk/). You can [see an ongoing list of bookmarked examples here](https://pinboard.in/u:paulbradshaw/t:gender+dj+pay).
 
 The stories are a good example of how the same data can be approached in different ways, and for different audiences. For example:
 
