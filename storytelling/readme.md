@@ -1,5 +1,11 @@
 # Storytelling with data
 
+A single dataset can tell a lot of stories - and a single story can be told in many different ways. This page contains two case studies to help you think through the different editorial choices that might be made with a single dataset. 
+
+The first case study - railway usage data - is an example of quick turnaround data journalism in response to new figures, but also includes some less reactive examples (a factcheck and a feature).
+
+The [second case study - gender pay gap data](https://github.com/paulbradshaw/MED7373-Data-Journalism/blob/master/storytelling/readme.md#case-study-2-gender-pay-gap-data) - is an example of a dataset which news organisations have spent more time on. It shows some of the creative choices that can be made in keeping an ongoing dataset/issue fresh.
+
 ## Case study 1: railway station usage figures
 
 The Office of Rail and Road releases ["Estimates of station usage"](http://orr.gov.uk/statistics/published-stats/station-usage-estimates) each year around early December - although many journalists will only [look at the press release](http://orr.gov.uk/news-and-media/press-releases/2014/waterloo-remains-britains-most-heavily-used-station) that it sounds out with the figures. 
@@ -104,7 +110,7 @@ The stories are a good example of how the same data can be approached in differe
 
 * Make it personal: [Large companies have published their gender pay gap figures: How does yours compare?](https://www.telegraph.co.uk/news/2018/03/22/large-companies-publishing-gender-pay-gap-figures-need-know/) and [Equal pay day: What is the gender pay gap like where you are?](https://www.bbc.co.uk/news/uk-england-41805053) offer a company and regional perspective respectively.
 
-* Focus on a specific data point: you might pick a particular organisation and dig deeper into why they are such an outlier (or how they represent a 'typical' organisation)
+* Focus on a specific data point: you might pick a particular organisation and dig deeper into that. You might choose them because they are an outlier, or because they represent a 'typical' organisation. You might choose them because they're topical, or of interest to the audience: [Telegraph Media Group reveals 35% gender pay gap](https://www.theguardian.com/media/2018/mar/26/telegraph-media-group-gender-pay-gap) and [Guardian's gender pay gap falls to 8.4%](https://www.theguardian.com/media/2018/jul/16/guardian-gender-pay-gap-falls-gnm) are two examples.
 
 * Do a video, or an explainer - or both: [this video explainer by The Guardian](https://www.theguardian.com/news/video/2018/apr/06/the-truth-about-gender-pay-gap-video-explainer?CMP=share_btn_tw) gives the subject something fresh
 
