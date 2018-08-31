@@ -1,6 +1,6 @@
 # Storytelling with data
 
-## Case study: railway station usage figures
+## Case study 1: railway station usage figures
 
 The Office of Rail and Road releases ["Estimates of station usage"](http://orr.gov.uk/statistics/published-stats/station-usage-estimates) each year around early December - although many journalists will only [look at the press release](http://orr.gov.uk/news-and-media/press-releases/2014/waterloo-remains-britains-most-heavily-used-station) that it sounds out with the figures. 
 
@@ -88,4 +88,29 @@ Equally, it really lacks quotes: the reporter could have spoken to people who wo
 
 You could make this idea into a book, in fact, if done really well.
 
+
+
+## Case study 2: Gender pay gap data
+
+![](https://www.economist.com/sites/default/files/imagecache/640-width/20180407_WOC999.png)
+
+News organisations have published a range of stories on gender pay gap data. You can [see an ongoing list of bookmarked examples here](https://pinboard.in/u:paulbradshaw/t:gender+dj+pay).
+
+The stories are a good example of how the same data can be approached in different ways, and for different audiences. For example:
+
+* Who's top/bottom: the simple first treatment, as in [this Guardian piece](https://www.theguardian.com/society/2018/apr/05/the-uk-companies-reporting-the-biggest-gender-pay-gaps)
+
+* By industry: [Gender pay gap widening at one in four government bodies, figures show](https://www.theguardian.com/politics/2017/aug/10/gender-pay-gap-widening-at-one-in-four-government-bodies-figures-show) and [Gender pay gaps in academy school chains among the worst in UK](https://www.theguardian.com/news/2018/mar/25/gender-pay-gaps-in-academy-school-chains-among-the-worst-in-uk) focus on different sectors. [The Economist chart](https://www.economist.com/graphic-detail/2018/04/05/britains-gender-seniority-gap) shown above allows you to compare by sector, too.
+
+* Make it personal: [Large companies have published their gender pay gap figures: How does yours compare?](https://www.telegraph.co.uk/news/2018/03/22/large-companies-publishing-gender-pay-gap-figures-need-know/) and [Equal pay day: What is the gender pay gap like where you are?](https://www.bbc.co.uk/news/uk-england-41805053) offer a company and regional perspective respectively.
+
+* Focus on a specific data point: you might pick a particular organisation and dig deeper into why they are such an outlier (or how they represent a 'typical' organisation)
+
+* Do a video, or an explainer - or both: [this video explainer by The Guardian](https://www.theguardian.com/news/video/2018/apr/06/the-truth-about-gender-pay-gap-video-explainer?CMP=share_btn_tw) gives the subject something fresh
+
+* Do a story about concerns over the quality of the data: [this BBC piece](https://www.bbc.co.uk/news/uk-england-42611365) does just that.
+
+* Make it part of a bigger story, which is what [Woman's Hour did in this piece](https://www.bbc.co.uk/news/uk-41203240) on the best place to be a woman in Britain.
+
+* Make a listicle:, for example [Gender pay gap: Six things we've learnt](https://www.bbc.co.uk/news/business-43668187)
 
