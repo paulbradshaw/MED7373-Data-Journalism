@@ -1,6 +1,6 @@
 # Algorithmic accountability - @ndiakopoulos
 
-"Algorithmic accountability is about how people exercise power through algorithms".
+> "Algorithmic accountability is about how people exercise power through algorithms".
 
 Importance for journalists:
 
@@ -10,8 +10,7 @@ Importance for journalists:
 
 ## Newsworthiness
 
-The newsworthiness of #algorithms: bad decisions, violate expectations, public significance (severity and prevalence)
-@ndiakopoulos
+The newsworthiness of algorithms: bad decisions, violate expectations, public significance (severity and prevalence).
 
 4 types:
 * Discrimination/unfairness - e.g. ProPublica's [Machine Bias](https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing) series
@@ -24,7 +23,7 @@ Errors/mistakes can be mapped against 2 axes:
 * Vertical axis: attention/treatment by algorithm;
 * Horizontal axis: negative or positive treatment
 
-![](/algorithmsmatrix.png)
+![](https://github.com/paulbradshaw/MED7373-Data-Journalism/blob/master/algorithms/algorithmsmatrix.png?raw=true)
 
 e.g. driving licence might come under more attention, that is negative - so upper left quadrant of graph
 decrease in positive treatment - special offers only for selected people - lower right quadrant
