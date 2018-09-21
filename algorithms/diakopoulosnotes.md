@@ -48,7 +48,7 @@ less negative attention (classed as low risk when actually higher risk) - lower 
 
 
 
-## Data Justice Lab:
+# Data Justice Lab: a tool for helping algorithmic accountability
 
 Used a list of terms related to algorithms and scraped Google search results for those terms at `.gov.uk` and `.uk` domains.
 
