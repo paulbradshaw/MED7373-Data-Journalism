@@ -24,7 +24,7 @@ This module begins with formal classes and becomes more student-driven as it pro
 
 You will also be expected to feed your own experiences into each class - and your own problems and questions - rather than coming to the sessions with nothing to contribute or build on. As independent learners the emphasis is on you to drive your learning forward through conversation rather than accept it passively.
 
-## Week 1: Data journalism's 3 chords
+## 1: Data journalism's 3 chords
 
 By the end of this week you should be able to use core spreadsheet techniques to find stories, including sorting and filtering, pivot tables, and be able to calculate change and proportions. You will also be able to use GitHub to clone or fork a repo.
 
@@ -37,7 +37,7 @@ By the end of this week you should be able to use core spreadsheet techniques to
 
 You will [find instructions on how to get started with GitHub in another repository here](https://github.com/paulbradshaw/introtogithub)
 
-## Week 2: How to think like a data journalist: data literacy and algorithmic and computational thinking
+## 2: How to think like a data journalist: data literacy and algorithmic and computational thinking
 
 By the end of this week you should be able to use a range of spreadsheet functions - but more importantly, use computational thinking to break down editorial challenges into problems that can be tackled systematically, quickly and effectively, with the potential for automation or semi-automation as algorithms.
 
@@ -48,7 +48,7 @@ By the end of this week you should be able to use a range of spreadsheet functio
 
 **Additional resources**: OpenLearn: [Computational thinking and automation](http://www.open.edu/openlearn/science-maths-technology/computing-and-ict/introduction-computational-thinking/content-section-1)
 
-## Week 3: Mobile first: responsive and other design considerations
+## 3: Mobile first: responsive and other design considerations
 
 By the end of this week you should be able to create a basic HTML page with CSS styles, and explain the basics of design for mobile devices.
 
@@ -61,7 +61,7 @@ By the end of this week you should be able to create a basic HTML page with CSS 
 
 **Additional resources**: [Lynda.com tutorials on responsive web design](https://www.lynda.com/Responsive-Design-training-tutorials/1357-0.html) (free for BCU students)
 
-## Week 4: Making it visual, making it interactive - JavaScript
+## 4: Making it visual, making it interactive - JavaScript
 
 By the end of this week you should be able to explain basic concepts in JavaScript and use it to create basic interactivity and/or visualisations. *Note: the [Narrative module](https://github.com/paulbradshaw/MED7334-Narrative) class on principles of visualisation and visual design, and the class on ergodic storytelling are particularly relevant to your work in this area*
 
@@ -72,7 +72,7 @@ By the end of this week you should be able to explain basic concepts in JavaScri
   * Manuel Matuzovic: [Writing JavaScript with accessibility in mind](https://medium.com/@matuzo/writing-javascript-with-accessibility-in-mind-a1f6a5f467b9)
   * Adrian Holovaty (2006) [A fundamental way newspaper sites need to change](http://www.holovaty.com/writing/fundamental-change/)
 
-## Week 5: Solving data problems - R
+## 5: Solving data problems - R
 
 By the end of this week you should be able to identify common data problems, and use techniques to solve those. You should also be able to use basic data processing and analysis techniques in R.
 
@@ -83,11 +83,7 @@ By the end of this week you should be able to identify common data problems, and
   * [Free ebook: R For Beginners](https://cran.r-project.org/doc/contrib/Paradis-rdebuts_en.pdf)
   * [Playlist: R programming tutorials](https://www.youtube.com/watch?v=WJDrYUqNrHg&index=1&list=PLvhG5FRoq78otMp0WbWuJsFOarEAchMek)
 
-## Week 6: Reading Week. No class.
-
-During this week you should be consolidating your learning so far, developing your skills on one or more editorial project, reviewing examples of data journalism, and continuing to read widely around the subject.
-
-## Week 7: Live and connected storytelling: APIs
+## 6: Live and connected storytelling: APIs
 
 By the end of this week you should be able to use a range of techniques for fetching data from APIs in both R and JavaScript, and explore possibilities for dynamically analysing and/or presenting that data.
 
@@ -95,15 +91,16 @@ By the end of this week you should be able to use a range of techniques for fetc
 * Task: Development of data journalism project
 * Reading: Bogost et al (2010) Newsgames: Journalism at Play
 
-## Week 8: Critical cartography: why, how - and when - to map
+## 7: Critical cartography: why, how - and when - to map
 
 By the end of this week you should be able to create a range of map types (point, shape, heat) and talk about the ethical issues surrounding mapping. You should also be able to use SQL to query data.
 
 * Workshop: [fork this!](https://github.com/paulbradshaw/MED7373-Data-Journalism/tree/master/mapping) Creating shape maps using Carto or Fusion Tables; creating hex maps [using R](https://github.com/paulbradshaw/Rintro/blob/master/mapping/mapping_hex_tiles_basics.Rmd) [or JavaScript](https://github.com/paulbradshaw/jsintro/tree/master/mappinghex)
 * Task: Development of data journalism project
 * Reading: [Thinking about maps](http://personalpages.manchester.ac.uk/staff/m.dodge/rethinking_maps_introduction_pageproof.pdf)
+* Reading: any chapter(s) from [Mapping, Society and Technology](http://open.lib.umn.edu/mapping/)
 
-## Week 9: Fetching the haystack, finding the needle: coding for finding stories
+## 8: Fetching the haystack, finding the needle: coding for finding stories
 
 By the end of this week you should be able to use basic commands in the command line to fetch, find, combine and move data. You should also be able to explain how regular expressions (regex) work, and use them to locate and extract information from files.
 
@@ -115,7 +112,7 @@ By the end of this week you should be able to use basic commands in the command 
 
 You can [find more tips on using command line in another repo here](https://github.com/paulbradshaw/commandline)
 
-## Week 10: Big data, sensor journalism, and SQL
+## 9: Big data, sensor journalism, and SQL
 
 By the end of this week you should be able to identify techniques for working with large datasets, and issues surrounding big data, linked data, open data, and sensor journalism.
 
@@ -126,7 +123,7 @@ By the end of this week you should be able to identify techniques for working wi
   * [Hammond (2015): From computer-assisted to data-driven: Journalism and Big Data](https://www.researchgate.net/publication/287391319_From_computer-assisted_to_data-driven_Journalism_and_Big_Data)
   * Data.world's [Gitbook on SQL](https://docs.data.world/tutorials/dwsql/#sql-on-dataworld) is a useful resource and the platform is a good place to practise SQL queries on your own data.
 
-## Week 11: Here come the robots: AI, machine learning and bots
+## 10: Here come the robots: AI, machine learning and bots
 
 By the end of this week you should be able to identify ways that AI, machine learning and bots can play a role within journalism, both internal- and public-facing, and articulate the critical and ethical issues raised by AI technologies. You should also be able to create a basic bot, and identify relevant libraries for using machine learning within programming.
 
