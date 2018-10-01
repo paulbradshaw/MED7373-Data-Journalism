@@ -1,10 +1,12 @@
 # Storytelling with data
 
-A single dataset can tell a lot of stories - and a single story can be told in many different ways. This page contains two case studies to help you think through the different editorial choices that might be made with a single dataset. 
+A single dataset can tell a lot of stories - and a single story can be told in many different ways. This page contains case studies to help you think through the different editorial choices that might be made with a single dataset. 
 
 The first case study - railway usage data - is an example of quick turnaround data journalism in response to new figures, but also includes some less reactive examples (a factcheck and a feature).
 
 The [second case study - gender pay gap data](https://github.com/paulbradshaw/MED7373-Data-Journalism/blob/master/storytelling/readme.md#case-study-2-gender-pay-gap-data) - is an example of a dataset which news organisations have spent more time on. It shows some of the creative choices that can be made in keeping an ongoing dataset/issue fresh.
+
+A third case study links to examples of stories about baby name data.
 
 ## Case study 1: railway station usage figures
 
@@ -121,3 +123,10 @@ The stories are a good example of how the same data can be approached in differe
 * Make a listicle:, for example [Gender pay gap: Six things we've learnt](https://www.bbc.co.uk/news/business-43668187)
 
 It's worth looking at the sections dedicated to the broader topic, e.g. https://www.telegraph.co.uk/gender-pay-gap/ and https://www.theguardian.com/world/gender-pay-gap, to see how it has been reported more broadly, e.g. follow-ups, interviews, reactions and campaigns can all give new life to the subject.
+
+
+## Case study 3: Baby names
+
+Every year the ONS releases data on the most popular names for babies born the previous year. In [this BBC Data Unit GitHub repo](https://github.com/BBC-Data-Unit/baby-names-2018/blob/master/README.md) you can see 3 different approaches to the story in 2018 - plus links to 2 further stories written from the previous year's data release. 
+
+[Search Google News for 'baby names'](https://news.google.com/search?q=baby%20names) and you will find examples of how other news organisations have treated the same data. 
