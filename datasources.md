@@ -17,3 +17,5 @@ Useful sources of regular data releases include:
 * Full Fact's [Finder](https://fullfact.org/finder/) includes links to dozens of other sources of data on various topics. Pick one that interests you
 * Parliament's [The Daily Report is "a compilation of the written answers submitted by government Ministers (and by other bodies such as the Church Commissioners and the House of Commons Commission)"](https://www.parliament.uk/business/publications/written-questions-answers-statements/daily-reports/). It contains a lot of data (sadly in PDF format) but also lots of inspiration for possible subjects of stories
 * 360 Giving's Data Registry http://data.threesixtygiving.org/ contains data from 93 charitable grant-giving organisations who are publishing grants data to the 360Giving open data standard - in CSV and Excel files
+* The Foundation for Social Improvement's Small Charity Index https://www.thefsi.org/policyresearch/scindex/ publishes quarterly reports  providing hard data on the UK charity sector (income generation, service delivery, workforce, governance, emerging trends and since June 2016, a Brexit temperature test) - in infographics format only
+
