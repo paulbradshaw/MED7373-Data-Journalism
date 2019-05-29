@@ -144,6 +144,42 @@ This has the areas from the shape file but go to the far right of this table and
 
 This can be used to colour-code the shapes: right-click on the Count layer and select **Properties**, then in the *Style* area, change it from single symbol to **Graduated**, and pick the *NUMPOINTS* as the *Column* to colour code by, and finally use the **Classify** button to classify the colours based on *Equal interval* or another scheme. Click **Apply** to see the results, then **OK** if you're happy.
 
+You can then export this as a separate shape file by right-clicking and selecting **Save As** or a similar option.
+
+## Creating buffer zones
+
+Make sure you have a layer of points in your project (e.g. the [hospitals CSV](https://hifld-geoplatform.opendata.arcgis.com/datasets/hospitals) with lat/long), and this layer is selected.
+
+Select **Vector > Geoprocessing tools > buffer** (or Fixed Distance Buffer).
+
+A new window should appear. It already has the layer selected in the first menu, and a distance entered in the second box underneath: 10.000000 - this is in *degrees*. 1 degree is 70 miles so if you wanted a buffer of 7 miles you would use 0.1. For 35 miles, enter 0.5, and so on.
+
+Click **Run** to see the results. You should now see circles replacing the dots you had previously.
+
+In fact, the circles are *on top* of the dots. You can see that there is a new layer called *Buffer*. If you move this below the layer for the points, you will see the *points* on top of the buffers.
+
+## Simplifying shapes
+
+Edit your layer (see above) so that it has the shapes you want to simplify.
+
+Select **Vector > Geometry tools > Simplify**.
+
+Specify a tolerance for how much you want to simplify. **Run**.
+
+You will see the results as a new layer, over the top of the previous one. Remember to deselect the previous layer to see only the new one.
+
+If you're happy you can right-click on the new layer and save as a new shape file.
+
+Alternatively you can use [Mapshaper](https://mapshaper.org/) - you will need to make sure shape files are zipped first.
+
+## Getting maps out of QGIS
+
+You can save the project as a whole (to be used in other QGIS tools) by selecting **Project > Save as**.
+
+Selecting **Project > Save as image** allows you to export an image.
+
+You can also export as a print project in PDF or SVG, adding legends and other features - [watch the video here](https://www.youtube.com/watch?v=C_fGF_H3dFU&list=PLD1sPR1niPYxAAr6iSMT_2Kbol6MKOaco&index=21) for more on that and other export options.
+
 ## Datasets
 
 * [Hospitals in the US](https://hifld-geoplatform.opendata.arcgis.com/datasets/hospitals) - click on Download and select Spreadsheet.
