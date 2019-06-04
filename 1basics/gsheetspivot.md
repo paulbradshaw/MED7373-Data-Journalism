@@ -8,6 +8,8 @@ This pivot table editor is structured in a slightly different way to the way it 
 
 (In addition, above these 4 areas Google Sheets will also often provide a list of *Suggested* queries. This does have an annoying habit of taking up unnecessary space, so make sure to click on the upward facing triangle next to that list to minimise those suggestions and make more room for the bits you want to work with...)
 
+![](gsheets1.png)
+
 For many pivot tables you will only need to use the *Rows* and *Values* options: these allow you to specify what aspect of your data you want to aggregate by (e.g. a category column), and what aspect of your data you want to calculate with (e.g. what you want to count, or add up, or average etc.).
 
 We will focus on those first, then move on to the less-used *Column* and *Filters* options.
@@ -17,6 +19,8 @@ We will focus on those first, then move on to the less-used *Column* and *Filter
 Click on the **Add** button next to *Rows*: this should drop-down a list of all the fields (column names) in your data. Select the one you want to aggregate by. For example, with [gender pay gap data](https://gender-pay-gap.service.gov.uk/viewing/download), you might pick 'EmployerSize' (there are seven categories) or 'SubmittedAfterTheDeadline' (there are two options) but there is no point choosing 'EmployerName' because each name only appears once in the original data, so any totals, averages, maximum or minimum values will just be the same as the value for that company in the spreadsheet etc. (because each company only has one number to add up or average, and that number will be both that company's maximum and minimum value!)
 
 In contrast, if you were working with [council expenditure data](https://www.westminster.gov.uk/spending-procurement-and-data-transparency) you might pick a company name (recipient) to aggregate by because one company can appear more than once and you may want to aggregate all the separate payments to each company into a total per company.
+
+![](gsheets2.png)
 
 Let's say we pick 'EmployerSize', then. The next step is to specify what we want to *calculate* for each of the seven categories in that column. This is done by clicking on the **Add** button next to *Values*. Once again, this will open up a list of all the fields in the data.
 
@@ -29,11 +33,15 @@ Before you pick the value, decide what calculation you want to perform. Your opt
 
 For anything except *counting*, you need to pick a numeric column.
 
+![](gsheets3.png)
+
 Continuing with the gender pay gap data, click on the **Add** button next to *Values* and select 'DiffMeanHourlyPercent'. This shows the difference in average pay between men and women (with a positive figure indicating a percentage in favour of men, and a negative one indicating that women earn more per hour on average).
 
 By default, the pivot table will *add up* all those averages, resulting in some odd looking figures: are companies with 1000 to 4999 employees really paying men 32212% more than women? No. (Always ask yourself if totals make sense and try to work out step-by-step how it arrived at the figure it has)
 
 In this case, we want to perform a different calculation, so click on the *Summarise by* drop-down menu that currently says *SUM* (in other words, totals) and change it to *AVERAGE*.
+
+![](gsheets4.png)
 
 The figures should change to figures which represent the average value for each category (generally around 13-14%). Note also that the heading for the column containing those values also changes, from *SUM of DiffMeanHourlyPercent* to *AVERAGE of DiffMeanHourlyPercent*.
 
@@ -54,6 +62,8 @@ Now we can see, in order, which categories of company have the biggest gender pa
 So far we've left the other two options - *Columns* and *Filters* - untouched. There's a good reason for this: adding columns often over-complicates a pivot table, and filters are often best applied in the data itself (by creating an extra categorical column for example) rather than at this stage.
 
 Columns can be useful, however, when we choose a field with only a few values. For example, the field 'SubmittedAfterTheDeadline' only has two values: TRUE and FALSE.
+
+![](gsheets5.png)
 
 Let's use that, then: in the *Columns* area, click on **Add** and select 'SubmittedAfterTheDeadline'.
 
@@ -81,6 +91,8 @@ You can click 'Clear' to clear the current selection (all items) and then manual
 But an easier option is to look *above* the *Filter by values...* area, to where the *Filter by condition...* area is tucked away. Expand this by clicking on the right-pointing triangle next to it, so you can see a drop-down menu that says *None*. Click on that menu and you will see a number of filtering options ranging from text-related filters such as *Text contains*, to date-, and finally number-related filters.
 
 Select *Text contains* and type 'school' into the box that appears.
+
+![](gsheets6.png)
 
 Now the status should change to *Text contains "school"* and the pivot table values will change to reflect the new filter being applied.
 
