@@ -49,6 +49,7 @@ By the end of this week you should be able to use a range of spreadsheet functio
 * Task: Identify story ideas/leads and break down the tasks needed to achieve those
 * Reading:
   * [Finding Stories in Spreadsheets](https://leanpub.com/spreadsheetstories) *(BCU students please ask for your voucher for a free copy)*
+  * Adrian Holovaty (2006) [A fundamental way newspaper sites need to change](http://www.holovaty.com/writing/fundamental-change/)
 
 **Additional resources**: OpenLearn: [Computational thinking and automation](http://www.open.edu/openlearn/science-maths-technology/computing-and-ict/introduction-computational-thinking/content-section-1)
 
@@ -74,7 +75,6 @@ By the end of this week you should be able to explain basic concepts in JavaScri
 * Reading:
   * Dona Wong (2010) The Wall Street Journal Guide to Information Graphics
   * Manuel Matuzovic: [Writing JavaScript with accessibility in mind](https://medium.com/@matuzo/writing-javascript-with-accessibility-in-mind-a1f6a5f467b9)
-  * Adrian Holovaty (2006) [A fundamental way newspaper sites need to change](http://www.holovaty.com/writing/fundamental-change/)
 
 ## 5: Solving data problems - R
 
