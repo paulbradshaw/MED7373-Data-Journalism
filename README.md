@@ -46,7 +46,7 @@ You will [find instructions on how to get started with GitHub in another reposit
 By the end of this week you should be able to use a range of spreadsheet functions - but more importantly, use computational thinking to break down editorial challenges into problems that can be tackled systematically, quickly and effectively, with the potential for automation or semi-automation as algorithms.
 
 * Workshop: [computational thinking challenge](https://github.com/paulbradshaw/MED7373-Data-Journalism/tree/master/2functions)
-* Task: Identify story ideas/leads and break down the tasks needed to achieve those
+* Directed study: [Identify story ideas/leads and break down the tasks needed to achieve those](https://github.com/paulbradshaw/MED7373-Data-Journalism/blob/master/2functions/directedstudy.md)
 * Reading:
   * [Finding Stories in Spreadsheets](https://leanpub.com/spreadsheetstories) *(BCU students please ask for your voucher for a free copy)*
   * Adrian Holovaty (2006) [A fundamental way newspaper sites need to change](http://www.holovaty.com/writing/fundamental-change/)
