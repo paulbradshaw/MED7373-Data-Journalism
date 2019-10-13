@@ -247,4 +247,4 @@ Now with just one question a score isn't that much use. But to have a quiz with 
 
 ## Further reading
 
-Although we used `onclick` here, it's actually much more common for developers to use the jQuery event handler `.click`. [A discussion of `onclick` versus `click()` is here](https://stackoverflow.com/questions/12627443/jquery-click-vs-onclick), but we'll come onto it in later chapters.
+Although we used `onclick` here, it's actually much more common for developers to use the jQuery event handler `.click`. [A discussion of `onclick` versus `click()` is here](https://stackoverflow.com/questions/12627443/jquery-click-vs-onclick).
