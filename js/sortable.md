@@ -9,9 +9,9 @@
 
 To use it, you only need to make sure your webpage has a HTML table, and do 3 things:
 
-1. Add a link in your HTML to the `sortable.min.js` JavaScript library
-2. Add a link in your HTML to the `sortable-theme-light.css` style sheet (or one of the other style sheets published by the creators)
-3. Add `class="sortable-theme-light" data-sortable` to the `<table>` tag in your HTML
+1. Add a link in your HTML to the `sortable.min.js` JavaScript library (this creates the interactivity)
+2. Add a link in your HTML to the `sortable-theme-light.css` style sheet (or one of the other style sheets published by the creators) (this creates the style)
+3. Add `class="sortable-theme-light" data-sortable` to the `<table>` tag in your HTML (this means your table is 'targeted' by the libraries above)
 
 Below I've outlined each step. You'll also need to make sure your webpage is hosted somewhere that you can edit the HTML to include JavaScript links. GitHub Pages, for example, allows you to host webpages. I've [explained more about that here](https://github.com/paulbradshaw/tables/blob/master/githubpages.md).
 
