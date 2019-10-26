@@ -29,7 +29,7 @@ To complicate things a little further, there are a number of options to choose f
 
 Before getting started it's worth mentioning four tools which are likely to come in useful throughout the process of designing web pages.
 
-## Codepen
+### Codepen
 
 A good way to test out some web design techniques is to use a service like [Codepen](https://codepen.io/). This allows you to write HTML, CSS and JS (JavaScript) on the same screen, and see the results live. It also allows you to easily load popular libraries and clone/fork code ('pens') by other users. Once you're happy with a webpage you can export it as a zip file containing separate HTML, CSS and JS files. These can then be hosted on a service like GitHub Pages, and edited in a text editor like Atom (see below).
 
@@ -174,9 +174,8 @@ Play around with other things you might want to change on different sized screen
 
 One of the biggest challenges in responsive design is images: smaller devices on mobile connections might not need large images, or as many images, as desktop users. Here's an example of HTML code which loads one of two images depending on the width of the screen:
 
-```html
-<img src="https://www.restedface.com/wp-content/uploads/2014/03/medium-dog-breeds-pictures-and-names.jpg" srcset="https://i.ytimg.com/vi/VVeLuvzcVuA/maxresdefault.jpg 1280w, https://cmeimg-a.akamaihd.net/640/cme/cuteness_data/s3fs-public/diy_blog/What-Qualifies-as-a-Medium-Sized-Dog.jpg 864w" sizes='(min-width: 1000px) 1000px, 100vw' class="pic" />
-```
+`
+<img src="https://www.restedface.com/wp-content/uploads/2014/03/medium-dog-breeds-pictures-and-names.jpg" srcset="https://i.ytimg.com/vi/VVeLuvzcVuA/maxresdefault.jpg 1280w, https://cmeimg-a.akamaihd.net/640/cme/cuteness_data/s3fs-public/diy_blog/What-Qualifies-as-a-Medium-Sized-Dog.jpg 864w" sizes='(min-width: 1000px) 1000px, 100vw' class="pic" />`
 
 Let's pick that apart:
 
