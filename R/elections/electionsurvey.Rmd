@@ -1,0 +1,25 @@
+---
+title: "Analysing the British Election Study"
+output: html_notebook
+---
+
+# Analysing the British Election Study
+
+The British Election Study contains data on surveys of voters going back a number of years. The panel study is based on over 90,000 interviews and is supplied as a large file in the SPSS or STATA formats. 
+
+R is well suited for dealing with both the format of the data, and its size.
+
+[You can download any of the BES's panel studies as a large zip file here](https://www.britishelectionstudy.com/data-objects/panel-study-data/) - you may have to register for a free account first.
+
+## Importing the data
+
+```{r}
+library(rio)
+bes19 <- rio::import('BES2019_W16_Panel_v0.3.sav')
+```
+
+
+```{r}
+bes19.haven <- haven::read_sav('BES2019_W16_Panel_v0.3.sav')
+```
+

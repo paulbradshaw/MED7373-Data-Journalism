@@ -1,0 +1,272 @@
+---
+title: "Using parlitools"
+output: html_notebook
+---
+
+# Using parlitools
+
+[The `parlitools` package](https://cran.r-project.org/web/packages/parlitools/vignettes/introduction.html) "is a collection of datasets, maps and data retrieval functions for analysing UK politics".
+
+```{r}
+install.packages("parlitools")
+?parlitools
+library(dplyr)
+library(ggplot2)
+
+census_11 <- parlitools::census_11
+
+bes_2017 <- parlitools::bes_2017
+
+elect_results <- left_join(census_11, bes_2017)
+
+degree_plot <- ggplot(elect_results, aes(y=lab_17, x=degree)) +
+  geom_point(alpha=0.75) +
+  geom_smooth(size=1.75, colour = "#DC241F") +
+  ylab("Share of Votes Cast for Labour") + 
+  xlab("Percentage of Population with a University Degree")
+
+degree_plot
+```
+
+```{r}
+install.packages("cartogram")
+
+library(leaflet)
+library(sf)
+library(htmlwidgets)
+library(dplyr)
+library(parlitools)
+library(cartogram)
+
+west_hex_map <- parlitools::west_hex_map
+
+party_colour <- parlitools::party_colour
+
+elect2017 <- parlitools::bes_2017
+
+elect2017_win_colours <- left_join(elect2017, party_colour, by = c("winner_17" ="party_name")) #Join to current MP data
+
+gb_hex_map <- right_join(west_hex_map, elect2017_win_colours, by = c("gss_code"="ons_const_id")) #Join colours to hexagon map
+
+gb_hex_map <- as(gb_hex_map, "Spatial")
+
+gb_hex_map <- as(gb_hex_map, "SpatialPolygonsDataFrame")
+gb_hex_map
+gb_hex_map$majority_17 <- round(gb_hex_map$majority_17, 2)
+
+gb_hex_map$turnout_17 <- round(gb_hex_map$turnout_17, 2)
+
+gb_hex_map$marginality <- (100-gb_hex_map$majority_17)^3
+
+gp_hex_scaled <- cartogram_cont(gb_hex_map, 'marginality', itermax = 5)
+gp_hex_scaled
+
+# Creating map labels
+labels <- paste0(
+  "Constituency: ", gp_hex_scaled$constituency_name.y, "</br>",
+  "Most Recent Winner: ", gp_hex_scaled$winner_17, "</br>",
+  "Most Recent Majority: ", gp_hex_scaled$majority_17, "%","</br>",
+  "Turnout: ", gp_hex_scaled$turnout_17, "%"
+) %>% lapply(htmltools::HTML)
+
+# Creating the map itself
+leaflet(options=leafletOptions(
+  dragging = FALSE, zoomControl = FALSE, tap = FALSE,
+  minZoom = 6, maxZoom = 6, maxBounds = list(list(2.5,-7.75),list(58.25,50.0)),
+  attributionControl = FALSE),
+  gp_hex_scaled) %>%
+  addPolygons(
+    color = "grey",
+    weight=0.75,
+    opacity = 0.5,
+    fillOpacity = 1,
+    fillColor = ~party_colour,
+    label=labels) %>% 
+  htmlwidgets::onRender(
+    "function(x, y) {
+        var myMap = this;
+        myMap._container.style['background'] = '#fff';
+    }")%>% 
+  mapOptions(zoomToLimits = "first")
+```
+
+
+```{r}
+gp_hex_scaled
+```
+
+
+## Reverse engineering the map
+
+The `west_hex_map` is the base object - we can map that by replacing `gp_hex_scaled` in the code that draws the map:
+
+```{r}
+# Basic hex map
+leaflet(options=leafletOptions(
+  dragging = FALSE, zoomControl = FALSE, tap = FALSE,
+  minZoom = 6, maxZoom = 6, maxBounds = list(list(2.5,-7.75),list(58.25,50.0)),
+  attributionControl = FALSE),
+  west_hex_map) %>%
+  addPolygons(
+    color = "grey",
+    weight=0.75,
+    opacity = 0.5,
+    fillOpacity = 1,
+    fillColor = ~party_colour,
+    label=labels) %>% 
+  htmlwidgets::onRender(
+    "function(x, y) {
+        var myMap = this;
+        myMap._container.style['background'] = '#fff';
+    }")%>% 
+  mapOptions(zoomToLimits = "first")
+```
+
+
+We can change bits to see what they control. For example the background colour in `myMap._container.style['background'] = '#fff';`:
+
+```{r}
+# Basic hex map
+leaflet(options=leafletOptions(
+  dragging = FALSE, zoomControl = FALSE, tap = FALSE,
+  minZoom = 6, maxZoom = 6, maxBounds = list(list(2.5,-7.75),list(58.25,50.0)),
+  attributionControl = FALSE),
+  west_hex_map) %>%
+  addPolygons(
+    color = "grey",
+    weight=0.75,
+    opacity = 0.5,
+    fillOpacity = 1,
+    fillColor = ~party_colour,
+    label=labels) %>% 
+  htmlwidgets::onRender(
+    "function(x, y) {
+        var myMap = this;
+        myMap._container.style['background'] = 'red';
+    }")%>% 
+  mapOptions(zoomToLimits = "first")
+```
+We can also change `color = "grey"` - this seems to affect the borders between polygons. And `fillColor = ~party_colour,` which affects the colour of the polygons.
+
+
+```{r}
+# Basic hex map
+
+leaflet(options=leafletOptions(
+  dragging = FALSE, zoomControl = FALSE, tap = FALSE,
+  minZoom = 6, maxZoom = 6, maxBounds = list(list(2.5,-7.75),list(58.25,50.0)),
+  attributionControl = FALSE),
+  west_hex_map) %>%
+  addPolygons(
+    #Change this line
+    color = "red",
+    weight=0.75,
+    opacity = 0.5,
+    fillOpacity = 1,
+    #And this line
+    fillColor = 'yellow',
+    label=labels) %>% 
+  htmlwidgets::onRender(
+    "function(x, y) {
+        var myMap = this;
+        myMap._container.style['background'] = 'white';
+    }")%>% 
+  mapOptions(zoomToLimits = "first")
+```
+
+Can we get the colours in?
+
+```{r}
+gb_hex_map <- right_join(west_hex_map, elect2017_win_colours, by = c("gss_code"="ons_const_id")) #Join colours to hexagon map
+elect2017_win_colours
+```
+
+
+
+```{r}
+# Basic hex map
+leaflet(options=leafletOptions(
+  dragging = FALSE, zoomControl = FALSE, tap = FALSE,
+  minZoom = 6, maxZoom = 6, maxBounds = list(list(2.5,-7.75),list(58.25,50.0)),
+  attributionControl = FALSE),
+  gb_hex_map) %>%
+  addPolygons(
+    #Change this line
+    color = "grey",
+    weight=0.75,
+    opacity = 0.5,
+    fillOpacity = 1,
+    #And this line
+    fillColor = -party_colour,
+    label=labels) %>% 
+  htmlwidgets::onRender(
+    "function(x, y) {
+        var myMap = this;
+        myMap._container.style['background'] = 'white';
+    }")%>% 
+  mapOptions(zoomToLimits = "first")
+```
+
+
+```{r}
+colnames(gb_hex_map)
+gb_hex_map <- left_join(gb_hex_map, party_colour, by = c("winner_17" ="party_name")) #Join to current MP data
+
+```
+
+## Another map
+
+This is from [the documentation](https://www.rdocumentation.org/packages/parlitools/versions/0.2.0/vignettes/introduction.Rmd):
+
+```{r}
+library(leaflet)
+library(sf)
+library(htmlwidgets)
+library(dplyr)
+library(hansard)
+library(mnis)
+library(parlitools)
+
+west_hex_map <- parlitools::west_hex_map
+
+party_col <- parlitools::party_colour
+
+mps <- mps_on_date("2017-06-20")
+
+mps_colours <- left_join(mps, party_col, by = "party_id") #Join to current MP data
+
+west_hex_map <- left_join(west_hex_map, mps_colours, by = "gss_code") #Join colours to hexagon map
+
+# Creating map labels
+labels <- paste0(
+  "<strong>", west_hex_map$constituency_name, "</strong>", "
+",
+  "Party: ", west_hex_map$party_name, "
+",
+  "MP: ", west_hex_map$display_as, "
+",
+  "Most Recent Result: ", west_hex_map$result_of_election, "
+",
+  "Current Majority: ", west_hex_map$majority, " votes"
+) %>% lapply(htmltools::HTML)
+
+# Creating the map itself
+leaflet(options=leafletOptions(
+  dragging = FALSE, zoomControl = FALSE, tap = FALSE,
+  minZoom = 6, maxZoom = 6, maxBounds = list(list(2.5,-7.75),list(58.25,50.0)),
+  attributionControl = FALSE),
+  west_hex_map) %>%
+  addPolygons(
+    color = "grey",
+    weight=0.75,
+    opacity = 0.5,
+    fillOpacity = 1,
+    fillColor = ~party_colour,
+    label=labels)  %>% 
+  htmlwidgets::onRender(
+    "function(x, y) {
+        var myMap = this;
+        myMap._container.style['background'] = '#fff';
+    }")
+```
+

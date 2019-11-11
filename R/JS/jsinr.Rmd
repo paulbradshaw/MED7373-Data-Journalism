@@ -1,0 +1,38 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+# JavaScript in R
+
+
+```{r}
+install.packages("leaflet")
+library(leaflet)
+pal <- colorQuantile("YlOrRd", NULL, n = 8)
+leaflet(orstationc) %>% 
+  addTiles() %>%
+  addCircleMarkers(color = ~pal(tann))
+```
+```{r}
+#Most of this code is from https://www.htmlwidgets.org/showcase_dygraphs.html
+#The only addition is the first line to install the package used
+install.packages("dygraphs")
+library(dygraphs)
+#Draw a line chart based on the data 'nhtemp'
+#That data is actually a built-in R function: https://www.rdocumentation.org/packages/datasets/versions/3.6.1/topics/nhtemp
+#Specify the title using main =
+#Use the dyRangeSelector function and the dateWindow = argument to specify the range covered
+dygraph(nhtemp, main = "New Haven Temperatures") %>% 
+  dyRangeSelector(dateWindow = c("1920-01-01", "1960-01-01"))
+
+```
+
+
+```{r}
+#Store that data in a variable so we can see it
+somedata <- nhtemp
+#Try the same function above but without the date window line
+dygraph(nhtemp, main = "New Haven Temperatures")
+```
+

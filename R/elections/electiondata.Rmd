@@ -1,0 +1,55 @@
+---
+title: "Analysing the British Election Study"
+output: html_notebook
+---
+
+# Analysing British election data
+
+The Electoral Commission publishes data on election results and turnout - [you can find results and turnout at the 2017 UK general election here](https://www.electoralcommission.org.uk/who-we-are-and-what-we-do/elections-and-referendums/past-elections-and-referendums/uk-general-elections/results-and-turnout-2017-uk-general-election).
+
+You can download an XLSX file, or a zip file for CSVs - this zip file actually contains 4 zip files that correspond to the four sheets in the XLSX.
+
+CSV 3 contains information about voting in each constituency (how many votes cast, spoiled votes, when verification finished, how many were queueing at 10pm etc.). 
+
+CSV 4 contains data on the *results* in each constituency, such as how many votes each candidate received.
+
+Let's bring in CSV 3:
+
+```{r}
+votingdata <- read.csv("2017 UKPGE electoral data - CSV/2017 UKPGE electoral data 3.csv")
+```
+
+And get an idea of the contents:
+
+```{r}
+colnames(votingdata)
+```
+
+That's not helpful. Let's take a look at the first few rows to see what's happening:
+
+```{r}
+head(votingdata)
+```
+
+We can see that most of the headings are in the second row - "ONS Code", "Press association number" etc.
+
+This is a common problem. We need to correct for this when we import. We can normally use the `skip =` parameter in `read.csv` but that seems to throw an error here:
+
+```{r}
+votingdata <- read.csv("2017 UKPGE electoral data - CSV/2017 UKPGE electoral data 3.csv", skip = 2)
+```
+
+So we might try a specialist package, `rio`, to import it instead. This doesn't seem to experience the same problem:
+
+```{r}
+library(rio)
+votingdata <- rio::import("2017 UKPGE electoral data - CSV/2017 UKPGE electoral data 3.csv", skip = 2)
+colnames(votingdata)
+```
+
+And we can check the first few rows again:
+
+```{r}
+head(votingdata)
+```
+

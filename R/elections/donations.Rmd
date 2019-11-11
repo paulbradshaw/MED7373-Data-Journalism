@@ -1,0 +1,115 @@
+---
+title: "Analysing donations data"
+output: html_notebook
+---
+
+# Analysing donations data
+
+You can download data on election spending and donations from the Electoral Commission website at http://search.electoralcommission.org.uk/. 
+
+We are going to do the following: 
+
+* [Loans between the 2017 and 2019 elections](http://search.electoralcommission.org.uk/Search/Loans?currentPage=1&rows=10&sort=StartDate&order=desc&tab=1&open=filter&et=pp&isIrishSourceYes=true&isIrishSourceNo=true&date=Start&from=&to=&quarters=2019Q1234&quarters=2018Q1234&quarters=2017Q34&register=gb&register=ni&register=none&loanStatus=outstanding&loanStatus=ended&optCols=Register&optCols=CampaigningName&optCols=IsIrishSource&optCols=CompanyRegistrationNumber&optCols=Postcode&optCols=RateOfInterestDescription&optCols=AmountRepaid&optCols=AmountConverted&optCols=AmountOutstanding&optCols=EndDate&optCols=DateRepaid&optCols=DateEcLastNotified&optCols=IsReportedPrePoll&optCols=ReportingPeriodName&optCols=IsAggregation)
+* [Donations between the 2017 and 2019 elections](http://search.electoralcommission.org.uk/Search/Loans?currentPage=1&rows=10&sort=StartDate&order=desc&tab=1&open=filter&et=pp&isIrishSourceYes=true&isIrishSourceNo=true&date=Start&from=&to=&quarters=2019Q1234&quarters=2018Q1234&quarters=2017Q34&register=gb&register=ni&register=none&loanStatus=outstanding&loanStatus=ended&optCols=Register&optCols=CampaigningName&optCols=IsIrishSource&optCols=CompanyRegistrationNumber&optCols=Postcode&optCols=RateOfInterestDescription&optCols=AmountRepaid&optCols=AmountConverted&optCols=AmountOutstanding&optCols=EndDate&optCols=DateRepaid&optCols=DateEcLastNotified&optCols=IsReportedPrePoll&optCols=ReportingPeriodName&optCols=IsAggregation)
+* [Spending on the 2017 election](http://search.electoralcommission.org.uk/English/Search/Spending?currentPage=1&rows=10&sort=DateIncurred&order=desc&tab=1&open=filter&et=pp&et=ppm&et=tp&et=perpar&et=rd&includeOutsideSection75=true&evt=ukparliament&ev=3568&optCols=CampaigningName&optCols=ExpenseCategoryName&optCols=FullAddress&optCols=AmountInEngland&optCols=AmountInScotland&optCols=AmountInWales&optCols=AmountInNorthernIreland&optCols=DateOfClaimForPayment&optCols=DatePaid)
+
+You should download these yourself - each will just be called 'results.csv' so make sure you rename them accordingly. I've called mine 'loans.csv', 'donations.csv' and 'spending.csv'.
+
+## Import the data
+
+Now to import the data in those files as data frames in R:
+
+```{r}
+loans <- read.csv("loans.csv")
+```
+
+This should now appear in the *Environment* window in the upper right corner of RStudio.
+
+Let's get a look at the first few rows, using `head()`:
+
+```{r}
+head(loans)
+```
+
+Each column says `<fctr>` underneath the name. That means each column contains 'factor' variables. This is not really what we want - we want it to have characters (text) and number variables.
+
+To stop that from happening, we need to add another **parameter** to the `read.csv` function when we import the data. That parameter is `stringsAsFactors` and it can be used to specify that we *don't* want to treat strings as factors like so: `stringsAsFactors = FALSE`. 
+
+We separate it from the other parameter (the name of the file) with a comma, like so:
+
+```{r}
+loans <- read.csv("loans.csv", stringsAsFactors = FALSE)
+```
+
+Now we can check again to see if it's worked:
+
+```{r}
+head(loans)
+```
+
+That's better - the columns now say `<chr>`. But that includes the column of amounts, which we would hope to treat as numbers.
+
+```{r}
+typeof(loans$Value)
+```
+
+We could try functions like `as.numeric` or `strtoi` to convert it, but those don't work - instead they convert the amounts to `NA`:
+
+```{r}
+strtoi(loans$Value)
+as.numeric(loans$Value)
+```
+
+The problem is that pound sign. If we can strip that out that might solve our problem.
+
+The function `gsub()` will do this. It substitutes one character for another, and needs at least 3 parameters: what character you want to substitute; what you want to substitute for it (including nothing); and where you want to look (the string or vector of strings).
+
+Let's test it:
+
+```{r}
+cleaningvalues <- gsub("£", "", loans$Value)
+cleaningvalues
+```
+
+That's better - but the commas will still cause us problems, so we can replace those too:
+
+```{r}
+cleaningvalues <- gsub(",", "", cleaningvalues)
+cleaningvalues
+```
+
+Those amounts can now be converted using `as.numeric()`:
+
+```{r}
+as.numeric(cleaningvalues)
+```
+
+Let's assign that back to the main dataset as a new column:
+
+```{r}
+loans$valueasnum <- as.numeric(cleaningvalues)
+head(loans)
+```
+
+
+
+
+
+## Nesting
+
+By the way, we could also nest each of those steps within each other like so to do them all at once (but don't worry if this looks really complicated!):
+
+```{r}
+as.numeric(gsub(",","",(gsub("£", "", loans$Value))))
+```
+
+## Importing the other data
+
+We can repeat some of those steps with the other data:
+
+```{r}
+donations <- read.csv("donations.csv", stringsAsFactors = FALSE)
+spending <- read.csv("spending.csv", stringsAsFactors = FALSE)
+```
+
+

@@ -86,11 +86,18 @@ myage <- as.integer(myage)
 typeof(myage)
 ```
 
-Ooh! We did something there which needs a bit more explanation: changing variables. I'll come onto that in a minute. First, it is worth briefly mentioning some other object types that are used in R. **Data tables** are objects containing a table, like a spreadsheet. **Vectors** are objects containing a list of items, like a column. Because R is concerned with data, these are probably the two most common objects you will deal with. [More explanation of these, and other object types, can be found here](https://github.com/paulbradshaw/Rintro/blob/master/Robjects.md).
+Ooh! We did something there which needs a bit more explanation: changing variables. I'll come onto that in a moment. 
+
+First, it is worth briefly mentioning some other object types that are used in R. 
+
+* **Data tables** are objects containing a table, like a spreadsheet. 
+* **Vectors** are objects containing a list of items, like a column. 
+
+Because R is concerned with data, these are probably the two most common objects you will deal with. [More explanation of these, and other object types, can be found here](https://github.com/paulbradshaw/Rintro/blob/master/Robjects.md).
 
 ## Changing variables
 
-Variabes are useful not just to be able to call them and test them, but to *change* them. For example we might want to clean them, filter them, multiply them, and so on.
+Variables are useful not just to be able to call them and test them, but to *change* them. For example we might want to clean them, filter them, multiply them, and so on.
 
 Let's say it's my birthday and I want to change my age. Here's how I might do that:
 
@@ -103,7 +110,9 @@ The key here is to start on the right of `<-`: the line of code first performs t
 
 ## Creating a vector
 
-A vector is like a column of data. It is made up of a list of entries, like so: `2, 5, 10`
+A vector is like a column of data. It is made up of a list of entries, like so: 
+
+`2, 5, 10`
 
 To turn that list into a vector you need to use the [`c` function](https://stat.ethz.ch/R-manual/R-devel/library/base/html/c.html). This creates the vector, so you put the list in brackets after the `c` like so:
 
