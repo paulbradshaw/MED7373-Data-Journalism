@@ -30,15 +30,17 @@ This is because you will be adding attributes that change this table...
 
 Look at the [tutorial on using sortable JavaScript library](https://github.com/paulbradshaw/MED7373-Data-Journalism/blob/master/js/sortable.md) in this repo and apply it to your table. You can [find an example on my Codepen here](https://codepen.io/paulbradshaw/pen/JryomX) too.
 
-## Use the FactMint library to turn it into a chart
+## Use the jQuery HighchartTable library to turn it into a chart
 
-Look at my [pens demonstrating the FactMint visualisation library](https://codepen.io/paulbradshaw/pens/tags/?selected_tag=factmint). See if you can adapt your own table so it is turned into a chart.
+Look at my [pen demonstrating the jQuery HighchartTable visualisation library](https://codepen.io/paulbradshaw/pen/WNNryxm). See if you can adapt your own table so it is turned into a chart.
+
+Find the [documentation for the jQuery HighchartTable library](http://highcharttable.org/) and see if you can use that to help you experiment with charts.
 
 ## Turn the headline into a counter
 
 Add a headline, or a passage of text, which tells a numerical story.
 
-Look at the [tutorial on creating counters in JavaScript](https://github.com/paulbradshaw/MED7373-Data-Journalism/blob/master/js/counter.md) and apply this technique to your number. Again, you can [find examples on Codepen](https://codepen.io/paulbradshaw/pens/tags/?selected_tag=counter). This time there are no libraries involved. But could you find one?
+Look at the [tutorial on creating counters in JavaScript](https://github.com/paulbradshaw/MED7373-Data-Journalism/blob/master/js/counter.md) and apply this technique to your number. Again, you can [find an example on Codepen](https://codepen.io/paulbradshaw/pen/GMvgVQ). This time there are no libraries involved. But could you find one?
 
 ## Add a quiz question
 
