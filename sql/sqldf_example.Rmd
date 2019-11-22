@@ -15,7 +15,7 @@ library(sqldf)
 Next we need some data to run our query on. Here's our familiar expenses data:
 
 ```{r}
-exes1718 <- read.csv("exes1718.csv")
+exes1718 <- read.csv("exes1718.csv", stringsAsFactors = F)
 ```
 
 ## The first query: a filter
@@ -42,18 +42,29 @@ The `select *` command in SQL selects all columns, but you can select them each 
 dateandcatonly <- sqldf("select Date, Category from exes1718")
 ```
 
-Note that SQL struggles with some column names where R replaces spaces with full stops. You may have to rename these first:
+Note that SQL struggles with some column names where R replaces spaces with full stops. 
+
+```{r}
+colnames(exes1718)
+mpnamesonly <- sqldf("select MP.s.Name, Amount.Paid from exes1718")
+```
+
+One solution is to put it in ` marks:
+
+```{r}
+mpnamesonly <- sqldf("select `MP.s.Name`, `Amount.Paid` from exes1718")
+```
+
+Or you may prefer to rename them first:
 
 ```{r}
 #Show the column names
 colnames(exes1718)
-#The fourth one seems to have full stops in it. Let's check:
-colnames(exes1718)[4]
 ```
 
 
 ```{r}
-#Now rename that column name
+#Now rename some of the column names
 colnames(exes1718)[4] <- "mpname"
 colnames(exes1718)[5] <- "mpconstituency"
 colnames(exes1718)[7] <- "expensetype"
@@ -61,6 +72,16 @@ colnames(exes1718)[8] <- "description"
 colnames(exes1718)[16] <- "amountclaimed"
 colnames(exes1718)[17] <- "amountpaid"
 #And check it
+colnames(exes1718)
+```
+
+A quicker way is to use `gsub` to replace full stops. Because this uses regex you need to escape the full stop in square brackets like so: `[.]` so that it interprets it literally rather than to mean 'any character'
+
+```{r}
+#Show the results of gsub:
+gsub("[.]","_",colnames(exes1718))
+#Now assign those as column names:
+colnames(exes1718) <- gsub("[.]","_",colnames(exes1718))
 colnames(exes1718)
 ```
 
@@ -161,7 +182,9 @@ It is interesting that staffing seems to have the widest variation even though i
 So it looks like staffing costs vary most. But we can make it easier by adding an `order by` command:
 
 ```{r}
-sqldf('select category, stdev(amountpaid) from exes1718 group by category order by stdev(amountpaid) desc')
+sqldf('select category, stdev(amountpaid) from exes1718 
+      group by category 
+      order by stdev(amountpaid) desc')
 ```
 
 
