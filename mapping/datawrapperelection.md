@@ -16,10 +16,7 @@ Your CSV file will need a column of constituency codes, or names. Codes are easi
 
 Click **Upload data** and find the data that you want to import.
 
-You can use a CSV from this repository. You can choose from:
-
-* [Election turnout by constituency (2017)](https://github.com/paulbradshaw/MED7373-Data-Journalism/blob/master/mapping/datasets/2017electionturnout.csv)
-* [Winning party by constituency (2012)](https://github.com/paulbradshaw/MED7373-Data-Journalism/blob/master/mapping/datasets/electionwinners2012.csv)
+You can use a CSV from this repository. Use [Election turnout by constituency (2017)](https://github.com/paulbradshaw/MED7373-Data-Journalism/blob/master/mapping/datasets/2017electionturnout.csv)
 
 Alternatively, if it is a small dataset you can copy and paste it into the table on screen.
 
@@ -47,6 +44,11 @@ In the 'Annotate' section you can add a title, description, notes, data source a
 Add these. Click **Proceed** to go to the 'Design' section - turn on *Enable social sharing* to add buttons to share to social platforms.
 
 Now click **Publish**.
+
+## Creating a category map
+
+If you import data it insists on you having a numerical column to match as 'values'. However, if you copy and paste your data directly into Datawrapper, it *will* allow you to map categories such as 'Lab' and 'Con' (Labour and Conservative). Try this with [Winning party by constituency (2012)](https://github.com/paulbradshaw/MED7373-Data-Journalism/blob/master/mapping/datasets/electionwinners2012.csv).
+
 
 ## Creating a geographically accurate election map
 
