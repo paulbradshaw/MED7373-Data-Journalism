@@ -8,8 +8,6 @@ There are three choices: you need the **Symbol map**.
 
 You will be asked to select which map you want to create. Pick an area relevant to your story. For example if you are mapping crime you might pick *United Kingdom » Police Force Areas*.
 
-Note: *United Kingdom » Constituencies (hexagons)* will allow you to create a hex tile map for an election.
-
 Click **Next**.
 
 You are now at the 'Add your data' stage. Click on **Click here to upload a CSV file**
