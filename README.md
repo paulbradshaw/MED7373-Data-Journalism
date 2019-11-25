@@ -99,7 +99,7 @@ By the end of this week you should be able to use a range of techniques for fetc
 
 By the end of this week you should be able to create a range of map types (point, shape, heat) and talk about the ethical issues surrounding mapping. You should also be able to use SQL to query data.
 
-* Workshop: [fork this!](https://github.com/paulbradshaw/MED7373-Data-Journalism/tree/master/mapping) Creating shape maps using Carto or Fusion Tables; creating hex maps [using R](https://github.com/paulbradshaw/Rintro/blob/master/mapping/mapping_hex_tiles_basics.Rmd) [or JavaScript](https://github.com/paulbradshaw/jsintro/tree/master/mappinghex)
+* Workshop: [fork this!](https://github.com/paulbradshaw/MED7373-Data-Journalism/tree/master/mapping) Creating shape and point maps using Datawrapper; creating hex maps [using R](https://github.com/paulbradshaw/Rintro/blob/master/mapping/mapping_hex_tiles_basics.Rmd) [or JavaScript](https://github.com/paulbradshaw/jsintro/tree/master/mappinghex)
 * Task: Development of data journalism project
 * Reading: [Thinking about maps](http://personalpages.manchester.ac.uk/staff/m.dodge/rethinking_maps_introduction_pageproof.pdf)
 * Reading: any chapter(s) from [Mapping, Society and Technology](http://open.lib.umn.edu/mapping/)
