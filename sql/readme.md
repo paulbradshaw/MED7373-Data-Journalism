@@ -9,7 +9,7 @@ This folder contains resources on using SQL queries in data journalism.
 * [SQL Teaching](https://www.sqlteaching.com/) allows you to learn about different commands and try them out
 * [A Gentle Introduction to SQL Using SQLite](https://github.com/tthibo/SQL-Tutorial#readme) by AP's Troy Thibodeaux
 * [You can use SQLite in command line](https://www.sqlite.org/cli.html)
-* You can use DB Browser for SQLite to run SQL queries. [Here are some notes from 3 sessions by Crina Boros on this](https://github.com/paulbradshaw/MED7373-Data-Journalism/blob/master/sql/crinaboros.md) at the Centre for Investigative Journalism Summer School
+* You can [DB Browser for SQLite](https://sqlitebrowser.org/) to run SQL queries. [Here are some notes from 3 sessions by Crina Boros on this](https://github.com/paulbradshaw/MED7373-Data-Journalism/blob/master/sql/crinaboros.md) at the Centre for Investigative Journalism Summer School
 
 
 ## Places you can use SQL
