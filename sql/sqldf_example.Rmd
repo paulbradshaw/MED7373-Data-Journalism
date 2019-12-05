@@ -423,6 +423,20 @@ sqldf("SELECT *
 
 Note that when doing this, it's a good idea to continue using the table.field naming convention outlined earlier, to avoid any problems when referring to a field which could come from either table.
 
+## Joining two datasets with the same fields (different periods or areas)
+
+```{r}
+#Join the same dataset to itself, resulting in a data frame which is twice as big
+doubledata <- sqldf::sqldf("SELECT * 
+      FROM exes1718
+      UNION ALL
+      SELECT *
+      FROM exes1718")
+#Check the size - it's now 23,494 rows
+doubledata
+```
+
+
 ## Saving and exporting results
 
 Of course any results can be stored in an R object and/or exported like so:
