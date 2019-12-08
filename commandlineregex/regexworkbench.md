@@ -72,5 +72,40 @@ Now we are saying look for the characters `RESULT:` followed by any characters (
 
 Because the 'none or more of any character' is in parentheses -  `(.*)` - that's what will be grabbed.
 
+Run this and we will get everything *after* 'RESULT:' in each tweet. Great. That's progress.
 
+As with a lot of regex, this is a process of continual refinement. We've now got what we wanted, but also some extra text we want to omit.
 
+So let's refine it further again. We want to *stop* grabbing when it gets to a dash, because that seems to mark the end of the place name and the start of other information. We can put that dash *outside* of the parentheses to indicate this:
+
+`RESULT:(.*)-`
+
+Now we get the constituency.
+
+You can rename the column (currently 'expression output') as 'constituency' now. 
+
+And move on to the next regex.
+
+## Another column of regex extraction: the winning party
+
+Click on **Add step** again, select **Regex extractor** and choose the same 'text' column. 
+
+This time we want to extract the winning party. What regex can we use? 
+
+How about this:
+
+`RESULT:.* - ([A-Z]{3})`
+
+This means RESULT: followed by none or more of any character, followed by a dash, followed by (and this bit is captured in parentheses), 3 capital letters.
+
+There are flaws in this - what are they?
+
+## Another column of regex extraction: hold or gain
+
+Using the same logic we can extract whether the tweet says 'HOLD' or 'GAIN':
+
+`RESULT:.* - .*([A-Z]{4})`
+
+But we could also use pipes to indicate 'OR' and write:
+
+`RESULT:.* - .*(HOLD|LOSE|GAIN|WIN)`
