@@ -109,3 +109,7 @@ Using the same logic we can extract whether the tweet says 'HOLD' or 'GAIN':
 But we could also use pipes to indicate 'OR' and write:
 
 `RESULT:.* - .*(HOLD|LOSE|GAIN|WIN)`
+
+## Other exercises
+
+Try this on a less 'regular' account like @BBCcareers. What are the challenges?
