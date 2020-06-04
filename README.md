@@ -83,7 +83,7 @@ By the end of this week you should be able to identify common data problems, and
 * Workshop: Importing, analysing, and exporting in R ([Fork this repo!](https://github.com/paulbradshaw/rintro))
 * Task: Use R to clean and check your data
 * Reading:
-  * [Stray: The Curious Journalist's Guide to Data](https://towcenter.gitbooks.io/curious-journalist-s-guide-to-data/)
+  * [Stray: The Curious Journalist's Guide to Data](http://www.documentcloud.org/documents/2790871-Curious-Journalist-S-Guide-to-Data.html)
   * [Free ebook: R For Beginners](https://cran.r-project.org/doc/contrib/Paradis-rdebuts_en.pdf)
   * [Playlist: R programming tutorials](https://www.youtube.com/watch?v=WJDrYUqNrHg&index=1&list=PLvhG5FRoq78otMp0WbWuJsFOarEAchMek)
 
