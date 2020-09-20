@@ -10,7 +10,9 @@ I've collected a [list of useful data sources here](https://github.com/paulbrads
 
 It's easy to start playing with the data and get distracted. Instead, first spend some time thinking about what might be interesting and newsworthy in that data. In particular, make sure you check what data has been collected, and what period of time it covers.
 
-Here are some suggestions:
+You can find suggestions for angles you can take in my post [Here are the angles journalists use most often to tell the stories in data](https://onlinejournalismblog.com/2020/08/11/here-are-the-7-types-of-stories-most-often-found-in-data/):
+
+![](https://onlinejournalismblog.files.wordpress.com/2020/08/7-angles-for-data-stories-icon-version-5.png?w=625&h=428)
 
 * **Change** - are things going up or down? ["Are prisons becoming more dangerous places?"](https://github.com/BBC-Data-Unit/prison-assaults) is a story that tells us, yes, assaults are on the rise.
 * **Lack of change** - if nothing is changing, sometimes that is newsworthy too. For example ["Give MPs deadline on hiring relatives, campaigners urge"](https://github.com/BBC-Data-Unit/mps-registers-of-interest) highlights how many MPs are still employing relatives despite it being banned for new MPs.
