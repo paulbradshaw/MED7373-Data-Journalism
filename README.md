@@ -51,7 +51,7 @@ By the end of this week you should be able to use a range of spreadsheet functio
   * [Finding Stories in Spreadsheets](https://leanpub.com/spreadsheetstories) *(BCU students please ask for your voucher for a free copy)*
   * Adrian Holovaty (2006) [A fundamental way newspaper sites need to change](http://www.holovaty.com/writing/fundamental-change/)
 
-**Additional resources**: OpenLearn: [Computational thinking and automation](http://www.open.edu/openlearn/science-maths-technology/computing-and-ict/introduction-computational-thinking/content-section-1)
+**Additional resources**: OpenLearn: [Computational thinking and automation](https://www.open.edu/openlearn/science-maths-technology/computing-ict/introduction-computational-thinking/content-section-1.1)
 
 ## 3: Mobile first: responsive and other design considerations
 
