@@ -6,6 +6,7 @@ Useful sources of regular data releases include:
 * [Gov.uk's Publications: Transparency Data](https://www.gov.uk/government/publications?keywords=&publication_filter_option=transparency-data&topics%5B%5D=all&departments%5B%5D=all&official_document_status=all&world_locations%5B%5D=all&from_date=&to_date=) has more data.
 * [Data.gov.uk](https://data.gov.uk/) is the open data portal for the UK government. Look for similar websites for other countries, and for city regions like [Birmingham](https://data.birmingham.gov.uk/) and [London](https://data.london.gov.uk/)
 * The [Office for National Statistics has a release calendar of data](https://www.ons.gov.uk/releasecalendar)
+* The [Office for National Statistics 'requested statistics'](https://www.ons.gov.uk/aboutus/whatwedo/statistics/requestingstatistics/alladhocs)
 * [HESA has data on the higher education sector](https://www.hesa.ac.uk/data-and-analysis)
 * [NHS Digital](https://digital.nhs.uk/data-and-information) has data on health
 * [StatXplore](https://stat-xplore.dwp.gov.uk/) has data on welfare (housing, unemployment). Although it says 'log in' you can actually access the data without doing so - just click 'Guest log in' underneath
