@@ -38,6 +38,18 @@ You may not be able to solve every problem above, so start with the simple ones 
 * Subtract rank in 1996 from rank in 2016 to get a 'change in rank' number
 * Match names in one dataset (baby names) against names in another (celebrities)
 
-## Write up the process as a tutorial for others
+## Write the story!
+
+Again, aim to keep it simple to begin with: 2-3 short paragraphs that tell the story quickly and effectively.
+
+Once you've written and published that simple version, add to it: can you get some quotes (whether directly or indirectly, from reports or statements)? Some visuals (a chart is one option, but photos or illustrations can also work)?
+
+Review your story based on previous feedback: consider if the headline/intro have a clear angle and if the structure is right.
+
+## Optional: Create a GitHub repo for the story
+
+Create a repo and upload the data, then make a readme.md file explaining how the story was done.
+
+## Optional: Write up the process as a tutorial for others
 
 Use your own blog to write up the process for others to follow. An important skill in data journalism is being able to participate in *communities of practice*, and publishing blog posts like this is one way to do that. Remember there will always be people who know more than you - but also there will always be people who haven't solved the problem you've just solved!
