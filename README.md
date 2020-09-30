@@ -54,18 +54,14 @@ By the end of this week you should be able to use a range of spreadsheet functio
 
 **Additional resources**: OpenLearn: [Computational thinking and automation](https://www.open.edu/openlearn/science-maths-technology/computing-ict/introduction-computational-thinking/content-section-1.1)
 
-## 3: Mobile first: responsive and other design considerations
+## 3: Critical cartography: why, how - and when - to map
 
-By the end of this week you should be able to create a basic HTML page with CSS styles, and explain the basics of design for mobile devices.
+By the end of this week you should be able to create a range of map types (point, shape, heat) and talk about the ethical issues surrounding mapping. You should also be able to use SQL to query data.
 
-*Before the class*: read Learning HTML and CSS by making tweetable quotes on [Leanpub](https://leanpub.com/learninghtmlandcss) or [OJB](https://onlinejournalismblog.com/2015/02/09/how-to-learn-html-and-css-by-making-tweetable-quotes/)
-
-* Workshop: HTML, CSS and responsive frameworks. [Fork this! Intro to responsive web design with Bootstrap](https://github.com/paulbradshaw/jsintro/blob/master/responsive/bootstrapintro.md)
-* Task: Create a responsive webpage on [GitHub Pages](https://github.com/paulbradshaw/introtogithub/blob/master/githubwebsites.md)
-* Reading: Jeremy Keith: [Resilient Web Design](https://resilientwebdesign.com/)
-* Reading: Manuel Matuzovic: [Writing HTML with accessibility in mind](https://medium.com/alistapart/writing-html-with-accessibility-in-mind-a62026493412); [Writing CSS with Accessibility in Mind](https://medium.com/@matuzo/writing-css-with-accessibility-in-mind-8514a0007939)
-
-**Additional resources**: [Lynda.com tutorials on responsive web design](https://www.lynda.com/Responsive-Design-training-tutorials/1357-0.html) (free for BCU students)
+* Workshop: [fork this!](https://github.com/paulbradshaw/MED7373-Data-Journalism/tree/master/mapping) Creating shape and point maps using Datawrapper; creating hex maps [using R](https://github.com/paulbradshaw/Rintro/blob/master/mapping/mapping_hex_tiles_basics.Rmd) [or JavaScript](https://github.com/paulbradshaw/jsintro/tree/master/mappinghex)
+* Task: Development of data journalism project
+* Reading: [Thinking about maps](http://personalpages.manchester.ac.uk/staff/m.dodge/rethinking_maps_introduction_pageproof.pdf)
+* Reading: any chapter(s) from [Mapping, Society and Technology](http://open.lib.umn.edu/mapping/)
 
 ## 4: Making it visual, making it interactive - JavaScript
 
@@ -96,14 +92,18 @@ By the end of this week you should be able to use a range of techniques for fetc
 * Task: Development of data journalism project
 * Reading: Bogost et al (2010) Newsgames: Journalism at Play
 
-## 7: Critical cartography: why, how - and when - to map
+## 7: Mobile first: responsive and other design considerations
 
-By the end of this week you should be able to create a range of map types (point, shape, heat) and talk about the ethical issues surrounding mapping. You should also be able to use SQL to query data.
+By the end of this week you should be able to create a basic HTML page with CSS styles, and explain the basics of design for mobile devices.
 
-* Workshop: [fork this!](https://github.com/paulbradshaw/MED7373-Data-Journalism/tree/master/mapping) Creating shape and point maps using Datawrapper; creating hex maps [using R](https://github.com/paulbradshaw/Rintro/blob/master/mapping/mapping_hex_tiles_basics.Rmd) [or JavaScript](https://github.com/paulbradshaw/jsintro/tree/master/mappinghex)
-* Task: Development of data journalism project
-* Reading: [Thinking about maps](http://personalpages.manchester.ac.uk/staff/m.dodge/rethinking_maps_introduction_pageproof.pdf)
-* Reading: any chapter(s) from [Mapping, Society and Technology](http://open.lib.umn.edu/mapping/)
+*Before the class*: read Learning HTML and CSS by making tweetable quotes on [Leanpub](https://leanpub.com/learninghtmlandcss) or [OJB](https://onlinejournalismblog.com/2015/02/09/how-to-learn-html-and-css-by-making-tweetable-quotes/)
+
+* Workshop: HTML, CSS and responsive frameworks. [Fork this! Intro to responsive web design with Bootstrap](https://github.com/paulbradshaw/jsintro/blob/master/responsive/bootstrapintro.md)
+* Task: Create a responsive webpage on [GitHub Pages](https://github.com/paulbradshaw/introtogithub/blob/master/githubwebsites.md)
+* Reading: Jeremy Keith: [Resilient Web Design](https://resilientwebdesign.com/)
+* Reading: Manuel Matuzovic: [Writing HTML with accessibility in mind](https://medium.com/alistapart/writing-html-with-accessibility-in-mind-a62026493412); [Writing CSS with Accessibility in Mind](https://medium.com/@matuzo/writing-css-with-accessibility-in-mind-8514a0007939)
+
+**Additional resources**: [Lynda.com tutorials on responsive web design](https://www.lynda.com/Responsive-Design-training-tutorials/1357-0.html) (free for BCU students)
 
 ## 8: Fetching the haystack, finding the needle: coding for finding stories
 
