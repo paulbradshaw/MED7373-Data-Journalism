@@ -1,6 +1,7 @@
 # Mapping
 
-* [When to use maps in data visualisation](https://onlinejournalismblog.com/2015/08/24/when-to-use-maps-in-data-visualisation-a-great-big-guide/): An introductory guide to good practice in mapping.
+* [When to use maps in data visualisation](https://onlinejournalismblog.com/2015/08/24/when-to-use-maps-in-data-visualisation-a-great-big-guide/): An introductory guide to good practice in mapping. Followed by...
+* [When to use shape maps in data visualisation: part 2 of a great big guide](https://onlinejournalismblog.com/2015/08/28/when-to-use-shape-maps-in-data-visualisation-part-2-of-a-great-big-guide/)
 * [How to use Datawrapper to map points](https://github.com/paulbradshaw/MED7373-Data-Journalism/blob/master/mapping/datawrapperpoints.md)
 * [How to use Datawrapper to map shapes](https://github.com/paulbradshaw/MED7373-Data-Journalism/blob/master/mapping/datawrapperelection.md)
 * [How to use Flourish to map points](https://github.com/paulbradshaw/MED7373-Data-Journalism/blob/master/mapping/flourishpoints.md)
