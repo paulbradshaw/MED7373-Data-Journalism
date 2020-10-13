@@ -74,9 +74,18 @@ By the end of this week you should be able to identify common data problems, and
   * [Stray: The Curious Journalist's Guide to Data](http://www.documentcloud.org/documents/2790871-Curious-Journalist-S-Guide-to-Data.html)
   * [Free ebook: R For Beginners](https://cran.r-project.org/doc/contrib/Paradis-rdebuts_en.pdf)
   * [Playlist: R programming tutorials](https://www.youtube.com/watch?v=WJDrYUqNrHg&index=1&list=PLvhG5FRoq78otMp0WbWuJsFOarEAchMek)
+  * [Directed study: playing with R](https://github.com/paulbradshaw/MED7373-Data-Journalism/blob/master/R/ds.md)
+
+
+## 5: Live and connected storytelling: APIs
+
+By the end of this week you should be able to use a range of techniques for fetching data from APIs in both R and JavaScript, and explore possibilities for dynamically analysing and/or presenting that data.
+
+* Workshop: Using APIs in JavaScript and R. [Fork this!](https://github.com/paulbradshaw/MED7373-Data-Journalism/tree/master/api)
+* Task: Development of data journalism project
+* Reading: Bogost et al (2010) Newsgames: Journalism at Play
   
-  
-## 5: Making it visual, making it interactive - JavaScript
+## 6: Making it visual, making it interactive - JavaScript
 
 By the end of this week you should be able to explain basic concepts in JavaScript and use it to create basic interactivity and/or visualisations. *Note: the [Narrative module](https://github.com/paulbradshaw/MED7334-Narrative) class on principles of visualisation and visual design, and the class on ergodic storytelling are particularly relevant to your work in this area*
 
@@ -86,13 +95,6 @@ By the end of this week you should be able to explain basic concepts in JavaScri
   * Dona Wong (2010) The Wall Street Journal Guide to Information Graphics
   * Manuel Matuzovic: [Writing JavaScript with accessibility in mind](https://medium.com/@matuzo/writing-javascript-with-accessibility-in-mind-a1f6a5f467b9)
   
-## 6: Live and connected storytelling: APIs
-
-By the end of this week you should be able to use a range of techniques for fetching data from APIs in both R and JavaScript, and explore possibilities for dynamically analysing and/or presenting that data.
-
-* Workshop: Using APIs in JavaScript and R. [Fork this!](https://github.com/paulbradshaw/MED7373-Data-Journalism/tree/master/api)
-* Task: Development of data journalism project
-* Reading: Bogost et al (2010) Newsgames: Journalism at Play
 
 ## 7: Mobile first: responsive and other design considerations
 
