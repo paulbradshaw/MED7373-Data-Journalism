@@ -11,4 +11,5 @@ As you prepare for a second class on R spend at least 5 hours exploring the lang
   * You can continue on to the [10 more things to do in R](https://github.com/paulbradshaw/Rintro/blob/master/10morethings.md) or the [10 Excel things to do](https://github.com/paulbradshaw/Rintro/blob/master/10excelthings.md)
 * Identify an editorial problem - and try to solve it using R. Keep it simple - it might simply be combining data.
   * There's [an example of working with expenses data here](https://github.com/paulbradshaw/MED7373-Data-Journalism/blob/master/R/Rcsvexample.Rmd) - you can copy that markdown from the notebook and paste directly into your own (make sure you have the data files in your project folder)
+  * There's [an example of working with gender pay gap data here](https://github.com/paulbradshaw/genderpaygap/blob/master/r/downloadgenderpaygap.Rmd)
   * There's [an example of creating a filtered piece of data using `subset()` here](https://github.com/paulbradshaw/MED7373-Data-Journalism/blob/master/R/crimedata.Rmd)
