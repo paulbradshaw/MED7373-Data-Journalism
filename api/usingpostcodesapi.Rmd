@@ -20,7 +20,7 @@ If you go to that URL you will get a bunch of code in **JSON** - this is the dat
 Let's store that URL in an object in R - we'll call it `url`:
 
 ```{r}
-url <- "http://api.postcodes.io/postcodes/b422su"
+url <- "http://api.postcodes.io/postcodes/b47ap"
 ```
 
 Note that this is only a string of characters - it is *not* the contents that can be found *at* that URL. But now that we've stored that URL address, we are going to grab some data from it.
@@ -30,7 +30,6 @@ Note that this is only a string of characters - it is *not* the contents that ca
 To import JSON files we need to activate a **package** called `jsonlite`. Packages [are](https://www.statmethods.net/interface/packages.html:
 
 > "collections of R functions, data, and compiled code in a well-defined format." 
-
 In other languages like JavaScript and Python, this would be called a library. But in R, confusingly, a *library* is something else: "the directory where packages are stored".
 
 To use a package in R you need to do two things: firstly, make sure the package is *installed*, and secondly, *add it* to your library.
@@ -65,19 +64,19 @@ jsoneg
 You can access individual items by using the word after the dollar sign inside a double square bracket and single commas like so:
 
 ```{r}
-jsoneg[['status']]
+jsoneg$status
 ```
 
-Some have more than one - for example `$result$codes$ccg`. To access that each word must be inside its own square brackets like so:
+Some have more than one - for example `$result$codes$ccg`. To access that just use the dollar signs in the same way to indicate a branch like so:
 
 ```{r}
-jsoneg[['result']][['codes']][['ccg']]
+jsoneg$result$codes$ccg
 ```
 
 So to get the constituency we need:
 
 ```{r}
-jsoneg[['result']][['parliamentary_constituency']]
+jsoneg$result$parliamentary_constituency
 ```
 
 That's fine for one JSON file - but how can we do this for dozens or hundreds?
@@ -89,7 +88,7 @@ To use this more than once - on multiple postcodes - we need to create a **loop*
 The list can be stored in a *vector* object created using the `c()` function like so:
 
 ```{r}
-postcodes <- c("B422SU","BL23QQ","B735XJ")
+postcodes <- c("B47AP","BL23QQ","B735XJ")
 ```
 
 A loop uses `for`, followed by a reference to the list in parentheses, followed by what we want to happen for each item. It looks like this:
@@ -105,7 +104,7 @@ Note that we create a new object here, each time the loop runs: `i`. This is the
 At the moment `i` is just printed - but we can do something more useful with it, like add it to the postcodes URL. A useful function for that is `paste`:
 
 ```{r}
-paste("http://api.postcodes.io/postcodes/","B422SU")
+paste("http://api.postcodes.io/postcodes/","B47AP")
 ```
 
 This combines the two strings in parentheses, into one. It can be used with a variable as well:
@@ -138,7 +137,7 @@ for (i in postcodes){
   #grab the JSON
   jsoneg <- fromJSON(url)
   #drill down into one branch and print the value
-  print(jsoneg[['result']][['parliamentary_constituency']])
+  print(jsoneg$result$parliamentary_constituency)
 }
 ```
 
@@ -152,9 +151,9 @@ resultslist = c()
 for (i in postcodes){
   url <- paste("http://api.postcodes.io/postcodes/",i, sep="")
   jsoneg <- fromJSON(url)
-  print(jsoneg[['result']][['parliamentary_constituency']])
+  print(jsoneg$result$parliamentary_constituency)
   #This time we store the results of drilling down into part of the JSON
-  constituency <- jsoneg[['result']][['parliamentary_constituency']]
+  constituency <- jsoneg$result$parliamentary_constituency
   #Then we add it to the list
   resultslist = c(resultslist, constituency)
 }
