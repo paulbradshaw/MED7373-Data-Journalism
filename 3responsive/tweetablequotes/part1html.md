@@ -29,8 +29,7 @@ Now let me show you the HTML for a link which creates a very simple 'tweet this'
 
 In Wordpress, switch from the normal 'Visual' view to the 'Text' view, which allows you to see the post text including most of the HTML as well.
 
-![The 'Text' tab when editing a post in Wordpress. You may need to switch to 'classic view' to see this](images/wordpress-text-editor.png)
-
+![The 'HTML' view when editing a post in Wordpress](https://raw.githubusercontent.com/paulbradshaw/MED7373-Data-Journalism/master/3responsive/tweetablequotes/edithtmlinwp.png)
 
 For example, if you have any formatting such as bold or italic text, subheadings, bullet or numbered lists and links, then you should be able to see the HTML doing that work. Here are some examples:
 
@@ -131,9 +130,9 @@ Now preview and test the link.
 
 ![](images/blanktarget.png)
 
-T> **Regular testing is key when playing with any code**: it allows you to identify any problems quickly and specifically. 
-T> 
-T> For example, if you make ten changes and *then* test, the cause of any problem could be *any* of those ten changes. If for each of those ten changes you test *each time*, you will only get that problem for the *one* change that causes it.
+**Regular testing is key when playing with any code**: it allows you to identify any problems quickly and specifically. 
+ 
+For example, if you make ten changes and *then* test, the cause of any problem could be *any* of those ten changes. If for each of those ten changes you test *each time*, you will only get that problem for the *one* change that causes it.
 
 ## Customising the tweeted text: hackable URLs
 
@@ -243,19 +242,19 @@ For example, if you have problems with `<sup><a>`, try `<a><sup>` - but always r
 
 The same principle applies if you want to use a little Twitter bird icon after your quote. 
 
-There are a number of these on [Twitter's image resources page](https://dev.twitter.com/overview/general/image-resources) including this one:
+There are a number of these on [Twitter's image resources page](https://developer.twitter.com/en/docs/twitter-for-websites/web-intents/image-resources) including this one:
 
-![](images/Twitter_logo_blue_16.png)
+![](https://cdn.cms-twdigitalassets.com/content/dam/developer-twitter/images/Twitter_logo_blue_16.png)
 
 In this case your HTML looks like so:
 
-`<a href="https://twitter.com/intent/tweet?text=hello" target="_blank"> <img src="https: //g.twimg.com/dev/documentation/image/Twitter_logo_blue_16.png" alt="Tweet this"></a>`
+`<a href="https://twitter.com/intent/tweet?text=hello" target="_blank"> <img src="https://cdn.cms-twdigitalassets.com/content/dam/developer-twitter/images/Twitter_logo_blue_16.png" alt="Tweet this"></a>`
 
 This time the `<img>` tag is nested within the `<a>` and `</a>` tags. We can't reverse this order because `<img>` does not have a closing tag. We link the image by surrounding it with the opening and closing `<a>` tags.
 
-The `<img>` tag also has some attributes: `src=""` tells us where the image is being loaded from: in this case `https://g.twimg.com/dev/documentation/image/Twitter_logo_blue_16.png`
+The `<img>` tag also has some attributes: `src=""` tells us where the image is being loaded from: in this case `https://cdn.cms-twdigitalassets.com/content/dam/developer-twitter/images/Twitter_logo_blue_16.png`
 
-And the `alt=""` attribute tells us an alternative description for the image, in case the user is using screen reading software (because they are partially sighted or blind), or if the image does not load, and also to help search engines understand what the image is. <a href="https://twitter.com/intent/tweet?text=%22the%20alt%20attribute%20tells%20us%20an%20alternative%20description%20for%20the%20image%22&url=http://bit.ly/1wYDlRK" target="_blank"><img src="https://g.twimg.com/dev/documentation/image/Twitter_logo_blue_16.png" alt="Tweet this"></a>
+And the `alt=""` attribute tells us an alternative description for the image, in case the user is using screen reading software (because they are partially sighted or blind), or if the image does not load, and also to help search engines understand what the image is. <a href="https://twitter.com/intent/tweet?text=%22the%20alt%20attribute%20tells%20us%20an%20alternative%20description%20for%20the%20image%22&url=http://bit.ly/1wYDlRK" target="_blank"><img src="https://cdn.cms-twdigitalassets.com/content/dam/developer-twitter/images/Twitter_logo_blue_16.png" alt="Tweet this"></a>
 
 For more styling options see the final part of this series on using CSS.
 
