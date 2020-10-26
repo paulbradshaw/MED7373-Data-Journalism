@@ -254,7 +254,7 @@ This time the `<img>` tag is nested within the `<a>` and `</a>` tags. We can't r
 
 The `<img>` tag also has some attributes: `src=""` tells us where the image is being loaded from: in this case `https://cdn.cms-twdigitalassets.com/content/dam/developer-twitter/images/Twitter_logo_blue_16.png`
 
-And the `alt=""` attribute tells us an alternative description for the image, in case the user is using screen reading software (because they are partially sighted or blind), or if the image does not load, and also to help search engines understand what the image is. <a href="https://twitter.com/intent/tweet?text=%22the%20alt%20attribute%20tells%20us%20an%20alternative%20description%20for%20the%20image%22&url=http://bit.ly/1wYDlRK" target="_blank"><img src="https://cdn.cms-twdigitalassets.com/content/dam/developer-twitter/images/Twitter_logo_blue_16.png" alt="Tweet this"></a>
+And the `alt=""` attribute tells us an alternative description for the image, in case the user is using screen reading software (because they are partially sighted or blind), or if the image does not load, and also to help search engines understand what the image is. `<a href="https://twitter.com/intent/tweet?text=%22the%20alt%20attribute%20tells%20us%20an%20alternative%20description%20for%20the%20image%22&url=http://bit.ly/1wYDlRK" target="_blank"><img src="https://cdn.cms-twdigitalassets.com/content/dam/developer-twitter/images/Twitter_logo_blue_16.png" alt="Tweet this"></a>`
 
 For more styling options see the final part of this series on using CSS.
 
