@@ -201,7 +201,7 @@ Try changing the height and width of the box containing the text:
 
 And how about that list with little Twitter icons as bullets? 
 
-`<ul><li style="text-indent:2em; list-style:none; background-image:url('http://g.twimg.com/ dev/documentation/image/Twitter_logo_blue_16.png'); background-repeat:no-repeat">"First tweetable quote"</li></ul>`
+`<ul><li style="text-indent:2em; list-style:none; background-image:url('https://cdn.cms-twdigitalassets.com/content/dam/developer-twitter/images/Twitter_logo_blue_16.png'); background-repeat:no-repeat">"First tweetable quote"</li></ul>`
 
 The properties being styled here include `text-indent` (indent the text - this is needed because otherwise the text would lie on top of the bullet images), `list-style` (remove the bullets), `background-image` (the URL of the image we want to put behind the text - note that it uses single quotes so as not to conflict with the double quotes around the whole series of property:value pairs) and `background-repeat` (we only want the image to appear once, not repeat).
 
