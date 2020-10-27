@@ -205,9 +205,13 @@ This is used to style the picture as 100% width in the CSS:
 }
 ```
 
-## Responsive frameworks
+## More HTML - including responsive frameworks
 
-Thankfully, there are a number of responsive frameworks for webpage designs which you can adapt for your own project. [Get started with this tutorial on one of the best known: Bootstrap](https://github.com/paulbradshaw/jsintro/blob/master/responsive/bootstrapintro.md)
+To explore HTML more broadly you can [follow these tutorials on creating tweetable quotes](https://github.com/paulbradshaw/MED7373-Data-Journalism/tree/master/3responsive/tweetablequotes)
+
+There are a number of responsive frameworks for webpage designs which you can adapt for your own project. [Get started with this tutorial on one of the best known: Bootstrap](https://github.com/paulbradshaw/jsintro/blob/master/responsive/bootstrapintro.md)
+
+Use this [tutorial on GitHub Pages](https://github.com/paulbradshaw/introtogithub/blob/master/githubwebsites.md) to learn how to host your responsive webpage for free.
 
 ## Accessibility
 
