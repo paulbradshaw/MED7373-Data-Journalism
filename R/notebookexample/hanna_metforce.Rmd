@@ -1,0 +1,38 @@
+---
+title: "metuseofforce2020"
+output: html_document
+---
+
+# Looking at MET use of force data against ethnic minorities in 2020
+
+#Install dplyr package
+
+```{r}
+installed.packages("dplyr")
+```
+
+# Import dataset 
+
+```{r}
+metuseofforce <- read.csv ("MPSUseofForceFY20-21.csv", stringsAsFactors = FALSE)
+```
+
+#Install packages ('dplyr')
+
+```{r}
+#install.packages('dplyr')
+library (dplyr)
+newdf = select(metuseofforce, IncidentDate: PrimaryConduct, SubjectAge:MentalDisability)
+```
+
+
+#Remove duplicate rows of the dataframe using variables 
+
+```{r}
+dfnew <- newdf %>% 
+  group_by(IncidentDate, IncidentTime,Incident.Location..Street.Highway,Incident.Location..Public.Transport, Incident.Location..Ambulance, Incident.Location..Retail.Premises, Incident.Location..Custody.Block, Incident.Location..Open.ground..e.g..park..car.park..field., Incident.Location..Licensed.Premises, Incident.Location..Hospital.A.E..non.mental.health.setting., Incident.Location..Other, Incident.Location..Police.station..excluding.custody.block., Incident.Location..Sports.or.Event.Stadia, Incident.Location..Police.vehicle.with.prisoner.handling.cage, Incident.Location..Police.vehicle.without.prisoner.handling.cage, Incident.Location..Mental.Health.Setting, Incident.Location..Dwelling, Borough, SubjectAge, SubjectGender, SubjectEthnicity, PhysicalDisability, MentalDisability) %>% 
+  mutate(num_dups = n(), 
+         dup_id = row_number()) %>% 
+  ungroup() %>% 
+  mutate(is_duplicated = dup_id > 1)
+```

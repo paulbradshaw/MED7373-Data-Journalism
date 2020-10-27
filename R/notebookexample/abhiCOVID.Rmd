@@ -1,0 +1,31 @@
+## Open 
+```{r}
+covid <- rio::import("covidindia.xlsx")
+```
+##summary
+```{r}
+summary(covid)
+```
+#ploting?
+#get help from the function
+```{r}
+?plot
+```
+##Complete Data Chart
+```{r}
+library(datasets)
+plot(covid)
+
+```
+##Choosing ploting axis
+##Customising
+```{r}
+x=covid$`Cured/Discharged/Migrated`
+y=covid$ConfirmedCases
+plot(x,y,
+     col="#cc0000",
+     pch=19,
+     main="TOTAL CASES VS DISCHARGED/MIGRATED CASES",
+)
+```
+

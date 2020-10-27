@@ -1,0 +1,16 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+This code is taken from https://github.com/miguelrocadata/PGCertDDJ/blob/master/RLadies%20Sydney%20Tutorials.md
+
+```{r}
+install.packages("here")
+install.packages("skimr")
+library(tidyverse)
+library(here)
+library(skimr)
+library(janitor)
+```
+

@@ -1,0 +1,97 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+# My first notebook
+
+Some basic stuff in R
+
+```{r}
+myname <- "Paul"
+```
+
+Let's store a number
+
+```{r}
+myage <- 19
+```
+
+## Importing data
+
+To import data in R you can use a function called read.csv()
+
+Using read.csv on its own will display the data but not store it.
+
+```{r}
+read.csv("Individual_claims_for_16_17.csv")
+```
+
+To *store* data that you read in, you need to **assign** it to a **variable** like this:
+
+```{r}
+claims1718 <- read.csv("Individual_claims_for_17_18.csv", sep = ";")
+```
+
+The variable that we've just created is a **dataframe** object. This has properties like columns (fields) and rows.
+
+We now import the other CSV file into a second variable:
+
+```{r import 1617}
+#import data from CSV 
+claims1617 <- read.csv("Individual_claims_for_16_17.csv")
+```
+
+## Combining the data
+
+Now we have two dataframes containing the data from our two CSV. We can combine them using the rbind().
+
+```{r}
+claims16to18 <- rbind(claims1617, claims1718)
+```
+
+## Export the data
+
+We can export as a new CSV using write.csv()
+
+```{r}
+write.csv(claims16to18, "alltheclaims.csv")
+```
+
+## Different types of variable
+
+We've touched on string variables like "Paul" and numeric variables like 19, and dataframe variables.
+
+Vectors are another type of variable used to store a list.
+
+You create it using the c() function like this:
+
+```{r}
+listofages <- c(10,20,60,43)
+listofnames <- c("Paul","Darren","Hanna","Ingrid")
+listofbooleans <- c(TRUE, FALSE, TRUE, TRUE)
+```
+
+A data frame is made up of a number of vectors (columns)
+
+```{r}
+mydataframe <- data.frame(listofnames, listofages, listofbooleans)
+```
+
+You can extract a vector from a dataframe by using the $ to access it like so:
+
+```{r}
+expensenames <- claims1617$MP.s.Name
+```
+
+
+```{r}
+statuses <- claims1617$Status
+```
+
+
+```{r}
+table(statuses)
+```
+
+

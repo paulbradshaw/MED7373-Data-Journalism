@@ -1,0 +1,93 @@
+---
+title: "Housing"
+output: html_notebook
+---
+
+This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
+
+Import 2 datasets into my project.
+First - dwellings stock data for Wales
+
+```{r}
+stockwales2018 <- read.csv('totalstock.csv', stringsAsFactors = FALSE)
+```
+
+Secodly - an XLS file of lots of LA data for many year. This is going to prove tricky! I'm pulling in just one sheet - 17 - into a variable called house prices
+
+```{r}
+houseprices <- read_excel('hpssadataset11medianpricepaidforadmingeosexisting.xls', 17)
+```
+
+Because of the way my data is structured there are not neat column heads at row 1 of the sheet. What I want to try and do is pull out one column of data.
+
+```{r}
+YearendingDec2019 <- houseprices$...101
+```
+
+The above command has just pulled the values from column 101. I'm not sure that's what I really intended. But I'm guessing I can now try and pull the names of the counties and combine them
+
+```{r}
+Counties <- houseprices$...2
+```
+
+```{r}
+combinedLAprices <- merge(Counties,YearendingDec2019)
+```
+
+So the above hasn't worked - so I'm going to try to use rbind
+
+```{r}
+taketwocombined <- rbind(Counties,YearendingDec2019)
+```
+
+So that didn't work so I tried cbind in the console takethreecombined <- cbind(Counties,YearendingDec2019) and that appears to have worked. Now to write that file as a csv
+
+```{r}
+write.csv(takethreecombined, file = "LAandprice.csv")
+```
+Now I'm going to try and match the data in the combined LA and price with the stock in Wales. I think that involves bind rows. So let's try it.
+
+```{r}
+stock.and.prices <- bind_rows(takethreecombined,stockwales2018)
+```
+That didn't work so I'm going to import the csv file I exported to see if that makes a difference.
+
+```{r}
+pricesLA <- read.csv('LAandprice.csv')
+```
+
+Okay I've gone horribly wrong - but I know why. I've imported the wrong column. so let's start that again.
+
+```{r}
+newounties <- houseprices$...4
+```
+
+```{r}
+newcombinedlaprices <- cbind(newounties,YearendingDec2019st)
+```
+
+
+Think I'm getting somewhere so I'm now going to try again to export the combined data above in 66 as a .csv, reimport and then combine. Perhaps I'll try to combine withou the export.
+
+```{r}
+stockandprices <- bind_rows('newcombinedlaprices,stockwales2018')
+```
+Nope. Still struggling.
+
+```{r}
+write.csv(newcombinedlaprices, file = 'newcombined.csv')
+```
+
+so lets import that now
+
+```{r}
+LAprices <- read.csv('newcombined.csv')
+```
+
+
+```{r}
+alldatacombined <- rbind('LAprices,stockwales2018')
+```
+```{r}
+newalldatacombined <- merge('updatedLA','stockwales2018')
+```

@@ -1,0 +1,37 @@
+---
+title: 'Coronavirus in England'
+output:
+  html_document:
+    df_print: paged
+---
+
+This table shows the number of new coronavirus cases in each local authority (down to district level) in the latest week compared with the week before and the rate per 100,000 population.
+
+We exclude the most recent two days as these will almost certainly be incomplete as not all test results have come back. Data for the most recent few days may change.
+
+Figures were updated on {insert today’s date} and come from [the government’s coronavirus dashboard](https://coronavirus.data.gov.uk/cases)
+
+Local authorities have been matched where possible to BBC regions but each area is only matched to one region.
+
+```{r echo=FALSE}
+#The echo=FALSE above keeps this code invisible in the HTML output
+#Create the data object
+analysisdf <- rio::import("ltla_analysis.xlsx", sheet = 2)
+#Create the datatable, adding a filter and setting other options
+#Add a caption if you want
+DT::datatable(analysisdf, 
+              style = 'bootstrap', 
+              caption = '', 
+              filter = 'top', 
+              options = list(pageLength = 30, autoWidth = TRUE)
+              )
+```
+
+
+
+```{r echo=FALSE}
+#This generates the HTML version of the notebook without having to use the Knit button in RStudio
+#RUN THIS COMMAND IN THE CONSOLE OR IN ANOTHER NOTEBOOK
+#rmarkdown::render("index.Rmd", "all")
+```
+

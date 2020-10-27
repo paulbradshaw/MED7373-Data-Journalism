@@ -1,0 +1,104 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+I'm going to take stop and search data and identify which Birmingham postcode districts (e.g. B1, B75, etc) have the most stop and search procedures.
+
+First, download the data for West Midlands Police (or another force) from https://data.police.uk/data/
+
+Move it into the same folder as this notebook.
+
+Then import into RStudio.
+
+First let's activat the rio package for importing data.
+
+```{r}
+library(rio)
+```
+
+Import the data using the import function from rio, and store the data in a new variable
+
+```{r}
+wmss2020.08 <- rio::import("2020-08-west-midlands-stop-and-search.csv")
+```
+
+Look at the first few rows
+
+```{r}
+head(wmss2020.08)
+```
+
+```{r}
+colnames(wmss2020.08)
+```
+
+
+The data has lat-longs. We can use the postcodes.io API to fetch the postcodes for each one.
+
+First we test one URL
+
+```{r}
+testurl <- "http://api.postcodes.io/postcodes?lat=52.55327&lon=-1.900049"
+```
+
+## Fetching lists of lats and longs
+
+We can create a vector from any column in a dataframe
+
+```{r}
+lats <- wmss2020.08$Latitude
+lons <- wmss2020.08$Longitude
+```
+
+Now we can loop through that vector
+
+```{r}
+for (i in lats){ 
+  laturl <- paste("http://api.postcodes.io/postcodes?lat=",i,sep="")
+  print(laturl)
+  }
+```
+
+
+## Switching to postcodes
+
+Now we look at GP addresses with postcodes from http://media.nhschoices.nhs.uk/data/foi/GP.csv
+
+```{r}
+#Import with R
+edservices <- rio::import("Scrapereatingdisordersservices.csv")
+#Alternative approach with base R
+edservices <- read.csv("Scrapereatingdisordersservices.csv", stringsAsFactors = FALSE)
+```
+
+
+```{r}
+postcodes <- edservices$V1
+```
+
+A typical URL to query the API is: http://api.postcodes.io/postcodes/BL26NT
+
+```{r}
+storemylats <- c()
+storemylons <- c()
+
+for (postcode in postcodes[2:10]){
+  requesturl <- paste("http://api.postcodes.io/postcodes/",postcode,sep="")
+  print(requesturl)
+  postcodejson <- jsonlite::fromJSON(requesturl)
+  jsonlon <- postcodejson$result$longitude
+  jsonlat <- postcodejson$result$latitude
+  storemylats <- c(storemylats,jsonlat)
+  storemylons <- c(storemylons,jsonlon)
+  print(storemylats)
+  }
+```
+
+```{r}
+edservices.subset <- edservices[2:10,]
+edservices.wlatlon <- cbind(edservices.subset, storemylats, storemylons)
+
+```
+
+

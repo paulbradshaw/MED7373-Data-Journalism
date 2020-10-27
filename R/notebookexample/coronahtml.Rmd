@@ -1,0 +1,130 @@
+---
+title: 'Coronavirus: creating a HTML table'
+output:
+  html_document:
+    df_print: paged
+---
+
+# Coronavirus: creating a HTML table
+
+This notebook documents steps in converting coronavirus data into a HTML page with a searchable table.
+
+The UK government's coronavirus API and the Developer's Guide is at https://coronavirus.data.gov.uk/developers-guide - a separate notebook details the process of working with that.
+
+In this notebook we'll just import some data we've already processed to test out the frontend side of things.
+
+## Import the data
+
+Using the [rio package](https://www.rdocumentation.org/packages/rio/versions/0.5.16) which automatically handles XLSX files
+
+```{r import data}
+#grabbing the second sheet and putting in a new object called analysisdf
+analysisdf <- rio::import("ltla_analysis.xlsx", sheet = 2)
+#Show first few rows
+head(analysisdf)
+```
+
+
+
+
+## Draw a datatable
+
+Now let's create a datatables interface to look at that. To do that we [use the `DT` package](https://rstudio.github.io/DT/):
+
+```{r}
+#This line is commented out because DT is already installed
+#install.packages("DT")
+#This activates DT in the library, although again it isn't really needed
+library(DT)
+```
+
+
+```{r create datatable}
+#Now use DT to generate a datatable for the data frame
+DT::datatable(analysisdf)
+```
+
+
+```{r}
+#Extra parameters set a style and a caption - 
+#you can style further see https://rstudio.github.io/DT/
+#A filter is added on each column too
+#And we specify 30 results per page
+DT::datatable(analysisdf, style = 'bootstrap', caption = 'Something you need to know', filter = 'top', options = list(pageLength = 30, autoWidth = TRUE))
+```
+
+
+This will preview in the notebook itself, but you can also generate a HTML version of this notebook by clicking the **Knit** (or **Preview**) button above the notebook, and selecting **Knit to HTML**.
+
+## Creating a separate 'index' page notebook
+
+To keep things simple, create a separate notebook containing the code above. This needs to also define the object being used (again) otherwise it will throw an error.
+
+Here's the code for the other notebook:
+
+```{r code for index notebook, echo=FALSE}
+#The echo=FALSE above keeps this code invisible in the HTML output
+#Create the data object
+analysisdf <- rio::import("ltla_analysis.xlsx", sheet = 2)
+#Create the datatable, adding a filter and setting other options
+#Add a caption if you want
+DT::datatable(analysisdf, 
+              style = 'bootstrap', 
+              caption = '', 
+              filter = 'top', 
+              options = list(pageLength = 30, autoWidth = TRUE)
+              )
+```
+
+(Alternatively you could store this code in an R script and just call that).
+
+We name the notebook 'index.Rmd' because it will generate a correspondingly named HTML file called 'index.html'. This means it can be placed on GitHub and treated as a default homepage.
+
+To generate the HTML file you can run this code:
+
+```{r render notebook as html}
+rmarkdown::render("index.Rmd", "all")
+```
+
+This cannot be included within the same notebook or it will create a loop and throw an error.
+
+Next we could script the posting of the HTML file to GitHub [using git2r](https://rpubs.com/chrimaho/GitHubAutomation).
+
+## Rounding numbers
+
+We want to round the numbers. [Formatting functions can help](https://blog.rstudio.com/2015/06/24/dt-an-r-interface-to-the-datatables-library/)
+
+```{r}
+colnames(analysisdf)
+```
+
+
+```{r round numbers}
+DT::datatable(analysisdf, 
+              style = 'bootstrap', 
+              caption = 'Analysis by the BBC England Data Unit', 
+              filter = 'top', 
+              options = list(pageLength = 30, autoWidth = TRUE)
+              ) %>% 
+  formatRound('Rate per 100k population, latest week', 1) %>%
+  formatRound('Rate per 100k population, previous week', 1)
+```
+
+## Sorting and ranking
+
+We want to add a ranking column. The [rank() function can do this](https://towardsdatascience.com/r-rank-vs-order-753cc7665951).
+
+```{r ranking}
+analysisdf
+#Add a minus to get descending rank
+rank(-analysisdf$`Rate per 100k population, latest week`)
+```
+
+This could be used for an additional column, and to sort the results - but we don't want England in there messing up the rankings.
+
+```{r add rank to df}
+analysisdf$rank <- rank(-analysisdf$`Rate per 100k population, latest week`)
+analysisdf
+```
+
+
