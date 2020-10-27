@@ -85,18 +85,7 @@ By the end of this week you should be able to use a range of techniques for fetc
 * Task: Development of data journalism project
 * Reading: Bogost et al (2010) Newsgames: Journalism at Play
   
-## 6: Making it visual, making it interactive - JavaScript
-
-By the end of this week you should be able to explain basic concepts in JavaScript and use it to create basic interactivity and/or visualisations. *Note: the [Narrative module](https://github.com/paulbradshaw/MED7334-Narrative) class on principles of visualisation and visual design, and the class on ergodic storytelling are particularly relevant to your work in this area*
-
-* Workshop: JavaScript interactivity and vis: counters, quizzes, charts ([folder of exercises here](https://github.com/paulbradshaw/MED7373-Data-Journalism/tree/master/js))
-* Task: Continued work on JavaScript
-* Reading:
-  * Dona Wong (2010) The Wall Street Journal Guide to Information Graphics
-  * Manuel Matuzovic: [Writing JavaScript with accessibility in mind](https://medium.com/@matuzo/writing-javascript-with-accessibility-in-mind-a1f6a5f467b9)
-  
-
-## 7: Mobile first: responsive and other design considerations
+## 6: Mobile first: responsive and other design considerations
 
 By the end of this week you should be able to create a basic HTML page with CSS styles, and explain the basics of design for mobile devices.
 
@@ -108,6 +97,16 @@ By the end of this week you should be able to create a basic HTML page with CSS 
 * Reading: Manuel Matuzovic: [Writing HTML with accessibility in mind](https://medium.com/alistapart/writing-html-with-accessibility-in-mind-a62026493412); [Writing CSS with Accessibility in Mind](https://medium.com/@matuzo/writing-css-with-accessibility-in-mind-8514a0007939)
 
 **Additional resources**: [Lynda.com tutorials on responsive web design](https://www.lynda.com/Responsive-Design-training-tutorials/1357-0.html) (free for BCU students)
+
+## 7: Making it visual, making it interactive - JavaScript
+
+By the end of this week you should be able to explain basic concepts in JavaScript and use it to create basic interactivity and/or visualisations. *Note: the [Narrative module](https://github.com/paulbradshaw/MED7334-Narrative) class on principles of visualisation and visual design, and the class on ergodic storytelling are particularly relevant to your work in this area*
+
+* Workshop: JavaScript interactivity and vis: counters, quizzes, charts ([folder of exercises here](https://github.com/paulbradshaw/MED7373-Data-Journalism/tree/master/js))
+* Task: Continued work on JavaScript
+* Reading:
+  * Dona Wong (2010) The Wall Street Journal Guide to Information Graphics
+  * Manuel Matuzovic: [Writing JavaScript with accessibility in mind](https://medium.com/@matuzo/writing-javascript-with-accessibility-in-mind-a1f6a5f467b9)
 
 ## 8: Fetching the haystack, finding the needle: coding for finding stories
 
