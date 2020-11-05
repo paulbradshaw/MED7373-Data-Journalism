@@ -1,4 +1,4 @@
-# Week 4: Interactivity, visualisation - and JavaScript
+# Interactivity, visualisation - and JavaScript
 
 > "A new media object is not something fixed once and for all, but something that can exist in different, potentially infinite versions. It is is another consequence of the numerical coding of media, and the modular structure of a media object." (Lev Manovich, [The Language of New Media](http://faculty.georgetown.edu/irvinem/theory/Manovich-LangNewMedia-excerpt.pdf), 2011)
 
