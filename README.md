@@ -89,14 +89,16 @@ By the end of this week you should be able to use a range of techniques for fetc
 
 By the end of this week you should be able to create a basic HTML page with CSS styles, and explain the basics of design for mobile devices.
 
-*Before the class*: read Learning HTML and CSS by making tweetable quotes on [Leanpub](https://leanpub.com/learninghtmlandcss) or [OJB](https://onlinejournalismblog.com/2015/02/09/how-to-learn-html-and-css-by-making-tweetable-quotes/)
+*Before the class*: read Learning HTML and CSS by making tweetable quotes on [Leanpub](https://leanpub.com/learninghtmlandcss) or [in the repo](https://github.com/paulbradshaw/MED7373-Data-Journalism/tree/master/3responsive/tweetablequotes)
 
-* Workshop: HTML, CSS and responsive frameworks. [Fork this! Intro to responsive web design with Bootstrap](https://github.com/paulbradshaw/jsintro/blob/master/responsive/bootstrapintro.md)
+* Workshop: [HTML, CSS and responsive frameworks](https://github.com/paulbradshaw/MED7373-Data-Journalism/tree/master/3responsive). [Fork this! Intro to responsive web design with Bootstrap](https://github.com/paulbradshaw/jsintro/blob/master/responsive/bootstrapintro.md)
 * Task: Create a responsive webpage on [GitHub Pages](https://github.com/paulbradshaw/introtogithub/blob/master/githubwebsites.md)
 * Reading: Jeremy Keith: [Resilient Web Design](https://resilientwebdesign.com/)
 * Reading: Manuel Matuzovic: [Writing HTML with accessibility in mind](https://medium.com/alistapart/writing-html-with-accessibility-in-mind-a62026493412); [Writing CSS with Accessibility in Mind](https://medium.com/@matuzo/writing-css-with-accessibility-in-mind-8514a0007939)
 
-**Additional resources**: [Lynda.com tutorials on responsive web design](https://www.lynda.com/Responsive-Design-training-tutorials/1357-0.html) (free for BCU students)
+**Additional resources**: 
+* [LinkedIn Learning courses on responsive web design](https://www.linkedin.com/learning/topics/responsive-web-design?u=42288921) (free for BCU students), e.g. [Responsive Design Workflows](https://www.linkedin.com/learning/responsive-design-workflows/welcome?u=42288921)
+* [YouTube playlist: the UIkit frontend framework](https://www.youtube.com/playlist?list=PL2SfpsC7cy0gv9O7nNKyQZBrFjhi3LH-V) (for designing responsive pages, longform and scrollytelling)
 
 ## 7: Making it visual, making it interactive - JavaScript
 
