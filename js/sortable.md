@@ -45,17 +45,13 @@ This means that the table will be affected by any style sheet or JavaScript that
 
 The next step is to link to just that: a style sheet and JavaScript which will affect this table.
 
-## Linking to the JavaScript
+## Linking to the JavaScript & CSS (self-hosted)
 
 *If you are hosting the page yourself*: Between the `<head>` and `</head>` tags in your webpage HTML, paste the following code:
 
 `<script src="https://cdnjs.cloudflare.com/ajax/libs/sortable/0.8.0/js/sortable.min.js"></script>`
 
-`<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sortable/0.8.0/css/sortable-theme-light.css" />`
-
-*If you are using Codepen*: Click on **Settings** and in the window that appears select the **JS** view. In the *Add External Scripts/Pens* section paste this URL: `https://cdnjs.cloudflare.com/ajax/libs/sortable/0.8.0/js/sortable.min.js`
-
-Switch to the section headed **CSS** and scroll down to *Add External Stylesheets/Pens* then paste this URL into the empty box: `https://cdnjs.cloudflare.com/ajax/libs/sortable/0.8.0/css/sortable-theme-light.css`. 
+`<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sortable/0.8.0/css/sortable-theme-light.css" />`\
 
 The first of those two links grabs the `sortable` JavaScript library, and the second grabs the CSS file for the 'light' theme, from a website called CDNJS.
 
@@ -63,8 +59,16 @@ CDNJS hosts JavaScript libraries and CSS files so they can be served more quickl
 
 There is more than one theme. If you are going to try a different one, remember you will need to change both the CSS file being imported, and the `class` attribute of the table that it affects.
 
+
+## Linking to the JavaScript & CSS on Codepen
+
+*If you are using Codepen*: Click on **Settings** and in the window that appears select the **JS** view. In the *Add External Scripts/Pens* section paste this URL: `https://cdnjs.cloudflare.com/ajax/libs/sortable/0.8.0/js/sortable.min.js`
+
+Switch to the section headed **CSS** and scroll down to *Add External Stylesheets/Pens* then paste this URL into the empty box: `https://cdnjs.cloudflare.com/ajax/libs/sortable/0.8.0/css/sortable-theme-light.css`. 
+
+
 ## Test it out
 
-Once you've made those changes, save (or commit, if using GitHub Pages) your changes, and test the results. However, note that changes do not show immediately live at your github.io address - you may have to wait a few minutes.
+Once you've made those changes, save (or commit, if using GitHub Pages) your changes, and test the results. (However, note that changes do not show immediately live at your github.io address - you may have to wait a few minutes.)
 
 Tip: The article [Design Better Data Tables](https://uxdesign.cc/design-better-data-tables-4ecc99d23356) outlines a number of ways to improve the usability of your tables.
