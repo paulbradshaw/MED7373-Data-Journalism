@@ -47,13 +47,17 @@ The next step is to link to just that: a style sheet and JavaScript which will a
 
 ## Linking to the JavaScript
 
-Between the `<head>` and `</head>` tags in your webpage HTML, paste the following code:
+*If you are hosting the page yourself*: Between the `<head>` and `</head>` tags in your webpage HTML, paste the following code:
 
 `<script src="https://cdnjs.cloudflare.com/ajax/libs/sortable/0.8.0/js/sortable.min.js"></script>`
 
 `<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sortable/0.8.0/css/sortable-theme-light.css" />`
 
-The first grabs the `sortable` JavaScript library, and the second grabs the CSS file for the 'light' theme, from a website called CDNJS.
+*If you are using Codepen*: Click on **Settings** and in the window that appears select the **JS** view. In the *Add External Scripts/Pens* section paste this URL: `https://cdnjs.cloudflare.com/ajax/libs/sortable/0.8.0/js/sortable.min.js`
+
+Switch to the section headed **CSS** and scroll down to *Add External Stylesheets/Pens* then paste this URL into the empty box: `https://cdnjs.cloudflare.com/ajax/libs/sortable/0.8.0/css/sortable-theme-light.css`. 
+
+The first of those two links grabs the `sortable` JavaScript library, and the second grabs the CSS file for the 'light' theme, from a website called CDNJS.
 
 CDNJS hosts JavaScript libraries and CSS files so they can be served more quickly. Whenever you are using JavaScript libraries it is a good idea to look for a version of CDNJS. Specifically, [here is the page for the sortable files](https://cdnjs.com/libraries/sortable).
 
