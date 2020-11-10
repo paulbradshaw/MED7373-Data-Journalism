@@ -48,6 +48,8 @@ Before writing any code, we need to break down our problem into separate challen
 
 ### Step 1: Display an initial number
 
+[Watch a video walkthrough of this tutorial here](https://www.youtube.com/watch?v=TMCOSz1sy8o)
+
 On our HTML page we need to create an element which the JavaScript can target. Because it's part of a sentence, rather than a number on its own, we'll use a `<span>` tag like so:
 
 `<p>While you have been reading this, Apple has earned £<span id="money">0</span></p>`
