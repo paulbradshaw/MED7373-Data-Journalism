@@ -1,5 +1,7 @@
 # JavaScript: triggering actions with a click
 
+[Watch a video walkthrough of this tutorial here](https://www.youtube.com/watch?v=GD7JJoAXkT0) - [part two here](https://www.youtube.com/watch?v=qBOLV5wA_i0)
+
 A good introductory skill with JS (JavaScript) is learning how to trigger an action with a click. This can be used to reveal the answer to a quiz question, or allow users to choose a route through a story.
 
 We're going to use that skill to replicate some of the functionality in the first page of [*Glastonbury quiz: Test your knowledge*](http://www.bbc.co.uk/news/uk-england-40388067), and along the way build some knowledge of:
