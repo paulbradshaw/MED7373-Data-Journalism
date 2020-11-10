@@ -1,5 +1,6 @@
 # Creating a sortable table
 
+[Watch a video walkthrough of this tutorial](https://www.youtube.com/watch?v=4G37OQHv-Lc)
 
 ## Level 1: Using the `sortable` JavaScript library
 
