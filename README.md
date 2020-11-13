@@ -116,8 +116,9 @@ By the end of this week you should be able to use basic commands in the command 
 
 * Workshop: [Fork this!](https://github.com/paulbradshaw/MED7373-Data-Journalism/tree/master/commandlineregex): [Merging multiple CSV files using command line](https://github.com/paulbradshaw/commandline/blob/master/joining.md)
 * Task: Development of data journalism project
-* Reading:
+* Reading - choose from:
   * [The Command Line Crash Course](http://www.computervillage.org/articles/CommandLine.pdf)
+  * [The Bastards Book of Regular Expressions](https://leanpub.com/bastards-regexes)
   * [Meyer (2002): The New Precision Journalism](https://www.unc.edu/~pmeyer/book/Chapter1.htm)
 
 You can [find more tips on using command line in another repo here](https://github.com/paulbradshaw/commandline)
