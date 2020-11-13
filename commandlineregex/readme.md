@@ -36,6 +36,10 @@ Some resources:
 * [Codecademy has an interactive course on command line](https://www.codecademy.com/en/courses/learn-the-command-line/lessons/navigation/exercises/your-first-command)
 * [Downloading a list of URLs](http://blog.gypsydave5.com/2016/02/04/xargs-and-curl/)
 
+## Grep
+
+An [exercise for using grep to analyse MPs' expenses in R is here](https://github.com/paulbradshaw/Rintro/tree/master/text/grepexpenses)
+
 ## Regex
 
 Resources for regex include:
