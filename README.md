@@ -114,7 +114,11 @@ By the end of this week you should be able to explain basic concepts in JavaScri
 
 By the end of this week you should be able to use basic commands in the command line to fetch, find, combine and move data. You should also be able to explain how regular expressions (regex) work, and use them to locate and extract information from files.
 
-* Workshop: [Fork this!](https://github.com/paulbradshaw/MED7373-Data-Journalism/tree/master/commandlineregex): [Merging multiple CSV files using command line](https://github.com/paulbradshaw/commandline/blob/master/joining.md)
+* Workshops: 
+ * [Fork this! Command line and regex](https://github.com/paulbradshaw/MED7373-Data-Journalism/tree/master/commandlineregex): 
+ * [Exercise: combining stop and search data CSV files using command line](https://github.com/paulbradshaw/commandline/blob/master/joining.md) 
+ * [Using grep and regex in R](https://github.com/paulbradshaw/Rintro/tree/master/text/grepexpenses)
+ * [Using regex to scrape election results tweets in Workbench](https://github.com/paulbradshaw/MED7373-Data-Journalism/blob/master/commandlineregex/regexworkbench.md)
 * Task: Development of data journalism project
 * Reading - choose from:
   * [The Command Line Crash Course](http://www.computervillage.org/articles/CommandLine.pdf)
