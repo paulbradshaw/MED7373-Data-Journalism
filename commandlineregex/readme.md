@@ -42,6 +42,8 @@ An [exercise for using grep to analyse MPs' expenses in R is here](https://githu
 
 ## Regex
 
+An [exercise on using regex to scrape election results tweets in Workbench is here](https://github.com/paulbradshaw/MED7373-Data-Journalism/blob/master/commandlineregex/regexworkbench.md)
+
 Resources for regex include:
 
 * [Regexr](https://regexr.com/) regular expression playground
