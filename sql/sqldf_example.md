@@ -259,7 +259,7 @@ Not surprisingly, `MAX` and `MIN` can be used to find those values. Here we swit
 ```{r}
 sqldf('SELECT MAX(amountpaid) 
       FROM exes2021 
-      WHERE mpname IS "Adrian Bailey"')
+      WHERE mpname IS "Jo Swinson"')
 ```
 
 And for minimum:
@@ -267,7 +267,7 @@ And for minimum:
 ```{r}
 sqldf('SELECT MIN(amountpaid) 
       FROM exes2021 
-      WHERE mpname IS "Adrian Bailey"')
+      WHERE mpname IS "Jo Swinson"')
 ```
 
 
