@@ -15,7 +15,7 @@ library(sqldf)
 Next we need some data to run our query on. Here's our familiar expenses data:
 
 ```{r}
-exes1718 <- read.csv("exes1718.csv", stringsAsFactors = F)
+exes2021 <- read.csv("Individual_claims_for_20_21.csv", stringsAsFactors = F)
 ```
 
 ## The first query: SELECT
@@ -28,7 +28,7 @@ The most basic SQL query, then, looks like this:
 
 ```{r}
 sqldf('SELECT * 
-      FROM exes1718')
+      FROM exes2021')
 ```
 
 The `*` means 'all fields', so this query simply means 'select everything from the table 'exes1718'.
@@ -37,14 +37,14 @@ We can instead specify only those fields we want to see, like so:
 
 ```{r}
 sqldf('SELECT Date 
-      FROM exes1718')
+      FROM exes2021')
 ```
 
 If we want more than one field, we separate each with a comma, like so:
 
 ```{r}
 sqldf('SELECT Date, Year
-      FROM exes1718')
+      FROM exes2021')
 ```
 
 In the query above we have put the commands in capital letters, and each part on a different line, but that isn't essential - it just makes it easier to read. 
@@ -52,7 +52,7 @@ In the query above we have put the commands in capital letters, and each part on
 You could just as easily write it like this:
 
 ```{r}
-sqldf('select Date, Year from exes1718')
+sqldf('select Date, Year from exes2021')
 ```
 
 As you can see, writing like that, however, does make it harder to distinguish between commands (like SELECT and FROM) and ingredients (the names of tables or fields).
@@ -62,7 +62,7 @@ As you can see, writing like that, however, does make it harder to distinguish b
 When R imports data it replaces spaces with periods...
 
 ```{r}
-colnames(exes1718)
+colnames(exes2021)
 ```
 
 ...But this can be problematic for SQL queries. 
@@ -71,7 +71,7 @@ Note how SQL struggles with column names containing periods:
 
 ```{r}
 mpnamesonly <- sqldf("SELECT Journey.Type, Amount.Paid 
-                     FROM exes1718")
+                     FROM exes2021")
 ```
 
 The reason for this is that in a SQL query a period normally indicates a relationship with a table: to describe the field 'name' in a table called 'people' you might use `people.name`. So when it sees `Journey.Type` it actually looks for a table called 'Journey' which it assumes has a field called 'Type' in it. 
@@ -82,37 +82,37 @@ One solution is to put any names containing periods in ` marks like so:
 
 ```{r}
 journeytypesonly <- sqldf("SELECT `Journey.Type`, `Amount.Paid`
-                     FROM exes1718")
+                     FROM exes2021")
 ```
 
 Or you may prefer to rename them first:
 
 ```{r}
 #Show the column names
-colnames(exes1718)
+colnames(exes2021)
 ```
 
 
 ```{r}
 #Now rename some of the column names
-colnames(exes1718)[4] <- "mpname"
-colnames(exes1718)[5] <- "mpconstituency"
-colnames(exes1718)[7] <- "expensetype"
-colnames(exes1718)[8] <- "description"
-colnames(exes1718)[16] <- "amountclaimed"
-colnames(exes1718)[17] <- "amountpaid"
+colnames(exes2021)[4] <- "mpname"
+colnames(exes2021)[5] <- "mpconstituency"
+colnames(exes2021)[7] <- "expensetype"
+colnames(exes2021)[8] <- "description"
+colnames(exes2021)[16] <- "amountclaimed"
+colnames(exes2021)[17] <- "amountpaid"
 #And check it
-colnames(exes1718)
+colnames(exes2021)
 ```
 
 A quicker way is to use `gsub` to replace full stops. Because this uses regex you need to escape the full stop in square brackets like so: `[.]` so that it interprets it literally rather than to mean 'any character'
 
 ```{r}
 #Show the results of gsub:
-gsub("[.]","_",colnames(exes1718))
+gsub("[.]","_",colnames(exes2021))
 #Now assign those as column names:
-colnames(exes1718) <- gsub("[.]","_",colnames(exes1718))
-colnames(exes1718)
+colnames(exes2021) <- gsub("[.]","_",colnames(exes2021))
+colnames(exes2021)
 ```
 
 
@@ -122,7 +122,7 @@ Selecting everything from a table or its columns isn't going to be much use. So 
 
 ```{r}
 sqldf('SELECT Date, Year, amountclaimed 
-      FROM exes1718 
+      FROM exes2021 
       WHERE amountclaimed = 1000')
 ```
 
@@ -132,7 +132,7 @@ You can specify numbers `BETWEEN` values, too:
 
 ```{r}
 sqldf('SELECT Date, Year, amountclaimed 
-      FROM exes1718 
+      FROM exes2021 
       WHERE amountclaimed BETWEEN 1000 AND 2000')
 ```
 
@@ -140,7 +140,7 @@ If your query relates to text, you can use the command `IS`, like so:
 
 ```{r}
 sqldf('SELECT Date, mpname, amountclaimed, Category 
-      FROM exes1718 
+      FROM exes2021 
       WHERE Category IS "Accommodation"')
 ```
 
@@ -148,7 +148,7 @@ These queries show the results, but let's store them instead, in a new object:
 
 ```{r}
 accommclaims <- sqldf('SELECT Date, mpname, amountclaimed, Category 
-      FROM exes1718 
+      FROM exes2021 
       WHERE Category IS "Accommodation"')
 #Show the first few rows
 head(accommclaims)
@@ -162,7 +162,7 @@ What if we want to grab partial matches where a word is somewhere in that column
 
 ```{r}
 sqldf('SELECT Date, mpname, amountclaimed, Category 
-      FROM exes1718 
+      FROM exes2021 
       WHERE mpname LIKE "%Smith%"')
 ```
 
@@ -172,7 +172,7 @@ We can broaden the query further by adding `OR` like so:
 
 ```{r}
 sqldf('SELECT Date, mpname, amountclaimed, Category 
-      FROM exes1718 
+      FROM exes2021 
       WHERE mpname LIKE "%Smith%" 
       OR mpname LIKE "%Jones%"')
 ```
@@ -184,7 +184,7 @@ Alternatively, we can use `AND` to specify multiple criteria:
 
 ```{r}
 sqldf('SELECT Date, mpname, amountclaimed, Category 
-      FROM exes1718 
+      FROM exes2021 
       WHERE mpname LIKE "%Smith%" 
       AND Category LIKE "%Office%"')
 ```
@@ -198,10 +198,10 @@ Here are 2 SQL queries asking to count how many entries in the data frame are ab
  
 ```{r}
 sqldf('SELECT COUNT(*) 
-      FROM exes1718 
+      FROM exes2021 
       WHERE amountpaid > 100')
 sqldf('SELECT COUNT(*) 
-      FROM exes1718 
+      FROM exes2021 
       WHERE amountpaid < 100')
 ```
 How would you adapt that query to ask how many are exactly 100? Or above 1000?
@@ -212,7 +212,7 @@ To add them, just use `SUM` instead of `COUNT` - but this time you need to make 
 
 ```{r}
 sqldf('SELECT SUM(amountpaid) 
-      FROM exes1718 
+      FROM exes2021 
       WHERE amountpaid >100')
 ```
 
@@ -221,7 +221,7 @@ Note that the column you are testing, and the column you are adding, do *not* ha
 
 ```{r}
 sqldf('SELECT SUM(amountpaid) 
-      FROM exes1718 
+      FROM exes2021 
       WHERE category IS "Accommodation"')
 ```
 
@@ -232,7 +232,7 @@ Besides counts and sums, we can also calculate averages using `AVG` for the mean
 
 ```{r}
 sqldf('SELECT AVG(amountpaid) 
-      FROM exes1718 
+      FROM exes2021 
       WHERE category IS "Accommodation"')
 ```
 
@@ -240,7 +240,7 @@ Or `MEDIAN` for the middlemost value:
 
 ```{r}
 sqldf('SELECT MEDIAN(amountpaid) 
-      FROM exes1718 
+      FROM exes2021 
       WHERE category IS "Accommodation"')
 ```
 
@@ -248,7 +248,7 @@ sqldf('SELECT MEDIAN(amountpaid)
 
 ```{r}
 sqldf('SELECT MODE(amountpaid) 
-      FROM exes1718 
+      FROM exes2021 
       WHERE category IS "Accommodation"')
 ```
 
@@ -258,7 +258,7 @@ Not surprisingly, `MAX` and `MIN` can be used to find those values. Here we swit
 
 ```{r}
 sqldf('SELECT MAX(amountpaid) 
-      FROM exes1718 
+      FROM exes2021 
       WHERE mpname IS "Adrian Bailey"')
 ```
 
@@ -266,7 +266,7 @@ And for minimum:
 
 ```{r}
 sqldf('SELECT MIN(amountpaid) 
-      FROM exes1718 
+      FROM exes2021 
       WHERE mpname IS "Adrian Bailey"')
 ```
 
@@ -277,7 +277,7 @@ We can also ask for things like the standard deviation, an indication of how wid
 
 ```{r}
 sqldf('SELECT STDEV(amountpaid) 
-      FROM exes1718 
+      FROM exes2021 
       WHERE description IS "Office Costs"')
 ```
 
@@ -288,7 +288,7 @@ Of course we probably don't want to have to do this for every category or MP. So
 
 ```{r}
 sqldf('SELECT SUM(amountpaid)
-      FROM exes1718 
+      FROM exes2021 
       GROUP BY category')
 ```
 
@@ -296,7 +296,7 @@ Note that the categories themselves in the above query aren't shown. Why? Becaus
 
 ```{r}
 sqldf('SELECT category, SUM(amountpaid)
-      FROM exes1718 
+      FROM exes2021 
       GROUP BY category')
 ```
 
@@ -304,7 +304,7 @@ You can even add other calculations to make a bigger table:
 
 ```{r}
 sqldf('SELECT category, STDEV(amountpaid), MAX(amountpaid), MIN(amountpaid), AVG(amountpaid), MEDIAN(amountpaid), SUM(amountpaid)
-      FROM exes1718 
+      FROM exes2021 
       GROUP BY category')
 ```
 
@@ -315,7 +315,7 @@ It is interesting that staffing seems to have the widest variation even though i
 So it looks like staffing costs vary most. But we can make it easier by adding an `ORDER BY` command:
 
 ```{r}
-sqldf('SELECT category, STDEV(amountpaid) FROM exes1718 
+sqldf('SELECT category, STDEV(amountpaid) FROM exes2021 
       GROUP BY category 
       ORDER BY stdev(amountpaid)')
 ```
@@ -323,7 +323,7 @@ sqldf('SELECT category, STDEV(amountpaid) FROM exes1718
 By default, the results will be ordered *ascending*, from smallest to largest. To specify that you want it to be ordered from largest to smallest (or from A to Z with text), add `DESC` to the end of that line:
 
 ```{r}
-sqldf('SELECT category, STDEV(amountpaid) FROM exes1718 
+sqldf('SELECT category, STDEV(amountpaid) FROM exes2021 
       GROUP BY category 
       ORDER BY stdev(amountpaid) DESC')
 ```
@@ -428,10 +428,10 @@ Note that when doing this, it's a good idea to continue using the table.field na
 ```{r}
 #Join the same dataset to itself, resulting in a data frame which is twice as big
 doubledata <- sqldf::sqldf("SELECT * 
-      FROM exes1718
+      FROM exes2021
       UNION ALL
       SELECT *
-      FROM exes1718")
+      FROM exes2021")
 #Check the size - it's now 23,494 rows
 doubledata
 ```
@@ -443,9 +443,9 @@ Of course any results can be stored in an R object and/or exported like so:
 
 ```{r}
 # How to create a new object
-exesstdevbycategory <- sqldf('select category, stdev(amountpaid) from exes1718 group by category')
+exesstdevbycategory <- sqldf('select category, stdev(amountpaid) from exes2021 group by category')
 # How to write results as a CSV
-write.csv(sqldf('select category, stdev(amountpaid) from exes1718 group by category'), "exesbycategorystdev.csv")
+write.csv(sqldf('select category, stdev(amountpaid) from exes2021 group by category'), "exesbycategorystdev.csv")
 ```
 
 
@@ -455,7 +455,7 @@ You can add `DISTINCT` to the `SELECT` command to only show distinct entries fro
 
 ```{r}
 sqldf("SELECT DISTINCT Journey_Type 
-      FROM exes1718")
+      FROM exes2021")
 ```
 
 We get a list of the 10 distinct values in that column.
@@ -464,7 +464,7 @@ If we specify more than one column, the command will show distinct *combinations
 
 ```{r}
 sqldf("SELECT DISTINCT Journey_Type, Status 
-      FROM exes1718")
+      FROM exes2021")
 ```
 
 Now we have 15 distinct values: of the 10 shown previously some only have one combination with 'Status' (normally 'Paid'), but some have more than one. 
