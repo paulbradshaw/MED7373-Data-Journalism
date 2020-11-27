@@ -143,7 +143,7 @@ By the end of this week you should be able to identify techniques for working wi
 By the end of this week you should be able to identify ways that AI, machine learning and bots can play a role within journalism, both internal- and public-facing, and articulate the critical and ethical issues raised by AI technologies. You should also be able to create a basic bot, and identify relevant libraries for using machine learning within programming.
 
 * [Part of the lecture is summarised in this blog post](https://onlinejournalismblog.com/2017/12/14/data-journalisms-ai-opportunity-the-3-different-types-of-machine-learning-how-they-have-already-been-used/) and [this on the need for better guidelines on reporting uncertainty](https://onlinejournalismblog.com/2019/05/23/ai-in-journalism-guidelines-on-reporting-uncertainty/)
-* Workshop: Assignment review
+* Workshop: Assignment review (you can also [explore resources on bots here](https://github.com/paulbradshaw/bots))
 * Task: Development of data journalism project
 * Reading:
   * Diakopoulos, Nick (2016): [Algorithmic Transparency in the News Media](http://www.nickdiakopoulos.com/wp-content/uploads/2016/07/Algorithmic-Transparency-in-the-News-Media-Final.pdf)
