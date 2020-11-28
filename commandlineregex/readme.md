@@ -49,6 +49,7 @@ Resources for regex include:
 * [Regexr](https://regexr.com/) regular expression playground
 * [Regular-Expressions.info Quick Start](https://www.regular-expressions.info/quickstart.html)
 * [Regular-Expressions.info reference](https://www.regular-expressions.info/refflavors.html)
+* [Documentation for the REGEXEXTRACT function in Google Sheets](https://support.google.com/docs/answer/3098244?hl=en-GB)
 * [Basic regular expressions in R: Cheat Sheet](https://www.rstudio.com/wp-content/uploads/2016/09/RegExCheatsheet.pdf)
 * [Regular Expression in R exercise](http://stat545.com/block022_regular-expression.html)
 * [Introduction to String Matching and Modification in R Using Regular Expressions](http://biostat.mc.vanderbilt.edu/wiki/pub/Main/SvetlanaEdenRFiles/regExprTalk.pdf)
