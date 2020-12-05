@@ -123,7 +123,7 @@ By the end of this week you should be able to use basic commands in the command 
 * Reading - choose from:
   * [The Command Line Crash Course](http://www.computervillage.org/articles/CommandLine.pdf)
   * [The Bastards Book of Regular Expressions](https://leanpub.com/bastards-regexes)
-  * [Meyer (2002): The New Precision Journalism](https://www.unc.edu/~pmeyer/book/Chapter1.htm)
+  * [Meyer (2002): The New Precision Journalism](https://carolinadatadesk.github.io/pmeyer/book/)
 
 You can [find more tips on using command line in another repo here](https://github.com/paulbradshaw/commandline)
 
