@@ -645,4 +645,3 @@ A> In the unduly lenient sentences story, it was decided in the end to leave thi
 A>
 A> It's important to mention this because often in journalism — and not just in data journalism — you have to be prepared to leave out material because the focus of your story has changed, regardless of the work that went into it. Ultimately it doesn't matter how much work something involved: if it's not central to the story, then it shouldn't be there.
 
-*** LINKS FOR REGEX EXAMPLES AND UNDULY ***
