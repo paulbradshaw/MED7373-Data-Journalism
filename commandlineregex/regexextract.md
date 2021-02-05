@@ -601,22 +601,48 @@ You can find all the code and spreadsheets used in that project in the GitHub re
 
 ## Recap
 
+* A regular expression is a way of **describing a series of characters that follow a particular pattern**, typically used to extract or remove key words or phrases, names or addresses from passages or cells containing text
+* Regular expressions are often called '**regex**' for short
+* Regular expressions **cannot easily be used in Excel**, but can be used in Google Sheets with its functions `REGEXEXTRACT`, `REGEXMATCH` and `REGEXREPLACE`
+* `REGEXEXTRACT` will extract text from a cell if it matches the pattern you describe
+* `REGEXMATCH` will tell you if a cell contains the pattern you describe (`TRUE/FALSE`)
+* `REGEXREPLACE` will replace text that matches the pattern you describe (in the same way as `SUBSTITUTE` does for literal matches)
+* Regex can match using both **literal characters** (they represent the character you want to match) and **special characters** (which represent a more general description, such as 'any character' or 'any capital')
+* Special characters are also called "**metacharacters**". They include the backslash `\`, the caret `^`, the dollar sign `$`, the period or dot `.`, the vertical bar or pipe symbol `|`, the question mark `?`, the asterisk or star `*`, the plus sign `+`, the opening parenthesis `(`, the closing parenthesis `)`, the opening square bracket `[`, and the opening curly brace `{`
+* Special characters can be used on their own or in combination with literal characters to refer to a type of character (such as 'any whitespace character'), a range of characters (such as 'any of these letters'), a quantity of characters (such as '2 numbers'), alternative characters (such as 'this *or* that pattern'), negative matches (such as 'not a whitespace character' or 'not at the end'), or the position of characters
+* If you want to use a special character to *literally* mean that character (e.g. a question mark, literally) then you need to **escape** it, by placing a backslash before it
+* You can use **regex playgrounds** to experiment with expressions to see which passages of text they match
+* **You don't need to memorise regex**: just look up the type of thing you need to do with the word 'regex', e.g. "match a range of characters in regex"
 
+You can [download a Google Sheet which has both the election tweets and further sheets showing example regex here](https://docs.google.com/spreadsheets/d/e/2PACX-1vSGthRci_vLp_GoQDtV2PuvCIxgrgqwhuA1e5md-lrWAEkSWADxYxTPeWqbcxDdj8W5rxOkPGhwimcg/pub?output=xlsx)
 
+## Find the story: unduly lenient sentences
 
+![](images/undulylenient.png)
 
+Another story involving text-as-data that the BBC Data Unit worked on was a [story on unduly lenient sentences](https://www.bbc.co.uk/news/uk-47879288). In this case the data journalist didn't use regex functions - instead they used other text extraction functions such as `LEFT` and `SEARCH`.
 
+However, this is a prime candidate for regex too.
 
+The background to the story and all the data is [available on GitHub](https://github.com/BBC-Data-Unit/unduly-lenient-sentences). For the exercise below [download a stripped-back version of the data here](https://docs.google.com/spreadsheets/d/1xVReCLvP8ChnksZzpcEsUmJhuH2gIgaWahf_0ZgFTsA/edit?usp=sharing) and try to do the following:
 
-Another example of working with text can be found in a story on unduly lenient sentences. This is [available on GitHub](https://github.com/BBC-Data-Unit/unduly-lenient-sentences/blob/master/ULS%20FINAL%20-%20June%202019.xlsx)
+Column E contains text for the "Original sentence (refined)" (the "refined" bit refers to the fact that this data has been cleaned a little in Open Refine first). Focusing on this column, see if you can:
+
+* Identify patterns in the data that you might match
+* Create a new column where you extract the number of days imprisonment in the sentence
+* Create a new column where you extract the number of weeks imprisonment in the sentence
+* Create a new column where you extract the number of months imprisonment in the sentence
+* Create a new column where you extract the number of years imprisonment in the sentence
+* Consider any variations in language that might have led to information not being matched. In particular, look out for potential misspellings, differences between plural and singular terms, the use of both letters and digits to describe numbers, and variation in punctuation
+* Repeat the process for the next column, "Revised sentence (refined)"
+* See if you can add some columns which calculate the difference between the original and revised sentences (in other words, how much it was reduced or increased by). Tip: it's easiest convert all those different units (days, weeks, months, years) into a total using the most basic unit (i.e. days) and calculate based on that
+* Calculate that change as a percentage, too
+
 
 A> ## Sometimes hard work ends up left out of the story
 A>
-A> Despite all this work to extract the numbers from the data, in the end it was decided to leave this dimension out of [the eventual story](https://www.bbc.co.uk/news/uk-47879288), as it became clear that the article was going to focus on the proportion of requests which were not eligible for review.
+A> In the unduly lenient sentences story, it was decided in the end to leave this dimension out of [the eventual story](https://www.bbc.co.uk/news/uk-47879288), as it became clear that the article was going to focus on the proportion of requests which were not eligible for review.
 A>
 A> It's important to mention this because often in journalism — and not just in data journalism — you have to be prepared to leave out material because the focus of your story has changed, regardless of the work that went into it. Ultimately it doesn't matter how much work something involved: if it's not central to the story, then it shouldn't be there.
 
-
-## Key points
-
-*
+*** LINKS FOR REGEX EXAMPLES AND UNDULY ***
