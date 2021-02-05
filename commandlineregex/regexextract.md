@@ -2,7 +2,7 @@
 
 ![This story used regex to explore data on art](images/ukart.png)
 
-The story was an unusual one: the BBC Data Unit had been given access to a dataset on more than 200,000 works of art in galleries across the UK. What patterns could we find in the data that would allow us to tell a story about the nature of the nation's paintings?
+[The story](https://www.bbc.co.uk/news/uk-england-38340015) was an unusual one: the BBC Data Unit had been given access to a dataset on more than 200,000 works of art in galleries across the UK. What patterns could we find in the data that would allow us to tell a story about the nature of the nation's paintings?
 
 Some of the data was straightforward to work with: the 'artist' column was relatively clean, and allowed us to identify the most common male and female artist. It turned out that the latter - the Victorian botanist Marianne North - was relatively unknown. So, that was one story we could tell.
 
@@ -331,6 +331,275 @@ Once applied and copied down, the formula should extract either of those words i
 
 If *both* words are in the text, it will grab the *first* match against either of those.
 
+### Using the asterisk, plus and question mark modifiers
+
+We've already used the curly bracket modifier to specify a number of characters. Now let's use the other modifiers: the asterisk, plus and question mark.
+
+Let's say we wanted to extract the name of the place that the result relates to. This comes at the start of the tweet, before the colon.
+
+Names start with a capital letter, then some lower case letters. We know there's only one capital letter, but we don't know how many lower case ones there might be in any particular name.
+
+That lack of certainty can be handled by one of the modifiers, however. If we know there's at least one of a certain character, then we can use the plus sign to mean 'one or more'.
+
+Here's one way to use that for the tweet in row 5:
+
+`=REGEXEXTRACT(C5,"[A-Z][a-z]+")`
+
+This means 'an upper case letter followed by one or more lower case letters'.
+
+In the next empty column, I, try this yourself: call the column 'constituency' (that's what these areas are called) and type `=REGEXEXTRACT(C2,"[A-Z][a-z]+")` in cell I2, underneath the column heading.
+
+When you copy that down a number of cells, this grabs the first word in each tweet that starts with a capital followed by at least one small letter.
+
+![](images/regexextractscreenshot5.png)
+
+At the moment it's only grabbing the first word - so only part of place names with multiple words like 'St Ives'. And it's grabbed some matches that we don't want, too, like 'This' and 'National'.
+
+We can solve those problems as we go, but for now we just want to understand how these modifiers work in practice.
+
+Let's use the other two modifiers to show how they work.
+
+Try changing your regex so that the plus sign is replaced by an asterisk. This means '*none* or more of'.
+
+The formula in cell I2, then, would look like this:
+
+`=REGEXEXTRACT(C2,"[A-Z][a-z]*")`
+
+Now we are asking for 'a capital letter followed by none or more lower case letters'.
+
+When copied down, you'll see that this is still grabbing the first part of place names like 'St' and 'Arundel' but it's only grabbing one letter in the other cells.
+
+![](images/regexextractscreenshot6.png)
+
+That's because in those cells the *first* match for the pattern described is the first word in the tweet: 'CORRECTION' or 'RESULT'. Both those words match the description 'a capital letter followed by none or more lower case letters' - or rather, more specifically, the 'C' and 'R' in those words fits that description: they are each a capital letter followed by *no* lower case letters (remember it can be *either* none or more with this modifier).
+
+This modifier doesn't help us in this expression - but it will come in very useful later.
+
+Now let's try the question mark:
+
+`=REGEXEXTRACT(C2,"[A-Z][a-z]?")`
+
+The question mark means 'none or one of' the specified character(s). So this expression in full means: 'a capital letter followed by none or one lower case letter'.
+
+As with the asterisk, the 'C' and 'R' in the words 'CORRECTION' or 'RESULT' are matched again, because each is a capital letter followed by *no* lower case letters.
+
+But in words like 'This' and 'Arundel' the regex only matches 'Th' or 'Ar': the capital followed by *one* lower case letter.
+
+![](images/regexextractscreenshot7.png)
+
+### Matching *any* character: wildcards
+
+So far the best result we've been able to get is to match the first word of any name - but we want to expand that to grab names which have more than one word. "St Ives", for example.
+
+We could change our regex to fit that sort of name - for example by duplicating the first part so it looks like this: `[A-Z][a-z]+ [A-Z][a-z]+`
+
+That would match "St Ives" but it would not match single-word place names, or those with more than two words, such as  "Arundel &amp; South Downs" (the `&amp;`, by the way, is the code for an ampersand - and it doesn't use a capital letter, although we could amend the expression to capture that too).
+
+So we need a different approach.
+
+One useful approach is to look at any characters that appear *after* the words that we want.
+
+In this case, the place name is always followed by a colon. So we could simply ask for 'one or more of any characters followed by a colon'.
+
+There is a special character in regex that means 'any character': it is the period, or dot: `.`.
+
+This is often referred to as a **wildcard**, in the same way that the Joker in a pack of cards can be a 'wildcard' and represent any card in the deck.
+
+Here's an example of an expression which means 'one or more of any characters followed by a colon':
+
+`.+:`
+
+There are only three characters here: the *wildcard* which means 'any character', then the *modifier* to specify that we want 'one or more' of that, and then the *literal* character - the colon - which simply means 'a colon'.
+
+Let's try that in row 5, which is the first tweet that mentions a result in a particular place, by changing the formula to this:
+
+`=REGEXEXTRACT(C5,".+:")`
+
+That works in extracting both words of "St Ives" and the colon that follows them (which we can clean out later).
+
+When copied down the column it also matches "Arundel &amp; South Downs:" - but in some cells it is matching "RESULT:" too, which we don't want.
+
+![](images/regexextractscreenshotwildcard.png)
+
+Now we can start to be more specific in our expression to try to exclude those.
+
+The obvious difference between the "RESULT:" and "St Ives:" is that the former is all upper case whereas the latter uses at least one lower case letter after the initial capital.
+
+We can re-use the regex from earlier to specify this, and incorporate it into our new expression:
+
+`[A-Z][a-z].+:`
+
+Now we are saying: 'An upper case letter followed by a lower case letter followed by one or more of any characters, followed by a colon' (note: this means that any name must be at least three characters long, including spaces, before the colon, so "St" along wouldn't match. If we did think that there might be two-character single-word place names in our data, we could amend the expression to use `*` instead of `+` to mean 'none or more', rather than 'one or more').
+
+When we change our formula to use that expression, and copy it down the column, it now stops matching "RESULT".
+
+![](images/regexextractscreenshotwildcard2.png)
+
+However, it does now match another part of the tweets that we don't want: the part that says "Full results:"
+
+We could, once again, filter this out as part of cleaning. But this problem gives us a convenient excuse to explore *another* part of regex...
+
+### Specifying position (start or end)
+
+If we can't distinguish between "St Ives:" and "Full results:" based on their characters, we *can* distinguish between them based on their position: "St Ives" and other names always appear at the *start* of the tweet.
+
+There are two special characters that we can use in regex to specify that we are looking for a pattern in a particular **position**:
+
+* The caret symbol `^` means 'at the start of the text'
+* The dollar symbol `$` means 'at the end of the text'
+
+These special characters must be used in a particular position: The caret must be used at the very start of the expression; the dollar must be used at the very end.
+
+With our expression then, we just need to add a caret symbol to the start of our expression to specify that we only want to bring back matches where that pattern occurs at the very start of the tweet:
+
+`^[A-Z][a-z].+:`
+
+When we adjust our formulae to include that caret symbol the results should now stop fetching "Full results:" because that series of characters doesn't appear at the start of each tweet (instead those matches should now change to `#N/A` errors, indicating it has failed to find a match, which is what we want).
+
+![](images/regexextractscreenshotcaret.png)
+
+A> If you want to try out the dollar sign as well you could use it to fetch the second link, which always appears at the end of the tweet.
+A>
+A> One way to write an expression to fetch this would be `http.+$` - that would actually grab both links because it would start with the first match and go all the way to the end.
+A>
+A> If you wanted to only grab the second link you could expand the expression to: `[A-Za-z] http.+$`
+A>
+A> This specifies that there must be a letter and a space before the link. That will exclude the first link, because it's preceded by a *colon* and a space. You will of course need to clean out that character and space later, however.
+
+### 'Escaping' special characters
+
+A final aspect of regex to demonstrate is what to do when you want to match a character which is used as a **special character** in regex. In other words, what if you wanted to match an *actual* dollar sign, or period, or question mark?
+
+The website Regular-Expressions.info [has a helpful page that explains the differences between literal characters and special characters]. "There are 12 characters with special meanings," it says:
+
+> "The backslash `\`, the caret `^`, the dollar sign `$`, the period or dot `.`, the vertical bar or pipe symbol `|`, the question mark `?`, the asterisk or star `*`, the plus sign `+`, the opening parenthesis `(`, the closing parenthesis `)`, the opening square bracket `[`, and the opening curly brace `{`, These special characters are often called "metacharacters". Most of them are errors when used alone."
+
+(Characters not in that list are **literal characters**: that is, they literally refer to themselves: a `c` means 'a lower case c'; a `0` means 'a zero'; and so on.)
+
+If we wanted to look for a pattern of characters that included one or more *special* characters, then, we need a way to specify that we *don't* want them to be treated as a special character.
+
+This is called '**escaping**' a special character.
+
+In regex you escape a special character by putting a **backslash** before it. So, for example, if we wanted to match an asterisk, we would write `\*`.
+
+As it happens, the only special character in the tweets that we've been using is a period (`.`), also known as a full stop or dot. That's perhaps the most likely special character that you might want to match literally.
+
+In the case of the tweets the period is actually quite a useful character to focus on: it separates the first part of the tweet containing the result, and the second part of the tweet containing a generic "Full results:" link.
+
+If we wanted to use regex to grab that first part of the tweet from each cell, then, we could use this expression:
+
+`.*\.`
+
+This expression uses the period character both as a *special* character (to mean 'any character') and as a *literal* character (to mean 'a period').
+
+There's a lot going on here in just four characters, too. It starts with that period to mean 'any character', followed by an asterisk - a modifier - to mean 'none or more of'. Next comes a backslash to mean 'escape the character that follows', and a period which this time - because of that backslash - literally means 'a period'.
+
+In fact, it's better to see it as *two pairs* of two characters rather than four separate characters: The period and asterisk ('none or more of any character'); and the backslash and period ('a period, literally').
+
+Taken together, those two pairs of characters equate to the expression 'none or more of any character, followed by a full stop'.
+
+Here are some more examples of special characters being escaped in order to create a literal match. See if you can translate the pattern that they are describing - and identify a type of information that that pattern might be used for.
+
+* `\$[0-9]+`
+* `\$[0-9]+\.*[0-9]*`
+* `\(.*\)`
+* `\[.*\]`
+* `'.*\?'`
+
+Stop here if you want to spend some time decoding those expressions.
+
+Once you're happy to continue, here are the translations:
+
+The first expression is `\$[0-9]+` - this means 'a dollar sign, followed by one or more numbers'. The dollar sign is escaped, so that it's treated literally, rather than as a special character, and the plus sign modifies the `[0-9]` so it looks for one or more of those digits.
+
+Why might we use this? To match amounts of money being mentioned in a cell. For example if it was used against the text "The purchase cost was $40", it would match '$40'.
+
+However, if it was used against the text "The purchase cost was $40.50", it would still only match '$40' - not the '.50' part of the cost, because we didn't anticipate a period (decimal point) being in the number.
+
+That takes us on to the second expression: `\$[0-9]+\.*[0-9]*` - this is an extension of the previous expression so that it now means 'a dollar sign, followed by one or more numbers, followed by none or more periods, followed by none or more numbers'.
+
+The dollar sign is again escaped, so that it's treated literally, and the period is also escaped for the same reason. The period is also *modified* with the asterisk to mean 'none or more' because some prices might not have a period at all.
+
+This creates a triple-character expression that's worth looking at separately: `\.*` (literally a period, and none or more of those). In fact we might instead write it as `\.?` to mean 'literally a period, none or one of those' because we wouldn't expect more than one period in an amount of money.
+
+Notice that the final part of the expression - `[0-9]*` also uses the asterisk with the digits to specify that we mean 'none or more' of those numbers. This is, again, because while a figure like $40.50 has a period and some numbers after that, a figure like $4 has no period and only one number in total so using `[0-9]+` twice (two instances of at least one number) in the same expression would not match that.
+
+Working through these 'what if?' situations is useful for testing any expression, and it is worth building this into your process.
+
+The next expression - `\(.*\)` - is relatively straightforward in comparison, although it looks uglier because the backslashes come thick and fast. What this is looking for is 'an opening bracket followed by none or more of any character, followed by a closing bracket'. Both the opening bracket and closing bracket character are escaped, so that it will literally look for those.
+
+In other words, it will grab the contents of any brackets, and the brackets surrounding those.
+
+The expression `\[.*\]` does exactly the same, but for square brackets: 'an opening square bracket followed by none or more of any character, followed by a closing square bracket'.
+
+Finally, the expression `'.*\?'` means 'an apostrophe, followed by none or any character, followed by a question mark, followed by another apostrophe'. This is the sort of expression that might match a question in the middle of text. For example, in the text "He asked: 'When will the project be complete?'" this expression will match "'When will the project be complete?'".
+
+The question mark is the character being escaped here. But it's also worth pointing out that the apostrophe in this expression would also match apostrophes in words like "can't" or "company's".
+
+A> Quotation marks can be used as literal characters in regular expressions - but to use them in Google Sheets formulae is a little tricky. This is because the Google Sheets function uses quotation marks to indicate the start and end of the expression, so any quotation mark after the opening quotation mark will be treated as indicating the *end* of the expression, rather than part of it.
+A>
+A> There are a couple of ways to get around this problem. The first is to put the quotation mark inside another quotation mark, like so: `=REGEXEXTRACT(A7,""".*\?""")`
+A>
+A> The second is to use the `CHAR()` function to generate the quotation mark - just as we did in the chapter on cleaning dirty data. The `CHAR()` function [just needs one ingredient](https://support.google.com/docs/answer/3094120?hl=en-GB): the "number of the character to look up from the current Unicode table". The Unicode number of a quotation mark is 34, so typing `CHAR(34)` will generate a quotation mark. This can be nested inside the `REGEXEXTRACT` function and combined with a partial expression using the `&` in a formula like so: `=REGEXEXTRACT(A8,CHAR(34)&".*\?"&CHAR(34))`
+
+### Indicating symbols, spaces, line returns and other character types
+
+In addition to 'escaping' special characters, the backslash can also be used with certain letters to indicate other types of characters. Here are some examples:
+
+* `\w` will match any lowercase *or* uppercase character, *or* number, or underscores
+* `\W` will match any character that's *not* lowercase *or* uppercase, *not* a number or underscore
+* `\d` will match any number
+* `\D` will match any character that's *not* a number
+* `\s` will match any 'whitespace' character: those include spaces but also a tab character, carriage return, or new line - in other words characters that aren't 'visible' in the sense of using ink if they were to be printed
+* `\S` will match anything that is *not* a 'whitespace' character
+* `\b` will - when combined with one or more characters - match those characters at the start, or end, of a word. For example `\bBEL` will look for 'BEL' at the start of a word, while `BEL\b` will look for 'BEL' at the end of a word (so the former will match 'BELT' but not 'BABEL' and the latter will match 'BABEL' but not 'BELT')
+* `\B` will - when combined with one or more characters - match where those characters *not* at the start, or end, of a word. For example `\Blet` will look for 'let' anywhere *except* at the start of a word, while `let\B` will look for 'let' anywhere *except* at the end of a word (so the former will match 'toilet' and 'fletcher' but not 'letter' and the latter will match 'fletcher' and 'letter' but not 'toilet')
+* `\n` will match a newline character
+* `\r` will match a carriage return character
+* `\t` will match a tab character
+
+Some of these can be used as an alternative to those used already: for example `\d` will do the same as `[0-9]` and `\w` is more efficient way of writing `[A-Za-z0-9_]`.
+
+You'll notice that all of these examples also follow a particular pattern: looking for a *positive* match involves using the relevant lower case letter (e.g. `\d` for digits), while looking for a *negative* match ("anything but" something) involves using the upper case equivalent (so, `\D` for 'not' a digit).
+
+Negative matches against particular characters can also be specifies by using the caret symbol `^` inside a pair of square brackets containing the characters you want to *not* match.
+
+So, for example, just as you might use `[A-Z]` to indicate 'any upper case letter', you can add a caret inside those square brackets like so:
+
+`[^A-Z]`
+
+...to indicate 'any letter that's *not* an upper case character'.
+
+Equally, `[^aeiouAEIOU]` would mean 'any letter apart from a vowel' and `[^Z]` would mean 'any letter apart from an upper case Z'.
+
+## How regex was used in the art story
+
+I opened this chapter with a [story about data on more than 200,000 works of art](https://www.bbc.co.uk/news/uk-england-38340015) in galleries across the UK, and how regular expressions would be needed to pick out the patterns in textual data.
+
+In that particular story I used regex not in Google Sheets, but with the programming language R, and it can be very useful if you decide to use coding in your work (you'll find a chapter on regex in coding Python in my book [Scraping for Journalists](https://leanpub.com/scrapingforjournalists), for example).
+
+Here are just some of the ways that regex was used:
+
+Firstly, it was used as part of a process of **date cleaning**:
+
+* In some cases dates included a question mark to indicate that this was an estimate. The side-effect of this was that we couldn't perform numerical calculations like the average year or the most common century. To clean those up we used the regex `"\?"` (note that the question mark is escaped)
+* The same applied to centuries (e.g. "19th C"): the regex `"th C"` was used to identify these (further cleaning was used to convert that to a start and end date)
+* The regex `"c"` was used to identify 'c' for 'circa' in a similar way
+* The regex `"0s"` was used to identify decades (e.g. '1950s')
+
+It was also used to identify variations of royal names:
+
+* The regex `".*Elizabeth I[^A-Za-z].*"` was used to identify Queen Elizabeth I and II. Similar regex was used to identify other royals, e.g. `".*Richard I[^A-Za-z].*"` (these were generated from a list of royals rather than manually typing each one in)
+* Similarly, regex like `".*Queen.*|.*Princess.*|.*Empress.*"` was used to identify royal titles
+* And `.*Prince[^s].*` was used to identify where 'Prince' occurred, but *not* when followed by an 's' (otherwise it would also match 'Princess')
+
+Note that some of these expressions matched artworks related to items named after royals, such as the 'Prince of Wales' steam engine, or the 'King's Dragoons' army regiment. These could be identified and cleaned in further stages of data analysis.
+
+And finally, it was used to identify schools of art, with the regex `".*[Ss]chool.*"`.
+
+You can find all the code and spreadsheets used in that project in the GitHub repo for the story at https://github.com/BBC-Data-Unit/art-uk.
+
+## Recap
 
 
 
@@ -338,12 +607,8 @@ If *both* words are in the text, it will grab the *first* match against either o
 
 
 
-***DOWNLOAD**
 
-
-
-
-We will use the data from the story on unduly lenient sentences. This is [available on GitHub](https://github.com/BBC-Data-Unit/unduly-lenient-sentences/blob/master/ULS%20FINAL%20-%20June%202019.xlsx)
+Another example of working with text can be found in a story on unduly lenient sentences. This is [available on GitHub](https://github.com/BBC-Data-Unit/unduly-lenient-sentences/blob/master/ULS%20FINAL%20-%20June%202019.xlsx)
 
 A> ## Sometimes hard work ends up left out of the story
 A>
