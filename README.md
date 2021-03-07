@@ -37,9 +37,11 @@ By the end of this week you should be able to use core spreadsheet techniques to
   * [Anderson, CW (2012) Towards a sociology of computational and algorithmic journalism](https://www.scribd.com/document/120198213/Towards-a-sociology-of-computational-and-algorithmic-journalism)
 
 
-You will [find instructions on how to get started with GitHub in another repository here](https://github.com/paulbradshaw/introtogithub)
+You will [find instructions on how to get started with GitHub in another repository here](https://github.com/paulbradshaw/introtogithub). 
 
-**Additional resources**: The New York Times have made their [internal data journalism training materials available here](https://drive.google.com/drive/u/0/folders/1ZS57_40tWuIB7tV4APVMmTZ-5PXDwX9w) [and written about their training here](https://open.nytimes.com/how-we-helped-our-reporters-learn-to-love-spreadsheets-adc43a93b919).
+**Additional resources**: The New York Times have made their [internal data journalism training materials available here](https://drive.google.com/drive/u/0/folders/1ZS57_40tWuIB7tV4APVMmTZ-5PXDwX9w) [and written about their training here](https://open.nytimes.com/how-we-helped-our-reporters-learn-to-love-spreadsheets-adc43a93b919). 
+
+BCU students have access to LinkedIn Learning, which [has a course on Learning Git and GitHub](https://www.linkedin.com/learning/learning-git-and-github/welcome?u=42288921) if you want to learn more about those.
 
 ## 2: How to think like a data journalist: data literacy and algorithmic and computational thinking
 
