@@ -4,7 +4,7 @@ Create an account on [Flourish](https://flourish.studio/)
 
 Click 'New visualisation' at the top of the screen - or go to https://app.flourish.studio/templates
 
-Scroll down to the *Marker map* section. Select the **Category dot map**.
+Scroll down to the *Marker map* section. Select the **Emoji dot map** (previously the [category dot map](https://app.flourish.studio/visualisation/209694/), which you can also duplicate and edit).
 
 All the maps in Flourish come with some example data that you will need to delete, but which give you an idea of the structure of the data that you need.
 
