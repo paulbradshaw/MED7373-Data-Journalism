@@ -12,17 +12,20 @@ Switch from the *Preview* tab to the *Data* tab (just above the map in the middl
 
 This visualisation has three sets of data, or tables:
 
+* Locations
 * Categories
-* Data
 * Regions
+* Inset map regions
+
+The *Locations* table is the one with the main information, and where you need to start.
 
 The *Categories* table is used to colour-code and/or decorate your points. Leave that for now.
 
-The *Regions* table is used to draw an area in the bottom right corner. Ignore that.
+The *Regions* table is used to draw areas on the map. Ignore that.
 
-The *Data* table is the one with the main information, and where you need to start.
+The *Inset map regions* table is used to draw an area in the bottom right corner. Ignore that.
 
-Click on the *Data* tab to look at that data.
+Click on the *Locations* tab to look at that data.
 
 You can either select all the data, delete it, and then paste your own instead - or you can click **Import your data**.
 
@@ -38,12 +41,12 @@ Once it's loaded, you will get a window saying *Next, select the columns*. Click
 
 Here you will need to specify which columns contain latitude, and then latitude.
 
-It will still be set to columns E and F, but you will need to see which columns have lat and long in your new data. In the case of the crime data, it's probably **B** for latitude, and **A** for longitude.
+It will still be set to columns AG and AF, but you will need to see which columns have lat and long in your new data. In the case of the crime data, it's probably **F** for latitude, and **E** for longitude.
 
 Scroll down further to see other settings for the map:
 
 * *Marker* can be used if you have a column with image URLs (the image needs to be the right size) or emojis or Font Awesome icon names - these will then be used instead of the default marker.
-* In *Name* you can specify a column with the name of the place. In the crime data, this could be column **C**.
+* In *Name* you can specify a column with the name of the place. 
 * In *Description* you can specify a column with a description of the place or event.
 * *Photo* can be used if you have a column with image URLs (the image needs to be the right size) that you want to appear in popups
 * *Link* can be used if you have a column with URLs for links that you may want to use in popups
@@ -58,15 +61,13 @@ In this example you can leave most of these empty, apart from:
 
 If you switch back to the *Preview* view now, you should see a series of dots scattered across the region you downloaded.
 
-However, all of those dots will be the same colour - and you still have a legend showing a colour scheme for Apple, Cherry and Pear, and the shape of London in the bottom right corner.
+However, all of those dots will be the same colour - and a globe in the bottom right corner.
 
 If you don't want to colour-code each point, you can simply turn off the legend and shape by customising the map settings (see the section below). If you do, however, this is how to do it...
 
 ## Creating the category table
 
 Switch back to the *Data* view and go to the *Categories* table.
-
-You will see that this is where 'Apple', 'Cherry' and 'Pear' are being pulled from: they are in column A.
 
 You now need to change this data to reflect the categories in your data.
 
