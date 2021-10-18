@@ -6,7 +6,7 @@ The [postcodes API](http://api.postcodes.io/), for example, can be queried by pu
 
 `http://api.postcodes.io/postcodes/`
 
-To ask about the postcode B42 2SU, then, you would add it to the end to form the URL:
+To ask about the postcode B4 7AP, then, you would add it to the end to form the URL:
 
 `http://api.postcodes.io/postcodes/b47ap`
 
