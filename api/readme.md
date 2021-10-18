@@ -2,7 +2,7 @@
 
 This folder contains resources on working with APIs. That includes:
 
-* An [R Markdown file explaining how to work with an API in R](https://github.com/paulbradshaw/MED7373-Data-Journalism/blob/master/api/usingpostcodesapi.Rmd)
+* An [markdown file explaining how to work with an API in R](https://github.com/paulbradshaw/MED7373-Data-Journalism/blob/master/api/usingpostcodesapi.md)
 * [This R Markdown file explains how to use the data.police API to fetch the latest month of reported crimes on campuses](https://github.com/paulbradshaw/MED7373-Data-Journalism/blob/master/mapping/crimeapi.Rmd)
 * A [tutorial on fetching data from an API in JavaScript using jQuery](https://github.com/paulbradshaw/MED7373-Data-Journalism/blob/master/api/javascriptapi.md)
 * You might also want to try [this guide to JSON including exercise](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON) at MDN
