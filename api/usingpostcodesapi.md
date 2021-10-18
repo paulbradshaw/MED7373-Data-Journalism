@@ -8,7 +8,7 @@ The [postcodes API](http://api.postcodes.io/), for example, can be queried by pu
 
 To ask about the postcode B42 2SU, then, you would add it to the end to form the URL:
 
-`http://api.postcodes.io/postcodes/b422su`
+`http://api.postcodes.io/postcodes/b47ap`
 
 If you go to that URL you will get a bunch of code in **JSON** - this is the data for that postcode. If you want it to look a bit easier to understand use the browser extension [JSONView](https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc?hl=en).
 
