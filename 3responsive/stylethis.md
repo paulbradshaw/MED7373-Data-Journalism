@@ -69,4 +69,10 @@ Unzip that file and look at the resulting files - go into the 'src' folder and y
 
 Open those in Atom or a similar text editor and see if you can 'read' the resulting code.
 
+## Other challenges
+
+* See if you can add an image to your HTML. The URL of the image in the story is https://ichef.bbci.co.uk/news/976/cpsprodpb/15AC/production/_119784550_katie_yelland.jpg. Google to find out which HTML tag you need to use to bring in that image, and what attributes and values it will need.
+* See if you can add a link to one of the paragraphs
+* See if you can style that link using multiple selectors (i.e. styling 'a link within a paragraph')
+* In the original story the first paragraph is styled differently. How can you achieve the same effect? (Tip: the `<div>` tag is often used to separate particular parts of a webpage for styling separately. Alternatively, the `class=` and `id=` attributes are often used for the same reeson)
 
