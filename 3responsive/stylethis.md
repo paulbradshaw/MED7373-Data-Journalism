@@ -8,7 +8,7 @@ Create an account on [Codepen](https://codepen.io/) and create a new 'pen' (go t
 
 ## Copy the text into Codepen
 
-Here's the text you need to copy and paste into the HTML view in Copepen (it's from [this story](https://www.bbc.co.uk/news/uk-58085428)):
+Here's the text you need to copy and paste into the **HTML** view on the left hand column in Copepen (it's from [this story](https://www.bbc.co.uk/news/uk-58085428)):
 
 > 'NHS abandoned me after I tried to kill myself'
 >
@@ -35,5 +35,38 @@ Do the following:
 
 See the formatting of the preview underneath change as you add those tags.
 
+## Add some styles
+
+Now we have HTML tags, we can 'select' them to apply styles.
+
+Shift your attention to the middle **CSS** column in Codepen.
+
+Let's say we want the text to be a slightly more subtle shade of grey, rather than black. 
+
+How do we use CSS to change text colour? [Google it](https://www.w3schools.com/css/css_text.asp). 
+
+It looks like the property is `color`
+
+In the CSS view then we can add the following code:
+
+```
+p { color : grey }
+```
+
+You should see the preview update. 
+
+Now think of other changes you might want to make. For example:
+
+* Can you style the headline?
+* Can you specify a slightly darker shade of grey? How?
+* Can you apply multiple styles? How?
+
+## Export the results
+
+Click on the **Export** button in the bottom right corner to save your webpage - choose to save it **as a zip file**. 
+
+Unzip that file and look at the resulting files - go into the 'src' folder and you should see an index.html file and a style.css file.
+
+Open those in Atom or a similar text editor and see if you can 'read' the resulting code.
 
 
