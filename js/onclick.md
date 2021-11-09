@@ -4,17 +4,19 @@
 
 A good introductory skill with JS (JavaScript) is learning how to trigger an action with a click. This can be used to reveal the answer to a quiz question, or allow users to choose a route through a story.
 
-We're going to use that skill to replicate some of the functionality in the first page of [*Glastonbury quiz: Test your knowledge*](http://www.bbc.co.uk/news/uk-england-40388067), and along the way build some knowledge of:
+We're going to use that skill to replicate some of the functionality in a quiz like [this news quiz](https://www.theguardian.com/lifeandstyle/2021/nov/04/the-guardian-thursday-quiz-general-knowledge-topical-news-trivia-28), and along the way build some knowledge of:
 
 * How to trigger a change with a click
 * How to target, and change, something on the page
 * How to add HTML to a page
 
+**Start by creating a new pen on Codepen, and adding the code below to the HTML and JS sections**
+
 ## The `onclick` event handler
 
 There are various ways of doing this. One is `onclick`. This is an **event handler**: it will *handle* the *event* of being clicked, normally by doing something specified by an equals operator, such as running a function.
 
-*This particular example is placed inside HTML, rather than inside the JS script. However, it is considered better practice (in terms of accessibility) to do this inside your JS script using techniques such as `.click` in jQuery or D3. See the end of this page for more.*
+*In Codepen this particular example code is placed inside the HTML box, rather than inside the JS script. However, it is considered better practice (in terms of accessibility) to do this inside your JS script using techniques such as `.click` in jQuery or D3. See the end of this page for more.*
 
 Here's an example - first the HTML containing that `onclick` event handler:
 
@@ -28,7 +30,7 @@ Here's an example - first the HTML containing that `onclick` event handler:
 
 In this case `onclick="giveAnswer()"`.  That means it looks for a function called `giveAnswer`, and runs it when clicked. The parentheses are used to pass any ingredients that the function might need to work. Even if it doesn't need any ingredients, the parentheses are still used but left empty, as in this case.
 
-Second, then, here is some JS containing that function which has been *called* by `onclick`
+Second, then, here is some JS containing that function which has been *called* by `onclick` - in Codepen this would go in the JS box:
 
 ```js
 function giveAnswer() {
@@ -53,9 +55,12 @@ function giveAnswer() {
       </form>
 ```
 
+Note that the example code above is HTML (the JavaScript is inside HTML `<script>` tags) so would *not* go inside the JS box in Codepen.
+
+
 ## Changing text on the page
 
-Alert buttons are clunky, old-fashioned ways of communicating information more commonly associated with pop-up spammy ads. We don't want this sort of user experience. So instead, a better way of doing the same thing is to change the function so that it puts some text onto the page itself.
+Alert buttons are clunky, old-fashioned ways of communicating information more commonly associated with pop-up spammy ads (in fact your browser may have blocked it). We don't want this sort of user experience. So instead, a better way of doing the same thing is to change the function so that it puts some text onto the page itself.
 
 To do that we need to *target* part of the HTML. There are a range of methods for doing this. These include:
 
@@ -75,7 +80,7 @@ In each case the method is followed by the attribute that it is targeting, in pa
 
 All but one of these will return a *list* of matches - because tags, classes and selectors can be used more than once. The exception is `GetElementById`, which only returns *one* match (on the basis that an `id` attribute is only supposed to be used once on each page). This also makes it simpler to use.
 
-Here is the function changed to use `GetElementById` to alter the page.
+Here is the function changed to use `GetElementById` to alter the page (update your Codepen JS box so your code looks like this).
 
 ```js
 function giveAnswer() {
@@ -117,7 +122,7 @@ function giveAnswer() {
 
 There are other ways to change the content. One option is `.innerHTML`: this allows you not only to set any text, but also add extra HTML, such as formatting or attributes. It also means that you can add images and other rich media.
 
-Let's apply this to our Glastonbury quiz.
+Let's apply this to our quiz.
 
 To make sure that we have room for multiple HTML tags including paragraphs of text and any images or video, it's a good idea to change our `<p id="changeme">` to `<div id="changeme">`
 
@@ -244,7 +249,7 @@ Now with just one question a score isn't that much use. But to have a quiz with 
 ## Tasks
 
 * Although we have used `onclick` inside the `<input>` tag which happens to create a clickable button, it can be used on other HTML tags as well. Try using it on the `<h1>` tag by changing it to `<h1 onclick="giveAnswer()">`. Why would we normally want to avoid using it with a text tag, however?
-* Add another question to the quiz (you can [take an example from here](http://www.bbc.co.uk/news/uk-england-40388067)). You will need to duplicate the question heading, text and form - but what else will you need to change?  
+* Add another question to the quiz (you can [take an example from here](https://www.theguardian.com/lifeandstyle/2021/nov/04/the-guardian-thursday-quiz-general-knowledge-topical-news-trivia-28)). You will need to duplicate the question heading, text and form - but what else will you need to change?  
 
 
 ## Further reading
