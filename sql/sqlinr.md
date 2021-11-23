@@ -10,7 +10,7 @@ library(sqldf)
 Next we need some data to run our query on. In the same folder as this project you will find some data on MPs' expenses. Import that:
 
 ```{r}
-exes1718 <- read.csv("exes1718.csv", stringsAsFactors = F)
+exes1718 <- read.csv("https://raw.githubusercontent.com/paulbradshaw/MED7373-Data-Journalism/master/sql/exes1718.csv", stringsAsFactors = F)
 ```
 
 ## The first query: SELECT
