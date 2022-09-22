@@ -24,26 +24,31 @@ This module begins with formal classes and becomes more student-driven as it pro
 
 You will also be expected to feed your own experiences into each class - and your own problems and questions - rather than coming to the sessions with nothing to contribute or build on. As independent learners the emphasis is on you to drive your learning forward through conversation rather than accept it passively.
 
-## 1: Data journalism's 3 chords
+## 1: Data journalism: it starts with an idea
 
-By the end of this week you should be able to use core spreadsheet techniques to find stories, including sorting and filtering, pivot tables, and be able to calculate change and proportions. You will also be able to use GitHub to clone or fork a repo.
+By the end of this week you should be able to describe what data journalism is, and what types of stories you can find and tell with data journalism techniques. You should be able to generate ideas for data journalism stories yourself, and identify some sources of data. You will also be able to use GitHub to clone or fork a repo.
 
-* Workshop: [Fork this!](https://github.com/paulbradshaw/MED7373-Data-Journalism/tree/master/1basics); [Data journalism basics: sorting, filtering, pivot tables, calculations](https://github.com/paulbradshaw/MED7373-Data-Journalism/blob/master/1basics/dj3chords.md)
 * Workshop: [Data journalism story workshop](https://github.com/paulbradshaw/MED7373-Data-Journalism/tree/master/storytelling); 
-* Workshop: [practise spreadsheet skills](https://github.com/paulbradshaw/MED7373-Data-Journalism/blob/master/1basics/dj3chords.md)
 * Directed study: [Finding simple data stories](https://github.com/paulbradshaw/MED7373-Data-Journalism/blob/master/1basics/directedstudy.md)
 * Reading:
-  * [Data Journalism Heist](https://leanpub.com/DataJournalismHeist) *(BCU students please ask for your voucher for a free copy)*
   * [Anderson, CW (2012) Towards a sociology of computational and algorithmic journalism](https://www.scribd.com/document/120198213/Towards-a-sociology-of-computational-and-algorithmic-journalism)
-
+  * [Data Journalism Heist](https://leanpub.com/DataJournalismHeist) *(BCU students please ask for your voucher for a free copy)*
 
 You will [find instructions on how to get started with GitHub in another repository here](https://github.com/paulbradshaw/introtogithub). 
 
+
+## 2: Data journalism's 3 chords
+
+By the end of this week you should be able to use core spreadsheet techniques to find stories, including sorting and filtering, pivot tables, and be able to calculate change and proportions. 
+
+* Workshop: [Fork this!](https://github.com/paulbradshaw/MED7373-Data-Journalism/tree/master/1basics); [Data journalism basics: sorting, filtering, pivot tables, calculations](https://github.com/paulbradshaw/MED7373-Data-Journalism/blob/master/1basics/dj3chords.md)
+* Workshop: [practise spreadsheet skills](https://github.com/paulbradshaw/MED7373-Data-Journalism/blob/master/1basics/dj3chords.md)
+* Reading:
+  * [Data Journalism Heist](https://leanpub.com/DataJournalismHeist) *(BCU students please ask for your voucher for a free copy)*
+
 **Additional resources**: The New York Times have made their [internal data journalism training materials available here](https://drive.google.com/drive/u/0/folders/1ZS57_40tWuIB7tV4APVMmTZ-5PXDwX9w) [and written about their training here](https://open.nytimes.com/how-we-helped-our-reporters-learn-to-love-spreadsheets-adc43a93b919). 
 
-BCU students have access to LinkedIn Learning, which [has a course on Learning Git and GitHub](https://www.linkedin.com/learning/learning-git-and-github/welcome?u=42288921) if you want to learn more about those.
-
-## 2: How to think like a data journalist: data literacy and algorithmic and computational thinking
+## 3: How to think like a data journalist: data literacy and algorithmic and computational thinking
 
 By the end of this week you should be able to use a range of spreadsheet functions - but more importantly, use computational thinking to break down editorial challenges into problems that can be tackled systematically, quickly and effectively, with the potential for automation or semi-automation as algorithms.
 
@@ -56,7 +61,7 @@ By the end of this week you should be able to use a range of spreadsheet functio
 
 **Additional resources**: OpenLearn: [Computational thinking and automation](https://www.open.edu/openlearn/science-maths-technology/computing-ict/introduction-computational-thinking/content-section-1.1)
 
-## 3: Critical cartography: why, how - and when - to map
+## 4: Critical cartography: why, how - and when - to map
 
 By the end of this week you should be able to create a range of map types (point, shape, heat) and talk about the ethical issues surrounding mapping. You should also be able to use SQL to query data.
 
@@ -66,7 +71,7 @@ By the end of this week you should be able to create a range of map types (point
 * Task: [Write a MAPPED! story](https://github.com/paulbradshaw/MED7373-Data-Journalism/blob/master/mapping/mappingds.md)
 * Optional: any chapter(s) from [Mapping, Society and Technology](http://open.lib.umn.edu/mapping/)
 
-## 4: Solving data problems - R
+## 5: Solving data problems - R
 
 By the end of this week you should be able to identify common data problems, and use techniques to solve those. You should also be able to use basic data processing and analysis techniques in R.
 
@@ -79,7 +84,7 @@ By the end of this week you should be able to identify common data problems, and
   * [Directed study: playing with R](https://github.com/paulbradshaw/MED7373-Data-Journalism/blob/master/R/ds.md)
 
 
-## 5: Live and connected storytelling: APIs
+## 6: Live and connected storytelling: APIs
 
 By the end of this week you should be able to use a range of techniques for fetching data from APIs in both R and JavaScript, and explore possibilities for dynamically analysing and/or presenting that data.
 
@@ -87,7 +92,7 @@ By the end of this week you should be able to use a range of techniques for fetc
 * Task: Development of data journalism project
 * Reading: Bogost et al (2010) Newsgames: Journalism at Play
   
-## 6: Mobile first: responsive and other design considerations
+## 7: Mobile first: responsive and other design considerations
 
 By the end of this week you should be able to create a basic HTML page with CSS styles, and explain the basics of design for mobile devices.
 
@@ -99,10 +104,9 @@ By the end of this week you should be able to create a basic HTML page with CSS 
 * Reading: Manuel Matuzovic: [Writing HTML with accessibility in mind](https://medium.com/alistapart/writing-html-with-accessibility-in-mind-a62026493412); [Writing CSS with Accessibility in Mind](https://medium.com/@matuzo/writing-css-with-accessibility-in-mind-8514a0007939)
 
 **Additional resources**: 
-* [LinkedIn Learning courses on responsive web design](https://www.linkedin.com/learning/topics/responsive-web-design?u=42288921) (free for BCU students), e.g. [Responsive Design Workflows](https://www.linkedin.com/learning/responsive-design-workflows/welcome?u=42288921)
 * [YouTube playlist: the UIkit frontend framework](https://www.youtube.com/playlist?list=PL2SfpsC7cy0gv9O7nNKyQZBrFjhi3LH-V) (for designing responsive pages, longform and scrollytelling)
 
-## 7: Making it visual, making it interactive - JavaScript
+## 8: Making it visual, making it interactive - JavaScript
 
 By the end of this week you should be able to explain basic concepts in JavaScript and use it to create basic interactivity and/or visualisations. *Note: the [Narrative module](https://github.com/paulbradshaw/MED7334-Narrative) class on principles of visualisation and visual design, and the class on ergodic storytelling are particularly relevant to your work in this area*
 
@@ -112,7 +116,7 @@ By the end of this week you should be able to explain basic concepts in JavaScri
   * Dona Wong (2010) The Wall Street Journal Guide to Information Graphics
   * Manuel Matuzovic: [Writing JavaScript with accessibility in mind](https://medium.com/@matuzo/writing-javascript-with-accessibility-in-mind-a1f6a5f467b9)
 
-## 8: Fetching the haystack, finding the needle: coding for finding stories
+## 9: Fetching the haystack, finding the needle: coding for finding stories
 
 By the end of this week you should be able to use basic commands in the command line to fetch, find, combine and move data. You should also be able to explain how regular expressions (regex) work, and use them to locate and extract information from files.
 
@@ -129,7 +133,7 @@ By the end of this week you should be able to use basic commands in the command 
 
 You can [find more tips on using command line in another repo here](https://github.com/paulbradshaw/commandline)
 
-## 9: Big data, sensor journalism, and SQL
+## 10: Big data, sensor journalism, and SQL
 
 By the end of this week you should be able to identify techniques for working with large datasets, and issues surrounding big data, linked data, open data, and sensor journalism.
 
@@ -140,18 +144,8 @@ By the end of this week you should be able to identify techniques for working wi
   * [Hammond (2015): From computer-assisted to data-driven: Journalism and Big Data](https://www.researchgate.net/publication/287391319_From_computer-assisted_to_data-driven_Journalism_and_Big_Data)
   * Data.world's [Gitbook on SQL](https://docs.data.world/tutorials/dwsql/#sql-on-dataworld) is a useful resource and the platform is a good place to practise SQL queries on your own data.
 
-## 10: Here come the robots: AI, machine learning and bots
-
-By the end of this week you should be able to identify ways that AI, machine learning and bots can play a role within journalism, both internal- and public-facing, and articulate the critical and ethical issues raised by AI technologies. You should also be able to create a basic bot, and identify relevant libraries for using machine learning within programming.
-
-* [Part of the lecture is summarised in this blog post](https://onlinejournalismblog.com/2017/12/14/data-journalisms-ai-opportunity-the-3-different-types-of-machine-learning-how-they-have-already-been-used/) and [this on the need for better guidelines on reporting uncertainty](https://onlinejournalismblog.com/2019/05/23/ai-in-journalism-guidelines-on-reporting-uncertainty/)
-* Workshop: Assignment review (you can also [explore resources on bots here](https://github.com/paulbradshaw/bots))
-* Task: Development of data journalism project
-* Reading:
-  * Diakopoulos, Nick (2016): [Algorithmic Transparency in the News Media](http://www.nickdiakopoulos.com/wp-content/uploads/2016/07/Algorithmic-Transparency-in-the-News-Media-Final.pdf)
-  * Woolley et al. (2016): [How to think about bots](https://motherboard.vice.com/en_us/article/qkzpdm/how-to-think-about-bots)
   
-## Weeks 12-14: Newsroom and planning
+## Weeks 12-14: Assignment production
 
 In the final weeks of the semester you will take part in a live newsroom, as a data journalist. You will need to consider whether to form a team that works separately (e.g. on investigations), in a service role (e.g. producing complementary material to stories by others), or some combination of both. You will find a range of readings on Moodle that you should use to inform those decisions, and that you can draw on in your reflection. Those include:
 
