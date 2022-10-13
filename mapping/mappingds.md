@@ -11,6 +11,8 @@ Examples include:
 * School spending or absences by local authority
 * Health data by CCG (you'll probably need CCG shape files!) 
 
+You'll [find plenty of examples in the datasets folder here](https://github.com/paulbradshaw/MED7373-Data-Journalism/tree/master/mapping/datasets)
+
 Write a story about the data. Consider whether the map is there to show a pattern or distribution - or if it's exploratory (designed for users to explore). 
 
 Keep it simple!
