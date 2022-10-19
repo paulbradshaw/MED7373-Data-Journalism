@@ -1,8 +1,3 @@
----
-title: "R Notebook"
-output: html_notebook
----
-
 # Getting started - crime data
 
 First we need to get the data from 2 CSV files into this R project.
