@@ -1,18 +1,5 @@
----
-title: "R exercises"
-output:
-  html_document:
-    code_folding: show
-    echo: TRUE
-    warning: FALSE
-    message: FALSE
-    theme: simplex
-    toc: yes
-    toc_float: 
-      collapsed: false
-      smooth_scroll: false
-subtitle: Working with MPs' expenses to demonstrate R
----
+# Working with MPs' expenses to demonstrate R
+
 
 This notebook takes you through working with expenses data. First, [download the latest MPs' expenses from IPSA](http://www.theipsa.org.uk/mp-costs/other-published-data/) - *make sure you select Individual Claims* to get the granular data.
 
