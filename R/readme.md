@@ -4,7 +4,7 @@
 
 Most people use R within software like [RStudio](https://www.rstudio.com/). But you also need to install R [on your PC](https://cran.r-project.org/bin/windows/base/) [or Mac](https://cran.r-project.org/bin/macosx/) first. This will install the **R Console**, which can be used to work with R - but I'm going to assume you're using RStudio, which is more user-friendly piece of software.
 
-So: [download RStudio from here](https://www.rstudio.com/products/rstudio/download2/).
+So: [download RStudio from here](https://www.rstudio.com/products/rstudio/download/).
 
 ## 2. Create a new project
 
