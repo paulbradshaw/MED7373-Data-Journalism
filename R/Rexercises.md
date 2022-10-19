@@ -1,9 +1,5 @@
----
-title: "R exercises"
-output:
-  html_document: default
-  html_notebook: default
----
+# R exercises
+
 
 This notebook outlines some introductory exercises to get to grips with R within RStudio, including basic data types and processes.
 
