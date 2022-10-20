@@ -8,4 +8,5 @@ You can do any of the following workshops:
 * [Getting started with crime data](https://github.com/paulbradshaw/MED7373-Data-Journalism/blob/master/R/crimedata.md) shows how to import and merge datasets from two different areas, then create a filtered subset
 * [Working with MPs' expenses to demonstrate R](https://github.com/paulbradshaw/MED7373-Data-Journalism/blob/master/R/Rcsvexample.md) uses similar processes, in more depth
 * [A dentists story](https://github.com/paulbradshaw/MED7373-Data-Journalism/blob/master/R/workshop_dentists.md) takes you through importing, cleaning, merging, and exporting - but with some typical problem solving along the way
+* [Analysing the gender pay gap: time and dates](https://github.com/paulbradshaw/genderpaygap/blob/master/r/timedategpg.Rmd) takes you through some techniques for working with time and date in R using the package `lubridate`
 * [A directed study task](https://github.com/paulbradshaw/MED7373-Data-Journalism/blob/master/R/ds.md) provides some further ideas for exploration
