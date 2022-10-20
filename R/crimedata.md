@@ -44,3 +44,10 @@ Create a subset:
 burglary <- subset(both0818,both0818$Crime.type == "Burglary")
 ```
 
+Export the results
+
+```{r}
+write.csv(burglary, "burglaryonly.csv")
+```
+
+
