@@ -88,8 +88,8 @@ By the end of this week you should be able to identify common data problems, and
 By the end of this week you should be able to identify common data problems, and use techniques to solve those. 
 
 * Workshop: identifying dirty data, and telling stories with accuracy. Choose
- * A chapter from Finding Stories With Spreadsheets OR an Open Refine tutorial in the [Cleaning repo tutorials list](https://github.com/paulbradshaw/cleaning#tutorials)
- * One of the [tutorials on cleaning in R](https://github.com/paulbradshaw/cleaning/tree/master/cleaning_r)
+  * A chapter from Finding Stories With Spreadsheets OR an Open Refine tutorial in the [Cleaning repo tutorials list](https://github.com/paulbradshaw/cleaning#tutorials)
+  * One of the [tutorials on cleaning in R](https://github.com/paulbradshaw/cleaning/tree/master/cleaning_r)
 * Task: Use [Heather Krause’s data biography approach](https://gijn.org/2017/03/27/data-biographies-getting-to-know-your-data/) to evaluate a data source(s) you plan to use for a story 
 * Reading: [Stray: The Curious Journalist's Guide to Data](http://www.documentcloud.org/documents/2790871-Curious-Journalist-S-Guide-to-Data.html)
   
