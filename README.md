@@ -78,19 +78,20 @@ By the end of this week you should be able to identify common data problems, and
 * Workshop: Importing, analysing, and exporting in R ([Fork this repo!](https://github.com/paulbradshaw/rintro))
 * Task: Use R to clean and check your data
 * Reading:
-  * [Stray: The Curious Journalist's Guide to Data](http://www.documentcloud.org/documents/2790871-Curious-Journalist-S-Guide-to-Data.html)
   * [Free ebook: R For Beginners](https://cran.r-project.org/doc/contrib/Paradis-rdebuts_en.pdf)
   * [Playlist: R programming tutorials](https://www.youtube.com/watch?v=WJDrYUqNrHg&index=1&list=PLvhG5FRoq78otMp0WbWuJsFOarEAchMek)
   * [Directed study: playing with R](https://github.com/paulbradshaw/MED7373-Data-Journalism/blob/master/R/ds.md)
 
 
-## 6: Live and connected storytelling: APIs
+## 6: Dirty data and cleaning
 
-By the end of this week you should be able to use a range of techniques for fetching data from APIs in both R and JavaScript, and explore possibilities for dynamically analysing and/or presenting that data.
+By the end of this week you should be able to identify common data problems, and use techniques to solve those. 
 
-* Workshop: Using APIs in JavaScript and R. [Fork this!](https://github.com/paulbradshaw/MED7373-Data-Journalism/tree/master/api)
-* Task: Development of data journalism project
-* Reading: Bogost et al (2010) Newsgames: Journalism at Play
+* Workshop: identifying dirty data, and telling stories with accuracy. Choose
+ * A chapter from Finding Stories With Spreadsheets OR an Open Refine tutorial in the [Cleaning repo tutorials list](https://github.com/paulbradshaw/cleaning#tutorials)
+ * One of the [tutorials on cleaning in R](https://github.com/paulbradshaw/cleaning/tree/master/cleaning_r)
+* Task: Use [Heather Krause’s data biography approach](https://gijn.org/2017/03/27/data-biographies-getting-to-know-your-data/) to evaluate a data source(s) you plan to use for a story 
+* Reading: [Stray: The Curious Journalist's Guide to Data](http://www.documentcloud.org/documents/2790871-Curious-Journalist-S-Guide-to-Data.html)
   
 ## 7: Mobile first: responsive and other design considerations
 
