@@ -2,11 +2,11 @@
 
 Create an account on Datawrapper.de.
 
-Click 'New map' at the top of the screen - or go to https://app.datawrapper.de/create/map
+Click **Create new...** at the top of the screen, and select **Map** - or go to https://app.datawrapper.de/create/map
 
 There are three choices: you need the **Symbol map**.
 
-You will be asked to select which map you want to create. Pick an area relevant to your story. For example if you are mapping crime you might pick *United Kingdom » Police Force Areas*.
+You will be asked to select which map you want to create. Pick an area relevant to your story and the scope of your data. For example, if your data is UK-wide then choose one of the UK maps (if you are mapping crime you might pick *United Kingdom » Police Force Areas*), but if it's limited to the West Midlands then choose a West Midlands map (the MSOA option is probably best as it's split into fewer areas). 
 
 Click **Next**.
 
@@ -14,11 +14,13 @@ You are now at the 'Add your data' stage. Click on **Click here to upload a CSV 
 
 You will be asked whether your data contains addresses, or latitude and longitude. Click the one that applies - remember that lat/long is always better (addresses will be geocoded, which may create some errors).
 
-Click **Upload data** and find the data that you want to import.
+You can now start to add your points. This can be done manually, adding each point yourself, but more likely you'll need to upload data of all the points. If you need some data to try it out, you can use a CSV of crimes from [the data.police downloads page](https://data.police.uk/data/).
 
-You can use a CSV of crimes from [the data.police downloads page](https://data.police.uk/data/).
+Click **Import your dataset**. You will be asked to specify if your data contains addresses/place names, or if it uses latitudes and longitudes. Lat/longs are always better because with addresses Datawrapper will have to 'geocode' those to convert them to lat/longs - and it may get some wrong.
 
-Alternatively, if it is a small dataset you can copy and paste it into the table on screen.
+Click whichever applies to your data (police data uses lat/longs).
+
+You can now either click the link to upload the data (it will need to be in CSV format). Alternatively, if it is a small dataset you can copy and paste it into the table on screen.
 
 *Tip: it helps to move your lat and long columns to the start of the dataset before importing, as this makes it easier to correctly select during the import process. You should also remove any columns you don't intend to use as this will help it to load more quickly both as a dataset and, later, as a map.*
 
@@ -26,7 +28,7 @@ You will need to specify which columns contain latitude, and then latitude, if t
 
 When it is done click **GO!** to create the map. It may take a while so be patient (look for the *Loading... 50%...* in the bottom of the browser to get an indication of progress).
 
-Because the columns are called 'latitude' and 'longitude' it automatically maps them (on the right). That's not always going to be the case.
+It will automatically map the lat/long columns (on the right).
 
 Once your data has uploaded check it has the columns right, then click **Proceed**.
 
