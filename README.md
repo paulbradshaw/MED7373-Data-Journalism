@@ -117,7 +117,19 @@ By the end of this week you should be able to explain basic concepts in JavaScri
   * Dona Wong (2010) The Wall Street Journal Guide to Information Graphics
   * Manuel Matuzovic: [Writing JavaScript with accessibility in mind](https://medium.com/@matuzo/writing-javascript-with-accessibility-in-mind-a1f6a5f467b9)
 
-## 9: Fetching the haystack, finding the needle: coding for finding stories
+## 9: Open data, linked data, big data and SQL
+
+By the end of this week you should be able to identify techniques for working with large datasets, and issues surrounding big data, linked data, and open data.
+
+* Workshop: [Fork this!](https://github.com/paulbradshaw/MED7373-Data-Journalism/tree/master/sql): Querying large datasets using SQL
+* Task: Development of data journalism project - reflection on data-driven vs hypothesis-driven methods
+* Reading:
+  * Vallance-Jones & McKie (2017) ch5: Working with databases
+  * [Hammond (2015): From computer-assisted to data-driven: Journalism and Big Data](https://www.researchgate.net/publication/287391319_From_computer-assisted_to_data-driven_Journalism_and_Big_Data)
+  * Data.world's [Gitbook on SQL](https://docs.data.world/tutorials/dwsql/#sql-on-dataworld) is a useful resource and the platform is a good place to practise SQL queries on your own data.
+
+
+## 10: Fetching the haystack, finding the needle: coding for finding stories
 
 By the end of this week you should be able to use basic commands in the command line to fetch, find, combine and move data. You should also be able to explain how regular expressions (regex) work, and use them to locate and extract information from files.
 
@@ -134,21 +146,10 @@ By the end of this week you should be able to use basic commands in the command 
 
 You can [find more tips on using command line in another repo here](https://github.com/paulbradshaw/commandline)
 
-## 10: Big data, sensor journalism, and SQL
-
-By the end of this week you should be able to identify techniques for working with large datasets, and issues surrounding big data, linked data, open data, and sensor journalism.
-
-* Workshop: [Fork this!](https://github.com/paulbradshaw/MED7373-Data-Journalism/tree/master/sql): Querying large datasets using SQL
-* Task: Development of data journalism project - reflection on data-driven vs hypothesis-driven methods
-* Reading:
-  * Vallance-Jones & McKie (2017) ch5: Working with databases
-  * [Hammond (2015): From computer-assisted to data-driven: Journalism and Big Data](https://www.researchgate.net/publication/287391319_From_computer-assisted_to_data-driven_Journalism_and_Big_Data)
-  * Data.world's [Gitbook on SQL](https://docs.data.world/tutorials/dwsql/#sql-on-dataworld) is a useful resource and the platform is a good place to practise SQL queries on your own data.
-
   
 ## Weeks 12-14: Assignment production
 
-In the final weeks of the semester you will take part in a live newsroom, as a data journalist. You will need to consider whether to form a team that works separately (e.g. on investigations), in a service role (e.g. producing complementary material to stories by others), or some combination of both. You will find a range of readings on Moodle that you should use to inform those decisions, and that you can draw on in your reflection. Those include:
+In the final weeks of the semester you will work on your portfolio for assessment. You will find a range of readings on Moodle that you should use to inform your decisions, and that you can draw on in your reflection. Those include:
 
 * Borges-Rey (2016) [Unravelling Data Journalism: A study of data journalism practice in British newsrooms](https://www.tandfonline.com/doi/abs/10.1080/17512786.2016.1159921?tab=permissions&scroll=top)
 * Figl (2017) [BIGGER IS NOT ALWAYS BETTER: WHAT WE CAN LEARN ABOUT DATA JOURNALISM FROM SMALL NEWSROOMS](http://reutersinstitute.politics.ox.ac.uk/sites/default/files/2018-01/Research%20Paper%20Figl%20Bettina.pdf)
