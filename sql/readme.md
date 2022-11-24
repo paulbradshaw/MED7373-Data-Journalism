@@ -16,7 +16,7 @@ This folder contains resources on using SQL queries in data journalism.
 
 You can use SQL queries in a range of contexts, including:
 
-* In **Google Sheets** you can query ranges of cells [using the function QUERY](https://www.sheetgo.com/query-formula-google-sheets/)
+* In **Google Sheets** you can query ranges of cells [using the function QUERY](https://www.benlcollins.com/spreadsheets/google-sheets-query-sql/)
 * Data.world is a service for hosting and sharing data - and you can query that data using SQL. They have [a series of tutorials to help](https://docs.data.world/tutorials/dwsql/#sql-on-dataworld)
 * Within **R** you can use SQL queries with the package `sqldf`. The [documentation](https://cran.r-project.org/web/packages/sqldf/sqldf.pdf) states "The sqldf() or read.csv.sql() functions can also be used to read filtered files into R *even if the original files are larger than R itself can handle*" (my emphasis). You can find an R notebook with guidance on how to use the sqldf package in this folder.
 * **Databases**: [Franchise](https://franchise.cloud/app/) allows you to run SQL queries on databases from within the browser. It supports a number of different SQL databases including SQLite, PostgreSQL, and MySQL.
