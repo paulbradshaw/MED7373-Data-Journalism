@@ -3,7 +3,7 @@
 This folder contains resources on using SQL queries in data journalism.
 
 * I have written a [guide to SQL for journalists here](https://docs.google.com/document/d/e/2PACX-1vQQzSM5scsn2wjrL02o-rf9gHaiBQ2GcGoc2QBAXPxq12cKGtH6jFrGVmUt_rUfqtmo41Gq4J1luzkE/pub)
-* You also have access to [this chapter on using SQL with the QUERY function - from my book Finding Stories in Spreadsheets](https://github.com/paulbradshaw/MED7373-Data-Journalism/blob/master/sql/googlesheetsquery.md)
+* You also have access to [this chapter on using SQL with the QUERY function - from my book Finding Stories in Spreadsheets](https://github.com/paulbradshaw/MED7373-Data-Journalism/blob/master/sql/googlesheetsquery.md). You can also watch these [two](https://www.youtube.com/watch?v=iWi3nL5MPK4) [videos](https://www.youtube.com/watch?v=DY_TpplozAk) on the function, or [this YouTube playlist](https://www.youtube.com/watch?v=bW6P2YvLyZg&list=PLv9Pf9aNgemuRYz7VMCRdRmr0m0V_qGnR)
 * [This tutorial explains how to use SQL in R using the `sqldf` package](https://github.com/paulbradshaw/MED7373-Data-Journalism/blob/master/sql/sqlinr.md)
 * Codecademy [has a SQL course](https://www.codecademy.com/learn/learn-sql)
 * [SQL Teaching](https://www.sqlteaching.com/) allows you to learn about different commands and try them out
