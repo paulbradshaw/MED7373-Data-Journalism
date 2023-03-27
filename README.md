@@ -129,19 +129,17 @@ By the end of this week you should be able to identify techniques for working wi
   * Data.world's [Gitbook on SQL](https://docs.data.world/tutorials/dwsql/#sql-on-dataworld) is a useful resource and the platform is a good place to practise SQL queries on your own data.
 
 
-## 10: Fetching the haystack, finding the needle: coding for finding stories
+## 10: Portfolio review
 
-By the end of this week you should be able to use basic commands in the command line to fetch, find, combine and move data. You should also be able to explain how regular expressions (regex) work, and use them to locate and extract information from files.
+This week we review your progress so far, and look ahead to the assignment. You will also find material in this section on future developments such as AI, machine learning and bots.
 
 * Workshops: 
  * [Fork this! Command line and regex](https://github.com/paulbradshaw/MED7373-Data-Journalism/tree/master/commandlineregex): 
  * [Exercise: combining stop and search data CSV files using command line](https://github.com/paulbradshaw/commandline/blob/master/joining.md) 
  * [Using grep and regex in R](https://github.com/paulbradshaw/Rintro/tree/master/text/grepexpenses)
- * [Using regex to scrape election results tweets in Workbench](https://github.com/paulbradshaw/MED7373-Data-Journalism/blob/master/commandlineregex/regexworkbench.md)
-* Task: Development of data journalism project
+* Task: Development of data journalism portfolio
 * Reading - choose from:
   * [The Command Line Crash Course](http://www.computervillage.org/articles/CommandLine.pdf)
-  * [The Bastards Book of Regular Expressions](https://leanpub.com/bastards-regexes)
   * [Meyer (2002): The New Precision Journalism](https://carolinadatadesk.github.io/pmeyer/book/)
 
 You can [find more tips on using command line in another repo here](https://github.com/paulbradshaw/commandline)
