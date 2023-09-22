@@ -17,9 +17,11 @@ First, you'll need some data to try out these techniques. Here are 3 useful data
 
 Each has its own qualities that are useful to talk through as you work with the data and consider stories.
 
-## Upload and familiarise yourself with the data
+## Download, open in a spreadsheet, and familiarise yourself with the data
 
-Open one of the datasets in Excel, or in Google Sheets (make sure it's converted to a Google Sheet by uploading to Google Drive and then right-clicking and selecting *Open with > Google Sheets*).
+Download the data - make sure you are using a browser like Chrome or Firefox to do this. (If you use Safari, for example, you might find yourself staring at a confusing page with lines of commas on it.)
+
+Open one of the datasets in Excel, or import it into in Google Sheets (make sure it's converted to a Google Sheet by uploading to Google Drive and then right-clicking and selecting *Open with > Google Sheets*).
 
 First, take a look at the column headings. Think about what stories each of those pieces of information might provide. 
 
@@ -131,6 +133,6 @@ Or so:
 
 I said that each dataset had its own qualities. Here are some key points:
 
-* The local authority data and stop and search is only one month. Remember that data like this may suffer from *seasonal variation*. For example, spending in April will be skewed by the fact that it is at the end of the financial year and some bills will only be settled in that month. Certain types of crime may increase at certain times of the year. Try to compare year-on-year rather than month-on-month to get a better comparison.
+* The local authority data and stop and search is only one month. Remember that data like this may suffer from *seasonal variation*. For example, spending in March and April will be skewed by the fact that it is at the end or beginning of the financial year and some bills will only be settled in that month. Certain types of crime may increase at certain times of the year. Try to compare year-on-year rather than month-on-month to get a better comparison.
 
 * The European Investment Bank data covers a long period of time, so loans made early in the time period will not be worth the same as loans of the same amount made later. In other words, you need to *account for inflation* if making long term comparisons.
