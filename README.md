@@ -26,7 +26,7 @@ You will also be expected to feed your own experiences into each class - and you
 
 ## 1: Data journalism: it starts with an idea
 
-By the end of this week you should be able to describe what data journalism is, and what types of stories you can find and tell with data journalism techniques. You should be able to generate ideas for data journalism stories yourself, and identify some sources of data. You will also be able to use GitHub to clone or fork a repo.
+By the end of this week you should be able to describe what data journalism is, and what types of stories you can find and tell with data journalism techniques. You should be able to generate ideas for data journalism stories yourself, and identify some sources of data. 
 
 * Workshop: [Data journalism story workshop](https://github.com/paulbradshaw/MED7373-Data-Journalism/tree/master/storytelling); 
 * Directed study: [Finding simple data stories](https://github.com/paulbradshaw/MED7373-Data-Journalism/blob/master/1basics/directedstudy.md)
