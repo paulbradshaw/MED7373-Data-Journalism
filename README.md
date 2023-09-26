@@ -29,22 +29,24 @@ You will also be expected to feed your own experiences into each class - and you
 By the end of this week you should be able to describe what data journalism is, and what types of stories you can find and tell with data journalism techniques. You should be able to generate ideas for data journalism stories yourself, and identify some sources of data. 
 
 * Workshop: [Data journalism story workshop](https://github.com/paulbradshaw/MED7373-Data-Journalism/tree/master/storytelling); 
-* Directed study: [Finding simple data stories](https://github.com/paulbradshaw/MED7373-Data-Journalism/blob/master/1basics/directedstudy.md)
+* Directed study: [Create a news diary](https://onlinejournalismblog.com/2022/12/08/how-to-create-a-data-news-diary/)
+  * Review [examples of data journalism](https://pinboard.in/u:paulbradshaw/t:dj)
+  * Brainstorm story ideas ([here are some data sources](https://pinboard.in/u:paulbradshaw/t:data) to help)
 * Reading:
   * [Anderson, CW (2012) Towards a sociology of computational and algorithmic journalism](https://www.scribd.com/document/120198213/Towards-a-sociology-of-computational-and-algorithmic-journalism)
   * [Data Journalism Heist](https://leanpub.com/DataJournalismHeist) *(BCU students please ask for your voucher for a free copy)*
 
-You will [find instructions on how to get started with GitHub in another repository here](https://github.com/paulbradshaw/introtogithub). 
+Bonus: you will [find instructions on how to get started with GitHub in this repository](https://github.com/paulbradshaw/introtogithub). 
 
 
 ## 2: Data journalism's 3 chords
 
 By the end of this week you should be able to use core spreadsheet techniques to find stories, including sorting and filtering, pivot tables, and be able to calculate change and proportions. 
 
-* Workshop: [Fork this!](https://github.com/paulbradshaw/MED7373-Data-Journalism/tree/master/1basics); [Data journalism basics: sorting, filtering, pivot tables, calculations](https://github.com/paulbradshaw/MED7373-Data-Journalism/blob/master/1basics/dj3chords.md)
-* Workshop: [practise spreadsheet skills](https://github.com/paulbradshaw/MED7373-Data-Journalism/blob/master/1basics/dj3chords.md)
+* Workshop: [Data journalism basics: sorting, filtering, pivot tables, calculations](https://github.com/paulbradshaw/MED7373-Data-Journalism/blob/master/1basics/dj3chords.md)
+* Directed study: write a simple 2-3 par story based on your analysis of data
 * Reading:
-  * [Data Journalism Heist](https://leanpub.com/DataJournalismHeist) *(BCU students please ask for your voucher for a free copy)*
+  * [Finding Stories in Spreadsheets](https://leanpub.com/spreadsheetstories) *(BCU students please ask for your voucher for a free copy)*
 
 **Additional resources**: The New York Times have made their [internal data journalism training materials available here](https://drive.google.com/drive/u/0/folders/1ZS57_40tWuIB7tV4APVMmTZ-5PXDwX9w) [and written about their training here](https://open.nytimes.com/how-we-helped-our-reporters-learn-to-love-spreadsheets-adc43a93b919). 
 
