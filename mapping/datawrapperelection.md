@@ -16,7 +16,7 @@ Your CSV file will need a column of constituency codes, or names. Codes are easi
 
 Click **Upload data** and find the data that you want to import.
 
-You can use a CSV from this repository. Use [Election turnout by constituency (2017)](https://github.com/paulbradshaw/MED7373-Data-Journalism/blob/master/mapping/datasets/2017electionturnout.csv)
+You can use a CSV from this repository. Use [Election turnout by constituency (2017)](https://github.com/paulbradshaw/MED7373-Data-Journalism/blob/master/mapping/datasets/2017electionturnout.csv) or if you want more recent results, the [House of Commons Library has results here](https://commonslibrary.parliament.uk/research-briefings/cbp-8749/).
 
 Alternatively, if it is a small dataset you can copy and paste it into the table on the screen, or the area where it says '*Paste your data here*'.
 
