@@ -1,0 +1,651 @@
+ons_id,ons_region_id,constituency_name,county_name,region_name,country_name,constituency_type,declaration_time,mp_firstname,mp_surname,mp_gender,result,first_party,second_party,electorate,valid_votes,invalid_votes,majority,con,lab,ld,brexit,green,snp,pc,dup,sf,sdlp,uup,alliance,all_other_candidates,of_which_other_winner
+W07000049,W92000004,Aberavon,West Glamorgan,Wales,Wales,County,13/12/2019 02:30,Stephen,Kinnock,Male,Lab hold,Lab,Con,50750,31598,82,10490,6518,17008,1072,3108,450,0,2711,0,0,0,0,0,731,0
+W07000058,W92000004,Aberconwy,Clwyd,Wales,Wales,County,13/12/2019 03:09,Robin,Millar,Male,Con hold,Con,Lab,44699,31865,123,2034,14687,12653,1821,0,0,0,2704,0,0,0,0,0,0,0
+S14000001,S92000003,Aberdeen North,Scotland,Scotland,Scotland,Borough,13/12/2019 03:13,Kirsty,Blackman,Female,SNP hold,SNP,Con,62489,37413,72,12670,7535,4939,2846,1008,880,20205,0,0,0,0,0,0,0,0
+S14000002,S92000003,Aberdeen South,Scotland,Scotland,Scotland,Borough,13/12/2019 03:34,Stephen,Flynn,Male,SNP gain from Con,SNP,Con,65719,45638,131,3990,16398,3834,5018,0,0,20388,0,0,0,0,0,0,0,0
+S14000003,S92000003,Airdrie and Shotts,Scotland,Scotland,Scotland,County,13/12/2019 02:59,Neil,Gray,Male,SNP hold,SNP,Lab,64011,39772,91,5201,7011,12728,1419,0,685,17929,0,0,0,0,0,0,0,0
+E14000530,E12000008,Aldershot,Hampshire,South East,England,Borough,13/12/2019 02:26,Leo,Docherty,Male,Con hold,Con,Lab,72617,47932,251,16698,27980,11282,6920,0,1750,0,0,0,0,0,0,0,0,0
+E14000531,E12000005,Aldridge-Brownhills,West Midlands,West Midlands,England,Borough,13/12/2019 02:51,Wendy,Morton,Female,Con hold,Con,Lab,60138,39342,152,19836,27850,8014,2371,0,771,0,0,0,0,0,0,0,336,0
+E14000532,E12000002,Altrincham and Sale West,Greater Manchester,North West,England,Borough,13/12/2019 04:35,Graham,Brady,Male,Con hold,Con,Lab,73107,54763,173,6139,26311,20172,6036,0,1566,0,0,0,0,0,0,0,678,0
+W07000043,W92000004,Alyn and Deeside,Clwyd,Wales,Wales,County,13/12/2019 04:30,Mark,Tami,Male,Lab hold,Lab,Con,62789,43008,121,213,18058,18271,2548,2678,0,0,1453,0,0,0,0,0,0,0
+E14000533,E12000004,Amber Valley,Derbyshire,East Midlands,England,County,13/12/2019 03:15,Nigel,Mills,Male,Con hold,Con,Lab,69976,45567,151,16886,29096,12210,2873,0,1388,0,0,0,0,0,0,0,0,0
+S14000004,S92000003,Angus,Scotland,Scotland,Scotland,County,13/12/2019 01:55,Dave,Doogan,Male,SNP gain from Con,SNP,Con,63952,43170,92,3795,17421,2051,2482,0,0,21216,0,0,0,0,0,0,0,0
+W07000057,W92000004,Arfon,Gwynedd,Wales,Wales,County,13/12/2019 01:55,Hywel,Williams,Male,PC hold,PC,Lab,42215,29074,92,2781,4428,10353,0,1159,0,0,13134,0,0,0,0,0,0,0
+S14000005,S92000003,Argyll and Bute,Scotland,Scotland,Scotland,County,13/12/2019 05:43,Brendan,O'Hara,Male,SNP hold,SNP,Con,66525,48050,142,4110,16930,3248,6832,0,0,21040,0,0,0,0,0,0,0,0
+E14000534,E12000008,Arundel and South Downs,West Sussex,South East,England,County,13/12/2019 08:09,Andrew,Griffith,Male,Con hold,Con,LD,81726,61408,287,22521,35566,9722,13045,0,2519,0,0,0,0,0,0,0,556,0
+E14000535,E12000004,Ashfield,Nottinghamshire,East Midlands,England,County,13/12/2019 04:13,Lee,Anderson,Male,Con gain from Lab,Con,Ashfield Independents,78204,48980,118,5733,19231,11971,1105,2501,674,0,0,0,0,0,0,0,13498,0
+E14000536,E12000008,Ashford,Kent,South East,England,County,13/12/2019 03:03,Damian,Green,Male,Con hold,Con,Lab,89553,60059,279,24029,37270,13241,6048,0,2638,0,0,0,0,0,0,0,862,0
+E14000537,E12000002,Ashton-Under-Lyne,Greater Manchester,North West,England,Borough,13/12/2019 04:05,Angela,Rayner,Female,Lab hold,Lab,Con,67978,38579,125,4263,14281,18544,1395,3151,1208,0,0,0,0,0,0,0,0,0
+E14000538,E12000008,Aylesbury,Buckinghamshire,South East,England,County,13/12/2019 04:29,Rob,Butler,Male,Con hold,Con,Lab,86665,60576,279,17373,32737,15364,10081,0,2394,0,0,0,0,0,0,0,0,0
+S14000006,S92000003,"Ayr, Carrick and Cumnock",Scotland,Scotland,Scotland,County,13/12/2019 03:52,Allan,Dorans,Male,SNP gain from Con,SNP,Con,71970,46592,138,2329,17943,6219,2158,0,0,20272,0,0,0,0,0,0,0,0
+E14000539,E12000008,Banbury,Oxfordshire,South East,England,County,13/12/2019 04:53,Victoria,Prentis,Female,Con hold,Con,Lab,90116,62921,355,16813,34148,17335,8831,0,2607,0,0,0,0,0,0,0,0,0
+S14000007,S92000003,Banff and Buchan,Scotland,Scotland,Scotland,County,13/12/2019 05:03,David,Duguid,Male,Con hold,Con,SNP,66655,42260,96,4118,21182,1734,2280,0,0,17064,0,0,0,0,0,0,0,0
+E14000540,E12000007,Barking,London,London,England,Borough,13/12/2019 03:42,Margaret,Hodge,Female,Lab hold,Lab,Con,77953,44499,120,15427,11792,27219,1482,3186,820,0,0,0,0,0,0,0,0,0
+E14000541,E12000003,Barnsley Central,South Yorkshire,Yorkshire and The Humber,England,Borough,13/12/2019 02:14,Daniel,Jarvis,Male,Lab hold,Lab,Brexit,65277,36903,105,3571,7892,14804,1176,11233,900,0,0,0,0,0,0,0,898,0
+E14000542,E12000003,Barnsley East,South Yorkshire,Yorkshire and The Humber,England,County,13/12/2019 02:00,Stephanie,Peacock,Female,Lab hold,Lab,Brexit,69504,38070,110,3217,10377,14329,1330,11112,922,0,0,0,0,0,0,0,0,0
+E14000543,E12000002,Barrow and Furness,Cumbria,North West,England,County,13/12/2019 03:20,Simon,Fell,Male,Con gain from Lab Coop,Con,Lab,70158,46046,92,5789,23876,18087,2025,1355,703,0,0,0,0,0,0,0,0,0
+E14000544,E12000006,Basildon and Billericay,Essex,East,England,Borough,13/12/2019 01:48,John,Baron,Male,Con hold,Con,Lab,69906,44128,185,20412,29590,9178,3741,0,1395,0,0,0,0,0,0,0,224,0
+E14000545,E12000008,Basingstoke,Hampshire,South East,England,Borough,13/12/2019 02:58,Maria,Miller,Female,Con hold,Con,Lab,82928,54713,244,14198,29593,15395,6841,0,2138,0,0,0,0,0,0,0,746,0
+E14000546,E12000004,Bassetlaw,Nottinghamshire,East Midlands,England,County,13/12/2019 03:38,Brendan,Clarke-Smith,Male,Con gain from Lab,Con,Lab,80024,50841,211,14013,28078,14065,3332,5366,0,0,0,0,0,0,0,0,0,0
+E14000547,E12000009,Bath,Avon,South West,England,Borough,13/12/2019 02:59,Wera,Hobhouse,Female,LD hold,LD,Con,67805,52138,192,12322,16097,6639,28419,642,0,0,0,0,0,0,0,0,341,0
+E14000548,E12000003,Batley and Spen,West Yorkshire,Yorkshire and The Humber,England,Borough,13/12/2019 05:16,Tracy,Brabin,Female,Lab hold,Lab,Con,79558,52927,104,3525,19069,22594,2462,1678,692,0,0,0,0,0,0,0,6432,0
+E14000549,E12000007,Battersea,London,London,England,Borough,13/12/2019 02:34,Marsha,De Cordova,Female,Lab hold,Lab,Con,79350,59977,157,5668,21622,27290,9150,386,1529,0,0,0,0,0,0,0,0,0
+E14000550,E12000008,Beaconsfield,Buckinghamshire,South East,England,County,13/12/2019 04:09,Joy,Morrissey,Female,Con hold,Con,Ind,77720,57868,167,15712,32477,5756,0,0,2033,0,0,0,0,0,0,0,17602,0
+E14000551,E12000007,Beckenham,London,London,England,Borough,13/12/2019 04:16,Bob,Stewart,Male,Con hold,Con,Lab,68662,50555,236,14258,27282,13024,8194,0,2055,0,0,0,0,0,0,0,0,0
+E14000552,E12000006,Bedford,Bedfordshire,East,England,Borough,13/12/2019 03:49,Mohammad,Yasin,Male,Lab hold,Lab,Con,71581,47301,140,145,20346,20491,4608,896,960,0,0,0,0,0,0,0,0,0
+N06000001,N92000002,Belfast East,Northern Ireland,Northern Ireland,Northern Ireland,Borough,13/12/2019 03:08,Gavin,Robinson,Male,DUP hold,DUP,Alliance,66245,42445,169,1819,0,0,0,0,0,0,0,20874,0,0,2516,19055,0,0
+N06000002,N92000002,Belfast North,Northern Ireland,Northern Ireland,Northern Ireland,Borough,13/12/2019 02:57,John,Finucane,Male,SF gain from DUP,SF,DUP,72225,49037,388,1943,0,0,0,0,0,0,0,21135,23078,0,0,4824,0,0
+N06000003,N92000002,Belfast South,Northern Ireland,Northern Ireland,Northern Ireland,Borough,13/12/2019 03:43,Claire,Hanna,Female,SDLP gain from DUP,SDLP,DUP,69984,47352,172,15401,0,0,0,0,0,0,0,11678,0,27079,1259,6786,550,0
+N06000004,N92000002,Belfast West,Northern Ireland,Northern Ireland,Northern Ireland,Borough,13/12/2019 02:50,Paul,Maskey,Male,SF hold,SF,PBPA,65644,38782,206,14672,0,0,0,0,0,0,0,5220,20866,2985,0,1882,7829,0
+E14000553,E12000007,Bermondsey and Old Southwark,London,London,England,Borough,13/12/2019 04:03,Neil,Coyle,Male,Lab hold,Lab,LD,93248,58615,276,16126,9678,31723,15597,1617,0,0,0,0,0,0,0,0,0,0
+S14000008,S92000003,"Berwickshire, Roxburgh and Selkirk",Scotland,Scotland,Scotland,County,13/12/2019 03:40,John,Lamont,Male,Con hold,Con,SNP,74518,53146,170,5148,25747,2513,4287,0,0,20599,0,0,0,0,0,0,0,0
+E14000554,E12000001,Berwick-Upon-Tweed,Northumberland,North East,England,County,13/12/2019 03:41,Anne-Marie,Trevelyan,Female,Con hold,Con,Lab,59939,42109,178,14835,23947,9112,7656,0,1394,0,0,0,0,0,0,0,0,0
+E14000555,E12000007,Bethnal Green and Bow,London,London,England,Borough,13/12/2019 04:26,Rushanara,Ali,Female,Lab hold,Lab,Con,88262,60562,240,37524,6528,44052,5892,1081,2570,0,0,0,0,0,0,0,439,0
+E14000556,E12000003,Beverley and Holderness,Humberside,Yorkshire and The Humber,England,County,13/12/2019 02:27,Graham,Stuart,Male,Con hold,Con,Lab,79696,53542,248,20448,33250,12802,4671,0,1378,0,0,0,0,0,0,0,1441,0
+E14000557,E12000008,Bexhill and Battle,East Sussex,South East,England,County,13/12/2019 03:42,Huw,Merriman,Male,Con hold,Con,Lab,81963,59093,352,26059,37590,11531,7280,0,2692,0,0,0,0,0,0,0,0,0
+E14000558,E12000007,Bexleyheath and Crayford,London,London,England,Borough,13/12/2019 03:44,David,Evennett,Male,Con hold,Con,Lab,65466,43246,167,13103,25856,12753,2819,0,1298,0,0,0,0,0,0,0,520,0
+E14000559,E12000002,Birkenhead,Merseyside,North West,England,Borough,13/12/2019 02:04,Mick,Whitley,Male,Lab hold,Lab,Birkenhead Social Justice Party,63762,42329,73,17705,5540,24990,1620,1489,1405,0,0,0,0,0,0,0,7285,0
+E14000560,E12000005,"Birmingham, Edgbaston",West Midlands,West Midlands,England,Borough,13/12/2019 03:47,Preet Kaur,Gill,Female,Lab hold,Lab,Con,68828,42328,149,5614,15603,21217,3349,1047,1112,0,0,0,0,0,0,0,0,0
+E14000561,E12000005,"Birmingham, Erdington",West Midlands,West Midlands,England,Borough,13/12/2019 03:30,Jack,Dromey,Male,Lab hold,Lab,Con,66148,35229,92,3601,14119,17720,1301,1441,648,0,0,0,0,0,0,0,0,0
+E14000562,E12000005,"Birmingham, Hall Green",West Midlands,West Midlands,England,Borough,13/12/2019 04:27,Tahir,Ali,Male,Lab hold,Lab,Con,80283,52911,180,28508,7381,35889,3673,877,818,0,0,0,0,0,0,0,4273,0
+E14000563,E12000005,"Birmingham, Hodge Hill",West Midlands,West Midlands,England,Borough,13/12/2019 04:00,Liam,Byrne,Male,Lab hold,Lab,Con,78295,45003,131,28655,6742,35397,760,1519,328,0,0,0,0,0,0,0,257,0
+E14000564,E12000005,"Birmingham, Ladywood",West Midlands,West Midlands,England,Borough,13/12/2019 03:34,Shabana,Mahmood,Female,Lab hold,Lab,Con,74912,42118,153,28582,4773,33355,2228,831,931,0,0,0,0,0,0,0,0,0
+E14000565,E12000005,"Birmingham, Northfield",West Midlands,West Midlands,England,Borough,13/12/2019 04:07,Gary,Sambrook,Male,Con gain from Lab,Con,Lab,73694,43098,140,1640,19957,18317,1961,1655,954,0,0,0,0,0,0,0,254,0
+E14000566,E12000005,"Birmingham, Perry Barr",West Midlands,West Midlands,England,Borough,13/12/2019 03:53,Khalid,Mahmood,Male,Lab hold,Lab,Con,72006,42147,115,15317,11277,26594,1901,1382,845,0,0,0,0,0,0,0,148,0
+E14000567,E12000005,"Birmingham, Selly Oak",West Midlands,West Midlands,England,Borough,13/12/2019 03:20,Stephen,McCabe,Male,Lab hold,Lab,Con,82665,49467,160,12414,15300,27714,3169,1436,1848,0,0,0,0,0,0,0,0,0
+E14000568,E12000005,"Birmingham, Yardley",West Midlands,West Midlands,England,Borough,13/12/2019 04:19,Jess,Phillips,Female,Lab hold,Lab,Con,74704,42678,107,10659,12720,23379,3754,2246,579,0,0,0,0,0,0,0,0,0
+E14000569,E12000001,Bishop Auckland,Durham,North East,England,County,13/12/2019 02:48,Dehenna,Davison,Female,Con gain from Lab,Con,Lab,68170,44805,131,7962,24067,16105,2133,2500,0,0,0,0,0,0,0,0,0,0
+E14000570,E12000002,Blackburn,Lancashire,North West,England,Borough,13/12/2019 02:25,Kate,Hollern,Female,Lab hold,Lab,Con,71234,44736,109,18304,10736,29040,1130,2770,741,0,0,0,0,0,0,0,319,0
+E14000571,E12000002,Blackley and Broughton,Greater Manchester,North West,England,Borough,13/12/2019 04:25,Graham,Stringer,Male,Lab hold,Lab,Con,73372,38618,142,14402,9485,23887,1590,2736,920,0,0,0,0,0,0,0,0,0
+E14000572,E12000002,Blackpool North and Cleveleys,Lancashire,North West,England,Borough,13/12/2019 02:42,Paul,Maynard,Male,Con hold,Con,Lab,63692,38804,130,8596,22364,13768,1494,0,735,0,0,0,0,0,0,0,443,0
+E14000573,E12000002,Blackpool South,Lancashire,North West,England,Borough,13/12/2019 02:33,Scott,Benton,Male,Con gain from Lab,Con,Lab,57690,32752,86,3690,16247,12557,1008,2009,563,0,0,0,0,0,0,0,368,0
+W07000072,W92000004,Blaenau Gwent,Gwent and Mid Glamorgan,Wales,Wales,County,13/12/2019 03:51,Nick,Smith,Male,Lab hold,Lab,Brexit,50739,30219,84,8647,5749,14862,1285,6215,386,0,1722,0,0,0,0,0,0,0
+E14000574,E12000001,Blaydon,Tyne and Wear,North East,England,Borough,13/12/2019 02:17,Liz,Twist,Female,Lab hold,Lab,Con,67853,45681,121,5531,14263,19794,3703,5833,1279,0,0,0,0,0,0,0,809,0
+E14000575,E12000001,Blyth Valley,Northumberland,North East,England,Borough,12/12/2019 23:32,Ian,Levy,Male,Con gain from Lab,Con,Lab,64429,40859,94,712,17440,16728,2151,3394,1146,0,0,0,0,0,0,0,0,0
+E14000576,E12000008,Bognor Regis and Littlehampton,West Sussex,South East,England,County,13/12/2019 04:42,Nick,Gibb,Male,Con hold,Con,Lab,77446,51223,208,22503,32521,10018,5645,0,1826,0,0,0,0,0,0,0,1213,0
+E14000577,E12000004,Bolsover,Derbyshire,East Midlands,England,County,13/12/2019 05:05,Mark,Fletcher,Male,Con gain from Lab,Con,Lab,74292,45938,151,5299,21791,16492,1759,4151,758,0,0,0,0,0,0,0,987,0
+E14000578,E12000002,Bolton North East,Greater Manchester,North West,England,Borough,13/12/2019 03:22,Mark,Logan,Male,Con gain from Lab,Con,Lab,67564,43556,112,378,19759,19381,1847,1880,689,0,0,0,0,0,0,0,0,0
+E14000579,E12000002,Bolton South East,Greater Manchester,North West,England,Borough,13/12/2019 02:50,Yasmin,Qureshi,Female,Lab hold,Lab,Con,69163,40604,111,7598,13918,21516,1411,2968,791,0,0,0,0,0,0,0,0,0
+E14000580,E12000002,Bolton West,Greater Manchester,North West,England,County,13/12/2019 02:34,Chris,Green,Male,Con hold,Con,Lab,73191,49298,163,8855,27255,18400,2704,0,939,0,0,0,0,0,0,0,0,0
+E14000581,E12000002,Bootle,Merseyside,North West,England,Borough,13/12/2019 02:08,Peter,Dowd,Male,Lab hold,Lab,Con,74832,49174,149,34556,4510,39066,1822,2610,1166,0,0,0,0,0,0,0,0,0
+E14000582,E12000004,Boston and Skegness,Lincolnshire,East Midlands,England,County,13/12/2019 04:47,Matt,Warman,Male,Con hold,Con,Lab,69381,41696,175,25621,31963,6342,1963,0,0,0,0,0,0,0,0,0,1428,0
+E14000583,E12000004,Bosworth,Leicestershire,East Midlands,England,County,13/12/2019 02:52,Luke,Evans,Male,Con hold,Con,Lab,81542,56432,234,26278,36056,9778,9096,0,1502,0,0,0,0,0,0,0,0,0
+E14000584,E12000009,Bournemouth East,Dorset,South West,England,Borough,13/12/2019 05:03,Tobias,Ellwood,Male,Con hold,Con,Lab,74125,49274,188,8806,24926,16120,5418,0,2049,0,0,0,0,0,0,0,761,0
+E14000585,E12000009,Bournemouth West,Dorset,South West,England,Borough,13/12/2019 04:56,Conor,Burns,Male,Con hold,Con,Lab,74205,45977,211,10150,24550,14400,4931,0,2096,0,0,0,0,0,0,0,0,0
+E14000586,E12000008,Bracknell,Berkshire,South East,England,County,13/12/2019 01:53,James,Sunderland,Male,Con hold,Con,Lab,78978,54350,212,19829,31894,12065,7749,0,2089,0,0,0,0,0,0,0,553,0
+E14000587,E12000003,Bradford East,West Yorkshire,Yorkshire and The Humber,England,Borough,13/12/2019 04:47,Imran,Hussain,Male,Lab hold,Lab,Con,73206,44184,91,18144,9681,27825,3316,2700,662,0,0,0,0,0,0,0,0,0
+E14000588,E12000003,Bradford South,West Yorkshire,Yorkshire and The Humber,England,Borough,13/12/2019 05:01,Judith,Cummins,Female,Lab hold,Lab,Con,69046,39741,87,2346,16044,18390,1505,2819,983,0,0,0,0,0,0,0,0,0
+E14000589,E12000003,Bradford West,West Yorkshire,Yorkshire and The Humber,England,Borough,13/12/2019 04:27,Naz,Shah,Female,Lab hold,Lab,Con,70694,44261,134,27019,6717,33736,1349,1556,813,0,0,0,0,0,0,0,90,0
+E14000590,E12000006,Braintree,Essex,East,England,County,13/12/2019 03:12,James,Cleverly,Male,Con hold,Con,Lab,75208,50499,258,24673,34112,9439,4779,0,0,0,0,0,0,0,0,0,2169,0
+W07000068,W92000004,Brecon and Radnorshire,Powys,Wales,Wales,County,13/12/2019 03:40,Fay,Jones,Female,Con hold,Con,LD,55490,41319,110,7131,21958,3944,14827,0,0,0,0,0,0,0,0,0,590,0
+E14000591,E12000007,Brent Central,London,London,England,Borough,13/12/2019 03:37,Dawn,Butler,Female,Lab hold,Lab,Con,84032,49132,224,20870,10909,31779,4844,0,1600,0,0,0,0,0,0,0,0,0
+E14000593,E12000007,Brentford and Isleworth,London,London,England,Borough,13/12/2019 04:22,Ruth,Cadbury,Female,Lab hold,Lab,Con,85775,58326,145,10514,18752,29266,7314,1165,1829,0,0,0,0,0,0,0,0,0
+E14000592,E12000007,Brent North,London,London,England,Borough,13/12/2019 03:36,Barry,Gardiner,Male,Lab hold,Lab,Con,83788,51879,199,8079,18832,26911,4065,951,850,0,0,0,0,0,0,0,270,0
+E14000594,E12000006,Brentwood and Ongar,Essex,East,England,County,13/12/2019 03:11,Alex,Burghart,Male,Con hold,Con,Lab,75255,52949,238,29065,36308,7243,7187,0,1679,0,0,0,0,0,0,0,532,0
+W07000073,W92000004,Bridgend,Gwent and Mid Glamorgan,Wales,Wales,County,13/12/2019 03:07,Jamie,Wallis,Male,Con gain from Lab,Con,Lab,63303,42236,101,1157,18193,17036,2368,1811,815,0,2013,0,0,0,0,0,0,0
+E14000595,E12000009,Bridgwater and West Somerset,Somerset,South West,England,County,13/12/2019 04:37,Ian,Liddell-Grainger,Male,Con hold,Con,Lab,85327,57652,279,24439,35827,11388,7805,0,1877,0,0,0,0,0,0,0,755,0
+E14000596,E12000003,Brigg and Goole,Humberside,Yorkshire and The Humber,England,County,13/12/2019 04:04,Andrew,Percy,Male,Con hold,Con,Lab,65939,43402,178,21941,30941,9000,2180,0,1281,0,0,0,0,0,0,0,0,0
+E14000597,E12000008,"Brighton, Kemptown",East Sussex,South East,England,Borough,13/12/2019 03:44,Lloyd,Russell-Moyle,Male,Lab hold,Lab,Con,69833,48533,140,8061,16972,25033,2964,1327,2237,0,0,0,0,0,0,0,0,0
+E14000598,E12000008,"Brighton, Pavilion",East Sussex,South East,England,Borough,13/12/2019 04:21,Caroline,Lucas,Female,Green hold,Green,Lab,79057,57998,158,19940,10176,13211,0,770,33151,0,0,0,0,0,0,0,690,0
+E14000599,E12000009,Bristol East,Avon,South West,England,Borough,13/12/2019 03:34,Kerry,McCarthy,Female,Lab hold,Lab,Con,73867,52154,157,10794,16923,27717,3527,1881,2106,0,0,0,0,0,0,0,0,0
+E14000600,E12000009,Bristol North West,Avon,South West,England,Borough,13/12/2019 03:24,Darren,Jones,Male,Lab hold,Lab,Con,76273,55885,169,5692,21638,27330,4940,0,1977,0,0,0,0,0,0,0,0,0
+E14000601,E12000009,Bristol South,Avon,South West,England,Borough,13/12/2019 03:30,Karin,Smyth,Female,Lab hold,Lab,Con,84079,55196,181,9859,18036,27895,4227,2325,2713,0,0,0,0,0,0,0,0,0
+E14000602,E12000009,Bristol West,Avon,South West,England,Borough,13/12/2019 03:52,Thangam,Debbonaire,Female,Lab hold,Lab,Green,99253,75528,355,28219,8822,47028,0,869,18809,0,0,0,0,0,0,0,0,0
+E14000603,E12000006,Broadland,Norfolk,East,England,County,13/12/2019 05:06,Jerome,Mayhew,Male,Con hold,Con,Lab,78151,56977,197,21861,33934,12073,9195,0,1412,0,0,0,0,0,0,0,363,0
+E14000604,E12000007,Bromley and Chislehurst,London,London,England,Borough,13/12/2019 04:07,Robert,Neill,Male,Con hold,Con,Lab,66697,45566,201,10891,23958,13067,6621,0,1546,0,0,0,0,0,0,0,374,0
+E14000605,E12000005,Bromsgrove,Hereford and Worcester,West Midlands,England,County,13/12/2019 03:08,Sajid,Javid,Male,Con hold,Con,Lab,75078,54272,260,23106,34408,11302,6779,0,1783,0,0,0,0,0,0,0,0,0
+E14000606,E12000006,Broxbourne,Hertfordshire,East,England,Borough,13/12/2019 01:15,Charles,Walker,Male,Con hold,Con,Lab,73182,46706,214,19807,30631,10824,3970,0,1281,0,0,0,0,0,0,0,0,0
+E14000607,E12000004,Broxtowe,Nottinghamshire,East Midlands,England,County,13/12/2019 03:37,Darren,Henry,Male,Con hold,Con,Lab,73052,55272,173,5331,26602,21271,0,0,1806,0,0,0,0,0,0,0,5593,0
+E14000608,E12000008,Buckingham,Buckinghamshire,South East,England,County,13/12/2019 05:42,Greg,Smith,Male,Con gain from Spk,Con,LD,83146,63458,241,20411,37035,7638,16624,1286,0,0,0,0,0,0,0,0,875,0
+E14000609,E12000002,Burnley,Lancashire,North West,England,Borough,13/12/2019 02:45,Antony,Higginbotham,Male,Con gain from Lab,Con,Lab,64345,38984,91,1352,15720,14368,3501,3362,739,0,0,0,0,0,0,0,1294,0
+E14000610,E12000005,Burton,Staffordshire,West Midlands,England,County,13/12/2019 03:14,Kate,Griffiths,Female,Con hold,Con,Lab,75036,48738,212,14496,29560,15064,2681,0,1433,0,0,0,0,0,0,0,0,0
+E14000611,E12000002,Bury North,Greater Manchester,North West,England,Borough,13/12/2019 05:25,James,Daly,Male,Con gain from Lab,Con,Lab,68802,46841,111,105,21660,21555,1584,1240,802,0,0,0,0,0,0,0,0,0
+E14000612,E12000002,Bury South,Greater Manchester,North West,England,Borough,13/12/2019 03:43,Christian,Wakeford,Male,Con gain from Lab,Con,Lab,75152,50274,103,402,22034,21632,2315,1672,848,0,0,0,0,0,0,0,1773,0
+E14000613,E12000006,Bury St Edmunds,Suffolk,East,England,County,13/12/2019 03:31,Jo,Churchill,Female,Con hold,Con,Lab,89644,61957,288,24988,37770,12782,0,0,9711,0,0,0,0,0,0,0,1694,0
+W07000076,W92000004,Caerphilly,Gwent and Mid Glamorgan,Wales,Wales,County,13/12/2019 01:42,Wayne,David,Male,Lab hold,Lab,Con,63166,40117,160,6833,11185,18018,0,4490,0,0,6424,0,0,0,0,0,0,0
+S14000009,S92000003,"Caithness, Sutherland and Easter Ross",Scotland,Scotland,Scotland,County,13/12/2019 05:25,Jamie,Stone,Male,LD hold,LD,SNP,46930,31457,61,204,5176,1936,11705,1139,0,11501,0,0,0,0,0,0,0,0
+E14000614,E12000003,Calder Valley,West Yorkshire,Yorkshire and The Humber,England,County,13/12/2019 04:46,Craig,Whittaker,Male,Con hold,Con,Lab,79287,57793,273,5774,29981,24207,2884,0,0,0,0,0,0,0,0,0,721,0
+E14000615,E12000007,Camberwell and Peckham,London,London,England,Borough,13/12/2019 03:56,Harriet,Harman,Female,Lab hold,Lab,Con,88971,56492,246,33780,6478,40258,5087,1041,3501,0,0,0,0,0,0,0,127,0
+E14000616,E12000009,Camborne and Redruth,Cornwall,South West,England,County,13/12/2019 03:03,George,Eustice,Male,Con hold,Con,Lab,70250,50367,175,8700,26764,18064,3504,0,1359,0,0,0,0,0,0,0,676,0
+E14000617,E12000006,Cambridge,Cambridgeshire,East,England,Borough,13/12/2019 04:09,Daniel,Zeichner,Male,Lab hold,Lab,LD,79951,53729,162,9639,8342,25776,16137,1041,2164,0,0,0,0,0,0,0,269,0
+E14000618,E12000005,Cannock Chase,Staffordshire,West Midlands,England,County,13/12/2019 02:19,Amanda,Milling,Female,Con hold,Con,Lab,74813,46313,226,19879,31636,11757,0,0,2920,0,0,0,0,0,0,0,0,0
+E14000619,E12000008,Canterbury,Kent,South East,England,County,13/12/2019 02:34,Rosemary,Duffield,Female,Lab hold,Lab,Con,80203,60113,240,1836,27182,29018,3408,0,0,0,0,0,0,0,0,0,505,0
+W07000050,W92000004,Cardiff Central,South Glamorgan,Wales,Wales,Borough,13/12/2019 03:48,Jo,Stevens,Female,Lab hold,Lab,Con,64037,41822,204,17179,8426,25605,6298,1006,0,0,0,0,0,0,0,0,487,0
+W07000051,W92000004,Cardiff North,South Glamorgan,Wales,Wales,Borough,13/12/2019 04:17,Anna,McMorrin,Female,Lab hold,Lab,Con,68438,52666,111,6982,19082,26064,3580,1311,820,0,1606,0,0,0,0,0,203,0
+W07000080,W92000004,Cardiff South and Penarth,South Glamorgan,Wales,Wales,Borough,13/12/2019 03:41,Stephen,Doughty,Male,Lab hold,Lab,Con,78837,50579,160,12737,14645,27382,2985,1999,1182,0,2386,0,0,0,0,0,0,0
+W07000079,W92000004,Cardiff West,South Glamorgan,Wales,Wales,Borough,13/12/2019 04:35,Kevin,Brennan,Male,Lab hold,Lab,Con,68508,46177,144,10986,12922,23908,2731,1619,1133,0,3864,0,0,0,0,0,0,0
+E14000620,E12000002,Carlisle,Cumbria,North West,England,County,13/12/2019 02:09,John,Stevenson,Male,Con hold,Con,Lab,65105,42873,195,8319,23659,15340,2829,0,0,0,0,0,0,0,0,0,1045,0
+W07000067,W92000004,Carmarthen East and Dinefwr,Dyfed,Wales,Wales,County,13/12/2019 03:02,Jonathan,Edwards,Male,PC hold,PC,Con,57419,41002,145,1809,14130,8622,0,2311,0,0,15939,0,0,0,0,0,0,0
+W07000066,W92000004,Carmarthen West and South Pembrokeshire,Dyfed,Wales,Wales,County,13/12/2019 04:21,Simon,Hart,Male,Con hold,Con,Lab,59158,42114,146,7745,22183,14438,1860,0,0,0,3633,0,0,0,0,0,0,0
+E14000621,E12000007,Carshalton and Wallington,London,London,England,Borough,13/12/2019 05:23,Elliot,Colburn,Male,Con gain from LD,Con,LD,72941,49098,125,629,20822,6081,20193,1043,759,0,0,0,0,0,0,0,200,0
+E14000622,E12000006,Castle Point,Essex,East,England,Borough,13/12/2019 03:26,Rebecca,Harris,Female,Con hold,Con,Lab,69608,44277,296,26634,33971,7337,2969,0,0,0,0,0,0,0,0,0,0,0
+S14000010,S92000003,Central Ayrshire,Scotland,Scotland,Scotland,County,13/12/2019 04:36,Philippa,Whitford,Female,SNP hold,SNP,Con,69742,46534,105,5304,16182,6583,2283,0,0,21486,0,0,0,0,0,0,0,0
+E14000623,E12000009,Central Devon,Devon,South West,England,County,13/12/2019 04:50,Mel,Stride,Male,Con hold,Con,Lab,74296,58072,347,17721,32095,14374,8770,0,2833,0,0,0,0,0,0,0,0,0
+E14000624,E12000006,Central Suffolk and North Ipswich,Suffolk,East,England,County,13/12/2019 03:52,Dan,Poulter,Male,Con hold,Con,Lab,80037,56250,274,23391,35253,11862,6485,0,2650,0,0,0,0,0,0,0,0,0
+W07000064,W92000004,Ceredigion,Dyfed,Wales,Wales,County,13/12/2019 03:23,Ben,Lake,Male,PC hold,PC,Con,56386,40105,117,6329,8879,6317,6975,2063,663,0,15208,0,0,0,0,0,0,0
+E14000625,E12000004,Charnwood,Leicestershire,East Midlands,England,County,13/12/2019 04:36,Edward,Argar,Male,Con hold,Con,Lab,79534,55365,266,22397,35121,12724,4856,0,2664,0,0,0,0,0,0,0,0,0
+E14000626,E12000008,Chatham and Aylesford,Kent,South East,England,County,13/12/2019 04:50,Tracey,Crouch,Female,Con hold,Con,Lab,71642,43340,159,18540,28856,10316,2866,0,1090,0,0,0,0,0,0,0,212,0
+E14000627,E12000002,Cheadle,Greater Manchester,North West,England,Borough,13/12/2019 04:22,Mary,Robinson,Female,Con hold,Con,LD,74577,55903,215,2336,25694,6851,23358,0,0,0,0,0,0,0,0,0,0,0
+E14000628,E12000006,Chelmsford,Essex,East,England,Borough,13/12/2019 01:57,Vicky,Ford,Female,Con hold,Con,LD,80394,57122,224,17621,31934,10295,14313,0,0,0,0,0,0,0,0,0,580,0
+E14000629,E12000007,Chelsea and Fulham,London,London,England,Borough,13/12/2019 03:06,Greg,Hands,Male,Con hold,Con,LD,67110,46821,150,11241,23345,10872,12104,0,0,0,0,0,0,0,0,0,500,0
+E14000630,E12000009,Cheltenham,Gloucestershire,South West,England,Borough,13/12/2019 06:29,Alex,Chalk,Male,Con hold,Con,LD,81044,59357,153,981,28486,2921,27505,0,0,0,0,0,0,0,0,0,445,0
+E14000631,E12000008,Chesham and Amersham,Buckinghamshire,South East,England,County,13/12/2019 03:46,Cheryl,Gillan,Female,Con hold,Con,LD,72542,55685,289,16223,30850,7166,14627,0,3042,0,0,0,0,0,0,0,0,0
+E14000632,E12000004,Chesterfield,Derbyshire,East Midlands,England,Borough,13/12/2019 04:23,Toby,Perkins,Male,Lab hold,Lab,Con,71034,45186,136,1451,16720,18171,3985,4771,1148,0,0,0,0,0,0,0,391,0
+E14000633,E12000008,Chichester,West Sussex,South East,England,County,13/12/2019 03:59,Gillian,Keegan,Female,Con hold,Con,LD,85499,61243,251,21490,35402,9069,13912,0,2527,0,0,0,0,0,0,0,333,0
+E14000634,E12000007,Chingford and Woodford Green,London,London,England,County,13/12/2019 02:30,Iain,Duncan Smith,Male,Con hold,Con,Lab,65393,48444,235,1262,23481,22219,2744,0,0,0,0,0,0,0,0,0,0,0
+E14000635,E12000009,Chippenham,Wiltshire,South West,England,County,13/12/2019 04:00,Michelle,Donelan,Female,Con hold,Con,LD,77221,57099,321,11288,30994,6399,19706,0,0,0,0,0,0,0,0,0,0,0
+E14000636,E12000007,Chipping Barnet,London,London,England,Borough,13/12/2019 05:34,Theresa,Villiers,Female,Con hold,Con,Lab,79960,57569,193,1212,25745,24533,5932,0,1288,0,0,0,0,0,0,0,71,0
+E14000637,E12000002,Chorley,Lancashire,North West,England,County,13/12/2019 01:40,Lindsay,Hoyle,Male,Spk gain from Lab,Spk,Ind,77072,39870,1303,17392,0,0,0,0,3600,0,0,0,0,0,0,0,36270,26831
+E14000638,E12000009,Christchurch,Dorset,South West,England,County,13/12/2019 05:34,Christopher,Chope,Male,Con hold,Con,LD,71520,51951,297,24617,33894,6568,9277,0,2212,0,0,0,0,0,0,0,0,0
+E14000639,E12000007,Cities Of London and Westminster,London,London,England,Borough,13/12/2019 02:58,Nickie,Aiken,Female,Con hold,Con,LD,63700,42723,140,3953,17049,11624,13096,0,728,0,0,0,0,0,0,0,226,0
+E14000640,E12000002,City Of Chester,Cheshire,North West,England,County,13/12/2019 04:03,Christian,Matheson,Male,Lab hold,Lab,Con,76057,54560,137,6164,20918,27082,3734,1388,1438,0,0,0,0,0,0,0,0,0
+E14000641,E12000001,City Of Durham,Durham,North East,England,County,13/12/2019 03:08,Mary,Foy,Female,Lab hold,Lab,Con,71271,48859,175,5025,15506,20531,7935,3252,1635,0,0,0,0,0,0,0,0,0
+E14000642,E12000006,Clacton,Essex,East,England,County,13/12/2019 03:30,Giles,Watling,Male,Con hold,Con,Lab,70930,43506,116,24702,31438,6736,2541,0,1225,0,0,0,0,0,0,0,1566,0
+E14000643,E12000003,Cleethorpes,Humberside,Yorkshire and The Humber,England,County,13/12/2019 03:08,Martin,Vickers,Male,Con hold,Con,Lab,73689,46339,226,21418,31969,10551,2535,0,1284,0,0,0,0,0,0,0,0,0
+W07000062,W92000004,Clwyd South,Clwyd,Wales,Wales,County,13/12/2019 02:09,Simon,Baynes,Male,Con gain from Lab,Con,Lab,53919,36306,110,1239,16222,14983,1496,1468,0,0,2137,0,0,0,0,0,0,0
+W07000059,W92000004,Clwyd West,Clwyd,Wales,Wales,County,13/12/2019 02:58,David,Jones,Male,Con hold,Con,Lab,57714,40203,147,6747,20403,13656,2237,0,0,0,3907,0,0,0,0,0,0,0
+S14000011,S92000003,"Coatbridge, Chryston and Bellshill",Scotland,Scotland,Scotland,Borough,13/12/2019 03:34,Steven,Bonnar,Male,SNP gain from Lab,SNP,Lab,72943,48221,121,5624,6113,17056,1564,0,808,22680,0,0,0,0,0,0,0,0
+E14000644,E12000006,Colchester,Essex,East,England,Borough,13/12/2019 02:34,Will,Quince,Male,Con hold,Con,Lab,82625,53373,190,9423,26917,17494,7432,0,1530,0,0,0,0,0,0,0,0,0
+E14000645,E12000003,Colne Valley,West Yorkshire,Yorkshire and The Humber,England,County,13/12/2019 05:55,Jason,McCartney,Male,Con gain from Lab,Con,Lab,84174,60892,228,5103,29482,24379,3815,1268,1068,0,0,0,0,0,0,0,880,0
+E14000646,E12000002,Congleton,Cheshire,North West,England,County,13/12/2019 04:58,Fiona,Bruce,Female,Con hold,Con,Lab,80930,57233,193,18561,33747,15186,6026,0,1616,0,0,0,0,0,0,0,658,0
+E14000647,E12000002,Copeland,Cumbria,North West,England,County,13/12/2019 02:24,Trudy,Harrison,Female,Con hold,Con,Lab,61693,42523,173,5842,22856,17014,1888,0,765,0,0,0,0,0,0,0,0,0
+E14000648,E12000004,Corby,Northamptonshire,East Midlands,England,County,13/12/2019 04:44,Tom,Pursglove,Male,Con hold,Con,Lab,86153,60475,265,10268,33410,23142,3923,0,0,0,0,0,0,0,0,0,0,0
+E14000649,E12000005,Coventry North East,West Midlands,West Midlands,England,Borough,13/12/2019 04:41,Colleen,Fletcher,Female,Lab hold,Lab,Con,76006,44444,127,7692,15720,23412,2061,2110,1141,0,0,0,0,0,0,0,0,0
+E14000650,E12000005,Coventry North West,West Midlands,West Midlands,England,Borough,13/12/2019 05:10,Taiwo,Owatemi,Female,Lab hold,Lab,Con,75247,47744,144,208,20710,20918,2717,1956,1443,0,0,0,0,0,0,0,0,0
+E14000651,E12000005,Coventry South,West Midlands,West Midlands,England,Borough,13/12/2019 04:54,Zarah,Sultana,Female,Lab hold,Lab,Con,70979,45044,138,401,19143,19544,3398,1432,1092,0,0,0,0,0,0,0,435,0
+E14000652,E12000008,Crawley,West Sussex,South East,England,Borough,13/12/2019 04:20,Henry,Smith,Male,Con hold,Con,Lab,74207,49899,193,8360,27040,18680,2728,0,1451,0,0,0,0,0,0,0,0,0
+E14000653,E12000002,Crewe and Nantwich,Cheshire,North West,England,County,13/12/2019 04:21,Kieran,Mullan,Male,Con gain from Lab,Con,Lab,80321,54032,123,8508,28704,20196,2618,1390,975,0,0,0,0,0,0,0,149,0
+E14000654,E12000007,Croydon Central,London,London,England,Borough,13/12/2019 04:29,Sarah,Jones,Female,Lab hold,Lab,Con,81407,54045,135,5949,21175,27124,3532,999,1215,0,0,0,0,0,0,0,0,0
+E14000655,E12000007,Croydon North,London,London,England,Borough,13/12/2019 06:02,Steve,Reed,Male,Lab hold,Lab,Con,88468,55609,167,24673,11822,36495,4476,839,1629,0,0,0,0,0,0,0,348,0
+E14000656,E12000007,Croydon South,London,London,England,Borough,13/12/2019 06:33,Chris,Philp,Male,Con hold,Con,Lab,83982,59358,222,12339,30985,18646,7503,0,1782,0,0,0,0,0,0,0,442,0
+S14000012,S92000003,"Cumbernauld, Kilsyth and Kirkintilloch East",Scotland,Scotland,Scotland,County,13/12/2019 03:21,Stuart C.,McDonald,Male,SNP hold,SNP,Lab,66079,45686,143,12976,7380,11182,2966,0,0,24158,0,0,0,0,0,0,0,0
+W07000070,W92000004,Cynon Valley,Gwent and Mid Glamorgan,Wales,Wales,County,13/12/2019 02:46,Beth,Winter,Female,Lab hold,Lab,Con,51134,30236,99,8822,6711,15533,949,3045,0,0,2562,0,0,0,0,0,1436,0
+E14000657,E12000007,Dagenham and Rainham,London,London,England,Borough,13/12/2019 05:07,Jon,Cruddas,Male,Lab hold,Lab,Con,71045,43735,127,293,19175,19468,1182,2887,602,0,0,0,0,0,0,0,421,0
+E14000658,E12000001,Darlington,Durham,North East,England,Borough,13/12/2019 01:28,Peter,Gibson,Male,Con gain from Lab,Con,Lab,66397,43498,81,3294,20901,17607,2097,1544,1057,0,0,0,0,0,0,0,292,0
+E14000659,E12000008,Dartford,Kent,South East,England,County,13/12/2019 04:44,Gareth,Johnson,Male,Con hold,Con,Lab,82209,54023,280,19160,34006,14846,3736,0,1435,0,0,0,0,0,0,0,0,0
+E14000660,E12000004,Daventry,Northamptonshire,East Midlands,England,County,13/12/2019 04:33,Chris,Heaton-Harris,Male,Con hold,Con,Lab,77423,57403,246,26080,37055,10975,7032,0,2341,0,0,0,0,0,0,0,0,0
+W07000042,W92000004,Delyn,Clwyd,Wales,Wales,County,13/12/2019 03:21,Rob,Roberts,Male,Con gain from Lab,Con,Lab,54560,38370,105,865,16756,15891,2346,1971,0,0,1406,0,0,0,0,0,0,0
+E14000661,E12000002,Denton and Reddish,Greater Manchester,North West,England,Borough,13/12/2019 04:12,Andrew,Gwynne,Male,Lab hold,Lab,Con,66234,38588,106,6175,13142,19317,1642,3039,1124,0,0,0,0,0,0,0,324,0
+E14000662,E12000004,Derby North,Derbyshire,East Midlands,England,Borough,13/12/2019 04:36,Amanda,Solloway,Female,Con gain from Lab,Con,Lab,73199,47017,111,2540,21259,18719,3450,1908,1046,0,0,0,0,0,0,0,635,0
+E14000664,E12000004,Derbyshire Dales,Derbyshire,East Midlands,England,County,13/12/2019 04:06,Sarah,Dines,Female,Con hold,Con,Lab,65080,50016,211,17381,29356,11975,6627,0,2058,0,0,0,0,0,0,0,0,0
+E14000663,E12000004,Derby South,Derbyshire,East Midlands,England,Borough,13/12/2019 04:25,Margaret,Beckett,Female,Lab hold,Lab,Con,73062,42462,137,6019,15671,21690,2621,2480,0,0,0,0,0,0,0,0,0,0
+E14000665,E12000009,Devizes,Wiltshire,South West,England,County,13/12/2019 04:50,Danny,Kruger,Male,Con hold,Con,LD,73372,50954,269,23993,32150,7838,8157,0,2809,0,0,0,0,0,0,0,0,0
+E14000666,E12000003,Dewsbury,West Yorkshire,Yorkshire and The Humber,England,County,13/12/2019 05:37,Mark,Eastwood,Male,Con gain from Lab,Con,Lab,81253,56389,272,1561,26179,24618,2406,1874,1060,0,0,0,0,0,0,0,252,0
+E14000668,E12000003,Doncaster Central,South Yorkshire,Yorkshire and The Humber,England,Borough,13/12/2019 03:24,Rosie,Winterton,Female,Lab hold,Lab,Con,71389,41581,108,2278,14360,16638,1748,6842,981,0,0,0,0,0,0,0,1012,0
+E14000669,E12000003,Doncaster North,South Yorkshire,Yorkshire and The Humber,England,County,13/12/2019 03:07,Edward,Miliband,Male,Lab hold,Lab,Con,72362,40698,95,2370,13370,15740,1476,8294,0,0,0,0,0,0,0,0,1818,0
+E14000667,E12000003,Don Valley,South Yorkshire,Yorkshire and The Humber,England,County,13/12/2019 03:31,Nick,Fletcher,Male,Con gain from Lab,Con,Lab,75356,45437,82,3630,19609,15979,1907,6247,872,0,0,0,0,0,0,0,823,0
+E14000670,E12000008,Dover,Kent,South East,England,County,13/12/2019 03:05,Natalie,Elphicke,Female,Con hold,Con,Lab,76355,50701,219,12278,28830,16552,2895,0,1371,0,0,0,0,0,0,0,1053,0
+E14000671,E12000005,Dudley North,West Midlands,West Midlands,England,Borough,13/12/2019 05:04,Marco,Longhi,Male,Con gain from Lab,Con,Lab,61936,36684,156,11533,23134,11601,1210,0,739,0,0,0,0,0,0,0,0,0
+E14000672,E12000005,Dudley South,West Midlands,West Midlands,England,Borough,13/12/2019 04:33,Mike,Wood,Male,Con hold,Con,Lab,60731,36576,163,15565,24835,9270,1608,0,863,0,0,0,0,0,0,0,0,0
+E14000673,E12000007,Dulwich and West Norwood,London,London,England,Borough,13/12/2019 03:55,Helen,Hayes,Female,Lab hold,Lab,Green,80331,55778,236,27310,9160,36521,0,571,9211,0,0,0,0,0,0,0,315,0
+S14000013,S92000003,Dumfries and Galloway,Scotland,Scotland,Scotland,County,13/12/2019 04:07,Alister,Jack,Male,Con hold,Con,SNP,74580,51429,123,1805,22678,4745,3133,0,0,20873,0,0,0,0,0,0,0,0
+S14000014,S92000003,"Dumfriesshire, Clydesdale and Tweeddale",Scotland,Scotland,Scotland,County,13/12/2019 04:38,David,Mundell,Male,Con hold,Con,SNP,68330,49153,142,3781,22611,4172,3540,0,0,18830,0,0,0,0,0,0,0,0
+S14000015,S92000003,Dundee East,Scotland,Scotland,Scotland,Borough,13/12/2019 03:37,Stewart,Hosie,Male,SNP hold,SNP,Con,66210,45277,134,13375,10986,6045,3573,0,0,24361,0,0,0,0,0,0,312,0
+S14000016,S92000003,Dundee West,Scotland,Scotland,Scotland,Borough,13/12/2019 03:31,Chris,Law,Male,SNP hold,SNP,Lab,64431,41579,92,12259,5149,10096,2468,1271,0,22355,0,0,0,0,0,0,240,0
+S14000017,S92000003,Dunfermline and West Fife,Scotland,Scotland,Scotland,County,13/12/2019 04:15,Douglas,Chapman,Male,SNP hold,SNP,Lab,76652,53482,130,10699,11207,13028,4262,0,1258,23727,0,0,0,0,0,0,0,0
+W07000061,W92000004,Dwyfor Meirionnydd,Gwynedd,Wales,Wales,County,13/12/2019 02:22,Liz,Saville Roberts,Female,PC hold,PC,Con,44362,29928,128,4740,9707,3998,0,1776,0,0,14447,0,0,0,0,0,0,0
+E14000674,E12000007,Ealing Central and Acton,London,London,England,Borough,13/12/2019 02:11,Rupa,Huq,Female,Lab hold,Lab,Con,75510,54807,162,13300,14832,28132,9444,664,1735,0,0,0,0,0,0,0,0,0
+E14000675,E12000007,Ealing North,London,London,England,Borough,13/12/2019 02:16,James,Murray,Male,Lab hold,Lab,Con,74473,49631,224,12269,15767,28036,4370,0,1458,0,0,0,0,0,0,0,0,0
+E14000676,E12000007,"Ealing, Southall",London,London,England,Borough,13/12/2019 02:44,Virendra,Sharma,Male,Lab hold,Lab,Con,64581,42217,203,16084,9594,25678,3933,867,1688,0,0,0,0,0,0,0,457,0
+E14000677,E12000001,Easington,Durham,North East,England,County,13/12/2019 03:21,Grahame,Morris,Male,Lab hold,Lab,Con,61182,34583,122,6581,9142,15723,1526,6744,0,0,0,0,0,0,0,0,1448,0
+N06000005,N92000002,East Antrim,Northern Ireland,Northern Ireland,Northern Ireland,County,13/12/2019 03:21,Sammy,Wilson,Male,DUP hold,DUP,Alliance,64830,37261,170,6706,1043,0,0,0,685,0,0,16871,2120,902,5475,10165,0,0
+E14000684,E12000008,Eastbourne,East Sussex,South East,England,Borough,13/12/2019 02:59,Caroline,Ansell,Female,Con gain from LD,Con,LD,79307,55134,121,4331,26951,3848,22620,1530,0,0,0,0,0,0,0,0,185,0
+E14000678,E12000009,East Devon,Devon,South West,England,County,13/12/2019 04:58,Simon,Jupp,Male,Con hold,Con,Ind,87168,64073,150,6708,32577,2870,1771,0,711,0,0,0,0,0,0,0,26144,0
+S14000018,S92000003,East Dunbartonshire,Scotland,Scotland,Scotland,County,13/12/2019 03:44,Amy,Callaghan,Female,SNP gain from LD,SNP,LD,66075,53031,80,149,7455,4839,19523,0,916,19672,0,0,0,0,0,0,626,0
+E14000679,E12000007,East Ham,London,London,England,Borough,13/12/2019 03:35,Stephen,Timms,Male,Lab hold,Lab,Con,88319,54628,174,33176,8527,41703,2158,1107,883,0,0,0,0,0,0,0,250,0
+E14000680,E12000008,East Hampshire,Hampshire,South East,England,County,13/12/2019 03:16,Damian,Hinds,Male,Con hold,Con,LD,76478,56895,199,19696,33446,6287,13750,0,2600,0,0,0,0,0,0,0,812,0
+S14000019,S92000003,"East Kilbride, Strathaven and Lesmahagow",Scotland,Scotland,Scotland,County,13/12/2019 02:34,Lisa,Cameron,Female,SNP hold,SNP,Lab,81224,56337,137,13322,11961,12791,3760,0,1153,26113,0,0,0,0,0,0,559,0
+E14000685,E12000008,Eastleigh,Hampshire,South East,England,Borough,13/12/2019 02:33,Paul,Holmes,Male,Con hold,Con,LD,83880,58971,186,15607,32690,7559,17083,0,1639,0,0,0,0,0,0,0,0,0
+N06000006,N92000002,East Londonderry,Northern Ireland,Northern Ireland,Northern Ireland,County,13/12/2019 03:01,Gregory,Campbell,Male,DUP hold,DUP,SDLP,69246,39302,193,9607,0,0,0,0,0,0,0,15765,6128,6158,3599,5921,1731,0
+S14000020,S92000003,East Lothian,Scotland,Scotland,Scotland,County,13/12/2019 02:57,Kenny,MacAskill,Male,SNP gain from Lab,SNP,Lab,81600,58513,114,3886,15523,17270,4071,0,0,21156,0,0,0,0,0,0,493,0
+S14000021,S92000003,East Renfrewshire,Scotland,Scotland,Scotland,County,13/12/2019 03:04,Kirsten,Oswald,Female,SNP gain from Con,SNP,Con,72232,55357,176,5426,19451,6855,4174,0,0,24877,0,0,0,0,0,0,0,0
+E14000681,E12000008,East Surrey,Surrey,South East,England,County,13/12/2019 03:16,Claire,Coutinho,Female,Con hold,Con,LD,83148,59690,235,24040,35624,8247,11584,0,2340,0,0,0,0,0,0,0,1895,0
+E14000682,E12000008,East Worthing and Shoreham,West Sussex,South East,England,County,13/12/2019 04:51,Tim,Loughton,Male,Con hold,Con,Lab,75194,53128,188,7474,27107,19633,4127,0,2006,0,0,0,0,0,0,0,255,0
+E14000683,E12000003,East Yorkshire,Humberside,Yorkshire and The Humber,England,County,13/12/2019 03:19,Greg,Knight,Male,Con hold,Con,Lab,80923,52769,205,22787,33988,11201,4219,0,1675,0,0,0,0,0,0,0,1686,0
+E14000686,E12000002,Eddisbury,Cheshire,North West,England,County,13/12/2019 03:28,Edward,Timpson,Male,Con hold,Con,Lab,73700,52971,143,18443,30095,11652,9582,0,1191,0,0,0,0,0,0,0,451,0
+S14000022,S92000003,Edinburgh East,Scotland,Scotland,Scotland,Borough,13/12/2019 04:34,Tommy,Sheppard,Male,SNP hold,SNP,Lab,69424,47815,142,10417,6549,12748,3289,0,2064,23165,0,0,0,0,0,0,0,0
+S14000023,S92000003,Edinburgh North and Leith,Scotland,Scotland,Scotland,Borough,13/12/2019 04:43,Deidre,Brock,Female,SNP hold,SNP,Lab,81336,59344,105,12808,11000,13117,6635,558,1971,25925,0,0,0,0,0,0,138,0
+S14000024,S92000003,Edinburgh South,Scotland,Scotland,Scotland,Borough,13/12/2019 04:22,Ian,Murray,Male,Lab hold,Lab,SNP,66188,49732,122,11095,8161,23745,3819,0,1357,12650,0,0,0,0,0,0,0,0
+S14000025,S92000003,Edinburgh South West,Scotland,Scotland,Scotland,Borough,13/12/2019 04:11,Joanna,Cherry,Female,SNP hold,SNP,Con,73501,52131,91,11982,12848,7478,4971,625,1265,24830,0,0,0,0,0,0,114,0
+S14000026,S92000003,Edinburgh West,Scotland,Scotland,Scotland,Borough,13/12/2019 04:52,Christine,Jardine,Female,LD hold,LD,SNP,72507,54533,124,3769,9283,4460,21766,0,1027,17997,0,0,0,0,0,0,0,0
+E14000687,E12000007,Edmonton,London,London,England,Borough,13/12/2019 02:55,Kate,Osamor,Female,Lab hold,Lab,Con,65747,40341,148,16015,10202,26217,2145,840,862,0,0,0,0,0,0,0,75,0
+E14000688,E12000002,Ellesmere Port and Neston,Cheshire,North West,England,County,13/12/2019 05:26,Justin,Madders,Male,Lab hold,Lab,Con,70327,48746,128,8764,17237,26001,2406,2138,964,0,0,0,0,0,0,0,0,0
+E14000689,E12000003,Elmet and Rothwell,West Yorkshire,Yorkshire and The Humber,England,County,13/12/2019 04:15,Alec,Shelbrooke,Male,Con hold,Con,Lab,80957,58225,187,17353,33726,16373,5155,0,1775,0,0,0,0,0,0,0,1196,0
+E14000690,E12000007,Eltham,London,London,England,Borough,13/12/2019 03:15,Clive,Efford,Male,Lab hold,Lab,Con,64086,43689,114,3197,17353,20550,2941,1523,1322,0,0,0,0,0,0,0,0,0
+E14000691,E12000007,Enfield North,London,London,England,Borough,13/12/2019 04:11,Feryal,Clark,Female,Lab hold,Lab,Con,68301,45050,132,6492,16848,23340,2950,797,1115,0,0,0,0,0,0,0,0,0
+E14000692,E12000007,"Enfield, Southgate",London,London,England,Borough,13/12/2019 03:55,Bambos,Charalambous,Male,Lab hold,Lab,Con,65525,47276,127,4450,18473,22923,4344,494,1042,0,0,0,0,0,0,0,0,0
+E14000693,E12000006,Epping Forest,Essex,East,England,County,13/12/2019 02:10,Eleanor,Laing,Female,Con hold,Con,Lab,74304,50268,269,22173,32364,10191,5387,0,1975,0,0,0,0,0,0,0,351,0
+E14000694,E12000008,Epsom and Ewell,Surrey,South East,England,Borough,13/12/2019 03:45,Chris,Grayling,Male,Con hold,Con,LD,81138,59451,254,17873,31819,10226,13946,0,2047,0,0,0,0,0,0,0,1413,0
+E14000695,E12000004,Erewash,Derbyshire,East Midlands,England,County,13/12/2019 03:09,Maggie,Throup,Female,Con hold,Con,Lab,72523,48814,168,10606,27560,16954,2487,0,1115,0,0,0,0,0,0,0,698,0
+E14000696,E12000007,Erith and Thamesmead,London,London,England,Borough,13/12/2019 03:16,Abena,Oppong-Asare,Female,Lab hold,Lab,Con,65399,41384,115,3758,16124,19882,1984,2246,876,0,0,0,0,0,0,0,272,0
+E14000697,E12000008,Esher and Walton,Surrey,South East,England,Borough,13/12/2019 03:17,Dominic,Raab,Male,Con hold,Con,LD,81184,63084,163,2743,31132,2838,28389,0,0,0,0,0,0,0,0,0,725,0
+E14000698,E12000009,Exeter,Devon,South West,England,Borough,13/12/2019 03:47,Ben,Bradshaw,Male,Lab hold,Lab,Con,82054,56192,221,10403,19479,29882,0,1428,4838,0,0,0,0,0,0,0,565,0
+S14000028,S92000003,Falkirk,Scotland,Scotland,Scotland,County,13/12/2019 03:56,John,McNally,Male,SNP hold,SNP,Con,84472,55872,217,14948,14403,6243,3990,0,1885,29351,0,0,0,0,0,0,0,0
+E14000699,E12000008,Fareham,Hampshire,South East,England,County,13/12/2019 02:06,Suella,Braverman,Female,Con hold,Con,Lab,78337,57250,286,26086,36459,10373,8006,0,2412,0,0,0,0,0,0,0,0,0
+E14000700,E12000008,Faversham and Mid Kent,Kent,South East,England,County,13/12/2019 03:40,Helen,Whately,Female,Con hold,Con,Lab,73403,50394,189,21976,31864,9888,6170,0,2103,0,0,0,0,0,0,0,369,0
+E14000701,E12000007,Feltham and Heston,London,London,England,Borough,13/12/2019 04:13,Seema,Malhotra,Female,Lab hold,Lab,Con,80934,47811,146,7859,17017,24876,3127,1658,1133,0,0,0,0,0,0,0,0,0
+N06000007,N92000002,Fermanagh and South Tyrone,Northern Ireland,Northern Ireland,Northern Ireland,County,13/12/2019 06:59,Michelle,Gildernew,Female,SF hold,SF,UUP,72848,50762,324,57,0,0,0,0,0,0,0,0,21986,3446,21929,2650,751,0
+E14000702,E12000009,Filton and Bradley Stoke,Avon,South West,England,County,13/12/2019 03:59,Jack,Lopresti,Male,Con hold,Con,Lab,74016,53752,194,5646,26293,20647,4992,0,1563,0,0,0,0,0,0,0,257,0
+E14000703,E12000007,Finchley and Golders Green,London,London,England,Borough,13/12/2019 05:05,Mike,Freer,Male,Con hold,Con,LD,77573,55109,213,6562,24162,13347,17600,0,0,0,0,0,0,0,0,0,0,0
+E14000704,E12000008,Folkestone and Hythe,Kent,South East,England,County,13/12/2019 02:41,Damian,Collins,Male,Con hold,Con,Lab,88272,59005,260,21337,35483,14146,5755,0,2706,0,0,0,0,0,0,0,915,0
+E14000705,E12000009,Forest Of Dean,Gloucestershire,South West,England,County,13/12/2019 03:01,Mark,Harper,Male,Con hold,Con,Lab,71438,51475,230,15869,30680,14811,0,0,4681,0,0,0,0,0,0,0,1303,0
+N06000008,N92000002,Foyle,Northern Ireland,Northern Ireland,Northern Ireland,County,13/12/2019 04:13,Colum,Eastwood,Male,SDLP gain from SF,SDLP,SF,74346,47144,226,17110,0,0,0,0,0,0,0,4773,9771,26881,1088,1267,3364,0
+E14000706,E12000002,Fylde,Lancashire,North West,England,County,13/12/2019 01:21,Mark,Menzies,Male,Con hold,Con,Lab,66847,46659,162,16611,28432,11821,3748,0,1731,0,0,0,0,0,0,0,927,0
+E14000707,E12000004,Gainsborough,Lincolnshire,East Midlands,England,County,13/12/2019 03:35,Edward,Leigh,Male,Con hold,Con,Lab,76343,51046,259,22967,33893,10926,5157,0,0,0,0,0,0,0,0,0,1070,0
+E14000708,E12000002,Garston and Halewood,Merseyside,North West,England,Borough,13/12/2019 02:25,Maria,Eagle,Female,Lab hold,Lab,Con,76116,53326,147,31624,6954,38578,3324,2943,1183,0,0,0,0,0,0,0,344,0
+E14000709,E12000001,Gateshead,Tyne and Wear,North East,England,Borough,13/12/2019 01:41,Ian,Mearns,Male,Lab hold,Lab,Con,64449,38145,221,7200,13250,20450,2792,0,1653,0,0,0,0,0,0,0,0,0
+E14000710,E12000004,Gedling,Nottinghamshire,East Midlands,England,County,13/12/2019 03:13,Tom,Randall,Male,Con gain from Lab,Con,Lab,71336,49953,144,679,22718,22039,2279,1820,1097,0,0,0,0,0,0,0,0,0
+E14000711,E12000008,Gillingham and Rainham,Kent,South East,England,Borough,13/12/2019 04:40,Rehman,Chishti,Male,Con hold,Con,Lab,73549,45958,138,15119,28173,13054,2503,0,1043,0,0,0,0,0,0,0,1185,0
+S14000029,S92000003,Glasgow Central,Scotland,Scotland,Scotland,Borough,13/12/2019 04:09,Alison,Thewliss,Female,SNP hold,SNP,Lab,69230,40105,153,6474,3698,13276,1952,0,1429,19750,0,0,0,0,0,0,0,0
+S14000030,S92000003,Glasgow East,Scotland,Scotland,Scotland,Borough,13/12/2019 03:40,David,Linden,Male,SNP hold,SNP,Lab,67381,38483,102,5566,5709,12791,1626,0,0,18357,0,0,0,0,0,0,0,0
+S14000031,S92000003,Glasgow North,Scotland,Scotland,Scotland,Borough,13/12/2019 03:25,Patrick,Grady,Male,SNP hold,SNP,Lab,57130,36191,84,5601,3806,11381,2394,320,1308,16982,0,0,0,0,0,0,0,0
+S14000032,S92000003,Glasgow North East,Scotland,Scotland,Scotland,Borough,13/12/2019 03:57,Anne,McLaughlin,Female,SNP gain from Lab Coop,SNP,Lab,61075,33925,116,2548,3558,13363,1093,0,0,15911,0,0,0,0,0,0,0,0
+S14000033,S92000003,Glasgow North West,Scotland,Scotland,Scotland,Borough,13/12/2019 03:48,Carol,Monaghan,Female,SNP hold,SNP,Lab,63402,39735,180,8359,6022,11319,2716,0,0,19678,0,0,0,0,0,0,0,0
+S14000034,S92000003,Glasgow South,Scotland,Scotland,Scotland,Borough,13/12/2019 04:15,Stewart Malcolm,McDonald,Male,SNP hold,SNP,Lab,70891,47443,80,9005,6237,13824,2786,516,1251,22829,0,0,0,0,0,0,0,0
+S14000035,S92000003,Glasgow South West,Scotland,Scotland,Scotland,Borough,13/12/2019 04:03,Chris,Stephens,Male,SNP hold,SNP,Lab,64575,36847,76,4900,4224,12743,1435,802,0,17643,0,0,0,0,0,0,0,0
+S14000036,S92000003,Glenrothes,Scotland,Scotland,Scotland,County,13/12/2019 03:44,Peter,Grant,Male,SNP hold,SNP,Lab,65672,41546,70,11757,6920,9477,2639,1276,0,21234,0,0,0,0,0,0,0,0
+E14000712,E12000009,Gloucester,Gloucestershire,South West,England,Borough,13/12/2019 03:00,Richard,Graham,Male,Con hold,Con,Lab,81319,53764,200,10277,29159,18882,4338,0,1385,0,0,0,0,0,0,0,0,0
+S14000037,S92000003,Gordon,Scotland,Scotland,Scotland,County,13/12/2019 05:14,Richard,Thomson,Male,SNP gain from Con,SNP,Con,79629,55916,148,819,23066,3052,5913,0,0,23885,0,0,0,0,0,0,0,0
+E14000713,E12000008,Gosport,Hampshire,South East,England,Borough,13/12/2019 03:08,Caroline,Dinenage,Female,Con hold,Con,Lab,73541,48453,225,23278,32226,8948,5473,0,1806,0,0,0,0,0,0,0,0,0
+W07000046,W92000004,Gower,West Glamorgan,Wales,Wales,County,13/12/2019 02:39,Tonia,Antoniazzi,Female,Lab hold,Lab,Con,61762,44482,122,1837,18371,20208,2236,1379,0,0,2288,0,0,0,0,0,0,0
+E14000714,E12000004,Grantham and Stamford,Lincolnshire,East Midlands,England,County,13/12/2019 03:10,Gareth,Davies,Male,Con hold,Con,Lab,81502,56003,305,26003,36794,10791,6153,0,2265,0,0,0,0,0,0,0,0,0
+E14000715,E12000008,Gravesham,Kent,South East,England,County,13/12/2019 04:10,Adam,Holloway,Male,Con hold,Con,Lab,73242,47560,174,15581,29580,13999,2584,0,1397,0,0,0,0,0,0,0,0,0
+E14000716,E12000003,Great Grimsby,Humberside,Yorkshire and The Humber,England,Borough,13/12/2019 03:46,Lia,Nici,Female,Con gain from Lab,Con,Lab,61409,33087,71,7331,18150,10819,1070,2378,514,0,0,0,0,0,0,0,156,0
+E14000717,E12000006,Great Yarmouth,Norfolk,East,England,County,13/12/2019 03:33,Brandon,Lewis,Male,Con hold,Con,Lab,71957,43462,165,17663,28593,10930,1661,0,1064,0,0,0,0,0,0,0,1214,0
+E14000718,E12000007,Greenwich and Woolwich,London,London,England,Borough,13/12/2019 04:02,Matthew,Pennycook,Male,Lab hold,Lab,Con,79997,53120,174,18464,11721,30185,7253,1228,2363,0,0,0,0,0,0,0,370,0
+E14000719,E12000008,Guildford,Surrey,South East,England,County,13/12/2019 03:34,Angela,Richardson,Female,Con hold,Con,LD,77729,58651,152,3337,26317,4515,22980,0,0,0,0,0,0,0,0,0,4839,0
+E14000720,E12000007,Hackney North and Stoke Newington,London,London,England,Borough,13/12/2019 03:43,Diane,Abbott,Female,Lab hold,Lab,Con,92462,56864,244,33188,6784,39972,4283,609,4989,0,0,0,0,0,0,0,227,0
+E14000721,E12000007,Hackney South and Shoreditch,London,London,England,Borough,13/12/2019 03:48,Meg,Hillier,Female,Lab hold,Lab,Con,89387,54439,182,33985,5899,39884,4853,744,2948,0,0,0,0,0,0,0,111,0
+E14000722,E12000005,Halesowen and Rowley Regis,West Midlands,West Midlands,England,Borough,13/12/2019 05:16,James,Morris,Male,Con hold,Con,Lab,68300,42345,132,12074,25607,13533,1738,0,934,0,0,0,0,0,0,0,533,0
+E14000723,E12000003,Halifax,West Yorkshire,Yorkshire and The Humber,England,Borough,13/12/2019 04:07,Holly,Lynch,Female,Lab hold,Lab,Con,71887,46458,134,2569,18927,21496,2276,2813,946,0,0,0,0,0,0,0,0,0
+E14000724,E12000003,Haltemprice and Howden,Humberside,Yorkshire and The Humber,England,County,13/12/2019 02:29,David,Davis,Male,Con hold,Con,Lab,71083,49779,249,20329,31045,10716,5215,0,1764,0,0,0,0,0,0,0,1039,0
+E14000725,E12000002,Halton,Cheshire,North West,England,County,13/12/2019 00:47,Derek,Twigg,Male,Lab hold,Lab,Con,71930,46203,143,18975,10358,29333,1800,3730,982,0,0,0,0,0,0,0,0,0
+E14000726,E12000007,Hammersmith,London,London,England,Borough,13/12/2019 03:10,Andy,Slaughter,Male,Lab hold,Lab,Con,74759,51966,190,17847,12227,30074,6947,974,1744,0,0,0,0,0,0,0,0,0
+E14000727,E12000007,Hampstead and Kilburn,London,London,England,Borough,13/12/2019 04:25,Tulip,Siddiq,Female,Lab hold,Lab,Con,86571,57385,191,14188,13892,28080,13121,684,1608,0,0,0,0,0,0,0,0,0
+E14000728,E12000004,Harborough,Leicestershire,East Midlands,England,County,13/12/2019 03:54,Neil,O'Brien,Male,Con hold,Con,Lab,80151,57319,212,17278,31698,14420,9103,0,1709,0,0,0,0,0,0,0,389,0
+E14000729,E12000006,Harlow,Essex,East,England,County,13/12/2019 01:59,Robert,Halfon,Male,Con hold,Con,Lab,68078,43354,236,14063,27510,13447,2397,0,0,0,0,0,0,0,0,0,0,0
+E14000730,E12000003,Harrogate and Knaresborough,North Yorkshire,Yorkshire and The Humber,England,County,13/12/2019 01:56,Andrew,Jones,Male,Con hold,Con,LD,77941,56937,167,9675,29962,5480,20287,0,0,0,0,0,0,0,0,0,1208,0
+E14000731,E12000007,Harrow East,London,London,England,Borough,13/12/2019 03:22,Bob,Blackman,Male,Con hold,Con,Lab,72106,49491,237,8170,26935,18765,3791,0,0,0,0,0,0,0,0,0,0,0
+E14000732,E12000007,Harrow West,London,London,England,Borough,13/12/2019 03:37,Gareth,Thomas,Male,Lab hold,Lab,Con,72464,47922,158,8692,16440,25132,4310,931,1109,0,0,0,0,0,0,0,0,0
+E14000733,E12000001,Hartlepool,Cleveland,North East,England,Borough,13/12/2019 02:20,Mike,Hill,Male,Lab hold,Lab,Con,70855,41037,119,3595,11869,15464,1696,10603,0,0,0,0,0,0,0,0,1405,0
+E14000734,E12000006,Harwich and North Essex,Essex,East,England,County,13/12/2019 02:40,Bernard,Jenkin,Male,Con hold,Con,Lab,74153,51963,162,20182,31830,11648,5866,0,1945,0,0,0,0,0,0,0,674,0
+E14000735,E12000008,Hastings and Rye,East Sussex,South East,England,County,13/12/2019 04:21,Sally-Ann,Hart,Female,Con hold,Con,Lab,80524,54274,262,4043,26896,22853,3960,0,0,0,0,0,0,0,0,0,565,0
+E14000736,E12000008,Havant,Hampshire,South East,England,Borough,13/12/2019 02:02,Alan,Mak,Male,Con hold,Con,Lab,72103,45959,202,21792,30051,8259,5708,0,1597,0,0,0,0,0,0,0,344,0
+E14000737,E12000007,Hayes and Harlington,London,London,England,Borough,13/12/2019 03:09,John,McDonnell,Male,Lab hold,Lab,Con,72357,43994,108,9261,15284,24545,1947,1292,739,0,0,0,0,0,0,0,187,0
+E14000738,E12000002,Hazel Grove,Greater Manchester,North West,England,County,13/12/2019 03:22,William,Wragg,Male,Con hold,Con,LD,63346,44269,203,4423,21592,5508,17169,0,0,0,0,0,0,0,0,0,0,0
+E14000739,E12000006,Hemel Hempstead,Hertfordshire,East,England,County,13/12/2019 02:20,Mike,Penning,Male,Con hold,Con,Lab,74035,51271,207,14563,28968,14405,6317,0,1581,0,0,0,0,0,0,0,0,0
+E14000740,E12000003,Hemsworth,West Yorkshire,Yorkshire and The Humber,England,County,13/12/2019 04:26,Jon,Trickett,Male,Lab hold,Lab,Con,73726,43907,129,1180,15280,16460,1734,5930,916,0,0,0,0,0,0,0,3587,0
+E14000741,E12000007,Hendon,London,London,England,Borough,13/12/2019 05:43,Matthew,Offord,Male,Con hold,Con,Lab,82661,55075,133,4230,26878,22648,4628,0,921,0,0,0,0,0,0,0,0,0
+E14000742,E12000008,Henley,Oxfordshire,South East,England,County,13/12/2019 05:24,John,Howell,Male,Con hold,Con,LD,76646,58759,281,14053,32189,5698,18136,0,2736,0,0,0,0,0,0,0,0,0
+E14000743,E12000005,Hereford and South Herefordshire,Hereford and Worcester,West Midlands,England,County,13/12/2019 03:43,Jesse,Norman,Male,Con hold,Con,Lab,72085,49646,207,19686,30390,10704,6181,0,2371,0,0,0,0,0,0,0,0,0
+E14000744,E12000006,Hertford and Stortford,Hertfordshire,East,England,County,13/12/2019 03:49,Julie,Marson,Female,Con hold,Con,Lab,81765,60094,229,19620,33712,14092,8596,0,2705,0,0,0,0,0,0,0,989,0
+E14000745,E12000006,Hertsmere,Hertfordshire,East,England,County,13/12/2019 02:35,Oliver,Dowden,Male,Con hold,Con,Lab,73971,52203,268,21313,32651,11338,6561,0,1653,0,0,0,0,0,0,0,0,0
+E14000746,E12000001,Hexham,Northumberland,North East,England,County,13/12/2019 02:30,Guy,Opperman,Male,Con hold,Con,Lab,61324,46150,180,10549,25152,14603,4672,0,1723,0,0,0,0,0,0,0,0,0
+E14000747,E12000002,Heywood and Middleton,Greater Manchester,North West,England,County,13/12/2019 02:58,Chris,Clarkson,Male,Con gain from Lab,Con,Lab,80162,47488,153,663,20453,19790,2073,3952,1220,0,0,0,0,0,0,0,0,0
+E14000748,E12000004,High Peak,Derbyshire,East Midlands,England,County,13/12/2019 03:15,Robert,Largan,Male,Con gain from Lab,Con,Lab,74265,54173,141,590,24844,24254,2750,1177,1148,0,0,0,0,0,0,0,0,0
+E14000749,E12000006,Hitchin and Harpenden,Hertfordshire,East,England,County,13/12/2019 04:29,Bim,Afolami,Male,Con hold,Con,LD,76323,58871,266,6895,27719,9959,20824,0,0,0,0,0,0,0,0,0,369,0
+E14000750,E12000007,Holborn and St Pancras,London,London,England,Borough,13/12/2019 04:20,Keir,Starmer,Male,Lab hold,Lab,Con,86061,56786,232,27763,8878,36641,7314,1032,2746,0,0,0,0,0,0,0,175,0
+E14000751,E12000007,Hornchurch and Upminster,London,London,England,Borough,13/12/2019 03:00,Julia,Lopez,Female,Con hold,Con,Lab,80765,53974,253,23308,35495,12187,3862,0,1920,0,0,0,0,0,0,0,510,0
+E14000752,E12000007,Hornsey and Wood Green,London,London,England,Borough,13/12/2019 04:11,Catherine,West,Female,Lab hold,Lab,LD,81814,61105,197,19242,6829,35126,15884,763,2192,0,0,0,0,0,0,0,311,0
+E14000753,E12000008,Horsham,West Sussex,South East,England,County,13/12/2019 06:35,Jeremy,Quin,Male,Con hold,Con,LD,86730,63242,307,21127,35900,9424,14773,0,2668,0,0,0,0,0,0,0,477,0
+E14000754,E12000001,Houghton and Sunderland South,Tyne and Wear,North East,England,Borough,12/12/2019 23:29,Bridget,Phillipson,Female,Lab hold,Lab,Con,68835,39811,129,3115,13095,16210,2319,6165,1125,0,0,0,0,0,0,0,897,0
+E14000755,E12000008,Hove,East Sussex,South East,England,Borough,13/12/2019 04:37,Peter,Kyle,Male,Lab hold,Lab,Con,74313,56391,151,17044,15832,32876,3731,1111,2496,0,0,0,0,0,0,0,345,0
+E14000756,E12000003,Huddersfield,West Yorkshire,Yorkshire and The Humber,England,Borough,13/12/2019 04:37,Barry,Sheerman,Male,Lab hold,Lab,Con,65525,41882,216,4937,15572,20509,2367,1666,1768,0,0,0,0,0,0,0,0,0
+E14000757,E12000006,Huntingdon,Cambridgeshire,East,England,County,13/12/2019 03:23,Jonathan,Djanogly,Male,Con hold,Con,Lab,84657,59147,266,19383,32386,13003,9432,0,2233,0,0,0,0,0,0,0,2093,0
+E14000758,E12000002,Hyndburn,Lancashire,North West,England,Borough,13/12/2019 03:06,Sara,Britcliffe,Female,Con gain from Lab,Con,Lab,70842,42406,137,2951,20565,17614,1226,2156,845,0,0,0,0,0,0,0,0,0
+E14000759,E12000007,Ilford North,London,London,England,Borough,13/12/2019 04:42,Wes,Streeting,Male,Lab hold,Lab,Con,72973,50114,117,5218,20105,25323,2680,960,845,0,0,0,0,0,0,0,201,0
+E14000760,E12000007,Ilford South,London,London,England,Borough,13/12/2019 04:32,Sam,Tarry,Male,Lab hold,Lab,Con,84972,53477,178,24101,10984,35085,1795,1008,714,0,0,0,0,0,0,0,3891,0
+S14000038,S92000003,Inverclyde,Scotland,Scotland,Scotland,County,13/12/2019 02:32,Ronnie,Cowan,Male,SNP hold,SNP,Lab,60622,39903,125,7512,6265,11783,2560,0,0,19295,0,0,0,0,0,0,0,0
+S14000039,S92000003,"Inverness, Nairn, Badenoch and Strathspey",Scotland,Scotland,Scotland,County,13/12/2019 05:00,Drew,Hendry,Male,SNP hold,SNP,Con,78059,54810,112,10440,15807,4123,5846,1078,1709,26247,0,0,0,0,0,0,0,0
+E14000761,E12000006,Ipswich,Suffolk,East,England,Borough,13/12/2019 02:48,Tom,Hunt,Male,Con gain from Lab,Con,Lab,75525,49579,116,5479,24952,19473,2439,1432,1283,0,0,0,0,0,0,0,0,0
+E14000762,E12000008,Isle Of Wight,Isle of Wight,South East,England,County,13/12/2019 04:03,Bob,Seely,Male,Con hold,Con,Lab,113021,74442,247,23737,41815,18078,0,0,11338,0,0,0,0,0,0,0,3211,0
+E14000763,E12000007,Islington North,London,London,England,Borough,13/12/2019 03:18,Jeremy,Corbyn,Male,Lab hold,Lab,LD,75162,53805,227,26188,5483,34603,8415,742,4326,0,0,0,0,0,0,0,236,0
+E14000764,E12000007,Islington South and Finsbury,London,London,England,Borough,13/12/2019 03:05,Emily,Thornberry,Female,Lab hold,Lab,LD,70489,47816,171,17328,8045,26897,9569,1136,1987,0,0,0,0,0,0,0,182,0
+W07000077,W92000004,Islwyn,Gwent and Mid Glamorgan,Wales,Wales,County,13/12/2019 02:01,Chris,Evans,Male,Lab hold,Lab,Con,55423,34350,145,5464,9892,15356,1313,4834,669,0,2286,0,0,0,0,0,0,0
+E14000765,E12000001,Jarrow,Tyne and Wear,North East,England,Borough,13/12/2019 01:30,Kate,Osborne,Female,Lab hold,Lab,Con,65103,40736,91,7120,11243,18363,2360,4122,831,0,0,0,0,0,0,0,3817,0
+E14000766,E12000003,Keighley,West Yorkshire,Yorkshire and The Humber,England,County,13/12/2019 05:12,Robbie,Moore,Male,Con gain from Lab,Con,Lab,72778,52600,276,2218,25298,23080,2573,850,0,0,0,0,0,0,0,0,799,0
+E14000767,E12000005,Kenilworth and Southam,Warwickshire,West Midlands,England,County,13/12/2019 03:32,Jeremy,Wright,Male,Con hold,Con,LD,68154,52597,211,20353,30351,9440,9998,0,2351,0,0,0,0,0,0,0,457,0
+E14000768,E12000007,Kensington,London,London,England,Borough,13/12/2019 04:22,Felicity,Buchan,Female,Con gain from Lab,Con,Lab,64609,43762,92,150,16768,16618,9312,384,535,0,0,0,0,0,0,0,145,0
+E14000769,E12000004,Kettering,Northamptonshire,East Midlands,England,County,13/12/2019 01:23,Philip,Hollobone,Male,Con hold,Con,Lab,73164,49361,155,16765,29787,13022,3367,0,1543,0,0,0,0,0,0,0,1642,0
+S14000040,S92000003,Kilmarnock and Loudoun,Scotland,Scotland,Scotland,County,13/12/2019 01:55,Alan,Brown,Male,SNP hold,SNP,Con,74517,47631,138,12659,11557,9009,2444,0,0,24216,0,0,0,0,0,0,405,0
+E14000770,E12000007,Kingston and Surbiton,London,London,England,Borough,13/12/2019 03:12,Edward,Davey,Male,LD hold,LD,Con,81975,60846,135,10489,20614,6528,31103,788,1038,0,0,0,0,0,0,0,775,0
+E14000771,E12000003,Kingston upon Hull East,Humberside,Yorkshire and The Humber,England,Borough,13/12/2019 03:06,Karl,Turner,Male,Lab hold,Lab,Con,65745,32442,107,1239,11474,12713,1707,5764,784,0,0,0,0,0,0,0,0,0
+E14000772,E12000003,Kingston upon Hull North,Humberside,Yorkshire and The Humber,England,Borough,13/12/2019 03:15,Diana,Johnson,Female,Lab hold,Lab,Con,65515,34203,112,7593,9440,17033,2084,4771,875,0,0,0,0,0,0,0,0,0
+E14000773,E12000003,Kingston upon Hull West and Hessle,Humberside,Yorkshire and The Humber,England,Borough,13/12/2019 04:01,Emma,Hardy,Female,Lab hold,Lab,Con,60192,31356,80,2856,10528,13384,1756,5638,50,0,0,0,0,0,0,0,0,0
+E14000774,E12000009,Kingswood,Avon,South West,England,Borough,13/12/2019 04:30,Chris,Skidmore,Male,Con hold,Con,Lab,68972,49314,145,11220,27712,16492,3421,0,1200,0,0,0,0,0,0,0,489,0
+S14000041,S92000003,Kirkcaldy and Cowdenbeath,Scotland,Scotland,Scotland,County,13/12/2019 04:00,Neale,Hanvey,Male,SNP gain from Lab,SNP,Lab,72853,47005,108,1243,9449,15325,2903,1132,1628,16568,0,0,0,0,0,0,0,0
+E14000775,E12000002,Knowsley,Merseyside,North West,England,Borough,13/12/2019 01:46,George,Howarth,Male,Lab hold,Lab,Con,84082,54938,133,39942,4432,44374,1117,3348,1262,0,0,0,0,0,0,0,405,0
+N06000009,N92000002,Lagan Valley,Northern Ireland,Northern Ireland,Northern Ireland,County,13/12/2019 04:34,Jeffrey M.,Donaldson,Male,DUP hold,DUP,Alliance,75735,45405,184,6499,955,0,0,0,0,0,0,19586,1098,1758,8606,13087,315,0
+S14000042,S92000003,Lanark and Hamilton East,Scotland,Scotland,Scotland,County,13/12/2019 02:23,Angela,Crawley,Female,SNP hold,SNP,Con,77659,53072,129,5187,17056,10736,3037,0,0,22243,0,0,0,0,0,0,0,0
+E14000776,E12000002,Lancaster and Fleetwood,Lancashire,North West,England,County,13/12/2019 04:12,Cat,Smith,Female,Lab hold,Lab,Con,70059,45219,128,2380,18804,21184,2018,1817,1396,0,0,0,0,0,0,0,0,0
+E14000777,E12000003,Leeds Central,West Yorkshire,Yorkshire and The Humber,England,Borough,13/12/2019 03:11,Hilary,Benn,Male,Lab hold,Lab,Con,90971,49284,160,19270,11143,30413,2343,2999,2105,0,0,0,0,0,0,0,281,0
+E14000778,E12000003,Leeds East,West Yorkshire,Yorkshire and The Humber,England,Borough,13/12/2019 02:51,Richard,Burgon,Male,Lab hold,Lab,Con,67286,39052,120,5531,13933,19464,1796,2981,878,0,0,0,0,0,0,0,0,0
+E14000779,E12000003,Leeds North East,West Yorkshire,Yorkshire and The Humber,England,Borough,13/12/2019 04:07,Fabian,Hamilton,Male,Lab hold,Lab,Con,70580,50500,531,17089,11935,29024,5665,1769,1931,0,0,0,0,0,0,0,176,0
+E14000780,E12000003,Leeds North West,West Yorkshire,Yorkshire and The Humber,England,Borough,13/12/2019 03:55,Alex,Sobel,Male,Lab hold,Lab,Con,67741,49283,138,10749,13222,23971,9397,1304,1389,0,0,0,0,0,0,0,0,0
+E14000781,E12000003,Leeds West,West Yorkshire,Yorkshire and The Humber,England,Borough,13/12/2019 03:46,Rachel,Reeves,Female,Lab hold,Lab,Con,67727,40281,121,10564,11622,22186,1787,2685,1274,0,0,0,0,0,0,0,727,0
+E14000782,E12000004,Leicester East,Leicestershire,East Midlands,England,Borough,13/12/2019 02:02,Claudia,Webbe,Female,Lab hold,Lab,Con,78433,49421,259,6019,19071,25090,2800,1243,888,0,0,0,0,0,0,0,329,0
+E14000783,E12000004,Leicester South,Leicestershire,East Midlands,England,Borough,13/12/2019 01:47,Jonathan,Ashworth,Male,Lab hold,Lab,Con,77708,50147,192,22675,10931,33606,2754,1187,1669,0,0,0,0,0,0,0,0,0
+E14000784,E12000004,Leicester West,Leicestershire,East Midlands,England,Borough,13/12/2019 02:13,Liz,Kendall,Female,Lab hold,Lab,Con,64940,34775,151,4212,13079,17291,1808,1620,977,0,0,0,0,0,0,0,0,0
+E14000785,E12000002,Leigh,Greater Manchester,North West,England,County,13/12/2019 01:59,James,Grundy,Male,Con gain from Lab Coop,Con,Lab,77417,46979,168,1965,21266,19301,2252,3161,0,0,0,0,0,0,0,0,999,0
+E14000786,E12000008,Lewes,East Sussex,South East,England,County,13/12/2019 05:06,Maria,Caulfield,Female,Con hold,Con,LD,71503,54851,144,2457,26268,3206,23811,0,1453,0,0,0,0,0,0,0,113,0
+E14000789,E12000007,"Lewisham, Deptford",London,London,England,Borough,13/12/2019 02:36,Vicky,Foxcroft,Female,Lab hold,Lab,Con,80631,55368,236,32913,6303,39216,5774,789,3085,0,0,0,0,0,0,0,201,0
+E14000787,E12000007,Lewisham East,London,London,England,Borough,13/12/2019 01:55,Janet,Daby,Female,Lab hold,Lab,Con,67857,44815,139,17008,9653,26661,5039,1234,1706,0,0,0,0,0,0,0,522,0
+E14000788,E12000007,Lewisham West and Penge,London,London,England,Borough,13/12/2019 02:11,Ellie,Reeves,Female,Lab hold,Lab,Con,74617,52100,192,21543,10317,31860,6260,1060,2390,0,0,0,0,0,0,0,213,0
+E14000790,E12000007,Leyton and Wanstead,London,London,England,County,13/12/2019 02:05,John,Cryer,Male,Lab hold,Lab,Con,64852,44547,174,20808,8028,28836,4666,785,1805,0,0,0,0,0,0,0,427,0
+E14000791,E12000005,Lichfield,Staffordshire,West Midlands,England,County,13/12/2019 02:49,Michael,Fabricant,Male,Con hold,Con,Lab,76616,53993,240,23638,34844,11206,5632,0,1743,0,0,0,0,0,0,0,568,0
+E14000792,E12000004,Lincoln,Lincolnshire,East Midlands,England,Borough,13/12/2019 03:48,Karl,McCartney,Male,Con gain from Lab,Con,Lab,74942,50629,134,3514,24267,20753,2422,1079,1195,0,0,0,0,0,0,0,913,0
+S14000043,S92000003,Linlithgow and East Falkirk,Scotland,Scotland,Scotland,County,13/12/2019 04:09,Martyn,Day,Male,SNP hold,SNP,Con,87044,57775,105,11266,14285,10517,4393,1257,1184,25551,0,0,0,0,0,0,588,0
+E14000793,E12000002,"Liverpool, Riverside",Merseyside,North West,England,Borough,13/12/2019 02:34,Kim,Johnson,Female,Lab hold,Lab,Con,80310,52789,242,37043,4127,41170,2696,1779,3017,0,0,0,0,0,0,0,0,0
+E14000794,E12000002,"Liverpool, Walton",Merseyside,North West,England,Borough,13/12/2019 02:41,Dan,Carden,Male,Lab hold,Lab,Con,62628,40786,195,30520,4018,34538,756,0,814,0,0,0,0,0,0,0,660,0
+E14000795,E12000002,"Liverpool, Wavertree",Merseyside,North West,England,Borough,13/12/2019 02:58,Paula,Barker,Female,Lab hold,Lab,Con,63458,43377,141,27085,4225,31310,4055,1921,1365,0,0,0,0,0,0,0,501,0
+E14000796,E12000002,"Liverpool, West Derby",Merseyside,North West,England,Borough,13/12/2019 02:50,Ian,Byrne,Male,Lab hold,Lab,Con,65640,43989,93,29984,4133,34117,1296,2012,605,0,0,0,0,0,0,0,1826,0
+S14000044,S92000003,Livingston,Scotland,Scotland,Scotland,County,13/12/2019 03:57,Hannah,Bardell,Female,SNP hold,SNP,Con,82285,54592,146,13435,12182,11915,3457,0,1421,25617,0,0,0,0,0,0,0,0
+W07000045,W92000004,Llanelli,Dyfed,Wales,Wales,County,13/12/2019 02:12,Nia,Griffith,Female,Lab hold,Lab,Con,60518,38233,152,4670,11455,16125,0,3605,0,0,7048,0,0,0,0,0,0,0
+E14000797,E12000004,Loughborough,Leicestershire,East Midlands,England,County,13/12/2019 04:52,Jane,Hunt,Female,Con hold,Con,Lab,79764,54631,220,7169,27954,20785,4153,0,1504,0,0,0,0,0,0,0,235,0
+E14000798,E12000004,Louth and Horncastle,Lincolnshire,East Midlands,England,County,13/12/2019 03:27,Victoria,Atkins,Female,Con hold,Con,Lab,79634,52332,286,28868,38021,9153,4114,0,0,0,0,0,0,0,0,0,1044,0
+E14000799,E12000005,Ludlow,Shropshire,West Midlands,England,County,13/12/2019 04:18,Philip,Dunne,Male,Con hold,Con,LD,69444,50225,259,23648,32185,7591,8537,0,1912,0,0,0,0,0,0,0,0,0
+E14000800,E12000006,Luton North,Bedfordshire,East,England,Borough,13/12/2019 03:00,Sarah,Owen,Female,Lab hold,Lab,Con,68185,42589,155,9247,14249,23496,2063,1215,771,0,0,0,0,0,0,0,795,0
+E14000801,E12000006,Luton South,Bedfordshire,East,England,Borough,13/12/2019 02:47,Rachel,Hopkins,Female,Lab hold,Lab,Con,69338,42064,175,8756,13031,21787,0,1601,995,0,0,0,0,0,0,0,4650,0
+E14000802,E12000002,Macclesfield,Cheshire,North West,England,County,13/12/2019 04:06,David,Rutley,Male,Con hold,Con,Lab,76216,53867,237,10711,28292,17581,5684,0,2310,0,0,0,0,0,0,0,0,0
+E14000803,E12000008,Maidenhead,Berkshire,South East,England,County,13/12/2019 03:34,Theresa,May,Female,Con hold,Con,LD,76668,56492,278,18846,32620,7882,13774,0,2216,0,0,0,0,0,0,0,0,0
+E14000804,E12000008,Maidstone and The Weald,Kent,South East,England,County,13/12/2019 03:54,Helen,Grant,Female,Con hold,Con,Lab,76109,51680,261,21772,31220,9448,8482,0,2172,0,0,0,0,0,0,0,358,0
+E14000805,E12000002,Makerfield,Greater Manchester,North West,England,County,13/12/2019 01:41,Yvonne,Fovargue,Female,Lab hold,Lab,Con,74190,44259,161,4740,15214,19954,2108,5817,1166,0,0,0,0,0,0,0,0,0
+E14000806,E12000006,Maldon,Essex,East,England,County,13/12/2019 05:12,John,Whittingdale,Male,Con hold,Con,Lab,72438,50408,236,30041,36304,6263,5990,0,1851,0,0,0,0,0,0,0,0,0
+E14000807,E12000002,Manchester Central,Greater Manchester,North West,England,Borough,13/12/2019 04:13,Lucy,Powell,Female,Lab hold,Lab,Con,92247,52289,193,29089,7734,36823,3420,2335,1870,0,0,0,0,0,0,0,107,0
+E14000808,E12000002,"Manchester, Gorton",Greater Manchester,North West,England,Borough,13/12/2019 04:44,Afzal,Khan,Male,Lab hold,Lab,Con,76419,44545,147,30339,4244,34583,2448,1573,1697,0,0,0,0,0,0,0,0,0
+E14000809,E12000002,"Manchester, Withington",Greater Manchester,North West,England,Borough,13/12/2019 04:36,Jeff,Smith,Male,Lab hold,Lab,LD,76530,52995,181,27905,5820,35902,7997,1308,1968,0,0,0,0,0,0,0,0,0
+E14000810,E12000004,Mansfield,Nottinghamshire,East Midlands,England,County,13/12/2019 03:54,Ben,Bradley,Male,Con hold,Con,Lab,77131,49273,157,16306,31484,15178,1626,0,0,0,0,0,0,0,0,0,985,0
+E14000811,E12000008,Meon Valley,Hampshire,South East,England,County,13/12/2019 04:51,Flick,Drummond,Female,Con hold,Con,LD,75737,54829,211,23555,35271,5644,11716,0,2198,0,0,0,0,0,0,0,0,0
+E14000812,E12000005,Meriden,West Midlands,West Midlands,England,County,13/12/2019 01:59,Saqib,Bhatti,Male,Con hold,Con,Lab,85368,54161,236,22836,34358,11522,5614,0,2667,0,0,0,0,0,0,0,0,0
+W07000071,W92000004,Merthyr Tydfil and Rhymney,Gwent and Mid Glamorgan,Wales,Wales,County,13/12/2019 02:51,Gerald,Jones,Male,Lab hold,Lab,Con,56322,32246,83,10606,6307,16913,1116,3604,0,0,2446,0,0,0,0,0,1860,0
+E14000813,E12000006,Mid Bedfordshire,Bedfordshire,East,England,County,13/12/2019 03:09,Nadine,Dorries,Female,Con hold,Con,Lab,87795,64717,225,24664,38692,14028,8171,0,2478,0,0,0,0,0,0,0,1348,0
+E14000814,E12000004,Mid Derbyshire,Derbyshire,East Midlands,England,County,13/12/2019 05:39,Pauline,Latham,Female,Con hold,Con,Lab,67442,49356,197,15385,29027,13642,4756,0,1931,0,0,0,0,0,0,0,0,0
+E14000819,E12000001,Middlesbrough,Cleveland,North East,England,Borough,13/12/2019 00:25,Andy,McDonald,Male,Lab hold,Lab,Con,60764,34097,85,8395,8812,17207,816,2168,546,0,0,0,0,0,0,0,4548,0
+E14000820,E12000001,Middlesbrough South and East Cleveland,Cleveland,North East,England,County,13/12/2019 02:58,Simon,Clarke,Male,Con hold,Con,Lab,72348,47817,180,11626,28135,16509,1953,0,1220,0,0,0,0,0,0,0,0,0
+E14000815,E12000009,Mid Dorset and North Poole,Dorset,South West,England,County,13/12/2019 04:48,Michael,Tomlinson,Male,Con hold,Con,LD,65427,48930,152,14898,29548,3402,14650,0,1330,0,0,0,0,0,0,0,0,0
+S14000045,S92000003,Midlothian,Scotland,Scotland,Scotland,County,13/12/2019 02:41,Owen,Thompson,Male,SNP gain from Lab,SNP,Lab,70544,48221,140,5705,10467,14328,3393,0,0,20033,0,0,0,0,0,0,0,0
+E14000816,E12000006,Mid Norfolk,Norfolk,East,England,County,13/12/2019 02:46,George,Freeman,Male,Con hold,Con,Lab,82203,56186,335,22594,35051,12457,7739,0,0,0,0,0,0,0,0,0,939,0
+E14000817,E12000008,Mid Sussex,West Sussex,South East,England,County,13/12/2019 04:05,Mims,Davies,Female,Con hold,Con,LD,85146,62762,222,18197,33455,11218,15258,0,2234,0,0,0,0,0,0,0,597,0
+N06000010,N92000002,Mid Ulster,Northern Ireland,Northern Ireland,Northern Ireland,County,13/12/2019 02:55,Francie,Molloy,Male,SF hold,SF,DUP,70449,44620,348,9537,0,0,0,0,0,0,0,10936,20473,6384,2611,3526,690,0
+E14000818,E12000005,Mid Worcestershire,Hereford and Worcester,West Midlands,England,County,13/12/2019 02:37,Nigel,Huddleston,Male,Con hold,Con,Lab,78220,56123,204,28018,37426,9408,6474,0,2177,0,0,0,0,0,0,0,638,0
+E14000821,E12000008,Milton Keynes North,Buckinghamshire,South East,England,County,13/12/2019 04:31,Ben,Everitt,Male,Con hold,Con,Lab,91545,62543,237,6255,30938,24683,4991,0,1931,0,0,0,0,0,0,0,0,0
+E14000822,E12000008,Milton Keynes South,Buckinghamshire,South East,England,Borough,13/12/2019 04:40,Iain,Stewart,Male,Con hold,Con,Lab,96363,64007,181,6944,32011,25067,4688,0,1495,0,0,0,0,0,0,0,746,0
+E14000823,E12000007,Mitcham and Morden,London,London,England,Borough,13/12/2019 03:02,Siobhain,McDonagh,Female,Lab hold,Lab,Con,70021,45741,104,16482,11482,27964,3717,1202,1160,0,0,0,0,0,0,0,216,0
+E14000824,E12000008,Mole Valley,Surrey,South East,England,County,13/12/2019 03:52,Paul,Beresford,Male,Con hold,Con,LD,74665,57110,194,12041,31656,2965,19615,0,1874,0,0,0,0,0,0,0,1000,0
+W07000054,W92000004,Monmouth,Gwent and Mid Glamorgan,Wales,Wales,County,13/12/2019 03:36,David T. C.,Davies,Male,Con hold,Con,Lab,67098,50217,136,9982,26160,16178,4909,0,1353,0,1182,0,0,0,0,0,435,0
+W07000063,W92000004,Montgomeryshire,Powys,Wales,Wales,County,13/12/2019 03:32,Craig,Williams,Male,Con hold,Con,LD,48997,34214,213,12138,20020,5585,7882,0,0,0,0,0,0,0,0,0,727,0
+S14000046,S92000003,Moray,Scotland,Scotland,Scotland,County,13/12/2019 03:16,Douglas,Ross,Male,Con hold,Con,SNP,71035,48825,92,513,22112,2432,2269,0,0,21599,0,0,0,0,0,0,413,0
+E14000825,E12000002,Morecambe and Lunesdale,Lancashire,North West,England,County,13/12/2019 04:14,David,Morris,Male,Con hold,Con,Lab,67397,45310,138,6354,23925,17571,2328,0,938,0,0,0,0,0,0,0,548,0
+E14000826,E12000003,Morley and Outwood,West Yorkshire,Yorkshire and The Humber,England,County,13/12/2019 04:25,Andrea,Jenkyns,Female,Con hold,Con,Lab,78803,51930,191,11267,29424,18157,2285,0,1107,0,0,0,0,0,0,0,957,0
+S14000047,S92000003,Motherwell and Wishaw,Scotland,Scotland,Scotland,Borough,13/12/2019 03:43,Marion,Fellows,Female,SNP hold,SNP,Lab,68856,44420,93,6268,7150,14354,1675,0,0,20622,0,0,0,0,0,0,619,0
+S14000027,S92000003,Na h-Eileanan An Iar,Scotland,Scotland,Scotland,County,13/12/2019 02:37,Angus Brendan,MacNeil,Male,SNP hold,SNP,Lab,21106,14477,65,2438,3216,4093,637,0,0,6531,0,0,0,0,0,0,0,0
+W07000069,W92000004,Neath,West Glamorgan,Wales,Wales,County,13/12/2019 03:03,Christina,Rees,Female,Lab hold,Lab,Con,56419,36756,107,5637,10283,15920,1485,3184,728,0,4495,0,0,0,0,0,661,0
+E14000829,E12000004,Newark,Nottinghamshire,East Midlands,England,County,13/12/2019 03:40,Robert,Jenrick,Male,Con hold,Con,Lab,75850,54762,259,21816,34660,12844,5308,0,1950,0,0,0,0,0,0,0,0,0
+E14000830,E12000008,Newbury,Berkshire,South East,England,County,13/12/2019 03:09,Laura,Farris,Female,Con hold,Con,LD,83414,59998,190,16047,34431,4404,18384,0,2454,0,0,0,0,0,0,0,325,0
+E14000834,E12000005,Newcastle-Under-Lyme,Staffordshire,West Midlands,England,Borough,13/12/2019 04:45,Aaron,Bell,Male,Con gain from Lab,Con,Lab,68211,44739,140,7446,23485,16039,2361,1921,933,0,0,0,0,0,0,0,0,0
+E14000831,E12000001,Newcastle Upon Tyne Central,Tyne and Wear,North East,England,Borough,12/12/2019 23:27,Chi,Onwurah,Female,Lab hold,Lab,Con,57845,37474,137,12278,9290,21568,2709,2542,1365,0,0,0,0,0,0,0,0,0
+E14000832,E12000001,Newcastle Upon Tyne East,Tyne and Wear,North East,England,Borough,13/12/2019 00:05,Nicholas,Brown,Male,Lab hold,Lab,Con,63796,43365,233,15463,10586,26049,4535,0,2195,0,0,0,0,0,0,0,0,0
+E14000833,E12000001,Newcastle Upon Tyne North,Tyne and Wear,North East,England,Borough,13/12/2019 00:46,Catherine,McKinnell,Female,Lab hold,Lab,Con,68486,46999,119,5765,15589,21354,4357,4331,1368,0,0,0,0,0,0,0,0,0
+E14000827,E12000008,New Forest East,Hampshire,South East,England,County,13/12/2019 02:14,Julian,Lewis,Male,Con hold,Con,Lab,73549,50786,189,25251,32769,7518,7390,0,2434,0,0,0,0,0,0,0,675,0
+E14000828,E12000008,New Forest West,Hampshire,South East,England,County,13/12/2019 02:55,Desmond,Swayne,Male,Con hold,Con,LD,70869,50306,250,24403,32113,6595,7710,0,3888,0,0,0,0,0,0,0,0,0
+W07000055,W92000004,Newport East,Gwent and Mid Glamorgan,Wales,Wales,County,13/12/2019 02:49,Jessica,Morden,Female,Lab hold,Lab,Con,58554,36282,80,1992,14133,16125,2121,2454,577,0,872,0,0,0,0,0,0,0
+W07000056,W92000004,Newport West,Gwent and Mid Glamorgan,Wales,Wales,County,13/12/2019 02:58,Ruth,Jones,Female,Lab hold,Lab,Con,66657,43433,130,902,18075,18977,2565,1727,902,0,1187,0,0,0,0,0,0,0
+N06000011,N92000002,Newry and Armagh,Northern Ireland,Northern Ireland,Northern Ireland,County,13/12/2019 05:05,Mickey,Brady,Male,SF hold,SF,DUP,81226,50779,341,9287,0,0,0,0,0,0,0,11000,20287,9449,4204,4211,1628,0
+E14000835,E12000009,Newton Abbot,Devon,South West,England,County,13/12/2019 02:49,Anne Marie,Morris,Female,Con hold,Con,LD,72529,52556,182,17501,29190,9329,11689,0,1508,0,0,0,0,0,0,0,840,0
+E14000836,E12000003,"Normanton, Pontefract and Castleford",West Yorkshire,Yorkshire and The Humber,England,County,13/12/2019 04:01,Yvette,Cooper,Female,Lab hold,Lab,Con,84527,48259,127,1276,17021,18297,3147,8032,0,0,0,0,0,0,0,0,1762,0
+E14000861,E12000004,Northampton North,Northamptonshire,East Midlands,England,Borough,13/12/2019 04:17,Michael,Ellis,Male,Con hold,Con,Lab,58768,39539,120,5507,21031,15524,2031,0,953,0,0,0,0,0,0,0,0,0
+E14000862,E12000004,Northampton South,Northamptonshire,East Midlands,England,Borough,13/12/2019 03:44,Andrew,Lewer,Male,Con hold,Con,Lab,62163,40835,122,4697,20914,16217,2482,0,1222,0,0,0,0,0,0,0,0,0
+N06000012,N92000002,North Antrim,Northern Ireland,Northern Ireland,Northern Ireland,County,13/12/2019 04:54,Ian,Paisley,Male,DUP hold,DUP,UUP,77134,44051,304,12721,0,0,0,0,0,0,0,20860,5632,2943,8139,6231,246,0
+S14000048,S92000003,North Ayrshire and Arran,Scotland,Scotland,Scotland,County,13/12/2019 02:56,Patricia,Gibson,Female,SNP hold,SNP,Con,73534,48154,115,8521,14855,6702,2107,0,1114,23376,0,0,0,0,0,0,0,0
+E14000837,E12000009,North Cornwall,Cornwall,South West,England,County,13/12/2019 05:30,Scott,Mann,Male,Con hold,Con,LD,69935,51678,256,14752,30671,4516,15919,0,0,0,0,0,0,0,0,0,572,0
+E14000838,E12000009,North Devon,Devon,South West,England,County,13/12/2019 03:40,Selaine,Saxby,Female,Con hold,Con,LD,75859,55581,166,14813,31479,5097,16666,0,1759,0,0,0,0,0,0,0,580,0
+E14000839,E12000009,North Dorset,Dorset,South West,England,County,13/12/2019 05:58,Simon,Hoare,Male,Con hold,Con,LD,76765,56107,263,24301,35705,6737,11404,0,2261,0,0,0,0,0,0,0,0,0
+N06000013,N92000002,North Down,Northern Ireland,Northern Ireland,Northern Ireland,County,13/12/2019 01:52,Stephen,Farry,Male,Alliance gain from Ind,Alliance,DUP,67099,40643,172,2968,1959,0,0,0,0,0,0,15390,0,0,4936,18358,0,0
+E14000840,E12000001,North Durham,Durham,North East,England,County,13/12/2019 03:14,Kevan,Jones,Male,Lab hold,Lab,Con,66796,42195,107,4742,13897,18639,2879,4693,1126,0,0,0,0,0,0,0,961,0
+E14000841,E12000006,North East Bedfordshire,Bedfordshire,East,England,County,13/12/2019 04:21,Richard,Fuller,Male,Con hold,Con,Lab,90678,65018,200,24283,38443,14160,7999,0,1891,0,0,0,0,0,0,0,2525,0
+E14000842,E12000006,North East Cambridgeshire,Cambridgeshire,East,England,County,13/12/2019 04:20,Stephen,Barclay,Male,Con hold,Con,Lab,83699,52964,239,29993,38423,8430,4298,0,1813,0,0,0,0,0,0,0,0,0
+E14000843,E12000004,North East Derbyshire,Derbyshire,East Midlands,England,County,13/12/2019 03:58,Lee,Rowley,Male,Con hold,Con,Lab,72345,49217,173,12876,28897,16021,3021,0,1278,0,0,0,0,0,0,0,0,0
+S14000049,S92000003,North East Fife,Scotland,Scotland,Scotland,County,13/12/2019 03:29,Wendy,Chamberlain,Female,LD gain from SNP,LD,SNP,60905,45878,140,1316,5961,1707,19763,0,0,18447,0,0,0,0,0,0,0,0
+E14000844,E12000008,North East Hampshire,Hampshire,South East,England,County,13/12/2019 02:19,Ranil,Jayawardena,Male,Con hold,Con,LD,78954,59270,174,20211,35280,5760,15069,0,1754,0,0,0,0,0,0,0,1407,0
+E14000845,E12000006,North East Hertfordshire,Hertfordshire,East,England,County,13/12/2019 03:24,Oliver,Heald,Male,Con hold,Con,Lab,76123,55327,281,18189,31293,13104,8563,0,2367,0,0,0,0,0,0,0,0,0
+E14000846,E12000009,North East Somerset,Avon,South West,England,County,13/12/2019 03:28,Jacob,Rees-Mogg,Male,Con hold,Con,Lab,73692,56308,169,14729,28360,13631,12422,0,1423,0,0,0,0,0,0,0,472,0
+E14000847,E12000005,North Herefordshire,Hereford and Worcester,West Midlands,England,County,13/12/2019 03:51,Bill,Wiggin,Male,Con hold,Con,LD,70252,51033,276,24856,32158,6804,7302,0,4769,0,0,0,0,0,0,0,0,0
+E14000848,E12000006,North Norfolk,Norfolk,East,England,County,13/12/2019 03:11,Duncan,Baker,Male,Con gain from LD,Con,LD,70729,50823,172,14395,29792,3895,15397,1739,0,0,0,0,0,0,0,0,0,0
+E14000849,E12000005,North Shropshire,Shropshire,West Midlands,England,County,13/12/2019 04:30,Owen,Paterson,Male,Con hold,Con,Lab,83258,56513,205,22949,35444,12495,5643,0,1790,0,0,0,0,0,0,0,1141,0
+E14000850,E12000009,North Somerset,Avon,South West,England,County,13/12/2019 05:02,Liam,Fox,Male,Con hold,Con,Lab,80194,62055,241,17536,32801,15265,11051,0,2938,0,0,0,0,0,0,0,0,0
+E14000851,E12000009,North Swindon,Wiltshire,South West,England,County,13/12/2019 00:30,Justin,Tomlinson,Male,Con hold,Con,Lab,82441,55115,209,16171,32584,16413,4408,0,1710,0,0,0,0,0,0,0,0,0
+E14000852,E12000008,North Thanet,Kent,South East,England,County,13/12/2019 05:27,Roger,Gale,Male,Con hold,Con,Lab,72756,48178,250,17189,30066,12877,3439,0,1796,0,0,0,0,0,0,0,0,0
+E14000853,E12000001,North Tyneside,Tyne and Wear,North East,England,Borough,13/12/2019 02:41,Mary,Glindon,Female,Lab hold,Lab,Con,78902,50429,160,9561,15490,25051,3241,5254,1393,0,0,0,0,0,0,0,0,0
+E14000854,E12000005,North Warwickshire,Warwickshire,West Midlands,England,County,13/12/2019 02:13,Craig,Tracey,Male,Con hold,Con,Lab,70271,45914,171,17956,30249,12293,2069,0,1303,0,0,0,0,0,0,0,0,0
+E14000855,E12000006,North West Cambridgeshire,Cambridgeshire,East,England,County,13/12/2019 03:37,Shailesh,Vara,Male,Con hold,Con,Lab,94909,64533,315,25983,40307,14324,6881,0,3021,0,0,0,0,0,0,0,0,0
+E14000856,E12000001,North West Durham,Durham,North East,England,County,13/12/2019 03:42,Richard,Holden,Male,Con gain from Lab,Con,Lab,72166,47663,128,1144,19990,18846,2831,3193,1173,0,0,0,0,0,0,0,1630,0
+E14000857,E12000008,North West Hampshire,Hampshire,South East,England,County,13/12/2019 03:59,Kit,Malthouse,Male,Con hold,Con,LD,83083,58918,270,26308,36591,9327,10283,0,2717,0,0,0,0,0,0,0,0,0
+E14000858,E12000004,North West Leicestershire,Leicestershire,East Midlands,England,County,13/12/2019 03:09,Andrew,Bridgen,Male,Con hold,Con,Lab,78935,53821,211,20400,33811,13411,3614,0,2478,0,0,0,0,0,0,0,507,0
+E14000859,E12000006,North West Norfolk,Norfolk,East,England,County,13/12/2019 03:50,James,Wild,Male,Con hold,Con,Lab,72080,46602,200,19922,30627,10705,3625,0,1645,0,0,0,0,0,0,0,0,0
+E14000860,E12000009,North Wiltshire,Wiltshire,South West,England,County,13/12/2019 04:15,James,Gray,Male,Con hold,Con,LD,73280,54758,216,17626,32373,5699,14747,0,1939,0,0,0,0,0,0,0,0,0
+E14000863,E12000006,Norwich North,Norfolk,East,England,Borough,13/12/2019 04:18,Chloe,Smith,Female,Con hold,Con,Lab,67172,46285,127,4738,23397,18659,2663,0,1078,0,0,0,0,0,0,0,488,0
+E14000864,E12000006,Norwich South,Norfolk,East,England,Borough,13/12/2019 02:35,Clive,Lewis,Male,Lab hold,Lab,Con,77845,51673,197,12760,15006,27766,4776,1656,2469,0,0,0,0,0,0,0,0,0
+E14000865,E12000004,Nottingham East,Nottinghamshire,East Midlands,England,Borough,13/12/2019 02:52,Nadia,Whittome,Female,Lab hold,Lab,Con,66262,40004,141,17393,8342,25735,1954,1343,1183,0,0,0,0,0,0,0,1447,0
+E14000866,E12000004,Nottingham North,Nottinghamshire,East Midlands,England,Borough,13/12/2019 02:39,Alex,Norris,Male,Lab hold,Lab,Con,66495,35320,103,4490,12847,17337,1582,2686,868,0,0,0,0,0,0,0,0,0
+E14000867,E12000004,Nottingham South,Nottinghamshire,East Midlands,England,Borough,13/12/2019 02:32,Lilian,Greenwood,Female,Lab hold,Lab,Con,79485,48134,181,12568,14018,26586,3935,2012,1583,0,0,0,0,0,0,0,0,0
+E14000868,E12000005,Nuneaton,Warwickshire,West Midlands,England,County,13/12/2019 01:06,Marcus,Jones,Male,Con hold,Con,Lab,70226,45190,215,13144,27390,14246,1862,0,1692,0,0,0,0,0,0,0,0,0
+S14000050,S92000003,Ochil and South Perthshire,Scotland,Scotland,Scotland,County,13/12/2019 02:45,John,Nicolson,Male,SNP gain from Con,SNP,Con,78776,57813,131,4498,22384,4961,3204,0,0,26882,0,0,0,0,0,0,382,0
+W07000074,W92000004,Ogmore,Gwent and Mid Glamorgan,Wales,Wales,County,13/12/2019 02:19,Chris,Elmore,Male,Lab hold,Lab,Con,57581,35390,96,7805,9797,17602,1460,2991,621,0,2919,0,0,0,0,0,0,0
+E14000869,E12000007,Old Bexley and Sidcup,London,London,England,Borough,13/12/2019 03:28,James,Brokenshire,Male,Con hold,Con,Lab,66104,46145,239,18952,29786,10834,3822,0,1477,0,0,0,0,0,0,0,226,0
+E14000870,E12000002,Oldham East and Saddleworth,Greater Manchester,North West,England,County,13/12/2019 03:53,Debbie,Abrahams,Female,Lab hold,Lab,Con,72120,46164,123,1499,18589,20088,2423,2980,778,0,0,0,0,0,0,0,1306,0
+E14000871,E12000002,Oldham West and Royton,Greater Manchester,North West,England,Borough,13/12/2019 03:30,Jim,McMahon,Male,Lab hold,Lab,Con,72999,44434,117,11127,13452,24579,1484,3316,681,0,0,0,0,0,0,0,922,0
+S14000051,S92000003,Orkney and Shetland,Scotland,Scotland,Scotland,County,13/12/2019 06:01,Alistair,Carmichael,Male,LD hold,LD,SNP,34211,23160,80,2507,2287,1550,10381,900,0,7874,0,0,0,0,0,0,168,0
+E14000872,E12000007,Orpington,London,London,England,Borough,13/12/2019 03:37,Gareth,Bacon,Male,Con hold,Con,Lab,68877,48721,263,22378,30882,8504,7552,0,1783,0,0,0,0,0,0,0,0,0
+E14000873,E12000008,Oxford East,Oxfordshire,South East,England,Borough,13/12/2019 03:10,Anneliese,Dodds,Female,Lab hold,Lab,Con,78303,49359,213,17832,10303,28135,6884,1146,2392,0,0,0,0,0,0,0,499,0
+E14000874,E12000008,Oxford West and Abingdon,Oxfordshire,South East,England,County,13/12/2019 05:38,Layla,Moran,Female,LD hold,LD,Con,76951,58824,238,8943,22397,4258,31340,829,0,0,0,0,0,0,0,0,0,0
+S14000052,S92000003,Paisley and Renfrewshire North,Scotland,Scotland,Scotland,County,13/12/2019 02:39,Gavin,Newlands,Male,SNP hold,SNP,Lab,72007,49682,153,11902,11217,11451,3661,0,0,23353,0,0,0,0,0,0,0,0
+S14000053,S92000003,Paisley and Renfrewshire South,Scotland,Scotland,Scotland,County,13/12/2019 02:12,Mhairi,Black,Female,SNP hold,SNP,Lab,64385,43084,133,10679,7571,10958,2918,0,0,21637,0,0,0,0,0,0,0,0
+E14000875,E12000002,Pendle,Lancashire,North West,England,Borough,13/12/2019 02:44,Andrew,Stephenson,Male,Con hold,Con,Lab,65292,44460,172,6186,24076,17890,1548,0,678,0,0,0,0,0,0,0,268,0
+E14000876,E12000003,Penistone and Stocksbridge,South Yorkshire,Yorkshire and The Humber,England,County,13/12/2019 03:44,Miriam,Cates,Female,Con gain from Lab,Con,Lab,70925,49520,149,7210,23688,16478,5054,4300,0,0,0,0,0,0,0,0,0,0
+E14000877,E12000002,Penrith and The Border,Cumbria,North West,England,County,13/12/2019 03:20,Neil,Hudson,Male,Con hold,Con,Lab,67555,47824,209,18519,28875,10356,5364,0,2159,0,0,0,0,0,0,0,1070,0
+S14000054,S92000003,Perth and North Perthshire,Scotland,Scotland,Scotland,County,13/12/2019 02:39,Pete,Wishart,Male,SNP hold,SNP,Con,72600,54076,111,7550,19812,2471,3780,651,0,27362,0,0,0,0,0,0,0,0
+E14000878,E12000006,Peterborough,Cambridgeshire,East,England,Borough,13/12/2019 01:46,Paul,Bristow,Male,Con gain from Lab,Con,Lab,72560,47801,98,2580,22334,19754,2334,2127,728,0,0,0,0,0,0,0,524,0
+E14000879,E12000009,"Plymouth, Moor View",Devon,South West,England,Borough,13/12/2019 05:08,Johnny,Mercer,Male,Con hold,Con,Lab,69430,44239,202,12897,26831,13934,2301,0,1173,0,0,0,0,0,0,0,0,0
+E14000880,E12000009,"Plymouth, Sutton and Devonport",Devon,South West,England,Borough,13/12/2019 05:32,Luke,Pollard,Male,Lab hold,Lab,Con,77852,53176,141,4757,20704,25461,2545,2909,1557,0,0,0,0,0,0,0,0,0
+W07000075,W92000004,Pontypridd,Gwent and Mid Glamorgan,Wales,Wales,County,13/12/2019 02:48,Alex,Davies-Jones,Female,Lab hold,Lab,Con,60327,39060,153,5887,11494,17381,0,2917,0,0,4990,0,0,0,0,0,2278,0
+E14000881,E12000009,Poole,Dorset,South West,England,Borough,13/12/2019 05:20,Robert,Syms,Male,Con hold,Con,Lab,73989,50451,169,19116,29599,10483,7819,0,1702,0,0,0,0,0,0,0,848,0
+E14000882,E12000007,Poplar and Limehouse,London,London,England,Borough,13/12/2019 04:36,Apsana,Begum,Female,Lab hold,Lab,Con,91836,61276,277,28904,9756,38660,8832,1493,2159,0,0,0,0,0,0,0,376,0
+E14000883,E12000008,Portsmouth North,Hampshire,South East,England,Borough,13/12/2019 03:30,Penny,Mordaunt,Female,Con hold,Con,Lab,71299,45910,145,15780,28172,12392,3419,0,1304,0,0,0,0,0,0,0,623,0
+E14000884,E12000008,Portsmouth South,Hampshire,South East,England,Borough,13/12/2019 03:13,Stephen,Morgan,Male,Lab hold,Lab,Con,74186,47425,163,5363,17705,23068,5418,994,0,0,0,0,0,0,0,0,240,0
+W07000065,W92000004,Preseli Pembrokeshire,Dyfed,Wales,Wales,County,13/12/2019 03:59,Stephen,Crabb,Male,Con hold,Con,Lab,59606,42419,153,5062,21381,16319,1943,0,0,0,2776,0,0,0,0,0,0,0
+E14000885,E12000002,Preston,Lancashire,North West,England,Borough,13/12/2019 02:45,Mark,Hendrick,Male,Lab hold,Lab,Con,59672,33790,98,12146,8724,20870,1737,1799,660,0,0,0,0,0,0,0,0,0
+E14000886,E12000003,Pudsey,West Yorkshire,Yorkshire and The Humber,England,Borough,13/12/2019 04:30,Stuart,Andrew,Male,Con hold,Con,Lab,73212,54215,142,3517,26453,22936,3088,0,894,0,0,0,0,0,0,0,844,0
+E14000887,E12000007,Putney,London,London,England,Borough,13/12/2019 01:54,Fleur,Anderson,Female,Lab gain from Con,Lab,Con,65556,50467,119,4774,18006,22780,8548,0,1133,0,0,0,0,0,0,0,0,0
+E14000888,E12000006,Rayleigh and Wickford,Essex,East,England,County,13/12/2019 01:44,Mark,Francois,Male,Con hold,Con,Lab,78930,54901,293,31000,39864,8864,4171,0,2002,0,0,0,0,0,0,0,0,0
+E14000889,E12000008,Reading East,Berkshire,South East,England,Borough,13/12/2019 03:49,Mathew,Rodda,Male,Lab hold,Lab,Con,77152,55918,137,5924,21178,27102,5035,852,1549,0,0,0,0,0,0,0,202,0
+E14000890,E12000008,Reading West,Berkshire,South East,England,County,13/12/2019 04:14,Alok,Sharma,Male,Con hold,Con,Lab,74137,50392,180,4117,24393,20276,4460,0,1263,0,0,0,0,0,0,0,0,0
+E14000891,E12000001,Redcar,Cleveland,North East,England,Borough,13/12/2019 02:43,Jacob,Young,Male,Con gain from Lab Coop,Con,Lab,65864,40842,95,3527,18811,15284,2018,2915,491,0,0,0,0,0,0,0,1323,0
+E14000892,E12000005,Redditch,Hereford and Worcester,West Midlands,England,County,13/12/2019 03:01,Rachel,Maclean,Female,Con hold,Con,Lab,65391,44067,215,16036,27907,11871,2905,0,1384,0,0,0,0,0,0,0,0,0
+E14000893,E12000008,Reigate,Surrey,South East,England,Borough,13/12/2019 03:30,Crispin,Blunt,Male,Con hold,Con,Lab,74242,53156,231,18310,28665,10355,10320,0,3169,0,0,0,0,0,0,0,647,0
+W07000052,W92000004,Rhondda,Gwent and Mid Glamorgan,Wales,Wales,County,13/12/2019 02:33,Chris,Bryant,Male,Lab hold,Lab,Con,50262,29642,83,11440,4675,16115,612,3733,438,0,4069,0,0,0,0,0,0,0
+E14000894,E12000002,Ribble Valley,Lancashire,North West,England,County,13/12/2019 02:51,Nigel,Evans,Male,Con hold,Con,Lab,79247,55284,260,18439,33346,14907,4776,0,1704,0,0,0,0,0,0,0,551,0
+E14000896,E12000007,Richmond Park,London,London,England,Borough,13/12/2019 03:14,Sarah,Olney,Female,LD gain from Con,LD,Con,82699,65067,173,7766,26793,3407,34559,0,0,0,0,0,0,0,0,0,308,0
+E14000895,E12000003,Richmond (Yorks),North Yorkshire,Yorkshire and The Humber,England,County,13/12/2019 04:14,Rishi,Sunak,Male,Con hold,Con,Lab,82569,57703,203,27210,36693,9483,6989,0,2500,0,0,0,0,0,0,0,2038,0
+E14000897,E12000002,Rochdale,Greater Manchester,North West,England,County,13/12/2019 01:54,Tony,Lloyd,Male,Lab hold,Lab,Con,78909,47447,162,9668,14807,24475,3312,3867,986,0,0,0,0,0,0,0,0,0
+E14000898,E12000008,Rochester and Strood,Kent,South East,England,County,13/12/2019 04:28,Kelly,Tolhurst,Female,Con hold,Con,Lab,82056,51926,187,17072,31151,14079,3717,0,1312,0,0,0,0,0,0,0,1667,0
+E14000899,E12000006,Rochford and Southend East,Essex,East,England,County,13/12/2019 02:23,James,Duddridge,Male,Con hold,Con,Lab,75624,46136,180,12286,27063,14777,2822,0,0,0,0,0,0,0,0,0,1474,0
+E14000900,E12000007,Romford,London,London,England,Borough,13/12/2019 03:10,Andrew,Rosindell,Male,Con hold,Con,Lab,72350,47231,240,17893,30494,12601,2708,0,1428,0,0,0,0,0,0,0,0,0
+E14000901,E12000008,Romsey and Southampton North,Hampshire,South East,England,County,13/12/2019 03:40,Caroline,Nokes,Female,Con hold,Con,LD,68228,51390,187,10872,27862,5898,16990,0,0,0,0,0,0,0,0,0,640,0
+E14000902,E12000002,Rossendale and Darwen,Lancashire,North West,England,Borough,13/12/2019 04:14,Jake,Berry,Male,Con hold,Con,Lab,72770,48822,231,9522,27570,18048,2011,0,1193,0,0,0,0,0,0,0,0,0
+S14000055,S92000003,"Ross, Skye and Lochaber",Scotland,Scotland,Scotland,County,13/12/2019 05:45,Ian,Blackford,Male,SNP hold,SNP,LD,54230,39869,80,9443,6900,2448,9820,710,0,19263,0,0,0,0,0,0,728,0
+E14000904,E12000003,Rotherham,South Yorkshire,Yorkshire and The Humber,England,Borough,13/12/2019 02:45,Sarah,Champion,Female,Lab hold,Lab,Con,61688,35651,103,3121,11615,14736,2090,6125,0,0,0,0,0,0,0,0,1085,0
+E14000903,E12000003,Rother Valley,South Yorkshire,Yorkshire and The Humber,England,County,13/12/2019 03:47,Alexander,Stafford,Male,Con gain from Lab,Con,Lab,74804,48698,143,6318,21970,15652,2553,6264,1219,0,0,0,0,0,0,0,1040,0
+E14000905,E12000005,Rugby,Warwickshire,West Midlands,England,County,13/12/2019 02:38,Mark,Pawsey,Male,Con hold,Con,Lab,72292,50814,232,13447,29255,15808,4207,0,1544,0,0,0,0,0,0,0,0,0
+E14000906,E12000007,"Ruislip, Northwood and Pinner",London,London,England,Borough,13/12/2019 04:13,David,Simmonds,Male,Con hold,Con,Lab,72816,52904,188,16394,29391,12997,7986,0,1646,0,0,0,0,0,0,0,884,0
+E14000907,E12000008,Runnymede and Weybridge,Surrey,South East,England,County,13/12/2019 04:19,Ben,Spencer,Male,Con hold,Con,Lab,77196,53289,184,18270,29262,10992,9236,0,1876,0,0,0,0,0,0,0,1923,0
+E14000908,E12000004,Rushcliffe,Nottinghamshire,East Midlands,England,County,13/12/2019 02:05,Ruth,Edwards,Female,Con hold,Con,Lab,77047,60505,251,7643,28765,21122,9600,0,0,0,0,0,0,0,0,0,1018,0
+S14000056,S92000003,Rutherglen and Hamilton West,Scotland,Scotland,Scotland,Borough,13/12/2019 01:25,Margaret,Ferrier,Female,SNP gain from Lab Coop,SNP,Lab,80918,53794,125,5230,8054,18545,2791,0,0,23775,0,0,0,0,0,0,629,0
+E14000909,E12000004,Rutland and Melton,Leicestershire,East Midlands,England,County,13/12/2019 04:38,Alicia,Kearns,Female,Con hold,Con,Lab,82705,58310,224,26924,36507,9583,7970,0,2875,0,0,0,0,0,0,0,1375,0
+E14000910,E12000006,Saffron Walden,Essex,East,England,County,13/12/2019 02:39,Kemi,Badenoch,Female,Con hold,Con,LD,87017,63086,318,27594,39714,8305,12120,0,2947,0,0,0,0,0,0,0,0,0
+E14000911,E12000002,Salford and Eccles,Greater Manchester,North West,England,Borough,13/12/2019 03:37,Rebecca,Long-Bailey,Female,Lab hold,Lab,Con,82202,50632,172,16327,12428,28755,3099,4290,2060,0,0,0,0,0,0,0,0,0
+E14000912,E12000009,Salisbury,Wiltshire,South West,England,County,13/12/2019 04:57,John,Glen,Male,Con hold,Con,LD,74556,53730,168,19736,30280,9675,10544,0,2486,0,0,0,0,0,0,0,745,0
+E14000913,E12000003,Scarborough and Whitby,North Yorkshire,Yorkshire and The Humber,England,County,13/12/2019 02:43,Robert,Goodwill,Male,Con hold,Con,Lab,74404,49724,197,10270,27593,17323,3038,0,0,0,0,0,0,0,0,0,1770,0
+E14000914,E12000003,Scunthorpe,Humberside,Yorkshire and The Humber,England,County,13/12/2019 03:08,Holly,Mumby-Croft,Female,Con gain from Lab,Con,Lab,61955,37750,84,6451,20306,13855,875,2044,670,0,0,0,0,0,0,0,0,0
+E14000915,E12000001,Sedgefield,Durham,North East,England,County,13/12/2019 03:25,Paul,Howell,Male,Con gain from Lab,Con,Lab,64325,41566,98,4513,19609,15096,1955,3518,994,0,0,0,0,0,0,0,394,0
+E14000916,E12000002,Sefton Central,Merseyside,North West,England,County,13/12/2019 02:42,Bill,Esterson,Male,Lab hold,Lab,Con,69760,50880,153,15122,14132,29254,3386,2425,1261,0,0,0,0,0,0,0,422,0
+E14000917,E12000003,Selby and Ainsty,North Yorkshire,Yorkshire and The Humber,England,County,13/12/2019 03:45,Nigel,Adams,Male,Con hold,Con,Lab,78398,56418,191,20137,33995,13858,4842,0,1823,0,0,0,0,0,0,0,1900,0
+E14000918,E12000008,Sevenoaks,Kent,South East,England,County,13/12/2019 03:20,Laura,Trott,Female,Con hold,Con,LD,71757,50956,244,20818,30932,6946,10114,0,1974,0,0,0,0,0,0,0,990,0
+E14000921,E12000003,"Sheffield, Brightside and Hillsborough",South Yorkshire,Yorkshire and The Humber,England,Borough,13/12/2019 03:04,Gill,Furniss,Female,Lab hold,Lab,Con,69333,39600,122,12274,10095,22369,1517,3855,1179,0,0,0,0,0,0,0,585,0
+E14000919,E12000003,Sheffield Central,South Yorkshire,Yorkshire and The Humber,England,Borough,13/12/2019 03:51,Paul,Blomfield,Male,Lab hold,Lab,Con,89849,50913,233,27273,6695,33968,3237,1969,4570,0,0,0,0,0,0,0,474,0
+E14000922,E12000003,"Sheffield, Hallam",South Yorkshire,Yorkshire and The Humber,England,County,13/12/2019 05:10,Olivia,Blake,Female,Lab hold,Lab,LD,72763,56885,150,712,14696,19709,18997,1562,1630,0,0,0,0,0,0,0,291,0
+E14000923,E12000003,"Sheffield, Heeley",South Yorkshire,Yorkshire and The Humber,England,Borough,13/12/2019 04:02,Louise,Haigh,Female,Lab hold,Lab,Con,66940,42695,132,8520,12955,21475,2916,3538,1811,0,0,0,0,0,0,0,0,0
+E14000920,E12000003,Sheffield South East,South Yorkshire,Yorkshire and The Humber,England,Borough,13/12/2019 03:34,Clive,Betts,Male,Lab hold,Lab,Con,67832,41998,146,4289,15070,19359,2125,4478,0,0,0,0,0,0,0,0,966,0
+E14000924,E12000004,Sherwood,Nottinghamshire,East Midlands,England,County,13/12/2019 04:57,Mark,Spencer,Male,Con hold,Con,Lab,77888,52709,183,16186,32049,15863,2883,0,1214,0,0,0,0,0,0,0,700,0
+E14000925,E12000003,Shipley,West Yorkshire,Yorkshire and The Humber,England,County,13/12/2019 05:00,Philip,Davies,Male,Con hold,Con,Lab,74029,54004,258,6242,27437,21195,3188,0,1301,0,0,0,0,0,0,0,883,0
+E14000926,E12000005,Shrewsbury and Atcham,Shropshire,West Midlands,England,County,13/12/2019 04:05,Daniel,Kawczynski,Male,Con hold,Con,Lab,82238,59065,217,11217,31021,19804,5906,0,1762,0,0,0,0,0,0,0,572,0
+E14000927,E12000008,Sittingbourne and Sheppey,Kent,South East,England,County,13/12/2019 04:04,Gordon,Henderson,Male,Con hold,Con,Lab,83917,51394,103,24479,34742,10263,3213,0,1188,0,0,0,0,0,0,0,1988,0
+E14000928,E12000003,Skipton and Ripon,North Yorkshire,Yorkshire and The Humber,England,County,13/12/2019 04:21,Julian,Smith,Male,Con hold,Con,Lab,78347,58724,239,23694,34919,11225,8701,0,2748,0,0,0,0,0,0,0,1131,0
+E14000929,E12000004,Sleaford and North Hykeham,Lincolnshire,East Midlands,England,County,13/12/2019 04:02,Caroline,Johnson,Female,Con hold,Con,Lab,94761,66554,236,32565,44683,12118,5355,0,1742,0,0,0,0,0,0,0,2656,0
+E14000930,E12000008,Slough,Berkshire,South East,England,Borough,13/12/2019 03:38,Tan,Dhesi,Male,Lab hold,Lab,Con,86818,51038,155,13640,15781,29421,3357,1432,1047,0,0,0,0,0,0,0,0,0
+E14000931,E12000005,Solihull,West Midlands,West Midlands,England,Borough,13/12/2019 02:12,Julian,Knight,Male,Con hold,Con,Lab,78760,55344,209,21273,32309,11036,9977,0,2022,0,0,0,0,0,0,0,0,0
+E14000932,E12000009,Somerton and Frome,Somerset,South West,England,County,13/12/2019 05:16,David,Warburton,Male,Con hold,Con,LD,85866,64896,225,19213,36230,8354,17017,0,3295,0,0,0,0,0,0,0,0,0
+E14000955,E12000008,"Southampton, Itchen",Hampshire,South East,England,Borough,13/12/2019 05:01,Royston,Smith,Male,Con hold,Con,Lab,72299,47421,137,4498,23952,19454,2503,0,1040,0,0,0,0,0,0,0,472,0
+E14000956,E12000008,"Southampton, Test",Hampshire,South East,England,Borough,13/12/2019 05:04,Alan,Whitehead,Male,Lab hold,Lab,Con,70116,44994,122,6213,16043,22256,3449,1591,1433,0,0,0,0,0,0,0,222,0
+N06000014,N92000002,South Antrim,Northern Ireland,Northern Ireland,Northern Ireland,County,13/12/2019 03:23,Paul,Girvan,Male,DUP hold,DUP,UUP,71711,42974,214,2689,0,0,0,0,0,0,0,15149,4887,2288,12460,8190,0,0
+E14000933,E12000006,South Basildon and East Thurrock,Essex,East,England,County,13/12/2019 01:44,Stephen,Metcalfe,Male,Con hold,Con,Lab,74441,45297,198,19922,29973,10051,1957,0,0,0,0,0,0,0,0,0,3316,0
+E14000934,E12000006,South Cambridgeshire,Cambridgeshire,East,England,County,13/12/2019 03:22,Anthony,Browne,Male,Con hold,Con,LD,87288,66929,304,2904,31015,7803,28111,0,0,0,0,0,0,0,0,0,0,0
+E14000935,E12000004,South Derbyshire,Derbyshire,East Midlands,England,County,13/12/2019 03:26,Heather,Wheeler,Female,Con hold,Con,Lab,79331,53381,429,19335,33502,14167,3924,0,1788,0,0,0,0,0,0,0,0,0
+E14000936,E12000009,South Dorset,Dorset,South West,England,County,13/12/2019 04:13,Richard,Drax,Male,Con hold,Con,Lab,73809,51058,184,17153,30024,12871,5432,0,2246,0,0,0,0,0,0,0,485,0
+N06000015,N92000002,South Down,Northern Ireland,Northern Ireland,Northern Ireland,County,13/12/2019 03:29,Chris,Hazzard,Male,SF hold,SF,SDLP,79175,49762,209,1620,0,0,0,0,0,0,0,7619,16137,14517,3307,6916,1266,0
+E14000937,E12000006,South East Cambridgeshire,Cambridgeshire,East,England,County,13/12/2019 04:45,Lucy,Frazer,Female,Con hold,Con,LD,86769,64385,255,11490,32187,10492,20697,0,0,0,0,0,0,0,0,0,1009,0
+E14000938,E12000009,South East Cornwall,Cornwall,South West,England,County,13/12/2019 05:41,Sheryll,Murray,Female,Con hold,Con,Lab,71825,53655,230,20971,31807,10836,8650,0,1493,0,0,0,0,0,0,0,869,0
+E14000957,E12000006,Southend West,Essex,East,England,Borough,13/12/2019 02:11,David,Amess,Male,Con hold,Con,Lab,69043,46537,260,14459,27555,13096,5312,0,0,0,0,0,0,0,0,0,574,0
+E14000939,E12000004,South Holland and The Deepings,Lincolnshire,East Midlands,England,County,13/12/2019 03:00,John,Hayes,Male,Con hold,Con,Lab,75975,49179,202,30838,37338,6500,3225,0,1613,0,0,0,0,0,0,0,503,0
+E14000940,E12000004,South Leicestershire,Leicestershire,East Midlands,England,County,13/12/2019 04:32,Alberto,Costa,Male,Con hold,Con,Lab,80520,57469,298,24004,36791,12787,5452,0,2439,0,0,0,0,0,0,0,0,0
+E14000941,E12000006,South Norfolk,Norfolk,East,England,County,13/12/2019 04:32,Richard,Bacon,Male,Con hold,Con,Lab,86214,62484,291,21275,36258,14983,8744,0,2499,0,0,0,0,0,0,0,0,0
+E14000942,E12000004,South Northamptonshire,Northamptonshire,East Midlands,England,County,13/12/2019 07:13,Andrea,Leadsom,Female,Con hold,Con,Lab,90842,66908,266,27761,41755,13994,7891,0,2634,0,0,0,0,0,0,0,634,0
+E14000958,E12000002,Southport,Merseyside,North West,England,Borough,13/12/2019 02:13,Damien,Moore,Male,Con hold,Con,Lab,70837,48180,190,4147,22914,18767,6499,0,0,0,0,0,0,0,0,0,0,0
+E14000943,E12000002,South Ribble,Lancashire,North West,England,County,13/12/2019 02:59,Katherine,Fletcher,Female,Con hold,Con,Lab,75351,53784,209,11199,30028,18829,3720,0,1207,0,0,0,0,0,0,0,0,0
+E14000944,E12000001,South Shields,Tyne and Wear,North East,England,Borough,13/12/2019 01:00,Emma,Lewell-Buck,Female,Lab hold,Lab,Con,62793,37882,80,9585,7688,17273,1514,6446,1303,0,0,0,0,0,0,0,3658,0
+E14000945,E12000005,South Staffordshire,Staffordshire,West Midlands,England,County,13/12/2019 04:11,Gavin,Williamson,Male,Con hold,Con,Lab,73668,50005,259,28250,36520,8270,3280,0,1935,0,0,0,0,0,0,0,0,0
+E14000946,E12000006,South Suffolk,Suffolk,East,England,County,13/12/2019 03:54,James,Cartlidge,Male,Con hold,Con,Lab,76201,53489,277,22897,33270,10373,6702,0,3144,0,0,0,0,0,0,0,0,0
+E14000947,E12000009,South Swindon,Wiltshire,South West,England,County,13/12/2019 02:22,Robert,Buckland,Male,Con hold,Con,Lab,73118,50746,247,6625,26536,19911,4299,0,0,0,0,0,0,0,0,0,0,0
+E14000948,E12000008,South Thanet,Kent,South East,England,County,13/12/2019 04:43,Craig,Mackinlay,Male,Con hold,Con,Lab,73223,48257,211,10587,27084,16497,2727,0,1949,0,0,0,0,0,0,0,0,0
+E14000949,E12000006,South West Bedfordshire,Bedfordshire,East,England,County,13/12/2019 02:55,Andrew,Selous,Male,Con hold,Con,Lab,79926,53307,254,18583,32212,13629,5435,0,2031,0,0,0,0,0,0,0,0,0
+E14000950,E12000009,South West Devon,Devon,South West,England,County,13/12/2019 05:54,Gary,Streeter,Male,Con hold,Con,Lab,72535,53367,275,21430,33286,11856,6207,0,2018,0,0,0,0,0,0,0,0,0
+E14000951,E12000006,South West Hertfordshire,Hertfordshire,East,England,County,13/12/2019 05:07,Gagan,Mohindra,Male,Con hold,Con,Ind,80499,61191,277,14408,30327,7228,6251,0,1466,0,0,0,0,0,0,0,15919,0
+E14000952,E12000006,South West Norfolk,Norfolk,East,England,County,13/12/2019 04:47,Elizabeth,Truss,Female,Con hold,Con,Lab,78455,51466,184,26195,35507,9312,4166,0,1645,0,0,0,0,0,0,0,836,0
+E14000953,E12000008,South West Surrey,Surrey,South East,England,County,13/12/2019 03:56,Jeremy,Hunt,Male,Con hold,Con,LD,79096,60340,374,8817,32191,4775,23374,0,0,0,0,0,0,0,0,0,0,0
+E14000954,E12000009,South West Wiltshire,Wiltshire,South West,England,County,13/12/2019 04:11,Andrew,Murrison,Male,Con hold,Con,Lab,77969,54895,246,21630,33038,11408,8015,0,2434,0,0,0,0,0,0,0,0,0
+E14000959,E12000008,Spelthorne,Surrey,South East,England,Borough,13/12/2019 05:01,Kwasi,Kwarteng,Male,Con hold,Con,Lab,70929,49510,273,18393,29141,10748,7499,0,2122,0,0,0,0,0,0,0,0,0
+E14000965,E12000005,Stafford,Staffordshire,West Midlands,England,County,13/12/2019 03:27,Theo,Clarke,Female,Con hold,Con,Lab,72572,51149,193,14377,29992,15615,3175,0,2367,0,0,0,0,0,0,0,0,0
+E14000966,E12000005,Staffordshire Moorlands,Staffordshire,West Midlands,England,County,13/12/2019 03:20,Karen,Bradley,Female,Con hold,Con,Lab,65485,43656,173,16428,28192,11764,2469,0,1231,0,0,0,0,0,0,0,0,0
+E14000960,E12000006,St Albans,Hertfordshire,East,England,County,13/12/2019 03:51,Daisy,Cooper,Female,LD gain from Con,LD,Con,73727,57599,173,6293,22574,5000,28867,0,1004,0,0,0,0,0,0,0,154,0
+E14000967,E12000002,Stalybridge and Hyde,Greater Manchester,North West,England,County,13/12/2019 04:00,Jonathan,Reynolds,Male,Lab hold,Lab,Con,73064,42368,143,2946,16079,19025,1827,3591,1411,0,0,0,0,0,0,0,435,0
+E14000961,E12000009,St Austell and Newquay,Cornwall,South West,England,County,13/12/2019 05:41,Steve,Double,Male,Con hold,Con,Lab,79930,55776,140,16526,31273,14747,5861,0,1609,0,0,0,0,0,0,0,2286,0
+E14000968,E12000006,Stevenage,Hertfordshire,East,England,County,13/12/2019 02:54,Stephen,McPartland,Male,Con hold,Con,Lab,71562,47683,197,8562,25328,16766,4132,0,1457,0,0,0,0,0,0,0,0,0
+E14000962,E12000002,St Helens North,Merseyside,North West,England,Borough,13/12/2019 02:14,Conor,McGinn,Male,Lab hold,Lab,Con,75593,47561,167,12209,12661,24870,2668,5396,1966,0,0,0,0,0,0,0,0,0
+E14000963,E12000002,St Helens South and Whiston,Merseyside,North West,England,Borough,13/12/2019 02:43,Marie,Rimmer,Female,Lab hold,Lab,Con,79061,50313,129,19122,10335,29457,2886,5353,2282,0,0,0,0,0,0,0,0,0
+S14000057,S92000003,Stirling,Scotland,Scotland,Scotland,County,13/12/2019 03:19,Alyn,Smith,Male,SNP gain from Con,SNP,Con,68473,52620,105,9254,17641,4275,2867,0,942,26895,0,0,0,0,0,0,0,0
+E14000964,E12000009,St Ives,Cornwall,South West,England,County,13/12/2019 14:52,Derek,Thomas,Male,Con hold,Con,LD,68795,51413,111,4280,25365,3553,21085,0,964,0,0,0,0,0,0,0,446,0
+E14000969,E12000002,Stockport,Greater Manchester,North West,England,Borough,13/12/2019 03:08,Navendu,Mishra,Male,Lab hold,Lab,Con,65391,41715,145,10039,11656,21695,5043,1918,1403,0,0,0,0,0,0,0,0,0
+E14000970,E12000001,Stockton North,Cleveland,North East,England,Borough,13/12/2019 02:08,Alex,Cunningham,Male,Lab hold,Lab,Con,66649,41156,116,1027,16701,17728,1631,3907,0,0,0,0,0,0,0,0,1189,0
+E14000971,E12000001,Stockton South,Cleveland,North East,England,Borough,13/12/2019 02:33,Matt,Vickers,Male,Con gain from Lab,Con,Lab,76870,54802,142,5260,27764,22504,2338,2196,0,0,0,0,0,0,0,0,0,0
+E14000972,E12000005,Stoke-On-Trent Central,Staffordshire,West Midlands,England,Borough,13/12/2019 04:25,Jo,Gideon,Female,Con gain from Lab Coop,Con,Lab,55419,32070,67,670,14557,13887,1116,1691,819,0,0,0,0,0,0,0,0,0
+E14000973,E12000005,Stoke-On-Trent North,Staffordshire,West Midlands,England,Borough,13/12/2019 04:30,Jonathan,Gullis,Male,Con gain from Lab,Con,Lab,68298,40134,96,6286,20974,14688,1268,2374,508,0,0,0,0,0,0,0,322,0
+E14000974,E12000005,Stoke-On-Trent South,Staffordshire,West Midlands,England,Borough,13/12/2019 04:35,Jack,Brereton,Male,Con hold,Con,Lab,64491,39604,171,11271,24632,13361,1611,0,0,0,0,0,0,0,0,0,0,0
+E14000975,E12000005,Stone,Staffordshire,West Midlands,England,County,13/12/2019 03:54,William,Cash,Male,Con hold,Con,Lab,69378,49843,222,19945,31687,11742,4412,0,2002,0,0,0,0,0,0,0,0,0
+E14000976,E12000005,Stourbridge,West Midlands,West Midlands,England,Borough,13/12/2019 04:53,Suzanne,Webb,Female,Con hold,Con,Lab,69891,45689,142,13571,27534,13963,2523,0,1048,0,0,0,0,0,0,0,621,0
+N06000016,N92000002,Strangford,Northern Ireland,Northern Ireland,Northern Ireland,County,13/12/2019 01:56,Jim,Shannon,Male,DUP hold,DUP,Alliance,66928,37485,175,7071,1476,0,0,0,790,0,0,17705,555,1994,4023,10634,308,0
+E14000977,E12000005,Stratford-On-Avon,Warwickshire,West Midlands,England,County,13/12/2019 02:11,Nadhim,Zahawi,Male,Con hold,Con,LD,74037,55048,273,19972,33343,6222,13371,0,2112,0,0,0,0,0,0,0,0,0
+E14000978,E12000007,Streatham,London,London,England,Borough,13/12/2019 04:21,Bell,Ribeiro-Addy,Female,Lab hold,Lab,LD,84783,56513,178,17690,9060,30976,13286,624,2567,0,0,0,0,0,0,0,0,0
+E14000979,E12000002,Stretford and Urmston,Greater Manchester,North West,England,Borough,13/12/2019 03:54,Kate,Green,Female,Lab hold,Lab,Con,72372,50067,155,16417,13778,30195,2969,1768,1357,0,0,0,0,0,0,0,0,0
+E14000980,E12000009,Stroud,Gloucestershire,South West,England,County,13/12/2019 03:09,Siobhan,Baillie,Female,Con gain from Lab Coop,Con,Lab,84537,65930,185,3840,31582,27742,0,1085,4954,0,0,0,0,0,0,0,567,0
+E14000981,E12000006,Suffolk Coastal,Suffolk,East,England,County,13/12/2019 05:32,Thérèse,Coffey,Female,Con hold,Con,Lab,81910,58308,199,20533,32958,12425,8719,0,2713,0,0,0,0,0,0,0,1493,0
+E14000982,E12000001,Sunderland Central,Tyne and Wear,North East,England,Borough,13/12/2019 00:08,Julie,Elliott,Female,Lab hold,Lab,Con,72680,43476,104,2964,15372,18336,3025,5047,1212,0,0,0,0,0,0,0,484,0
+E14000983,E12000008,Surrey Heath,Surrey,South East,England,County,13/12/2019 03:45,Michael,Gove,Male,Con hold,Con,LD,81349,58654,237,18349,34358,5407,16009,0,2252,0,0,0,0,0,0,0,628,0
+E14000984,E12000007,Sutton and Cheam,London,London,England,Borough,13/12/2019 03:43,Paul,Scully,Male,Con hold,Con,LD,71779,50487,211,8351,25235,7200,16884,0,1168,0,0,0,0,0,0,0,0,0
+E14000985,E12000005,Sutton Coldfield,West Midlands,West Midlands,England,Borough,13/12/2019 03:22,Andrew,Mitchell,Male,Con hold,Con,Lab,75638,52325,312,19272,31604,12332,6358,0,2031,0,0,0,0,0,0,0,0,0
+W07000048,W92000004,Swansea East,West Glamorgan,Wales,Wales,Borough,13/12/2019 02:18,Carolyn,Harris,Female,Lab hold,Lab,Con,58450,33579,66,7970,9435,17405,1409,2842,583,0,1905,0,0,0,0,0,0,0
+W07000047,W92000004,Swansea West,West Glamorgan,Wales,Wales,Borough,13/12/2019 02:02,Geraint,Davies,Male,Lab hold,Lab,Con,57078,35830,127,8116,10377,18493,2993,1983,0,0,1984,0,0,0,0,0,0,0
+E14000986,E12000005,Tamworth,Staffordshire,West Midlands,England,County,13/12/2019 03:40,Christopher,Pincher,Male,Con hold,Con,Lab,71572,46056,154,19634,30542,10908,2426,0,935,0,0,0,0,0,0,0,1245,0
+E14000987,E12000002,Tatton,Cheshire,North West,England,County,13/12/2019 03:29,Esther,McVey,Female,Con hold,Con,Lab,69018,48967,179,17387,28277,10890,7712,0,2088,0,0,0,0,0,0,0,0,0
+E14000988,E12000009,Taunton Deane,Somerset,South West,England,County,13/12/2019 04:38,Rebecca,Pow,Female,Con hold,Con,LD,88676,63733,192,11700,34164,4715,22464,0,0,0,0,0,0,0,0,0,2390,0
+E14000989,E12000005,Telford,Shropshire,West Midlands,England,Borough,13/12/2019 02:56,Lucy,Allan,Female,Con hold,Con,Lab,68921,42825,224,10941,25546,14605,2674,0,0,0,0,0,0,0,0,0,0,0
+E14000990,E12000009,Tewkesbury,Gloucestershire,South West,England,County,13/12/2019 04:56,Laurence,Robertson,Male,Con hold,Con,LD,83958,61140,261,22410,35728,9310,13318,0,2784,0,0,0,0,0,0,0,0,0
+E14000991,E12000009,The Cotswolds,Gloucestershire,South West,England,County,13/12/2019 04:30,Geoffrey,Clifton-Brown,Male,Con hold,Con,LD,81939,61176,265,20214,35484,7110,15270,0,3312,0,0,0,0,0,0,0,0,0
+E14000992,E12000005,The Wrekin,Shropshire,West Midlands,England,County,13/12/2019 03:27,Mark,Pritchard,Male,Con hold,Con,Lab,70693,48890,194,18726,31029,12303,4067,0,1491,0,0,0,0,0,0,0,0,0
+E14000993,E12000003,Thirsk and Malton,North Yorkshire,Yorkshire and The Humber,England,County,13/12/2019 05:46,Kevin,Hollinrake,Male,Con hold,Con,Lab,80991,56588,242,25154,35634,10480,6774,0,2263,0,0,0,0,0,0,0,1437,0
+E14000994,E12000009,Thornbury and Yate,Avon,South West,England,County,13/12/2019 04:16,Luke,Hall,Male,Con hold,Con,LD,69492,52243,254,12369,30202,4208,17833,0,0,0,0,0,0,0,0,0,0,0
+E14000995,E12000006,Thurrock,Essex,East,England,Borough,13/12/2019 02:05,Jacqueline,Doyle-Price,Female,Con hold,Con,Lab,79659,47467,139,11482,27795,16313,1510,0,807,0,0,0,0,0,0,0,1042,0
+E14000996,E12000009,Tiverton and Honiton,Devon,South West,England,County,13/12/2019 04:49,Neil,Parish,Male,Con hold,Con,Lab,82953,59613,248,24239,35893,11654,8807,0,2291,0,0,0,0,0,0,0,968,0
+E14000997,E12000008,Tonbridge and Malling,Kent,South East,England,County,13/12/2019 04:04,Thomas,Tugendhat,Male,Con hold,Con,LD,79278,57003,312,26941,35784,8286,8843,0,4090,0,0,0,0,0,0,0,0,0
+E14000998,E12000007,Tooting,London,London,England,Borough,13/12/2019 03:03,Rosena,Allin-Khan,Female,Lab hold,Lab,Con,76954,58473,177,14307,16504,30811,8305,462,2314,0,0,0,0,0,0,0,77,0
+E14000999,E12000009,Torbay,Devon,South West,England,Borough,13/12/2019 02:47,Kevin,Foster,Male,Con hold,Con,LD,75054,50426,141,17749,29863,6562,12114,0,1239,0,0,0,0,0,0,0,648,0
+W07000053,W92000004,Torfaen,Gwent and Mid Glamorgan,Wales,Wales,County,13/12/2019 02:48,Nick,Thomas-Symonds,Male,Lab hold,Lab,Con,62330,37176,126,3742,11804,15546,1831,5742,812,0,1441,0,0,0,0,0,0,0
+E14001000,E12000009,Torridge and West Devon,Devon,South West,England,County,13/12/2019 06:56,Geoffrey,Cox,Male,Con hold,Con,LD,80403,59730,233,24992,35904,10290,10912,0,2077,0,0,0,0,0,0,0,547,0
+E14001001,E12000009,Totnes,Devon,South West,England,County,13/12/2019 03:49,Anthony,Mangnall,Male,Con hold,Con,LD,69863,52182,196,12724,27751,8860,15027,0,0,0,0,0,0,0,0,0,544,0
+E14001002,E12000007,Tottenham,London,London,England,Borough,13/12/2019 04:01,David,Lammy,Male,Lab hold,Lab,Con,75740,46856,204,30175,5446,35621,3168,527,1873,0,0,0,0,0,0,0,221,0
+E14001003,E12000009,Truro and Falmouth,Cornwall,South West,England,County,13/12/2019 02:20,Cherilyn,Mackrory,Female,Con hold,Con,Lab,76719,59190,171,4561,27237,22676,7150,0,1714,0,0,0,0,0,0,0,413,0
+E14001004,E12000008,Tunbridge Wells,Kent,South East,England,County,13/12/2019 03:51,Gregory,Clark,Male,Con hold,Con,LD,74823,54650,321,14645,30119,8098,15474,0,0,0,0,0,0,0,0,0,959,0
+E14001005,E12000007,Twickenham,London,London,England,Borough,13/12/2019 02:54,Munira,Wilson,Female,LD hold,LD,Con,84906,64503,239,14121,22045,5476,36166,816,0,0,0,0,0,0,0,0,0,0
+E14001006,E12000001,Tynemouth,Tyne and Wear,North East,England,Borough,13/12/2019 02:10,Alan,Campbell,Male,Lab hold,Lab,Con,77261,56034,179,4857,22071,26928,3791,1963,1281,0,0,0,0,0,0,0,0,0
+N06000017,N92000002,Upper Bann,Northern Ireland,Northern Ireland,Northern Ireland,County,13/12/2019 04:44,Carla,Lockhart,Female,DUP hold,DUP,SF,82887,50045,303,8210,0,0,0,0,0,0,0,20501,12291,4623,6197,6433,0,0
+E14001007,E12000007,Uxbridge and South Ruislip,London,London,England,Borough,13/12/2019 03:40,Boris,Johnson,Male,Con hold,Con,Lab,70365,48187,93,7210,25351,18141,3026,0,1090,0,0,0,0,0,0,0,579,0
+W07000060,W92000004,Vale Of Clwyd,Clwyd,Wales,Wales,County,13/12/2019 01:46,James,Davies,Male,Con gain from Lab,Con,Lab,56649,37213,84,1827,17270,15443,1471,1477,0,0,1552,0,0,0,0,0,0,0
+W07000078,W92000004,Vale Of Glamorgan,South Glamorgan,Wales,Wales,County,13/12/2019 02:02,Alun,Cairns,Male,Con hold,Con,Lab,76508,54807,294,3562,27305,23743,0,0,3251,0,0,0,0,0,0,0,508,0
+E14001008,E12000007,Vauxhall,London,London,England,Borough,13/12/2019 04:14,Florence,Eshalomi,Female,Lab hold,Lab,LD,88659,56333,236,19612,9422,31615,12003,641,2516,0,0,0,0,0,0,0,136,0
+E14001009,E12000003,Wakefield,West Yorkshire,Yorkshire and The Humber,England,County,13/12/2019 03:40,Imran,Ahmad Khan,Male,Con gain from Lab,Con,Lab,70192,45027,137,3358,21283,17925,1772,2725,0,0,0,0,0,0,0,0,1322,0
+E14001010,E12000002,Wallasey,Merseyside,North West,England,Borough,13/12/2019 02:58,Angela,Eagle,Female,Lab hold,Lab,Con,66310,46492,102,18322,11579,29901,1843,2037,1132,0,0,0,0,0,0,0,0,0
+E14001011,E12000005,Walsall North,West Midlands,West Midlands,England,Borough,13/12/2019 02:27,Eddie,Hughes,Male,Con hold,Con,Lab,67177,36556,125,11965,23334,11369,1236,0,617,0,0,0,0,0,0,0,0,0
+E14001012,E12000005,Walsall South,West Midlands,West Midlands,England,Borough,13/12/2019 03:11,Valerie,Vaz,Female,Lab hold,Lab,Con,68024,42472,115,3456,17416,20872,1602,1660,634,0,0,0,0,0,0,0,288,0
+E14001013,E12000007,Walthamstow,London,London,England,County,13/12/2019 01:56,Stella,Creasy,Female,Lab hold,Lab,Con,70267,48335,206,30862,5922,36784,2874,768,1733,0,0,0,0,0,0,0,254,0
+E14001014,E12000001,Wansbeck,Northumberland,North East,England,County,13/12/2019 01:18,Ian,Lavery,Male,Lab hold,Lab,Con,63339,40509,119,814,16310,17124,2539,3141,1217,0,0,0,0,0,0,0,178,0
+E14001015,E12000008,Wantage,Oxfordshire,South East,England,County,13/12/2019 05:08,David,Johnston,Male,Con hold,Con,LD,90867,67173,306,12653,34085,10181,21432,0,0,0,0,0,0,0,0,0,1475,0
+E14001016,E12000005,Warley,West Midlands,West Midlands,England,Borough,13/12/2019 02:15,John,Spellar,Male,Lab hold,Lab,Con,62357,37239,142,11511,10390,21901,1588,2469,891,0,0,0,0,0,0,0,0,0
+E14001017,E12000002,Warrington North,Cheshire,North West,England,Borough,13/12/2019 04:00,Charlotte,Nichols,Female,Lab hold,Lab,Con,72235,46667,169,1509,19102,20611,3071,2626,1257,0,0,0,0,0,0,0,0,0
+E14001018,E12000002,Warrington South,Cheshire,North West,England,Borough,13/12/2019 04:19,Andy,Carter,Male,Con gain from Lab,Con,Lab,86015,61899,187,2010,28187,26177,5732,1635,0,0,0,0,0,0,0,0,168,0
+E14001019,E12000005,Warwick and Leamington,Warwickshire,West Midlands,England,Borough,13/12/2019 04:10,Matt,Western,Male,Lab hold,Lab,Con,76362,54205,128,789,22929,23718,4995,807,1536,0,0,0,0,0,0,0,220,0
+E14001020,E12000001,Washington and Sunderland West,Tyne and Wear,North East,England,Borough,13/12/2019 00:41,Sharon,Hodgson,Female,Lab hold,Lab,Con,66278,37513,108,3723,12218,15941,2071,5439,1005,0,0,0,0,0,0,0,839,0
+E14001021,E12000006,Watford,Hertfordshire,East,England,Borough,13/12/2019 03:07,Dean,Russell,Male,Con hold,Con,Lab,83359,58065,263,4433,26421,21988,9323,0,0,0,0,0,0,0,0,0,333,0
+E14001022,E12000006,Waveney,Suffolk,East,England,County,13/12/2019 03:44,Peter,Aldous,Male,Con hold,Con,Lab,82791,51129,175,18002,31778,13776,2603,0,2727,0,0,0,0,0,0,0,245,0
+E14001023,E12000008,Wealden,East Sussex,South East,England,County,13/12/2019 02:52,Nusrat,Ghani,Female,Con hold,Con,LD,82998,60907,365,25655,37043,9377,11388,0,3099,0,0,0,0,0,0,0,0,0
+E14001024,E12000002,Weaver Vale,Cheshire,North West,England,County,13/12/2019 03:30,Mike,Amesbury,Male,Lab hold,Lab,Con,70551,50713,113,562,22210,22772,3300,1380,1051,0,0,0,0,0,0,0,0,0
+E14001025,E12000004,Wellingborough,Northamptonshire,East Midlands,England,County,13/12/2019 03:16,Peter,Bone,Male,Con hold,Con,Lab,80765,51913,235,18540,32277,13737,4078,0,1821,0,0,0,0,0,0,0,0,0
+E14001026,E12000009,Wells,Somerset,South West,England,County,13/12/2019 04:25,James,Heappey,Male,Con hold,Con,LD,81898,61628,216,9991,33336,4304,23345,0,0,0,0,0,0,0,0,0,643,0
+E14001027,E12000006,Welwyn Hatfield,Hertfordshire,East,England,County,13/12/2019 04:38,Grant,Shapps,Male,Con hold,Con,Lab,74892,52053,226,10955,27394,16439,6602,0,1618,0,0,0,0,0,0,0,0,0
+E14001028,E12000003,Wentworth and Dearne,South Yorkshire,Yorkshire and The Humber,England,County,13/12/2019 03:40,John,Healey,Male,Lab hold,Lab,Con,74536,41557,127,2165,14577,16742,1705,7019,0,0,0,0,0,0,0,0,1514,0
+S14000058,S92000003,West Aberdeenshire and Kincardine,Scotland,Scotland,Scotland,County,13/12/2019 04:51,Andrew,Bowie,Male,Con hold,Con,SNP,72640,53345,114,843,22752,2431,6253,0,0,21909,0,0,0,0,0,0,0,0
+E14001029,E12000005,West Bromwich East,West Midlands,West Midlands,England,Borough,13/12/2019 03:04,Nicola,Richards,Female,Con gain from Lab,Con,Lab,62046,35975,104,1593,16804,15211,1313,1475,627,0,0,0,0,0,0,0,545,0
+E14001030,E12000005,West Bromwich West,West Midlands,West Midlands,England,Borough,13/12/2019 02:47,Shaun,Bailey,Male,Con gain from Lab Coop,Con,Lab,64517,34459,84,3799,17419,13620,915,1841,664,0,0,0,0,0,0,0,0,0
+E14001031,E12000009,West Dorset,Dorset,South West,England,County,13/12/2019 04:39,Chris,Loder,Male,Con hold,Con,LD,81897,60925,237,14106,33589,5729,19483,0,2124,0,0,0,0,0,0,0,0,0
+S14000059,S92000003,West Dunbartonshire,Scotland,Scotland,Scotland,County,13/12/2019 02:13,Martin,Docherty-Hughes,Male,SNP hold,SNP,Lab,66517,45140,104,9553,6436,12843,1890,0,867,22396,0,0,0,0,0,0,708,0
+E14001032,E12000007,West Ham,London,London,England,Borough,13/12/2019 03:42,Lyn,Brown,Female,Lab hold,Lab,Con,97947,60200,317,32388,9793,42181,4161,1679,1780,0,0,0,0,0,0,0,606,0
+E14001033,E12000002,West Lancashire,Lancashire,North West,England,County,13/12/2019 03:07,Rosie,Cooper,Female,Lab hold,Lab,Con,73347,52663,170,8336,19122,27458,2560,2275,1248,0,0,0,0,0,0,0,0,0
+E14001036,E12000007,Westminster North,London,London,England,Borough,13/12/2019 03:09,Karen,Buck,Female,Lab hold,Lab,Con,65519,42911,133,10759,12481,23240,5593,418,1064,0,0,0,0,0,0,0,115,0
+E14001037,E12000002,Westmorland and Lonsdale,Cumbria,North West,England,County,13/12/2019 02:28,Timothy,Farron,Male,LD hold,LD,Con,67789,52712,141,1934,23861,2293,25795,763,0,0,0,0,0,0,0,0,0,0
+E14001038,E12000009,Weston-Super-Mare,Avon,South West,England,County,13/12/2019 04:53,John,Penrose,Male,Con hold,Con,Lab,82526,55614,255,17121,31983,14862,6935,0,1834,0,0,0,0,0,0,0,0,0
+E14001034,E12000006,West Suffolk,Suffolk,East,England,County,13/12/2019 02:44,Matthew,Hancock,Male,Con hold,Con,Lab,80193,51437,336,23194,33842,10648,4685,0,2262,0,0,0,0,0,0,0,0,0
+N06000018,N92000002,West Tyrone,Northern Ireland,Northern Ireland,Northern Ireland,County,13/12/2019 02:19,Órfhlaith,Begley,Female,SF hold,SF,DUP,66259,41186,189,7478,0,0,0,0,521,0,0,9066,16544,7330,2774,3979,972,0
+E14001035,E12000005,West Worcestershire,Hereford and Worcester,West Midlands,England,County,13/12/2019 03:16,Harriett,Baldwin,Female,Con hold,Con,LD,76241,57530,296,24499,34909,9496,10410,0,2715,0,0,0,0,0,0,0,0,0
+E14001039,E12000002,Wigan,Greater Manchester,North West,England,County,13/12/2019 01:52,Lisa,Nandy,Female,Lab hold,Lab,Con,75680,45042,134,6728,14314,21042,2428,5959,1299,0,0,0,0,0,0,0,0,0
+E14001040,E12000007,Wimbledon,London,London,England,Borough,13/12/2019 03:51,Stephen,Hammond,Male,Con hold,Con,LD,68240,53027,217,628,20373,12543,19745,0,0,0,0,0,0,0,0,0,366,0
+E14001041,E12000008,Winchester,Hampshire,South East,England,County,13/12/2019 05:30,Stephen,Brine,Male,Con hold,Con,LD,75582,58890,210,985,28430,2723,27445,0,0,0,0,0,0,0,0,0,292,0
+E14001042,E12000008,Windsor,Berkshire,South East,England,County,13/12/2019 03:51,Adam,Afriyie,Male,Con hold,Con,LD,75038,53750,201,20079,31501,8147,11422,0,1796,0,0,0,0,0,0,0,884,0
+E14001043,E12000002,Wirral South,Merseyside,North West,England,County,13/12/2019 02:38,Alison,McGovern,Female,Lab hold,Lab,Con,57280,43547,112,6105,16179,22284,2917,1219,948,0,0,0,0,0,0,0,0,0
+E14001044,E12000002,Wirral West,Merseyside,North West,England,County,13/12/2019 02:52,Margaret,Greenwood,Female,Lab hold,Lab,Con,55550,42918,107,3003,17692,20695,2706,860,965,0,0,0,0,0,0,0,0,0
+E14001045,E12000006,Witham,Essex,East,England,County,13/12/2019 03:40,Priti,Patel,Female,Con hold,Con,Lab,70402,49344,209,24082,32876,8794,4584,0,3090,0,0,0,0,0,0,0,0,0
+E14001046,E12000008,Witney,Oxfordshire,South East,England,County,13/12/2019 03:15,Robert,Courts,Male,Con hold,Con,LD,83845,61305,392,15177,33856,8770,18679,0,0,0,0,0,0,0,0,0,0,0
+E14001047,E12000008,Woking,Surrey,South East,England,County,13/12/2019 04:19,Jonathan,Lord,Male,Con hold,Con,LD,75424,53937,177,9767,26396,8827,16629,0,1485,0,0,0,0,0,0,0,600,0
+E14001048,E12000008,Wokingham,Berkshire,South East,England,County,13/12/2019 03:04,John,Redwood,Male,Con hold,Con,LD,83953,61997,219,7383,30734,6450,23351,0,1382,0,0,0,0,0,0,0,80,0
+E14001049,E12000005,Wolverhampton North East,West Midlands,West Midlands,England,Borough,13/12/2019 02:37,Jane,Stevenson,Female,Con gain from Lab,Con,Lab,61660,34281,92,4080,17722,13642,960,1354,603,0,0,0,0,0,0,0,0,0
+E14001050,E12000005,Wolverhampton South East,West Midlands,West Midlands,England,Borough,13/12/2019 03:03,Pat,McFadden,Male,Lab hold,Lab,Con,62883,33443,78,1235,14287,15522,1019,2094,521,0,0,0,0,0,0,0,0,0
+E14001051,E12000005,Wolverhampton South West,West Midlands,West Midlands,England,Borough,13/12/2019 02:53,Stuart,Anderson,Male,Con gain from Lab,Con,Lab,60534,41136,148,1661,19864,18203,2041,1028,0,0,0,0,0,0,0,0,0,0
+E14001052,E12000005,Worcester,Hereford and Worcester,West Midlands,England,Borough,13/12/2019 03:16,Robin,Walker,Male,Con hold,Con,Lab,73485,50898,174,6758,25856,19098,3666,0,1694,0,0,0,0,0,0,0,584,0
+E14001053,E12000002,Workington,Cumbria,North West,England,County,13/12/2019 01:23,Mark,Jenkinson,Male,Con gain from Lab,Con,Lab,61370,41599,93,4176,20488,16312,1525,1749,596,0,0,0,0,0,0,0,929,0
+E14001054,E12000002,Worsley and Eccles South,Greater Manchester,North West,England,County,13/12/2019 03:23,Barbara,Keeley,Female,Lab hold,Lab,Con,75219,44707,118,3219,17227,20446,2510,3224,1300,0,0,0,0,0,0,0,0,0
+E14001055,E12000008,Worthing West,West Sussex,South East,England,Borough,13/12/2019 05:08,Peter,Bottomley,Male,Con hold,Con,Lab,78585,54648,274,14823,30475,15652,6024,0,2008,0,0,0,0,0,0,0,489,0
+W07000044,W92000004,Wrexham,Clwyd,Wales,Wales,County,13/12/2019 01:49,Sarah,Atherton,Female,Con gain from Lab,Con,Lab,49737,33532,70,2131,15199,13068,1447,1222,445,0,2151,0,0,0,0,0,0,0
+E14001056,E12000008,Wycombe,Buckinghamshire,South East,England,County,13/12/2019 02:01,Steve,Baker,Male,Con hold,Con,Lab,78093,54756,168,4214,24766,20552,6543,0,1454,0,0,0,0,0,0,0,1441,0
+E14001057,E12000002,Wyre and Preston North,Lancashire,North West,England,County,13/12/2019 03:34,Ben,Wallace,Male,Con hold,Con,Lab,74775,52924,200,16781,31589,14808,4463,0,1729,0,0,0,0,0,0,0,335,0
+E14001058,E12000005,Wyre Forest,Hereford and Worcester,West Midlands,England,County,13/12/2019 03:12,Mark,Garnier,Male,Con hold,Con,Lab,78077,50561,257,21413,32960,11547,4081,0,1973,0,0,0,0,0,0,0,0,0
+E14001059,E12000002,Wythenshawe and Sale East,Greater Manchester,North West,England,Borough,13/12/2019 05:04,Michael,Kane,Male,Lab hold,Lab,Con,76313,44759,125,10396,13459,23855,3111,2717,1559,0,0,0,0,0,0,0,58,0
+E14001060,E12000009,Yeovil,Somerset,South West,England,County,13/12/2019 05:28,Marcus,Fysh,Male,Con hold,Con,LD,82468,59260,148,16181,34588,3761,18407,0,1629,0,0,0,0,0,0,0,875,0
+W07000041,W92000004,Ynys Mon,Gwynedd,Wales,Wales,County,13/12/2019 02:45,Virginia,Crosbie,Female,Con gain from Lab,Con,Lab,51925,36552,121,1968,12959,10991,0,2184,0,0,10418,0,0,0,0,0,0,0
+E14001061,E12000003,York Central,North Yorkshire,Yorkshire and The Humber,England,Borough,13/12/2019 04:18,Rachael,Maskell,Female,Lab hold,Lab,Con,74899,49505,198,13545,13767,27312,4149,1479,2107,0,0,0,0,0,0,0,691,0
+E14001062,E12000003,York Outer,North Yorkshire,Yorkshire and The Humber,England,County,13/12/2019 04:35,Julian,Sturdy,Male,Con hold,Con,Lab,74673,55347,228,9985,27324,17339,9992,0,0,0,0,0,0,0,0,0,692,0
