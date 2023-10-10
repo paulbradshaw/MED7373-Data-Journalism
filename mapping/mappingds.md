@@ -8,7 +8,7 @@ Examples include:
 * [Election data](https://www.electoralcalculus.co.uk/flatfile.html) from the a previous election in the UK or elsewhere (e.g. looking ahead to the next one)
 * [Crime reports by police authority from the Home Office](https://www.gov.uk/government/collections/crime-statistics)
 * [School spending or absences by local authority](https://www.gov.uk/government/collections/statistics-local-authority-school-finance-data)
-* [Food hygiene inspection data](https://data.food.gov.uk/catalog/datasets/38dd8d6a-5ab1-4f50-b753-ab33288e3200) - this will need converting to CSV
+* [Food hygiene inspection data](https://data.food.gov.uk/catalog/datasets/38dd8d6a-5ab1-4f50-b753-ab33288e3200) - this will need converting to CSV so you'll need to find an [XML to CSV converter](https://www.convertcsv.com/xml-to-csv.htm) to do that first (useful experience!)
 
 You'll [find plenty of examples in the datasets folder here](https://github.com/paulbradshaw/MED7373-Data-Journalism/tree/master/mapping/datasets)
 
