@@ -14,6 +14,11 @@ You'll [find plenty of examples in the datasets folder here](https://github.com/
 
 Write a story about the data. Consider whether the map is there to show a pattern or distribution - or if it's exploratory (designed for users to explore). 
 
+There are two genres of story which are most likely:
+
+* A news story about change, ranking, the scale of something, or variation - where the map adds extra illustration
+* An interactive feature where the map *is* the story. [Tips on writing that here](https://github.com/paulbradshaw/journalismrecipebook/blob/main/chapters/mapped.md)
+
 Keep it simple!
 
 Consider alternatives ways of visualising the data, or parts of it, e.g. bar charts or pie charts etc.
