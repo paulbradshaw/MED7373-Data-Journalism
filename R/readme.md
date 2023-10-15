@@ -1,9 +1,10 @@
 # R workshop exercises and directed study
 
-Check out [10 things to do with R first](https://github.com/paulbradshaw/Rintro/blob/master/10thingstodofirst.md) in [my repo dedicated to R](https://github.com/paulbradshaw/Rintro/) and look at the other guides there including [10 *more* things you can do in R next](https://github.com/paulbradshaw/Rintro/blob/master/10morethings.md).
+You can [find a notebook that replicates the steps covered in the lesson here](https://github.com/paulbradshaw/MED7373-Data-Journalism/blob/master/R/presentation_notebook.md). You can also [download it as an R Markdown folder here](https://github.com/paulbradshaw/MED7373-Data-Journalism/blob/master/R/notebookexample/presentation_notebook.Rmd) (click on the download button).
 
 You can do any of the following workshops:
 
+* Check out [10 things to do with R first](https://github.com/paulbradshaw/Rintro/blob/master/10thingstodofirst.md) in [my repo dedicated to R](https://github.com/paulbradshaw/Rintro/) and look at the other guides there including [10 *more* things you can do in R next](https://github.com/paulbradshaw/Rintro/blob/master/10morethings.md).
 * [R exercises](https://github.com/paulbradshaw/MED7373-Data-Journalism/blob/master/R/Rexercises.md) including creating a variable, changing it, and working with vectors and data frames
 * [Getting started with crime data](https://github.com/paulbradshaw/MED7373-Data-Journalism/blob/master/R/crimedata.md) shows how to import and merge datasets from two different areas, then create a filtered subset
 * [Working with MPs' expenses to demonstrate R](https://github.com/paulbradshaw/MED7373-Data-Journalism/blob/master/R/Rcsvexample.md) uses similar processes, in more depth
