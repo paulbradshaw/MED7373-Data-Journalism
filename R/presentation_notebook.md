@@ -1,10 +1,3 @@
----
-title: "firstproject"
-author: "BIGNEWS"
-date: "2023-10-13"
-output: html_document
----
-
 # An introduction to R and coding (MED7373 Data Journalism notes)
 
 This notebook documents the code used in the MED7373 Data Journalism class workshop introducing R.
