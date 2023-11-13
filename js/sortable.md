@@ -26,7 +26,7 @@ Alternatively, you can create HTML pages directly in GitHub and publish it on Gi
 
 HTML tables can be coded by hand, but it's much easier (and more common) to find a tool that will do it for you. 
 
-[Tableizer](http://tableizer.journalistopia.com/) is one widely-used web-based tool which will take data pasted from a spreadsheet, and turn it into a HTML table (note: it may crash if you try to paste too much data into it).
+[Tableizer](http://tableizer.journalistopia.com/) is one widely-used web-based tool which will take data pasted from a spreadsheet, and turn it into a HTML table (note: it may crash if you try to paste too much data into it). *If you need a table of data, you can [try the table shared here](https://docs.google.com/spreadsheets/d/1QecM3UWioAgpYPFg9bbnxMHtTROYMrqP_jzlpkUZKNo/edit?usp=sharing).*
 
 1. Copy your data from Excel, Google Sheets, or anywhere else
 2. Paste it into the box at [tableizer.journalistopia.com](http://tableizer.journalistopia.com/) - and tick the 'No CSS' box
