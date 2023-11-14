@@ -28,6 +28,10 @@ You will also need to build on/tweak the HTML for more specific purposes: it's l
 
 You might also want to add a new prompt asking it to round the number so that it's not displaying to multiple decimal places.
 
+**IMPORTANT: Use of generative AI should be clearly attributed - failure to attribute the use of generative AI is considered a Category A plagiarism. If you are using generative AI in your work, make sure you document the process (e.g. screenshots; copies of prompts and responses) and what you did with the results (e.g. edited, adapted, iterated).** 
+
+**There should be some critical reflection on good practice and limitations: after all, you are exploring emerging practices in the industry, so there's an opportunity here to contribute to knowledge.**
+
 ## Tips on using generative AI in your coding
 
 Some other tips to consider when using this approach:
@@ -38,4 +42,5 @@ Some other tips to consider when using this approach:
 * Ask it to break up the code into sections for Codepen
 * Iterate: ask it to add labels, change colours, etc.
 * Ask it to problem-solve: paste code and ask it why it might not be working
+* Keep notes on the prompts and the responses - see the note above on attribution
 
