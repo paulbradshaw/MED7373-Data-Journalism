@@ -60,9 +60,13 @@ The JavaScript and CSS files are hosted on a website called [CDNJS](https://cdnj
 
 In the window that appears you should see options on the left for the three views: HTML, CSS and JS (JavaScript). 
 
-Select the **JS** view. In the *Add External Scripts/Pens* section paste this URL: `https://cdnjs.cloudflare.com/ajax/libs/sortable/0.8.0/js/sortable.min.js`
+Select the **JS** view. In the *Add External Scripts/Pens* section (*below* the search box) paste this URL: 
 
-Switch to the section headed **CSS** and again scroll down to *Add External Stylesheets/Pens* then paste this URL into the empty box: `https://cdnjs.cloudflare.com/ajax/libs/sortable/0.8.0/css/sortable-theme-light.css`. 
+`https://cdnjs.cloudflare.com/ajax/libs/sortable/0.8.0/js/sortable.min.js`
+
+Switch to the section headed **CSS** and again scroll down to *Add External Stylesheets/Pens* then paste this URL into the empty box underneath the search box: 
+
+`https://cdnjs.cloudflare.com/ajax/libs/sortable/0.8.0/css/sortable-theme-light.css`
 
 Click **Save & Close**. You should see the table now looks different in the preview, and you can click on the heading of any column and it will sort the table by that column.
 
