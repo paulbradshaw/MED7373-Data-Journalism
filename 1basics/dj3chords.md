@@ -9,6 +9,7 @@ With just those 3 tools you can find and tell the most basic data journalism sto
 First, you'll need some data to try out these techniques. Here are 3 useful datasets I'll refer to:
 
 * [Donations to political parties](https://search.electoralcommission.org.uk/) (conduct a search and look for the data download link under the results)
+* [West Midlands Fire Service incidents](https://www.cityobservatory.birmingham.gov.uk/@west-midlands-fire-service/wmfs-incident-data-since-2009)
 * [Gender pay gap data](https://github.com/paulbradshaw/genderpaygap)
 * [Local authority spending above £500 (Birmingham)](https://www.cityobservatory.birmingham.gov.uk/@birmingham-city-council/payments-to-suppliers-over-500) (the most recent release is at the bottom)
 * [Stop and search data](https://data.police.uk/data/) (tick *West Midlands* and *Include stop and search data*). There's a [GitHub repo for the data used in a story on Birmingham Eastside](https://github.com/Birmingham-Eastside/stop-and-search) which you can use too - this has totals for two months that can be compared.
