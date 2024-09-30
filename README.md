@@ -29,14 +29,14 @@ You will also be expected to feed your own experiences into each class - and you
 By the end of this week you should be able to describe what data journalism is, and what types of stories you can find and tell with data journalism techniques. You should be able to generate ideas for data journalism stories yourself, and identify some sources of data. 
 
 * Workshop: [Data journalism story workshop](https://github.com/paulbradshaw/MED7373-Data-Journalism/tree/master/storytelling); 
-* Directed study: [Create a news diary](https://onlinejournalismblog.com/2022/12/08/how-to-create-a-data-news-diary/)
-  * Review [examples of data journalism](https://pinboard.in/u:paulbradshaw/t:dj)
-  * Brainstorm story ideas ([here are some data sources](https://pinboard.in/u:paulbradshaw/t:data) to help)
+* Directed study:
+ * Review [examples of data journalism](https://onlinejournalismblog.com/2020/08/11/here-are-the-7-types-of-stories-most-often-found-in-data/) - what sources do they use? Where has the idea come from? What angle? Make notes. (30-60’)
+ * [Create a news diary](https://onlinejournalismblog.com/2022/12/08/how-to-create-a-data-news-diary/) (e.g. in Google Calendar)
+ * [Look for data sources](https://www.youtube.com/watch?v=14GO61WDDUE&feature=youtu.be) and brainstorm ideas. Share your story ideas on Slack and give feedback to others. (30-60’)
+ * Use the techniques from the Data Journalism Heist to analyse data. Have problems/questions to bring to the next class
 * Reading:
-  * [Anderson, CW (2012) Towards a sociology of computational and algorithmic journalism](https://www.scribd.com/document/120198213/Towards-a-sociology-of-computational-and-algorithmic-journalism)
+  * [Data Feminism ch4: What Gets Counted Counts](https://data-feminism.mitpress.mit.edu/pub/h1w0nbqp/release/3)
   * [Data Journalism Heist](https://leanpub.com/DataJournalismHeist) *(BCU students please ask for your voucher for a free copy)*
-
-Bonus: you will [find instructions on how to get started with GitHub in this repository](https://github.com/paulbradshaw/introtogithub). 
 
 
 ## 2: Data journalism's 3 chords
