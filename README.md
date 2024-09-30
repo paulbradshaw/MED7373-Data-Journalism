@@ -30,10 +30,10 @@ By the end of this week you should be able to describe what data journalism is, 
 
 * Workshop: [Data journalism story workshop](https://github.com/paulbradshaw/MED7373-Data-Journalism/tree/master/storytelling); 
 * Directed study:
- * Review [examples of data journalism](https://onlinejournalismblog.com/2020/08/11/here-are-the-7-types-of-stories-most-often-found-in-data/) - what sources do they use? Where has the idea come from? What angle? Make notes. (30-60’)
- * [Create a news diary](https://onlinejournalismblog.com/2022/12/08/how-to-create-a-data-news-diary/) (e.g. in Google Calendar)
- * [Look for data sources](https://www.youtube.com/watch?v=14GO61WDDUE&feature=youtu.be) and brainstorm ideas. Share your story ideas on Slack and give feedback to others. (30-60’)
- * Use the techniques from the Data Journalism Heist to analyse data. Have problems/questions to bring to the next class
+  * Review [examples of data journalism](https://onlinejournalismblog.com/2020/08/11/here-are-the-7-types-of-stories-most-often-found-in-data/) - what sources do they use? Where has the idea come from? What angle? Make notes. (30-60’)
+  * [Create a news diary](https://onlinejournalismblog.com/2022/12/08/how-to-create-a-data-news-diary/) (e.g. in Google Calendar)
+  * [Look for data sources](https://www.youtube.com/watch?v=14GO61WDDUE&feature=youtu.be) and brainstorm ideas. Share your story ideas on Slack and give feedback to others. (30-60’)
+  * Use the techniques from the Data Journalism Heist to analyse data. Have problems/questions to bring to the next class
 * Reading:
   * [Data Feminism ch4: What Gets Counted Counts](https://data-feminism.mitpress.mit.edu/pub/h1w0nbqp/release/3)
   * [Data Journalism Heist](https://leanpub.com/DataJournalismHeist) *(BCU students please ask for your voucher for a free copy)*
