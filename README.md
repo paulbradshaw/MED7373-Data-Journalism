@@ -63,7 +63,24 @@ By the end of this week you should be able to use a range of spreadsheet functio
 
 **Additional resources**: OpenLearn: [Computational thinking and automation](https://www.open.edu/openlearn/science-maths-technology/computing-ict/introduction-computational-thinking/content-section-1.1)
 
-## 4: Critical cartography: why, how - and when - to map
+## 4: Visualisation
+
+By the end of this week you should be able to choose the right chart to illustrate a given story, and to edit that chart to improve clarity and accuracy. You should also be able to explain and address critical issues such as accessibility and diversity.
+
+* Lecture part 1: [editorial devices in visualisation](https://web.microsoftstream.com/video/35690311-bd81-426b-bea2-9f402e79378c) (50')
+* Lecture part 2: [Choosing the chart that tells the story](https://web.microsoftstream.com/video/b87c1bec-9c8e-401e-989d-95818f1e4155) (55')
+* [Workshop: telling a number story with Datawrapper](https://docs.google.com/document/d/e/2PACX-1vRJ3aaH1Pmd2RzZK7k5lZ9EYC0cgYR2KTtL1afOBCx53VB-iPz7UOVOK5B3cw4uvB6p4DD4ee7QFmNr/pub)
+* Task: Create charts for the stories you have written so far. Identify upcoming data to write a story for, and practice making charts from previous data
+* Reading: Alan Smith: How Charts Work ch3+
+* Suggested additional reading: 
+  * [39 studies about human perception in 30 minutes](https://medium.com/@kennelliott/39-studies-about-human-perception-in-30-minutes-4728f9e31a73)
+  * [Narrative Visualization: Telling Stories with Data](http://vis.stanford.edu/files/2010-Narrative-InfoVis.pdf)
+  * [Nerd Journalism](https://www.dropbox.com/s/umr3r11v8dc088x/nerdJournalismDISSERTATION.pdf?dl=0)
+  * [A Task by Data Type Taxonomy for Information Visualizations](https://www.mat.ucsb.edu/~g.legrady/academic/courses/11w259/schneiderman.pdf)
+  * [When Does an Infographic Say More Than a Thousand Words?](http://www.tandfonline.com/doi/full/10.1080/1461670X.2016.1267592)
+  * [Seeing Data Project](http://seeingdata.org/)
+  
+## 5: Critical cartography: why, how - and when - to map
 
 By the end of this week you should be able to create a range of map types (point, shape, heat) and talk about the ethical issues surrounding mapping. You should also be able to use SQL to query data.
 
@@ -72,18 +89,6 @@ By the end of this week you should be able to create a range of map types (point
 * Reading: [Thinking about maps](http://personalpages.manchester.ac.uk/staff/m.dodge/rethinking_maps_introduction_pageproof.pdf)
 * Task: [Write a MAPPED! story](https://github.com/paulbradshaw/MED7373-Data-Journalism/blob/master/mapping/mappingds.md)
 * Optional: any chapter(s) from [Mapping, Society and Technology](http://open.lib.umn.edu/mapping/)
-
-## 5: Solving data problems - R
-
-By the end of this week you should be able to identify common data problems, and use techniques to solve those. You should also be able to use basic data processing and analysis techniques in R.
-
-* Workshop: Importing, analysing, and exporting in R ([Fork this repo!](https://github.com/paulbradshaw/rintro))
-* Task: Use R to clean and check your data
-* Reading:
-  * [Free ebook: R For Beginners](https://cran.r-project.org/doc/contrib/Paradis-rdebuts_en.pdf)
-  * [Playlist: R programming tutorials](https://www.youtube.com/watch?v=WJDrYUqNrHg&index=1&list=PLvhG5FRoq78otMp0WbWuJsFOarEAchMek)
-  * [Directed study: playing with R](https://github.com/paulbradshaw/MED7373-Data-Journalism/blob/master/R/ds.md)
-
 
 ## 6: Dirty data and cleaning
 
@@ -94,8 +99,19 @@ By the end of this week you should be able to identify common data problems, and
   * One of the [tutorials on cleaning in R](https://github.com/paulbradshaw/cleaning/tree/master/cleaning_r)
 * Task: Use [Heather Krause’s data biography approach](https://gijn.org/2017/03/27/data-biographies-getting-to-know-your-data/) to evaluate a data source(s) you plan to use for a story 
 * Reading: [Stray: The Curious Journalist's Guide to Data](http://www.documentcloud.org/documents/2790871-Curious-Journalist-S-Guide-to-Data.html)
+
+## 7: When to use code - and how
+
+By the end of this week you should be able to identify scenarios where the use of programming languages such as Python and R is justified, and to explain critical considerations such as transparency and replicability. 
+
+* Lecture: Notebooks and literate programming
+* Workshop: Importing, analysing, and exporting in Python
+
+## 8: APIs
+
+By the end of this week you should be able to source data from APIs using coding.
   
-## 7: Mobile first: responsive and other design considerations
+## 9: Mobile first: responsive and other design considerations
 
 By the end of this week you should be able to create a basic HTML page with CSS styles, and explain the basics of design for mobile devices.
 
@@ -109,17 +125,7 @@ By the end of this week you should be able to create a basic HTML page with CSS 
 **Additional resources**: 
 * [YouTube playlist: the UIkit frontend framework](https://www.youtube.com/playlist?list=PL2SfpsC7cy0gv9O7nNKyQZBrFjhi3LH-V) (for designing responsive pages, longform and scrollytelling)
 
-## 8: Making it visual, making it interactive - JavaScript
-
-By the end of this week you should be able to explain basic concepts in JavaScript and use it to create basic interactivity and/or visualisations. *Note: the [Narrative module](https://github.com/paulbradshaw/MED7334-Narrative) class on principles of visualisation and visual design, and the class on ergodic storytelling are particularly relevant to your work in this area*
-
-* Workshop: JavaScript interactivity and vis: counters, quizzes, charts ([folder of exercises here](https://github.com/paulbradshaw/MED7373-Data-Journalism/tree/master/js))
-* Task: Continued work on JavaScript
-* Reading:
-  * Dona Wong (2010) The Wall Street Journal Guide to Information Graphics
-  * Manuel Matuzovic: [Writing JavaScript with accessibility in mind](https://medium.com/@matuzo/writing-javascript-with-accessibility-in-mind-a1f6a5f467b9)
-
-## 9: Open data, linked data, big data and SQL
+## 10: Open data, linked data, big data and SQL
 
 By the end of this week you should be able to identify techniques for working with large datasets, and issues surrounding big data, linked data, and open data.
 
@@ -131,7 +137,7 @@ By the end of this week you should be able to identify techniques for working wi
   * Data.world's [Gitbook on SQL](https://docs.data.world/tutorials/dwsql/#sql-on-dataworld) is a useful resource and the platform is a good place to practise SQL queries on your own data.
 
 
-## 10: Portfolio review
+## 11: Portfolio review
 
 This week we review your progress so far, and look ahead to the assignment. You will also find material in this section on future developments such as AI, machine learning and bots.
 
