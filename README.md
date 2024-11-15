@@ -106,6 +106,7 @@ By the end of this week you should be able to identify scenarios where the use o
 
 * Lecture: Notebooks and literate programming
 * Workshop: Running notebooks, creating variables, and using built-in AI
+* Reading/watching: Winny de Jong’s ]Python for Journalists](https://datajournalism.com/watch/python-for-journalists) OR Ben Welsh’s [Python MOOC](https://www.youtube.com/playlist?list=PLD1sPR1niPYyI676ZOhW4Bz5o9tad_7oM)
 
 ## 8: Data in Python
 
