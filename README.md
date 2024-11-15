@@ -113,10 +113,7 @@ By the end of this week you should be able to import and export data using Pytho
 
 * Lecture: Data objects in Python
 * Workshop: Importing, analysing, and exporting in Python
-* Watching:
- * [Introduction to APIs and how they're used in data journalism](https://www.youtube.com/watch?v=AjQEJnTAm3k)
- * [APIs in data journalism: understanding JSON and XML](https://www.youtube.com/watch?v=WMWR4Z51cso)
- * [API jargon for data journalists: what methods, arguments and keys are](https://www.youtube.com/watch?v=gTYcPK-Suqk)
+* Watching: [Playlist of videos on APIs](https://www.youtube.com/watch?v=tphbjFkXgZo&list=PL-ZV9BlgytWiRcsihccQFWzg5--64rvnk&index=4&pp=gAQBiAQB)
 
 ## 9: APIs
 
