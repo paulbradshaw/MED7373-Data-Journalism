@@ -118,9 +118,17 @@ By the end of this week you should be able to import and export data using Pytho
 
 ## 9: APIs
 
-By the end of this week you should be able to source data from APIs using coding.
+By the end of this week you should be able to source data from APIs using coding. You should also be able to identify techniques for working with large datasets, and issues surrounding big data, linked data, and open data.
 
 * Workshop: Using APIs in Python
+* Workshop: [Fork this!](https://github.com/paulbradshaw/MED7373-Data-Journalism/tree/master/sql): Querying large datasets using SQL
+* Task: Development of data journalism project - reflection on data-driven vs hypothesis-driven methods
+* Reading:
+  * Vallance-Jones & McKie (2017) ch5: Working with databases
+  * [Hammond (2015): From computer-assisted to data-driven: Journalism and Big Data](https://www.researchgate.net/publication/287391319_From_computer-assisted_to_data-driven_Journalism_and_Big_Data)
+  * Data.world's [Gitbook on SQL](https://docs.data.world/tutorials/dwsql/#sql-on-dataworld) is a useful resource and the platform is a good place to practise SQL queries on your own data.
+
+
   
 ## 10: Mobile first: responsive and other design considerations
 
@@ -136,16 +144,6 @@ By the end of this week you should be able to create a basic HTML page with CSS 
 **Additional resources**: 
 * [YouTube playlist: the UIkit frontend framework](https://www.youtube.com/playlist?list=PL2SfpsC7cy0gv9O7nNKyQZBrFjhi3LH-V) (for designing responsive pages, longform and scrollytelling)
 
-## 10: Open data, linked data, big data and SQL
-
-By the end of this week you should be able to identify techniques for working with large datasets, and issues surrounding big data, linked data, and open data.
-
-* Workshop: [Fork this!](https://github.com/paulbradshaw/MED7373-Data-Journalism/tree/master/sql): Querying large datasets using SQL
-* Task: Development of data journalism project - reflection on data-driven vs hypothesis-driven methods
-* Reading:
-  * Vallance-Jones & McKie (2017) ch5: Working with databases
-  * [Hammond (2015): From computer-assisted to data-driven: Journalism and Big Data](https://www.researchgate.net/publication/287391319_From_computer-assisted_to_data-driven_Journalism_and_Big_Data)
-  * Data.world's [Gitbook on SQL](https://docs.data.world/tutorials/dwsql/#sql-on-dataworld) is a useful resource and the platform is a good place to practise SQL queries on your own data.
 
 
 ## 11: Portfolio review
