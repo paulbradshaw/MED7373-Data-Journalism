@@ -105,13 +105,26 @@ By the end of this week you should be able to identify common data problems, and
 By the end of this week you should be able to identify scenarios where the use of programming languages such as Python and R is justified, and to explain critical considerations such as transparency and replicability. 
 
 * Lecture: Notebooks and literate programming
-* Workshop: Importing, analysing, and exporting in Python
+* Workshop: Running notebooks, creating variables, and using built-in AI
 
-## 8: APIs
+## 8: Data in Python
+
+By the end of this week you should be able to import and export data using Python and the pandas library. You should also be able to explain how lists and dictionaries store data in Python. 
+
+* Lecture: Data objects in Python
+* Workshop: Importing, analysing, and exporting in Python
+* Watching:
+ * [Introduction to APIs and how they're used in data journalism](https://www.youtube.com/watch?v=AjQEJnTAm3k)
+ * [APIs in data journalism: understanding JSON and XML](https://www.youtube.com/watch?v=WMWR4Z51cso)
+ * [API jargon for data journalists: what methods, arguments and keys are](https://www.youtube.com/watch?v=gTYcPK-Suqk)
+
+## 9: APIs
 
 By the end of this week you should be able to source data from APIs using coding.
+
+* Workshop: Using APIs in Python
   
-## 9: Mobile first: responsive and other design considerations
+## 10: Mobile first: responsive and other design considerations
 
 By the end of this week you should be able to create a basic HTML page with CSS styles, and explain the basics of design for mobile devices.
 
