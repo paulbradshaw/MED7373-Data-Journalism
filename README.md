@@ -3,14 +3,16 @@
 *This repo contains materials for the module on the [MA in Data Journalism at Birmingham City University](http://bcu.ac.uk/media/courses/data-journalism)*
 
 * Module Leader: Paul Bradshaw (paul.bradshaw@bcu.ac.uk) 0121 331 5367
-* [Twitter.com/paulbradshaw](http://Twitter.com/paulbradshaw)
-* Room: P105
+* Slack: use the #med7373-data-j channel for questions, sharing ideas, further resources and examples etc. Direct message @paulbradshaw for non-public questions
+* Room: MP211
 
 ## Module Synopsis
 
-Data Journalism aims to facilitate a flexible and adaptable skillset, including the use of ‘computational thinking’ and communities of practice, that provides a basis for students to critically adapt to both new and existing data journalism techniques.
+Data Journalism aims to facilitate a flexible and adaptable skillset, including the use of ‘computational thinking’, that provides a basis for you to critically adapt to both new and existing data journalism techniques.
 
-You will also be learning about other aspects of data journalism in sister modules, for example [the **Narrative** module](https://github.com/paulbradshaw/MED7334-Narrative/blob/master/README.md) will give you a range of skills for telling data-driven stories using video, audio, visual journalism, visualisation, and interactivity. In **Research in Practice** you will explore research around newsrooms. In **Specialist Reporting, Investigations and Coding** you will expand your coding and investigative skills, and in **Law, ethics, regulation and security** you will build your infosec skills.
+The module begins by building applied understanding of data journalism techniques and issues, before exploring more specific practices around design, analysis and coding. These are closely aligned to the core assignment tasks. A range of newsgathering and storytelling techniques are explored, giving you the basis for initiating and developing contemporary data journalism projects within a professional context.
+
+You will also be learning about other aspects of data journalism in sister modules, for example [the **Storytelling Techniques** module](https://github.com/paulbradshaw/MED7334-Narrative/blob/master/README.md) will give you a range of skills for telling data-driven stories using video, audio, visual journalism, visualisation, and interactivity. In **Research in Practice** you will explore research around newsrooms. In **Specialist Reporting, Investigations and Coding** you will expand your coding and investigative skills, and in **Law, ethics, regulation and security** you will build your understanding of legal and security issues in the field.
 
 
 ## Outcomes
