@@ -3,7 +3,7 @@
 *This repo contains materials for the module on the [MA in Data Journalism at Birmingham City University](http://bcu.ac.uk/media/courses/data-journalism)*
 
 * Module Leader: Paul Bradshaw (paul.bradshaw@bcu.ac.uk) 0121 331 5367
-* Slack: use the #med7373-data-j channel for questions, sharing ideas, further resources and examples etc. Direct message @paulbradshaw for non-public questions
+* Slack: use the `#med7373-data-j` channel for questions, sharing ideas, further resources and examples etc. Direct message @paulbradshaw for non-public questions
 * Room: MP211
 
 ## Module Synopsis
