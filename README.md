@@ -52,20 +52,7 @@ By the end of this week you should be able to use core spreadsheet techniques to
 
 **Additional resources**: The New York Times have made their [internal data journalism training materials available here](https://drive.google.com/drive/u/0/folders/1ZS57_40tWuIB7tV4APVMmTZ-5PXDwX9w) [and written about their training here](https://open.nytimes.com/how-we-helped-our-reporters-learn-to-love-spreadsheets-adc43a93b919). 
 
-## 3: How to think like a data journalist: data literacy and algorithmic and computational thinking
-
-By the end of this week you should be able to use a range of spreadsheet functions - but more importantly, use computational thinking to break down editorial challenges into problems that can be tackled systematically, quickly and effectively, with the potential for automation or semi-automation as algorithms.
-
-* Workshop: [computational thinking challenge](https://github.com/paulbradshaw/MED7373-Data-Journalism/tree/master/2functions)
-* Directed study: [Identify story ideas/leads and break down the tasks needed to achieve those](https://github.com/paulbradshaw/MED7373-Data-Journalism/blob/master/2functions/directedstudy.md)
-* Reading:
-  * [Finding Stories in Spreadsheets](https://leanpub.com/spreadsheetstories) *(BCU students please ask for your voucher for a free copy)*
-  * Adrian Holovaty (2006) [A fundamental way newspaper sites need to change](http://www.holovaty.com/writing/fundamental-change/)
-* Watch: [Nicolas Diakapoulos on computational thinking in the industry](https://www.youtube.com/watch?v=KzL3eRNCPj8)
-
-**Additional resources**: OpenLearn: [Computational thinking and automation](https://www.open.edu/openlearn/science-maths-technology/computing-ict/introduction-computational-thinking/content-section-1.1)
-
-## 4: Visualisation
+## 3: Visualisation
 
 By the end of this week you should be able to choose the right chart to illustrate a given story, and to edit that chart to improve clarity and accuracy. You should also be able to explain and address critical issues such as accessibility and diversity.
 
@@ -81,44 +68,54 @@ By the end of this week you should be able to choose the right chart to illustra
   * [A Task by Data Type Taxonomy for Information Visualizations](https://www.mat.ucsb.edu/~g.legrady/academic/courses/11w259/schneiderman.pdf)
   * [When Does an Infographic Say More Than a Thousand Words?](http://www.tandfonline.com/doi/full/10.1080/1461670X.2016.1267592)
   * [Seeing Data Project](http://seeingdata.org/)
-  
-## 5: Critical cartography: why, how - and when - to map
+ 
+## 4: Newsroom hour
 
-By the end of this week you should be able to create a range of map types (point, shape, heat) and talk about the ethical issues surrounding mapping. You should also be able to use SQL to query data.
+By the end of this week you will be able to take a story from pitch to publication, understanding the structure of both a basic 'news in brief' news report and an exploratory feature. 
 
-* Workshop: [fork this!](https://github.com/paulbradshaw/MED7373-Data-Journalism/tree/master/mapping) Creating shape and point maps using Datawrapper; creating hex maps [using R](https://github.com/paulbradshaw/Rintro/blob/master/mapping/mapping_hex_tiles_basics.Rmd) [or JavaScript](https://github.com/paulbradshaw/jsintro/tree/master/mappinghex)
-* Reading: [When to use maps in data visualisation: a great big guide - part 1](https://onlinejournalismblog.com/2015/08/24/when-to-use-maps-in-data-visualisation-a-great-big-guide/) and [part 2 on shape maps](https://onlinejournalismblog.com/2015/08/28/when-to-use-shape-maps-in-data-visualisation-part-2-of-a-great-big-guide/)
-* Reading: [Thinking about maps](http://personalpages.manchester.ac.uk/staff/m.dodge/rethinking_maps_introduction_pageproof.pdf)
-* Task: [Write a MAPPED! story](https://github.com/paulbradshaw/MED7373-Data-Journalism/blob/master/mapping/mappingds.md)
-* Optional: any chapter(s) from [Mapping, Society and Technology](http://open.lib.umn.edu/mapping/)
+* Workshop 1: Drafting the data story
+* Workshop 2: Drafting a data feature
+* Reading 1: [How to: write a news story based on new data](https://github.com/paulbradshaw/journalismrecipebook/blob/main/chapters/datanewsstory.md)
+* Reading 2: [How to write an 'in numbers' feature](https://github.com/paulbradshaw/journalismrecipebook/blob/main/chapters/bythenumbers.md)
 
-## 6: Dirty data and cleaning
+Optional additional reading:
+* Borges-Rey (2016) [Unravelling Data Journalism: A study of data journalism practice in British newsrooms](https://www.tandfonline.com/doi/abs/10.1080/17512786.2016.1159921?tab=permissions&scroll=top)
+* Figl (2017) [BIGGER IS NOT ALWAYS BETTER: WHAT WE CAN LEARN ABOUT DATA JOURNALISM FROM SMALL NEWSROOMS](http://reutersinstitute.politics.ox.ac.uk/sites/default/files/2018-01/Research%20Paper%20Figl%20Bettina.pdf)
+* Usher (2016) Inside the Interactive Journalism Newsroom, from *Interactive Journalism: Hackers, Data, and Code*
+* Young and Hermida (2014) [From Mr. and Mrs. Outlier To Central Tendencies](https://www.tandfonline.com/doi/full/10.1080/21670811.2014.976409)
+* Zanchellia and Crucianelli (2011) [Integrating Data Journalism into Newsrooms](https://www.icfj.org/sites/default/files/integrating%20data%20journalism-english_0.pdf)
 
-By the end of this week you should be able to identify common data problems, and use techniques to solve those. 
+## 5: How to think like a data journalist: data literacy and algorithmic and computational thinking
 
-* Workshop: identifying dirty data, and telling stories with accuracy. Choose
-  * A chapter from Finding Stories With Spreadsheets OR an Open Refine tutorial in the [Cleaning repo tutorials list](https://github.com/paulbradshaw/cleaning#tutorials)
-  * One of the [tutorials on cleaning in R](https://github.com/paulbradshaw/cleaning/tree/master/cleaning_r)
-* Task: Use [Heather Krause’s data biography approach](https://gijn.org/2017/03/27/data-biographies-getting-to-know-your-data/) to evaluate a data source(s) you plan to use for a story 
-* Reading: [Stray: The Curious Journalist's Guide to Data](http://www.documentcloud.org/documents/2790871-Curious-Journalist-S-Guide-to-Data.html)
+By the end of this week you should be able to use a range of spreadsheet functions - but more importantly, use computational thinking to break down editorial challenges into problems that can be tackled systematically, quickly and effectively, with the potential for automation or semi-automation as algorithms.
 
-## 7: When to use code - and how
+* Pre-class video 1: [An introduction to functions and formulae for data journalism](https://www.youtube.com/watch?v=OZ9zZJUjVKI)
+* Pre-class video 2: [A data journalist's guide to computational thinking](https://youtu.be/mNvKBD4fui0) 
+* Workshop: [computational thinking challenge](https://github.com/paulbradshaw/MED7373-Data-Journalism/tree/master/2functions)
+* Directed study: [Identify story ideas/leads and break down the tasks needed to achieve those](https://github.com/paulbradshaw/MED7373-Data-Journalism/blob/master/2functions/directedstudy.md)
+* Reading:
+  * [Finding Stories in Spreadsheets](https://leanpub.com/spreadsheetstories) *(BCU students please ask for your voucher for a free copy)*
+  * Adrian Holovaty (2006) [A fundamental way newspaper sites need to change](http://www.holovaty.com/writing/fundamental-change/)
+* Watch: [Nicolas Diakapoulos on computational thinking in the industry](https://www.youtube.com/watch?v=KzL3eRNCPj8)
 
-By the end of this week you should be able to identify scenarios where the use of programming languages such as Python and R is justified, and to explain critical considerations such as transparency and replicability. 
+**Additional resources**: OpenLearn: [Computational thinking and automation](https://www.open.edu/openlearn/science-maths-technology/computing-ict/introduction-computational-thinking/content-section-1.1)
+
+
+## 6: When to use code - and how
+
+By the end of this week you should be able to identify scenarios where the use of programming languages such as Python and R is justified, and to explain critical considerations such as transparency and replicability. You should be able to import and export data using Python and the pandas library. You should also be able to explain how lists and dictionaries store data in Python. 
+
 
 * Lecture: Notebooks and literate programming
 * Workshop: Running notebooks, creating variables, and using built-in AI
 * Reading/watching: Winny de Jong’s [Python for Journalists](https://datajournalism.com/watch/python-for-journalists) OR Ben Welsh’s [Python MOOC](https://www.youtube.com/playlist?list=PLD1sPR1niPYyI676ZOhW4Bz5o9tad_7oM)
 
-## 8: Data in Python
-
-By the end of this week you should be able to import and export data using Python and the pandas library. You should also be able to explain how lists and dictionaries store data in Python. 
-
 * Lecture: Data objects in Python
 * Workshop: Importing, analysing, and exporting in Python
 * Watching: [Playlist of videos on APIs](https://www.youtube.com/watch?v=tphbjFkXgZo&list=PL-ZV9BlgytWiRcsihccQFWzg5--64rvnk&index=4&pp=gAQBiAQB)
 
-## 9: APIs
+
+## 7: APIs
 
 By the end of this week you should be able to source data from APIs using coding. You should also be able to identify techniques for working with large datasets, and issues surrounding big data, linked data, and open data.
 
@@ -131,8 +128,30 @@ By the end of this week you should be able to source data from APIs using coding
   * Data.world's [Gitbook on SQL](https://docs.data.world/tutorials/dwsql/#sql-on-dataworld) is a useful resource and the platform is a good place to practise SQL queries on your own data.
 
 
+
+## 8: Dirty data and cleaning
+
+By the end of this week you should be able to identify common data problems, and use techniques to solve those. 
+
+* Workshop: identifying dirty data, and telling stories with accuracy. Choose
+  * A chapter from Finding Stories With Spreadsheets OR an Open Refine tutorial in the [Cleaning repo tutorials list](https://github.com/paulbradshaw/cleaning#tutorials)
+  * One of the [tutorials on cleaning in R](https://github.com/paulbradshaw/cleaning/tree/master/cleaning_r)
+* Task: Use [Heather Krause’s data biography approach](https://gijn.org/2017/03/27/data-biographies-getting-to-know-your-data/) to evaluate a data source(s) you plan to use for a story 
+* Reading: [Stray: The Curious Journalist's Guide to Data](http://www.documentcloud.org/documents/2790871-Curious-Journalist-S-Guide-to-Data.html)
+
   
-## 10: Mobile first: responsive and other design considerations
+## 9: Critical cartography: why, how - and when - to map
+
+By the end of this week you should be able to create a range of map types (point, shape, heat) and talk about the ethical issues surrounding mapping. You should also be able to use SQL to query data.
+
+* Workshop: [fork this!](https://github.com/paulbradshaw/MED7373-Data-Journalism/tree/master/mapping) Creating shape and point maps using Datawrapper; creating hex maps [using R](https://github.com/paulbradshaw/Rintro/blob/master/mapping/mapping_hex_tiles_basics.Rmd) [or JavaScript](https://github.com/paulbradshaw/jsintro/tree/master/mappinghex)
+* Reading: [When to use maps in data visualisation: a great big guide - part 1](https://onlinejournalismblog.com/2015/08/24/when-to-use-maps-in-data-visualisation-a-great-big-guide/) and [part 2 on shape maps](https://onlinejournalismblog.com/2015/08/28/when-to-use-shape-maps-in-data-visualisation-part-2-of-a-great-big-guide/)
+* Reading: [Thinking about maps](http://personalpages.manchester.ac.uk/staff/m.dodge/rethinking_maps_introduction_pageproof.pdf)
+* Task: [Write a MAPPED! story](https://github.com/paulbradshaw/MED7373-Data-Journalism/blob/master/mapping/mappingds.md)
+* Optional: any chapter(s) from [Mapping, Society and Technology](http://open.lib.umn.edu/mapping/)
+
+  
+## 10: Live newsroom 2 
 
 By the end of this week you should be able to create a basic HTML page with CSS styles, and explain the basics of design for mobile devices.
 
@@ -146,9 +165,9 @@ By the end of this week you should be able to create a basic HTML page with CSS 
 **Additional resources**: 
 * [YouTube playlist: the UIkit frontend framework](https://www.youtube.com/playlist?list=PL2SfpsC7cy0gv9O7nNKyQZBrFjhi3LH-V) (for designing responsive pages, longform and scrollytelling)
 
+## 11: Live newsroom 3
 
-
-## 11: Portfolio review
+## 12: Portfolio review
 
 This week we review your progress so far, and look ahead to the assignment. You will also find material in this section on future developments such as AI, machine learning and bots.
 
@@ -164,7 +183,7 @@ This week we review your progress so far, and look ahead to the assignment. You 
 You can [find more tips on using command line in another repo here](https://github.com/paulbradshaw/commandline)
 
   
-## Weeks 12-14: Assignment production
+## Weeks 13-14: Assignment production
 
 In the final weeks of the semester you will work on your portfolio for assessment. You will find a range of readings on Moodle that you should use to inform your decisions, and that you can draw on in your reflection. Those include:
 
