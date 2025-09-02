@@ -35,20 +35,20 @@ By the end of this week you should be able to describe what data journalism is, 
   * Review [examples of data journalism](https://onlinejournalismblog.com/2020/08/11/here-are-the-7-types-of-stories-most-often-found-in-data/) - what sources do they use? Where has the idea come from? What angle? Make notes. (30-60’)
   * [Create a news diary](https://onlinejournalismblog.com/2022/12/08/how-to-create-a-data-news-diary/) (e.g. in Google Calendar)
   * [Look for data sources](https://www.youtube.com/watch?v=14GO61WDDUE&feature=youtu.be) and brainstorm ideas. Share your story ideas on Slack and give feedback to others. (30-60’)
-  * Use the techniques from the Data Journalism Heist to analyse data. Have problems/questions to bring to the next class
+  * Use the techniques from the pre-class videos and/or [Data Journalism Heist](https://leanpub.com/DataJournalismHeist) to find specific story leads in the gender pay gap (or other) data. Have problems/questions to bring to the next class
 * Reading:
   * [Data Feminism ch4: What Gets Counted Counts](https://data-feminism.mitpress.mit.edu/pub/h1w0nbqp/release/3)
-  * [Data Journalism Heist](https://leanpub.com/DataJournalismHeist) *(BCU students please ask for your voucher for a free copy)*
-
 
 ## 2: Data journalism's 3 chords
 
-By the end of this week you should be able to use core spreadsheet techniques to find stories, including sorting and filtering, pivot tables, and be able to calculate change and proportions. 
+By the end of this week you should be able to write about numbers. You should also be able to use core spreadsheet techniques to find stories, including sorting and filtering, pivot tables, and be able to calculate change and proportions. 
 
+* Pre-class video: [The 3 chords of data journalism](https://www.youtube.com/watch?v=x8yF09eZtos) (or watch the more detailed [Data journalism basics: using sorting, filtering and pivot tables to find stories](https://www.youtube.com/watch?v=MeTdQ-cloRw))
 * Workshop: [Data journalism basics: sorting, filtering, pivot tables, calculations](https://github.com/paulbradshaw/MED7373-Data-Journalism/blob/master/1basics/dj3chords.md)
-* Directed study: write a simple 2-3 par story based on your analysis of data
+* Directed study:
+  * Use the techniques from this week to write a 2-4 paragraph news story based on a dataset
 * Reading:
-  * [Finding Stories in Spreadsheets](https://leanpub.com/spreadsheetstories) *(BCU students please ask for your voucher for a free copy)*
+  * [Finding Stories in Spreadsheets](https://leanpub.com/spreadsheetstories) chapters 4 and 6. *(BCU students please ask for your voucher for a free copy)*
 
 **Additional resources**: The New York Times have made their [internal data journalism training materials available here](https://drive.google.com/drive/u/0/folders/1ZS57_40tWuIB7tV4APVMmTZ-5PXDwX9w) [and written about their training here](https://open.nytimes.com/how-we-helped-our-reporters-learn-to-love-spreadsheets-adc43a93b919). 
 
@@ -56,12 +56,12 @@ By the end of this week you should be able to use core spreadsheet techniques to
 
 By the end of this week you should be able to choose the right chart to illustrate a given story, and to edit that chart to improve clarity and accuracy. You should also be able to explain and address critical issues such as accessibility and diversity.
 
-* Lecture part 1: [editorial devices in visualisation](https://web.microsoftstream.com/video/35690311-bd81-426b-bea2-9f402e79378c) (50')
-* Lecture part 2: [Choosing the chart that tells the story](https://web.microsoftstream.com/video/b87c1bec-9c8e-401e-989d-95818f1e4155) (55')
+* Pre-class video: [Data storytelling: choosing the right chart](https://www.youtube.com/watch?v=x-TUV8JzBNY)
 * [Workshop: telling a number story with Datawrapper](https://docs.google.com/document/d/e/2PACX-1vRJ3aaH1Pmd2RzZK7k5lZ9EYC0cgYR2KTtL1afOBCx53VB-iPz7UOVOK5B3cw4uvB6p4DD4ee7QFmNr/pub)
-* Task: Create charts for the stories you have written so far. Identify upcoming data to write a story for, and practice making charts from previous data
+* Task: Create charts for the stories you have written so far
+* Task: Create charts for a charticle
 * Reading: Alan Smith: How Charts Work ch3+
-* Suggested additional reading: 
+* Optional additional reading: 
   * [39 studies about human perception in 30 minutes](https://medium.com/@kennelliott/39-studies-about-human-perception-in-30-minutes-4728f9e31a73)
   * [Narrative Visualization: Telling Stories with Data](http://vis.stanford.edu/files/2010-Narrative-InfoVis.pdf)
   * [Nerd Journalism](https://www.dropbox.com/s/umr3r11v8dc088x/nerdJournalismDISSERTATION.pdf?dl=0)
@@ -73,8 +73,10 @@ By the end of this week you should be able to choose the right chart to illustra
 
 By the end of this week you will be able to take a story from pitch to publication, understanding the structure of both a basic 'news in brief' news report and an exploratory feature. 
 
-* Workshop 1: Drafting the data story
-* Workshop 2: Drafting a data feature
+* Pre-class video: [Research for journalists playlist](https://www.youtube.com/watch?v=5kA5i8MwAQA&list=PL-ZV9BlgytWgwnvU0hMwIkGLNeSJai3pK&index=6)
+* Hour 1: Drafting the data story
+* Directed study hour: Write another story
+* Hour 2: Drafting a data feature
 * Reading 1: [How to: write a news story based on new data](https://github.com/paulbradshaw/journalismrecipebook/blob/main/chapters/datanewsstory.md)
 * Reading 2: [How to write an 'in numbers' feature](https://github.com/paulbradshaw/journalismrecipebook/blob/main/chapters/bythenumbers.md)
 
@@ -94,7 +96,6 @@ By the end of this week you should be able to use a range of spreadsheet functio
 * Workshop: [computational thinking challenge](https://github.com/paulbradshaw/MED7373-Data-Journalism/tree/master/2functions)
 * Directed study: [Identify story ideas/leads and break down the tasks needed to achieve those](https://github.com/paulbradshaw/MED7373-Data-Journalism/blob/master/2functions/directedstudy.md)
 * Reading:
-  * [Finding Stories in Spreadsheets](https://leanpub.com/spreadsheetstories) *(BCU students please ask for your voucher for a free copy)*
   * Adrian Holovaty (2006) [A fundamental way newspaper sites need to change](http://www.holovaty.com/writing/fundamental-change/)
 * Watch: [Nicolas Diakapoulos on computational thinking in the industry](https://www.youtube.com/watch?v=KzL3eRNCPj8)
 
