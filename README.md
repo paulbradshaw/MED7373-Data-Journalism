@@ -93,11 +93,10 @@ By the end of this week you should be able to use a range of spreadsheet functio
 
 * Pre-class video 1: [An introduction to functions and formulae for data journalism](https://www.youtube.com/watch?v=OZ9zZJUjVKI)
 * Pre-class video 2: [A data journalist's guide to computational thinking](https://youtu.be/mNvKBD4fui0) 
-* Workshop: [computational thinking challenge](https://github.com/paulbradshaw/MED7373-Data-Journalism/tree/master/2functions)
-* Directed study: [Identify story ideas/leads and break down the tasks needed to achieve those](https://github.com/paulbradshaw/MED7373-Data-Journalism/blob/master/2functions/directedstudy.md)
-* Reading:
-  * Adrian Holovaty (2006) [A fundamental way newspaper sites need to change](http://www.holovaty.com/writing/fundamental-change/)
-* Watch: [Nicolas Diakapoulos on computational thinking in the industry](https://www.youtube.com/watch?v=KzL3eRNCPj8)
+* Workshop: Three functions that will save your life
+* Workshop: Getting started with notebooks
+* Bonus [computational thinking challenge](https://github.com/paulbradshaw/MED7373-Data-Journalism/tree/master/2functions)
+* Video: [Create a roadmap to learn coding](https://youtu.be/ujPDRl1q-dw?t=192)
 
 **Additional resources**: OpenLearn: [Computational thinking and automation](https://www.open.edu/openlearn/science-maths-technology/computing-ict/introduction-computational-thinking/content-section-1.1)
 
@@ -106,7 +105,7 @@ By the end of this week you should be able to use a range of spreadsheet functio
 
 By the end of this week you should be able to identify scenarios where the use of programming languages such as Python and R is justified, and to explain critical considerations such as transparency and replicability. You should be able to import and export data using Python and the pandas library. You should also be able to explain how lists and dictionaries store data in Python. 
 
-
+* Pre-class video: [why code?](https://www.youtube.com/watch?v=FjPmOni1YmY)
 * Lecture: Notebooks and literate programming
 * Workshop: Running notebooks, creating variables, and using built-in AI
 * Reading/watching: Winny de Jong’s [Python for Journalists](https://datajournalism.com/watch/python-for-journalists) OR Ben Welsh’s [Python MOOC](https://www.youtube.com/playlist?list=PLD1sPR1niPYyI676ZOhW4Bz5o9tad_7oM)
